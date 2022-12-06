@@ -101,8 +101,7 @@
 	<script src="../vendor/jquery-csv/jquery.csv.min.js"></script>
 	<script src="../js/pcsv.js"></script>
 	<script>
-		var conf_wb = get_conf(true);
-		build_pc(conf_wb["baseurl"]);
+		apply_conf_onfunc(build_pc, "baseurl", false);
 	</script>
 
 </body>
