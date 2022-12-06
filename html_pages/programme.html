@@ -25,6 +25,9 @@
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
+<script src="../js/pcontent.js"></script>
+<script src="../js/pcsv.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -35,7 +38,7 @@
 
 	<script>
 		$(function(){
-			$("#nav-placeholder").load("../nav.html");
+			$("#nav-placeholder").load("html_pages/nav.html", function functionName() {apply_conf_onfunc(update_nav, false);});
 			$("#sidecol").load("side.html");
 			$("#page-footer").load("footer.html");
 		});

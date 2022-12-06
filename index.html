@@ -24,6 +24,8 @@
 	<script src="vendor/jquery/jquery.min.js"></script>
 
 	<script src="js/getconf.js"></script>
+	<script src="js/pcontent.js"></script>
+	<script src="js/pcsv.js"></script>
 
 </head>
 
@@ -35,7 +37,7 @@
 
 	<script>
 		$(function() {
-			$("#nav-placeholder").load("html_pages/nav.html", function functionName() {apply_conf(true);});
+			$("#nav-placeholder").load("html_pages/nav.html", function functionName() {apply_conf_onfunc(update_nav, true);});
 			$("#sidecol").load("html_pages/side.html");
 			$("#page-footer").load("html_pages/footer.html");
 		});
@@ -132,10 +134,9 @@
 	<script src="js/scrolling-nav.js"></script>
 
 	<script src="vendor/jquery-csv/jquery.csv.min.js"></script>
-	<script src="js/pcsv.js"></script>
 	<script>
-		apply_conf_onfunc(build_organizers_list, "baseurl", true);
-		apply_conf_onfunc(build_partners_list, "baseurl", true);
+		apply_conf_onfunc(build_organizers_list, true);
+		apply_conf_onfunc(build_partners_list, true);
 	</script>
 
 

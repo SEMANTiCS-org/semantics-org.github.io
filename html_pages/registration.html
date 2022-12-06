@@ -22,6 +22,8 @@
 	<script type="module" src="../vendor/zero-md-v2/zero-md.min.js"></script>
 
 	<script src="../vendor/jquery/jquery.min.js"></script>
+	<script src="../js/pcontent.js"></script>
+	<script src="../js/pcsv.js"></script>
 
 </head>
 
@@ -33,7 +35,7 @@
 
 	<script>
 		$(function() {
-			$("#nav-placeholder").load("../nav.html");
+			$("#nav-placeholder").load("html_pages/nav.html", function functionName() {apply_conf_onfunc(update_nav, false);});
 			$("#sidecol").load("side.html");
 			$("#page-footer").load("footer.html");
 		});

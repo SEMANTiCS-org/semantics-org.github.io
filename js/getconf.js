@@ -21,7 +21,7 @@ function apply_conf(isindex = false) {
   });
 }
 
-function apply_conf_onfunc(callbkfunc, key,  isindex = false) {
+function apply_conf_onfunc(callbkfunc,  isindex = false) {
   var base = "../";
   if (isindex) {
     base = "";
@@ -38,6 +38,6 @@ function apply_conf_onfunc(callbkfunc, key,  isindex = false) {
         index[parts[0]] = parts[1];
       }
     }
-    callbkfunc(index[key]);
+    callbkfunc(index);
   });
 }
