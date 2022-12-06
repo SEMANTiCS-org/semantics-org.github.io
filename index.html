@@ -23,6 +23,8 @@
 
 	<script src="vendor/jquery/jquery.min.js"></script>
 
+	<script src="js/getconf.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -33,11 +35,9 @@
 
 	<script>
 		$(function() {
-			$("#nav-placeholder").load("nav.html");
-			$("#nav-placeholder").text($("#nav-placeholder").text().replace("[__baseurl__]", ""));
-
-			$("#sidecol").load("side.html");
-			$("#page-footer").load("footer.html");
+			$("#nav-placeholder").load("html_pages/nav.html", function functionName() {apply_conf(true);});
+			$("#sidecol").load("html_pages/side.html");
+			$("#page-footer").load("html_pages/footer.html");
 		});
 	</script>
 
@@ -137,6 +137,7 @@
 		build_organizers_list();
 		build_partners_list();
 	</script>
+
 
 </body>
 

@@ -35,6 +35,8 @@
 	<!-- Custom JavaScript for this theme -->
 	<script src="../js/scrolling-nav.js"></script>
 
+	<script src="../js/getconf.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -45,7 +47,7 @@
 
 	<script>
 	$(function(){
-		$("#nav-placeholder").load("../nav.html");
+		$("#nav-placeholder").load("nav.html", function functionName() {apply_conf();});
 		$("#sidecol").load("../side.html");
 		$("#page-footer").load("../footer.html");
 	});
