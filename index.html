@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>SEMANTICS-2023</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/scrolling-nav.css" rel="stylesheet">
+
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Mark down -->
+	<script type="module" src="vendor/zero-md-v2/zero-md.min.js"></script>
+
+	<script src="vendor/jquery/jquery.min.js"></script>
+
+</head>
+
+<body id="page-top">
+
+	<div id="nav-placeholder">
+
+	</div>
+
+	<script>
+		$(function() {
+			$("#nav-placeholder").load("nav.html");
+			$("#sidecol").load("side.html");
+			$("#page-footer").load("footer.html");
+		});
+	</script>
+
+	<header class="bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 mx-auto logo">
+					<img src="img/semantics-logo-white.png" alt="">
+				</div>
+				<div class="col-lg-5 mx-auto title">
+					<h1>SEMANTiCS 2023 EU</h1>
+					<h2>19th International Conference on Semantic Systems</h2>
+					<h3>September 20 - 22, 2023</h3>
+					<h3>Leipzig, Germany</h3>
+				</div>
+			</div>
+
+		</div>
+	</header>
+
+	<section id="about" style="padding: 50px 0;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 mx-auto">
+					<div class="row">
+						<div class="col-lg-9 mx-auto">
+
+							<div class="row">
+								<div class="col-lg-12 mx-auto">
+									<zero-md src="content/home.md">
+										<template> <link href="../css/md-style.css" rel="stylesheet"/> </template>
+									</zero-md>
+								</div>
+							</div>
+
+							<div id="partners_list" class="section">
+									<div class="row">
+										<div class="col-lg-12 mx-auto">
+											<h4 class="title-section text-center">PARTNERS</h4>
+										</div>
+									</div>
+							</div>
+
+							<div id="org_list" class="section">
+									<div class="row">
+										<div class="col-lg-12 mx-auto">
+											<h4 class="title-section text-center">ORGANIZED BY</h4>
+										</div>
+									</div>
+							</div>
+
+							<div class="row">
+								<div class="col-lg-3 mx-auto">
+									<a href="https://www.upm.es/"><img src="img/UPMLogo.jpg" height="200px" alt=""></a>
+								</div>
+
+								<div class="col-lg-3 mx-auto">
+									<a href="https://sigai.acm.org/"><img src="img/ACMSIGAI.svg" height="200px" alt=""></a>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-lg-3 mx-auto">
+									<a href="https://aij.ijcai.org/"><img src="img/AIJlogo.png" height="200px" alt=""></a>
+								</div>
+							</div>
+
+
+						</div>
+
+						<div class="col-lg-3 mx-auto">
+							<div id="sidecol" />
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="page-footer"></footer>
+
+	<!-- Bootstrap core JavaScript -->
+
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!-- Custom JavaScript for this theme -->
+	<script src="js/scrolling-nav.js"></script>
+
+	<script src="vendor/jquery-csv/jquery.csv.min.js"></script>
+	<script src="js/pcsv.js"></script>
+	<script>
+		build_organizers_list();
+		build_partners_list();
+	</script>
+
+</body>
+
+
+</html>

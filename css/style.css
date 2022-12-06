@@ -1,0 +1,197 @@
+:root {
+	--nav-bg-color: #33075c;
+	--nav-bg-color-opacque: rgba(51, 7, 92,0.5);
+  --main-bg-color: #7b45ad;
+	--section-bg-color: rgb(245,245,245);
+  --main-bg-color-opacque: rgba(154, 49, 252,0.7);
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+footer{
+	vertical-align: middle!imporatnt;
+	padding: 2%;
+	background: var(--nav-bg-color);
+}
+footer .footer-content{
+	margin: auto;
+	width: 60%;
+}
+footer .footer-content div{
+	padding: 10px;
+}
+footer .footer-content a{
+	color: lightgray;
+}
+footer .footer-content .footer-second{
+	border-top: solid 1px gray;
+	color: gray;
+	padding: 30px;
+}
+footer .footer-content .footer-credits{
+	color: gray;
+	padding: 0px;
+	border: none;
+	font-size: 0.6em;
+}
+footer .footer-second a{
+	color: gray;
+}
+footer .footer-second a:hover{
+	color: white;
+}
+
+
+nav{
+	background: var(--nav-bg-color);
+}
+nav a{
+	color: gray;
+	transition: 0.6s;
+}
+nav a:hover{
+	color: white;
+}
+header .title{
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+	font-weight: bold;
+	font-family: Gill Sans, sans-serif;
+}
+header .container{
+	vertical-align: middle!imporatnt;
+	padding-top: 2%;
+}
+header.bg-light{
+	background-image: url("../img/bg_leipzig.jpg");
+	/*background-image: url("../img/bg_leipzig_dark.jpg");*/
+	background-color: #white!important;
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	min-height: 650px;
+	border-bottom: solid 3px rgba(0,0,0,0.2);
+}
+header .logo img{
+	max-width: 90%;
+}
+.orgs .org{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+.psc-mem{
+	margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+	.logo {
+		text-align: center!important;
+	}
+	.title {
+		text-align: center!important;
+	}
+	.role-profile {
+		text-align: center!important;
+	}
+	.profile-details {
+		text-align: center!important;
+	}
+	.profile {
+		padding-top: 25px!important;
+	}
+}
+
+.slot {
+	background-color:#16166b;
+	color: white;
+	text-align: center;
+}
+
+.keynote {
+	background-color:#f0a5a5;
+	color: white;
+	text-align: center;
+}
+
+.image-profile {
+	text-align: center!important;
+	height: 115px;
+	width: 115px;
+	border-radius: 50%;
+}
+
+.side-container {
+	background-color: var(--section-bg-color);
+	padding: 15px;
+	border-radius: 1%;
+	border: solid 0.5px lightgray;
+	font-size: 0.85em
+}
+.side-container .side{
+	/* border-style: double;
+	border-color: #000078;*/
+	margin-bottom: 30px !important;
+}
+.side h5 {
+	padding: 3px;
+	border-bottom: solid 2px var(--main-bg-color);
+}
+
+.title-section {
+	padding: 3px;
+	width: 50%;
+	margin: auto;
+	border-bottom: solid 2px var(--main-bg-color);
+}
+.section{
+	margin-top: 50px;
+}
+.section-content{
+	padding-top: 4%;
+	margin: auto;
+}
+.org img{
+	max-width: 90%;
+	filter: grayscale(1);
+}
+.org img:hover{
+	filter: grayscale(0);
+}
+
+header {
+    padding: 110px 0 50px;
+}
+
+.tableh {
+	background: #085680;
+	color: white;
+	text-align: center;
+
+}
+
+
+
+@media (min-width: 992px) {
+	.logo {
+		margin-right: 0px !important;
+		text-align: right!important;
+		margin: auto;
+	}
+	.title {
+		text-align: left!important;
+		margin-left: 0px !important;
+		/*border-left: solid white 2px;*/
+		border-radius: 8px;
+	}
+	.role-profile {
+		text-align: right!important;
+	}
+	.profile-details {
+		text-align: left!important;
+	}
+	.profile {
+		padding-top: 50px!important;
+	}
+
+}
