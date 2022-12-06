@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
 	<div class="container">
-		<a class="navbar-brand js-scroll-trigger" href="/other/demo-semantics-conf/index.html"><img src="/other/demo-semantics-conf/img/semantics-logo-white.png" width="100%" height="40" alt=""></a>
+		<a class="navbar-brand js-scroll-trigger" href="/__baseurl__index.html"><img src="/__baseurl__img/semantics-logo-white.png" width="100%" height="40" alt=""></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -14,39 +14,56 @@
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="/other/demo-semantics-conf/index.html">Home</a>
+					<a class="nav-link js-scroll-trigger" href="/__baseurl__index.html">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="/other/demo-semantics-conf/html_pages/dates.html">Important dates</a>
+					<a class="nav-link js-scroll-trigger" href="/__baseurl__html_pages/dates.html">Important dates</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="/other/demo-semantics-conf/html_pages/cfp.html">Call for Papers</a>
+					<a class="nav-link js-scroll-trigger" href="/__baseurl__html_pages/cfp.html">Call for Papers</a>
 				</li>
 				<!--
 				<li class="nav-item dropdown">
-					<a class="nav-link js-scroll-trigger" href="/other/demo-semantics-conf/html_pages/programme.html">Programme</a>
+					<a class="nav-link js-scroll-trigger" href="/__baseurl__html_pages/programme.html">Programme</a>
 				</li>
 				-->
 				<!--
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="/other/demo-semantics-conf/html_pages/registration.html">Registration</a>
+					<a class="nav-link js-scroll-trigger" href="/__baseurl__html_pages/registration.html">Registration</a>
 				</li>
 				-->
 
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="/other/demo-semantics-conf/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="nav-link dropdown-toggle" href="/__baseurl__#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Commitees
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="/other/demo-semantics-conf/html_pages/oc.html">Organising commitee</a>
-						<a class="dropdown-item" href="/other/demo-semantics-conf/html_pages/pc.html">Program commitee</a>
+						<a class="dropdown-item" href="/__baseurl__html_pages/oc.html">Organising commitee</a>
+						<a class="dropdown-item" href="/__baseurl__html_pages/pc.html">Program commitee</a>
 					</div>
 				</li>
 				<!--
 				<li class="nav-item">
-					<a class="nav-link js-scroll-trigger" href="/other/demo-semantics-conf/html_pages/sponsors.html">Sponsor opportunities</a>
+					<a class="nav-link js-scroll-trigger" href="/__baseurl__html_pages/sponsors.html">Sponsor opportunities</a>
 				</li>-->
 			</ul>
 		</div>
 	</div>
+	<script type="text/javascript">
+		$.get("conf.ini", function(data){
+    	var lines = data.split("\n");
+			var index = {};
+			for (var i = 0; i < lines.length; i++) {
+				var line = lines[i].trim();
+				if ((line[0] == "#") || (line == "")){
+					continue;
+				}else {
+					var parts = line.split("=");
+					index[parts[0]] = parts[1];
+				}
+			}
+			var nav_tag = document.getElementsByTagName('nav')[0];
+			nav_tag.innerHTML = nav_tag.innerHTML.replace(/__baseurl__/g,index["baseurl"]);
+		});
+	</script>
 </nav>

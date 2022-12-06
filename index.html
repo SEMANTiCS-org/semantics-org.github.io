@@ -34,6 +34,8 @@
 	<script>
 		$(function() {
 			$("#nav-placeholder").load("nav.html");
+			$("#nav-placeholder").text($("#nav-placeholder").text().replace("[__baseurl__]", ""));
+
 			$("#sidecol").load("side.html");
 			$("#page-footer").load("footer.html");
 		});
