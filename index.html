@@ -134,8 +134,9 @@
 	<script src="vendor/jquery-csv/jquery.csv.min.js"></script>
 	<script src="js/pcsv.js"></script>
 	<script>
-		build_organizers_list();
-		build_partners_list();
+		var conf_wb = get_conf(true);
+		build_organizers_list(conf_wb["baseurl"]);
+		build_partners_list(conf_wb["baseurl"]);
 	</script>
 
 

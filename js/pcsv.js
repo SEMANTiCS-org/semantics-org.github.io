@@ -124,18 +124,18 @@ function populate_logo_list(fcsv, page, container) {
     });
 }
 
-function build_pc(){
-  get_pc_csv("/other/demo-semantics-conf/content/pc.csv", "pc");
+function build_pc(baseurl){
+  get_pc_csv(baseurl+"content/pc.csv", "pc");
 }
 
-function build_oc(){
-  get_oc_csv("/other/demo-semantics-conf/content/oc.csv", "oc");
+function build_oc(baseurl){
+  get_oc_csv(baseurl+"content/oc.csv", "oc");
 }
 
-function build_organizers_list(){
-  populate_logo_list("/other/demo-semantics-conf/content/organizers.csv", "index","org_list");
+function build_organizers_list(baseurl){
+  populate_logo_list(baseurl+"content/organizers.csv", "index","org_list");
 }
 
-function build_partners_list(){
-  populate_logo_list("/other/demo-semantics-conf/content/partners.csv", "index","partners_list");
+function build_partners_list(baseurl){
+  populate_logo_list(baseurl+"content/partners.csv", "index","partners_list");
 }

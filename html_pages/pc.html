@@ -39,8 +39,8 @@
 	<script>
 	$(function(){
 		$("#nav-placeholder").load("nav.html", function functionName() {apply_conf();});
-		$("#sidecol").load("../side.html");
-		$("#page-footer").load("../footer.html");
+		$("#sidecol").load("side.html");
+		$("#page-footer").load("footer.html");
 	});
 	</script>
 
@@ -101,7 +101,8 @@
 	<script src="../vendor/jquery-csv/jquery.csv.min.js"></script>
 	<script src="../js/pcsv.js"></script>
 	<script>
-		build_pc();
+		var conf_wb = get_conf(true);
+		build_pc(conf_wb["baseurl"]);
 	</script>
 
 </body>
