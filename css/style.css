@@ -1,18 +1,28 @@
 :root {
 	--nav-bg-color: #33075c;
+	--nav-bg-color-semantics: rgb(64,71,87);
+	--nav-bg-color-semantics-orange: rgb(236,142,48);
 	--nav-bg-color-opacque: rgba(51, 7, 92,0.5);
-  --main-bg-color: #7b45ad;
-	--section-bg-color: rgb(245,245,245);
+  --main-bg-color: rgb(236,142,48);
+	--section-bg-color: rgb(255,215,129);
+	--section-bg-color-alt: rgb(237,237,237);
   --main-bg-color-opacque: rgba(154, 49, 252,0.7);
 }
 
 body{
 	font-family: 'Lato', sans-serif;
 }
+h2{
+	font-weight: normal;
+	font-size: 1.3em;
+}
+section{
+	padding-top: 50px;
+}
 footer{
 	vertical-align: middle!imporatnt;
 	padding: 2%;
-	background: var(--nav-bg-color);
+	background: var(--nav-bg-color-semantics);
 }
 footer .footer-content{
 	margin: auto;
@@ -42,29 +52,64 @@ footer .footer-second a:hover{
 	color: white;
 }
 
+#topHeader{
+	background: white;
+	padding: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#topHeader .container{
+	padding-top: 5px !important;
+}
+#topHeader .social-tag{
+	color: gray;
+	margin-right: 10px;
+}
+#topHeader #social_logos{
+	float:right;
+}
+#topHeader #social_logos i{
+	font-size: 1.3em;
+	filter: grayscale(1);
+	opacity: 0.5;
+	transition: 0.7s;
+}
+#topHeader #social_logos i:hover{
+	opacity: 1;
+	filter: grayscale(0);
+}
 
 nav{
-	background: var(--nav-bg-color);
+	background: var(--nav-bg-color-semantics);
+}
+nav .dropdown-menu{
+	background: var(--nav-bg-color-semantics);
 }
 nav a{
-	color: gray;
-	transition: 0.6s;
+	font-size: 0.9em;
+	margin-right: 20px;
+	color: white !important;
+	transition: 0.7s;
 }
 nav a:hover{
-	color: white;
+	color: var(--nav-bg-color-semantics-orange) !important;
+	background: initial !important;
 }
 header .title{
 	color: white;
-	background-color: rgba(0,0,0,0.3);
-	font-weight: bold;
+	/*background-color: rgba(0,0,0,0.3);*/
 	font-family: Gill Sans, sans-serif;
+	width: 400px !important;
+}
+header .title .decoline{
+	margin: 20px;
 }
 header .container{
 	vertical-align: middle!imporatnt;
-	padding-top: 2%;
+	padding-top: 60px;
 }
 header.bg-light{
-	background-image: url("../img/bg_leipzig.jpg");
+	background-image: url("../img/bg_leipzig_org_nofilter.jpg");
 	/*background-image: url("../img/bg_leipzig_dark.jpg");*/
 	background-color: #white!important;
 	background-repeat: no-repeat, repeat;
@@ -72,34 +117,50 @@ header.bg-light{
 	min-height: 650px;
 	border-bottom: solid 3px rgba(0,0,0,0.2);
 }
+header .logo{
+	text-align: center !important;
+}
 header .logo img{
-	max-width: 90%;
+	max-width: 400px;
 }
 .orgs .org{
 	text-align: center;
 	margin: 0 auto;
 	padding: 5px;
 }
+.persons .person{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+.person-role{
+	color: var(--nav-bg-color-semantics-orange);
+	font-size: 0.8em;
+}
+#psc_members{
+	margin-bottom: 30px;
+}
 .psc-mem{
 	margin-top: 20px;
 }
+.group-title{
+	margin-top: 40px;
+	border-bottom: solid 2px var(--nav-bg-color-semantics-orange);
+}
 
-@media (max-width: 992px) {
-	.logo {
-		text-align: center!important;
-	}
-	.title {
-		text-align: center!important;
-	}
-	.role-profile {
-		text-align: center!important;
-	}
-	.profile-details {
-		text-align: center!important;
-	}
-	.profile {
-		padding-top: 25px!important;
-	}
+.theme-row{
+	background-color: var(--section-bg-color);
+}
+.theme-row-alt{
+	background-color: var(--section-bg-color-alt);
+}
+.theme-row-nav{
+	background-color: var(--nav-bg-color-semantics);
+}
+.collapsed-section{
+	padding: 0px;
+	padding-top: 10px;
+	padding-bottom: 40px;
 }
 
 .slot {
@@ -160,7 +221,7 @@ header .logo img{
 }
 
 header {
-    padding: 110px 0 50px;
+    padding: 0px 0 5px;
 }
 
 .tableh {
@@ -170,19 +231,12 @@ header {
 
 }
 
-
-
 @media (min-width: 992px) {
 	.logo {
-		margin-right: 0px !important;
-		text-align: right!important;
 		margin: auto;
 	}
-	.title {
-		text-align: left!important;
-		margin-left: 0px !important;
-		/*border-left: solid white 2px;*/
-		border-radius: 8px;
+	#front {
+		padding-top: 80px;
 	}
 	.role-profile {
 		text-align: right!important;
@@ -194,4 +248,26 @@ header {
 		padding-top: 50px!important;
 	}
 
+}
+
+@media (max-width: 992px) {
+	.logo {
+		text-align: center!important;
+	}
+	.title {
+		text-align: center!important;
+	}
+	.role-profile {
+		text-align: center!important;
+	}
+	.profile-details {
+		text-align: center!important;
+	}
+	.profile {
+		padding-top: 25px!important;
+	}
+
+	header .title .decoline{
+		display: none;
+	}
 }
