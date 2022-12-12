@@ -253,6 +253,7 @@ header {
 @media (max-width: 992px) {
 	.logo {
 		text-align: center!important;
+		max-width: 80% !important;
 	}
 	.title {
 		text-align: center!important;
