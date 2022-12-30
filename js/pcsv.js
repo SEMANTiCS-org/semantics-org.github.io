@@ -197,19 +197,19 @@ function populate_keyspeakers(fcsv, page, container) {
               var html_presentation = "<a href='"+link+"' target='_blank'>"+presentation+"</a>";
               var html_body = html_img+'<div>'+name+'</div>'+'<div>'+affiliation+'</div>'+html_presentation;
 
-              var str_html = '<div class="org col-sm-4">'+html_body+"</div>";
+              var str_html = '<div class="ks col-sm-4">'+html_body+"</div>";
               group_html = group_html + str_html;
               count = count + 1;
               if (count == 3) {
-                $("#"+container).append('<div class="row section-content orgs">'+group_html+'</div>');
+                $("#"+container).append('<div class="row section-content kss">'+group_html+'</div>');
                 group_html = "";
                 count = 0;
               }
           });
           if (group_html != "") {
-            $("#"+container).append('<div class="row section-content orgs d-flex justify-content-center">'+group_html+'</div>');
+            $("#"+container).append('<div class="row section-content kss d-flex justify-content-center">'+group_html+'</div>');
           }else {
-              document.getElementById(container).lastChild.innerHTML = document.getElementById(container).lastChild.innerHTML.replace("row section-content orgs", "row section-content orgs d-flex justify-content-center");
+              document.getElementById(container).lastChild.innerHTML = document.getElementById(container).lastChild.innerHTML.replace("row section-content kss", "row section-content kss d-flex justify-content-center");
           }
         }
     });

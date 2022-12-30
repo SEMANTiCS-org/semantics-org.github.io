@@ -157,30 +157,22 @@
 						<div class="row">
 							<div class="col-lg-12 mx-auto">
 
-								<div id="keynote_list" class="section">
+								<div id="venue_section" class="section">
 										<div class="row">
 											<div class="col-lg-12 mx-auto">
-												<h4 class="title-section text-center">VENUE</h4>
+												<h4 class="title-section text-center">CONFERENCE VENUE</h4>
 											</div>
 										</div>
 
-										<script>
-												function initMap() {
-													var mapOptions = {
-														zoom: 8,
-														center: new google.maps.LatLng(44, -110),
-														mapTypeId: 'satellite'
-													};
-													var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-												}
-										</script>
+										<div class="row section-content">
+											<div class="col-lg-6 mx-auto text-center">
+												<p>Leipzig, Germany</p>
+												<p><a target="_blank" href="https://goo.gl/maps/ghXahER4JfquWDkQA"><i class="bi bi-pin-map"> view on google maps</i></a></p>
+
+											</div>
+										</div>
+
 										<div id="map"></div>
-										<script async defer
-												src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-										</script>
-										<!--
-										https://www.webucator.com/article/how-to-create-a-google-map-object-with-the-maps-ja/
-										-->
 								</div>
 
 							</div>
@@ -209,7 +201,23 @@
 		apply_conf_onfunc(build_organizers_list, true);
 		apply_conf_onfunc(build_partners_list, true);
 		apply_conf_onfunc(build_kp, true);
+
+		// build google map
+		// Online guide: https://www.webucator.com/article/how-to-create-a-google-map-object-with-the-maps-ja/
+		// ---------------
+
+		function initMap() {
+			var mapOptions = {
+				zoom: 8,
+				center: new google.maps.LatLng(44, -110),
+				mapTypeId: 'satellite'
+			};
+			var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+		}
 	</script>
+	<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC8FDP8EzjyFfC4Hy-OcNIxiUaeElEyF8&callback=initMap"></script>
+
+
 
 
 </body>

@@ -128,6 +128,11 @@ header .logo img{
 	margin: 0 auto;
 	padding: 5px;
 }
+.kss .ks{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
 .persons .person{
 	text-align: center;
 	margin: 0 auto;
@@ -149,6 +154,7 @@ header .logo img{
 }
 
 .theme-row{
+	padding-top : 40px !important;
 	background-color: var(--section-bg-color);
 }
 .theme-row-alt{
@@ -215,6 +221,9 @@ header .logo img{
 .org img{
 	max-width: 90%;
 	filter: grayscale(1);
+}
+.ks img{
+	max-width: 100%;
 }
 .org img:hover{
 	filter: grayscale(0);
