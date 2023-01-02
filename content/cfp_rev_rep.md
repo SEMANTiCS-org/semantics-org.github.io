@@ -10,8 +10,6 @@ The Research and Innovation track at SEMANTiCS 2023 EU welcomes papers on novel 
 ## Topics of Interest
 SEMANTiCS 2023 especially invites contributions that target the following main topics, sub-topics in the context of  semantic-based research and systems as well as applicative domains.
 
-SEMANTiCS 2023 especially invites contributions that target the following main topics, sub-topics in the context of  semantic-based research and systems as well as applicative domains.
-
 Topics of interest include, but are not limited to:
 * Web Semantics & Linked (Open) Data
 * Enterprise Knowledge Graphs, Graph Data Management
@@ -52,9 +50,9 @@ Application of Semantically Enriched and AI-Based Approaches:
 * All papers and abstracts have to be submitted electronically via EasyChair (https://easychair.org/).
 * Submissions must be in English.
 * Submissions must be anonymous; the reviewing process is double-blind, but reviewers will be able to disclose their identities if they wish, by signing their reviews.
-* Accepted papers will be published in open access proceedings by IOS Press, and the text of all the reviews (excluding the scores) of all the accepted papers will be posted on the conference website and will be archived on Zenodo as publicly available material.
+* Accepted papers will be published in open access proceedings by IOS Press, and the text of all the reviews (excluding the scores) of all the accepted papers will be posted on the conference website and will be archived on [Zenodo](https://zenodo.org/) as publicly available material.
 * At least one author of each accepted paper must register for the conference and present the paper.
-* All authors are strongly suggested to provide optional links to code, materials, and datasets during the submission process - we will have specific optional  fields in the EasyChair submission form - the review process will take these into account when provided. To anonymise resources for the reviewing process, authors can use services like Anonymous GitHub or figshare/Zenodo as described here.
+* All authors are strongly suggested to provide optional links to code, materials, and datasets during the submission process - we will have specific optional  fields in the EasyChair submission form - the review process will take these into account when provided. To anonymise resources for the reviewing process, authors can use services like [Anonymous GitHub](https://anonymous.4open.science/) or figshare/Zenodo as described [here](https://ineed.coffee/post/how-to-disclose-data-for-double-blind-review-and-make-it-archived-open-data-upon-acceptance#double-blind-data-submission-on-figshare).
 * The Research and Innovation Track will not accept papers that, at the time of submission, are under review or have already been published in or accepted for publication in a journal or another conference.
 * All authors will have the opportunity to provide an ORKG comparison in the Open Research Knowledge Graph (https://orkg.org) during the submission process - we will have a specific optional field in the EasyChair submission form.
 
@@ -72,6 +70,8 @@ Papers submitted to this track will be evaluated according to the following crit
 * Clarity and quality of writing
 * Reproducibility of results and resources
 
+<br />
+<br />
 
 **We are looking forward to your contribution!**  
 Maribel Acosta  
