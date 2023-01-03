@@ -112,7 +112,10 @@ function get_oc_csv(fcsv, page, container) {
                 count = 0;
               }
               //var str_html = '<div class="row profile"><div class="col-lg-12 mx-auto"><div class="row"><div class="col-lg-3 mx-auto role-profile"><h4>'+conf_role+'</h4></div><div class="col-lg-9 mx-auto"><div class="row"><div class="col-lg-3 mx-auto image-profile"><img src="'+image+'" class=" image-profile"></div><div class="col-lg-9 mx-auto profile-details"><b>'+name+'</b><br/>'+affiliation+'<br/>'+country+'<br />'+str_email+'</div></div></div></div></div></div>';
-              var html_body = html_img+'<div>'+name+'</div>'+'<div>'+affiliation+'</div>';
+              var html_body = html_img+'<div class="person-name">'+name+'</div>'+'<div class="person-info">'+affiliation+'</div>';
+              if (country != "") {
+                html_body += '<div class="person-info">'+country+'</div>';
+              }
               if (add_person_role) {
                 html_body = html_body + '<div class="person-role">'+conf_role.toUpperCase()+'</div>';
               }

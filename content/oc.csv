@@ -1,20 +1,20 @@
 Conference Committee Group,Conference Committee,Name,Email,Status,Contacted,Easychair,country,affiliation,image
-CONFERENCE CHAIRS,Conference Chairs,Sahar Vahdati,vahdati@infai.org,confirmed,,,,,vahdati.jpg
-CONFERENCE CHAIRS,Conference Chairs,Annalisa Gentile,annalisa.gentile@ibm.com,confirmed,,gentile.annalisa@gmail.com,,,gentile.jpg
-INDUSTRY CHAIRS,Industry Chairs,Christian Dirschl,Christian.Dirschl@wolterskluwer.com,confirmed,,,Germany,Wolters Kluwer Germany,drischi.jpg
-INDUSTRY CHAIRS,Industry Chairs,Florian Bauer,f.bauer@semantic-web.at,confirmed,,,,,bauer.jpg
-INDUSTRY CHAIRS,Industry Chairs,Marco Brattinga,marco.brattinga@ordina.nl,confirmed,,,,,brattinga.jpg
-RESEARCH AND INNOVATION CHAIRS,Research and Innovation Chairs,Silvio Peroni ,silvio.peroni@unibo.it,confirmed,,essepuntato,Italy,University of Bologna,peroni.jpg
-RESEARCH AND INNOVATION CHAIRS,Research and Innovation Chairs,Maribel Acosta,maribel.acosta@ini.rub.de,confirmed,,,,,acosta.jpg
-POSTER AND DEMO CHAIRS,Poster and Demo Chairs,Sebastian Neumaier ,sebastian.neumaier@fhstp.ac.at,Confirmed,,,Austria,Vienna University of Economics and Business,neumaier.jpg
-POSTER AND DEMO CHAIRS,Poster and Demo Chairs,Neha Keshan,keshan@rpi.edu,Confirmed,,,,,keshan.jpg
-WORKSHOP AND TUTORIALS CHAIRS,Workshop and Tutorials Chairs,Anisa Rula,anisa.rula@unibs.it,confirmed,,,,,rula.jpg
-WORKSHOP AND TUTORIALS CHAIRS,Workshop and Tutorials Chairs,Jennifer D'souza ,Jennifer.DSouza@tib.eu,confirmed,,,,,dsouza.jpg
-LOCAL CHAIRS,Local Chairs,Julia Holze,holze@infai.org,confirmed,,,,,holze.jpg
-LOCAL CHAIRS,Local Chairs,Michael Martin ,martin@infai.org,confirmed,,,,,martin.jpg
-OTHER,Sponsoring,Martin Kaltenböck,martin.kaltenboeck@semantic-web.com,confirmed,,,,,kaltenbock.jpg
-OTHER,Proceedings Chair,Tassilo Pellegrini,tassilo.pellegrini@fhstp.ac.at,confirmed,,,Austria,University of Applied Sciences St. Pölten,pellegrini.jpg
-OTHER,Publicity Chair,Angelo Salatino,angelo.salatino@open.ac.uk,confirmed,,,United Kingdom,The Open University,salatino.jpg
-OTHER,Publicity Assitance,Katharina Koeb,mk211070@fhstp.ac.at,confirmed,,,,,koeb.jpg
-OTHER,Web Content Chair,Ivan Heibi,ivan.heibi2@unibo.it,confirmed,,,Italy,University of Bologna,heibi.jpg
-OTHER,Knowledge Graph Chair,Daniel Garijo,daniel.garijo@upm.es,confirmed,,,Spain,Information Sciences Institute,garijo.jpg
+CONFERENCE CHAIRS,Conference Chairs,Sahar Vahdati,vahdati@infai.org,confirmed,,,"Dresden, Germany",Institute for Applied Informatics (InfAI),vahdati.jpg
+CONFERENCE CHAIRS,Conference Chairs,Annalisa Gentile,annalisa.gentile@ibm.com,confirmed,,gentile.annalisa@gmail.com,USA,IBM,gentile.jpg
+INDUSTRY CHAIRS,Industry Chairs,Christian Dirschl,Christian.Dirschl@wolterskluwer.com,confirmed,,,,Wolters Kluwer,drischi.jpg
+INDUSTRY CHAIRS,Industry Chairs,Florian Bauer,f.bauer@semantic-web.at,confirmed,,,,Semantic Web Company,bauer.jpg
+INDUSTRY CHAIRS,Industry Chairs,Marco Brattinga,marco.brattinga@ordina.nl,confirmed,,,,Ordina,brattinga.jpg
+RESEARCH AND INNOVATION CHAIRS,Research and Innovation Chairs,Silvio Peroni ,silvio.peroni@unibo.it,confirmed,,essepuntato,"Bologna, Italy",University of Bologna,peroni.jpg
+RESEARCH AND INNOVATION CHAIRS,Research and Innovation Chairs,Maribel Acosta,maribel.acosta@ini.rub.de,confirmed,,,"Bochum, Germany",Ruhr University Bochum,acosta.jpg
+POSTER AND DEMO CHAIRS,Poster and Demo Chairs,Sebastian Neumaier ,sebastian.neumaier@fhstp.ac.at,Confirmed,,,,St. Pölten University of Applied Sciences,neumaier.jpg
+POSTER AND DEMO CHAIRS,Poster and Demo Chairs,Neha Keshan,keshan@rpi.edu,Confirmed,,,,Rensselaer Polytechnic Institute,keshan.jpg
+WORKSHOP AND TUTORIALS CHAIRS,Workshop and Tutorials Chairs,Anisa Rula,anisa.rula@unibs.it,confirmed,,,"Brescia, Italy",University of Brescia,rula.jpg
+WORKSHOP AND TUTORIALS CHAIRS,Workshop and Tutorials Chairs,Jennifer D'souza ,Jennifer.DSouza@tib.eu,confirmed,,,"Hannover, Germany",Technische Informationsbibliothek (TIB),dsouza.jpg
+LOCAL CHAIRS,Local Chairs,Julia Holze,holze@infai.org,confirmed,,,"Leipzig,Germany",Institute for Applied Informatics (InfAI),holze.jpg
+LOCAL CHAIRS,Local Chairs,Michael Martin ,martin@infai.org,confirmed,,,"Leipzig,Germany",Institute for Applied Informatics (InfAI),martin.jpg
+OTHER,Sponsoring,Martin Kaltenböck,martin.kaltenboeck@semantic-web.com,confirmed,,,,Semantic Web Company,kaltenbock.jpg
+OTHER,Proceedings Chair,Tassilo Pellegrini,tassilo.pellegrini@fhstp.ac.at,confirmed,,,,St. Pölten University of Applied Sciences,pellegrini.jpg
+OTHER,Publicity Chair,Angelo Salatino,angelo.salatino@open.ac.uk,confirmed,,,"London, UK",The Open University,salatino.jpg
+OTHER,Publicity Assitance,Katharina Koeb,mk211070@fhstp.ac.at,confirmed,,,,St. Pölten University of Applied Sciences,koeb.jpg
+OTHER,Web Content Chair,Ivan Heibi,ivan.heibi2@unibo.it,confirmed,,,"Bologna, Italy",University of Bologna,heibi.jpg
+OTHER,Knowledge Graph Chair,Daniel Garijo,daniel.garijo@upm.es,confirmed,,,"Madrid, Spain",Universidad Politécnica de Madrid,garijo.jpg

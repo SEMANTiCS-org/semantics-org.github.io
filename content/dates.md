@@ -10,7 +10,7 @@ Submission via Easychair on https://easychair.org/
 Proceedings of SEMANTiCS 2023 EU will be made available open access. The publisher will be IOS Press - Studies on Semantic Web Series.
 
 
-## Important Dates for Workshops:
+## Workshops and Tutorials:
 * **Proposals WS Deadline**: March 07, 2023 (11:59 pm, Hawaii time)
 * **Notification of Acceptance**: March 14, 2023 (11:59 pm, Hawaii time)
 
