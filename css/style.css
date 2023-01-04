@@ -1,6 +1,7 @@
 :root {
 	--nav-bg-color: #33075c;
 	--nav-bg-color-semantics: rgb(64,71,87);
+	--nav-bg-color-semantics-two: rgb(64,71,87);
 	--nav-bg-color-semantics-orange: rgb(236,142,48);
 	--nav-bg-color-opacque: rgba(51, 7, 92,0.5);
   --main-bg-color: rgb(236,142,48);
@@ -281,7 +282,32 @@ header {
 		padding-top: 25px!important;
 	}
 
+	#venue_section .row.section-content .mx-auto{
+		text-align: center!important;
+	}
+	
+	.social-icons{
+		display: block ;
+	}
+
 	header .title .decoline{
 		display: none;
+	}
+
+	.footer-main .mx-auto{
+		width: 100%;
+		text-align: center;
+	}
+	.footer-second{
+		text-align: center;
+	}
+	section .title-section{
+		width: 80%;
+	}
+	.dropdown-menu{
+		border: none;
+		border-radius: 0px;
+		border-right: solid 3px white !important;
+		text-align: right;
 	}
 }
