@@ -47,7 +47,7 @@ Application of Semantically Enriched and AI-Based Approaches:
 * The Research and Innovation Track welcomes long and short papers. Long papers should have 12-15 pages of content (excluding references) and short papers of a maximum length of 6 pages of content (excluding references). Since references are excluded from page counting, it is fine to have one or more additional pages for references if they are relevant to the study submitted.  
 * Submissions should follow the guidelines of IOS Press. Details are available at https://www.iospress.com/book-article-instructions.
 * Abstract submission for all papers is a strict requirement. To facilitate bidding, we strongly suggest the authors submit structured abstracts.
-* All papers and abstracts have to be submitted electronically via EasyChair (https://easychair.org/).
+* All papers and abstracts have to be submitted electronically via EasyChair (https://easychair.org/conferences/?conf=sem23).
 * Submissions must be in English.
 * Submissions must be anonymous; the reviewing process is double-blind, but reviewers will be able to disclose their identities if they wish, by signing their reviews.
 * Accepted papers will be published in open access proceedings by IOS Press, and the text of all the reviews (excluding the scores) of all the accepted papers will be posted on the conference website and will be archived on [Zenodo](https://zenodo.org/) as publicly available material.
@@ -71,7 +71,10 @@ Papers submitted to this track will be evaluated according to the following crit
 * Reproducibility of results and resources
 
 <br />
+<a href="https://easychair.org/conferences/?conf=sem23" class="btn-submit">Submit now</a>
 <br />
+<br />
+
 
 **We are looking forward to your contribution!**  
 Maribel Acosta  

@@ -6,8 +6,7 @@ The SEMANTiCS conference will take place at the HYPERION Hotel Leipzig. Since Fe
 
 For the conference, 8 different rooms with state-of-the-art conference technology are available at the HYPERION Hotel Leipzig. On the 1st floor of the hotel there is space for the poster exhibition, sponsors and the check-in area. 
 
-
-## Recommended Hotels
+<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/house-fill.svg" width="30" height="30"></span><span> Recommended Hotels</span></div>
 
 | Hotel | Address |
 |---|---|
@@ -30,13 +29,13 @@ For the conference, 8 different rooms with state-of-the-art conference technolog
 ## Travel and Lodging
 ***Originally founded at the crossing of Via Regia and Via Imperii, Leipzig has been a major interchange of inter-European traffic and commerce since medieval times. After the Reunification of Germany, immense efforts to restore and expand the traffic network have been undertaken and left the city area with an excellent infrastructure.***
 
-### Fly in by plane
+<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/airplane-fill.svg" width="30" height="30"></span><span> Fly in by plane</span></div>
 The [Flughafen Leipzig / Halle](http://www.leipzig-halle-airport.de/de/index.html) is about 30 minutes away (by car) from the city centre of Leipzig. InterCity and regional trains run regularly between the airport and central station. Berlin Airport is about 1.5 hours away, Airport Frankfurt or Airport Hannover are about 3.5 hours away by train.
 
-### Go by train
+<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/train-front-fill.svg" width="30" height="30"></span><span> Go by train</span></div>
 The city of Leipzig is well accessible by train [Deutschen Bahn](https://www.deutschebahn.com/en) from almost all European cities. The central station is very close to the city center and to the event location.
 
-### Go by car
+<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/car-front-fill.svg" width="30" height="30"></span><span> Go by car</span></div>
 Motorway exit Leipzig via Autobahn A9 (Berlin-Nürnberg), A14 (Magdeburg-Dresden) or A38 (Goettingen-Leipzig) 
 
 **A9, Exit Leipzig West** 

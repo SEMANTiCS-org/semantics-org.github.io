@@ -36,7 +36,7 @@
 		$(function() {
 			$("#nav-placeholder").load("html_pages/nav.html", function functionName() {apply_conf_onfunc(update_nav, true);});
 			//$("#sidecol").load("html_pages/side.html");
-			$("#page-footer").load("html_pages/footer.html");
+			$("#page-footer").load("html_pages/footer.html", function functionName() {apply_conf_onfunc(update_footer, true);});
 		});
 	</script>
 
@@ -66,13 +66,23 @@
 				<div class="col-lg-12 mx-auto">
 					<div class="row">
 						<div class="col-lg-12 mx-auto">
-							<div class="row" id="home_about">
+							
+							<div class="row">
 								<div class="col-lg-12 mx-auto">
-									<zero-md src="content/home.md">
-										<template> <link href="../css/md-style.css" rel="stylesheet"/> </template>
-									</zero-md>
+										<h4 class="title-section text-center">SEMANTICS 2023 AND LANGUAGE INTELLIGENCE</h4>
 								</div>
 							</div>
+							
+							<div class="row" id="home_about">
+								<div class="col-lg-7 mx-auto">
+									<zero-md src="content/home.md">
+										<template> <link href="css/md-style.css" rel="stylesheet"/> </template>
+									</zero-md>
+								</div>
+								<div id="quotes" class="col-lg-5 mx-auto">
+								</div>
+							</div>
+							
 						</div>
 						<!--<div class="col-lg-3 mx-auto"><div id="sidecol" /></div>-->
 					</div>
@@ -104,6 +114,28 @@
 		</div>
 	</section>
 	-->
+	
+	<section class="collapsed-section">
+		<div class="container">
+				<div class="row">
+					<div class="col-lg-12 mx-auto">
+						<div class="row">
+							<div class="col-lg-12 mx-auto">
+
+								<div id="news" class="section">
+										<div class="row">
+											<div class="col-lg-12 mx-auto">
+												<h4 class="title-section text-center">NEWS</h4>
+											</div>
+										</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</section>
 
 	<section class="collapsed-section">
 		<div class="container">
@@ -206,6 +238,8 @@
 
 	<script src="vendor/jquery-csv/jquery.csv.min.js"></script>
 	<script>
+		apply_conf_onfunc(build_quotes, true);
+		apply_conf_onfunc(build_news, true);
 		apply_conf_onfunc(build_organizers_list, true);
 		apply_conf_onfunc(build_partners_list, true);
 		//apply_conf_onfunc(build_kp, true);

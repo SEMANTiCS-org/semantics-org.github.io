@@ -25,7 +25,8 @@
 
 	<script src="../js/getconf.js"></script>
 	<script src="../js/pcontent.js"></script>
-
+	<script src="../js/pcsv.js"></script>
+	
 </head>
 
 <body id="page-top">
@@ -48,10 +49,12 @@
 				<div class="col-lg-12 mx-auto">
 
 					<div class="row">
-						<div class="col-lg-12 mx-auto">
-							<zero-md src="../content/dbpedia.md">
+						<div id="news_browser" class="col-lg-9 mx-auto">
+							<zero-md src="">
 								<template> <link href="../css/md-style.css" rel="stylesheet"/> </template>
 							</zero-md>
+						</div>
+						<div id="news_list" class="col-lg-3 mx-auto">
 						</div>
 					</div>
 
@@ -74,6 +77,20 @@
 
 	<!-- Custom JavaScript for this theme -->
 	<script src="../js/scrolling-nav.js"></script>
+	
+	<script src="../vendor/jquery-csv/jquery.csv.min.js"></script>
+	<script>
+	
+		//view news page
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+		const page = urlParams.get('page');
+		$("#news_browser zero-md").attr("src","../content/news/"+page+".md");
+		
+		//generate list of all news
+		apply_conf_onfunc(build_news_list, false);
+		
+	</script>
 
 </body>
 

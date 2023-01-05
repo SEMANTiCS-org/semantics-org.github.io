@@ -218,6 +218,140 @@ function populate_keyspeakers(fcsv, page, container) {
     });
 }
 
+function populate_quotes_container(fcsv, page, container, baseurl) {
+  
+  $.ajax({
+      url : fcsv,
+      dataType: "text",
+      success : function (fdata) {
+        var json_data = $.csv.toObjects(fdata);
+        var body_html = `
+              <div id="carousel_container" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    __INDICATORS__
+                  </ol>
+                  <div class="carousel-inner">
+                      __SLIDES__
+                  </div>
+              </div>
+        `;
+        
+        all_html_elems = "";
+        all_html_ol = "";
+        count_slide = 0; 
+        is_active = "active";
+        json_data.forEach(function(entry) {
+          var name = entry["person"].trim();
+          var affiliation = entry["affiliation"];
+          var quote = entry["quote"];
+          
+          var image = "../img/person/"+entry["img"].trim();
+          if (page == "index") {
+            image = baseurl+"img/person/"+entry["img"].trim();
+          }
+          
+          var html_img = '<img typeof="foaf:Image" src="'+image+'" class="image-profile" alt="">';
+          var person_body = html_img+'<div class="person-name">'+name+'</div>'+'<div class="person-info">'+affiliation+'</div>';
+          
+          all_html_elems += `
+              <div class="carousel-item `+is_active+`">
+                <div class="row">
+                  <div class="col-lg-5 mx-auto text-center align-self-center">`+person_body+`</div>
+                  <div class="col-lg-7 mx-auto text-left align-self-center person-quote"><i>"`+quote+`"</i></div>
+                </div>
+          </div>`;
+          all_html_ol += `<li data-target="#carousel_container" data-slide-to="`+count_slide.toString()+`" class="`+is_active+`"></li>`;
+          count_slide += 1;
+          is_active = "";
+        });
+        
+        body_html = body_html.replace('__INDICATORS__', all_html_ol);
+        body_html = body_html.replace('__SLIDES__', all_html_elems);
+        $("#"+container).append(body_html);
+      }
+    });
+}
+
+
+function populate_news_container(fcsv, page, container, baseurl) {  
+  $.ajax({
+      url : fcsv,
+      dataType: "text",
+      success : function (fdata) {
+        var json_data = $.csv.toObjects(fdata);
+        var body_html = `<div class="row section-content"> __NEWS__ </div>`;
+        var all_html_elems = "";
+        var count_news = 1;
+        const MAX_NEWS = 4;
+        json_data.forEach(function(entry) {
+          if (count_news <= MAX_NEWS) {
+            var title = entry["title"].trim();
+            var text = entry["text"];
+            var page_name = entry["page_name"];
+            var image = "../img/news/"+entry["img"].trim();
+            if (page == "index") {
+              image = baseurl+"img/news/"+entry["img"].trim();
+            }
+            
+            var html_img = '<img typeof="foaf:Image" src="'+image+'" class="news-img" alt="">';
+            all_html_elems += `<div class="col-lg-3 mx-auto text-center news-box">`
+                    + html_img 
+                    + title
+                    + text
+                    + `<div class="news-link"><a href="`+baseurl+"html_pages/news.html?page="+page_name+`">READ MORE</a></div>`
+                    + `</div>`;
+          }
+          count_news += 1; 
+        });
+        
+        body_html = body_html.replace('__NEWS__', all_html_elems);
+        $("#"+container).append(body_html);
+      }
+    });
+}
+
+function populate_news_list_container(fcsv, page, container, baseurl) {  
+  $.ajax({
+      url : fcsv,
+      dataType: "text",
+      success : function (fdata) {
+        var json_data = $.csv.toObjects(fdata);
+        var body_html = ``;
+        var all_html_elems = `<div class='row'><div style="padding:5px;" class="col-lg-12 mx-auto text-center"><h2>ALL NEWS</h2></div></div><div><div>`;
+        var prev_date_group = "";
+        json_data.forEach(function(entry) {
+          var title = entry["title"].trim();
+          var page_name = entry["page_name"];
+          //get date
+          const index_months = {  "01": "January",  "02": "February",  "03": "March",  "04": "April",  "05": "May",  "06": "June",  "07": "July",  "08": "August",  "09": "September",  "0100": "October",  "0101": "November",  "0102": "December"};
+          var parts_date = page_name.split("-");
+          const year = parts_date[0];
+          const month = parts_date[1];
+          const day = parts_date[2];
+          const g_date_id = month+"_"+year;
+          const g_date = index_months[month] + ", "+ year;
+          if (g_date != prev_date_group) {
+              all_html_elems += `</div></div>`
+                +`<div class="card-header" id="heading_`+g_date_id+`"><button class="btn" data-toggle="collapse" data-target="#collapse_`+g_date_id+`" aria-expanded="true" aria-controls="collapse_`+g_date_id+`">`
+                + g_date
+                + `</button></div>` 
+                + `<div id="collapse_`+g_date_id+`" class="collapse show" aria-labelledby="heading_`+g_date_id+`" data-parent="#allnews">`
+                + `<div class="card-body">`;
+              prev_date_group = g_date
+          } 
+          
+          all_html_elems += `<div class="row">
+                              <a href="`+baseurl+"html_pages/news.html?page="+page_name+`"> >> `+title+`</a>
+                            </div>`;
+        });
+        body_html = all_html_elems + `</div></div>`;
+        body_html = `<div id="allnews"><div class="card">`+body_html+`</div></div>`;
+        $("#"+container).append(body_html);
+      }
+    });
+}
+
+
 function build_pc(conf){
   get_pc_csv(conf["baseurl"]+"content/pc.csv", "pc");
 }
@@ -236,4 +370,16 @@ function build_partners_list(conf){
 
 function build_kp(conf){
   populate_keyspeakers(conf["baseurl"]+"content/keyspeakers.csv", "index", "keynote_list");
+}
+
+function build_quotes(conf){
+  populate_quotes_container(conf["baseurl"]+"content/quotes.csv", "index","quotes", conf["baseurl"]);
+}
+
+function build_news(conf){
+  populate_news_container(conf["baseurl"]+"content/news.csv", "index","news", conf["baseurl"]);
+}
+
+function build_news_list(conf){
+  populate_news_list_container(conf["baseurl"]+"content/news.csv", "news","news_list", conf["baseurl"]);
 }
