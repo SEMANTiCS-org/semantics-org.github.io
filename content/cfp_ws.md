@@ -6,13 +6,11 @@ Important Dates for Workshops:
 * **Proposals  WS Deadline:**	March 07, 2023 (11:59 pm, Hawaii time)
 * **Notification of Acceptance:** March 14, 2023 (11:59 pm, Hawaii time)  
 
-Suggested dates for Workshop organizers (with call for papers):  
-* **Submission WS papers Deadline:** June 13, 2023 (11:59 pm, Hawaii time)
-* **Notification of Acceptance:** July 08, 2023 (11:59 pm, Hawaii time)  
-
 Important Dates for Tutorials (and other meetings, e.g. seminars, show-cases, etc., without call for papers):  
 * **Proposals  Tutorial Deadline:** June 06, 2023 (11:59 pm, Hawaii time)
-* **Notification of Acceptance:** June 20, 2023 (11:59 pm, Hawaii time)
+* **Notification of Acceptance:** June 20, 2023 (11:59 pm, Hawaii time)  
+
+**Submission via Easychair on https://easychair.org/conferences/?conf=sem23** 
 
 ## Scope & Goals
 Workshops and tutorials at SEMANTiCS 2023 allow your organisation or project to advance and promote your topics and gain increased visibility. The workshops and tutorials will be announced on the SEMANTiCS website and they will be seen by all participants. SEMANTiCS 2023 workshops and tutorials can be incubators for industrial and scientific communities that form and share a particular research and development agenda. They provide a forum for presenting contributions and findings to a diverse and knowledgeable community.  
@@ -30,17 +28,17 @@ SEMANTiCS 2023 workshops and tutorials may be either half or full day long. Work
 Organizers of workshops and tutorials will be granted three free tickets (only for the workshop & tutorial day) for organization purposes or keynotes. Participants of workshops and tutorials will be charged a marginal fee to cover the basic costs.   
 Workshop and tutorials proposals must include the following information:
 
-* outline of the themes and goals of the event, including a title and a brief abstract (less than 200 words) intended for the SEMANTiCS 2023 website
-* a statement addressing why the event is important, why the event is timely, how it is relevant to SEMANTiCS 2023 and the field of semantic web. For the tutorials, why the presenters are qualified for a high-quality introduction of the topic
-* related workshops and conferences, i.e., specifying if this is a continuation of a workshop series or is a new workshop to address an emerging issue. Please provide information about past versions of this workshop and other related workshops (including URLs and submission/acceptance counts, if available).
-* a statement addressing the quality assurance criterion that will be used by the event organizers to select the papers for the workshops and the presenters for the tutorials (e.g., peer review or review/evaluation by event organizers). If a peer review process is chosen as a quality assurance criterion for the workshops, the organizers will be responsible for their own reviewing process. Workshop organizers will be responsible also for their own publicity (e.g., website, timelines and call for papers) and proceedings production. 
-* structure of the event and plans for generating and stimulating discussion; how will the interaction be organized in case of a hybrid event
-* desired minimum and maximum number of event participants, expected number of participants, and (in case of previously held events) number of registered attendees and web site for previous editions of the event
-* a description of the intended audience and the expected learning outcomes
-* desired prerequisite knowledge of the audience
-* proposed duration of the event (i.e., half or full day), different sessions if applicable (final time slot will be assigned in accordance with the SEMANTiCS program)
-* any equipment, room capacity, or other logistic constraints
-* full contact information of all organizers of the event and main contact person; a brief description of each organizer's background, including relevant past experience in organizing events
+* outline of the **themes and goals of the event**, including a title and a brief abstract (less than 200 words) intended for the SEMANTiCS 2023 website
+* a statement addressing **why the event is important, why the event is timely**, how it is relevant to SEMANTiCS 2023 and the field of semantic web. For the tutorials, why the presenters are qualified for a high-quality introduction of the topic
+* **related workshops and conferences**, i.e., specifying if this is a continuation of a workshop series or is a new workshop to address an emerging issue. Please provide information about past versions of this workshop and other related workshops (including URLs and submission/acceptance counts, if available).
+* a statement addressing the **quality assurance criterion** that will be used by the event organizers to select the papers for the workshops and the presenters for the tutorials (e.g., peer review or review/evaluation by event organizers). If a peer review process is chosen as a quality assurance criterion for the workshops, the organizers will be responsible for their own reviewing process. Workshop organizers will be responsible also for their own publicity (e.g., website, timelines and call for papers) and proceedings production. 
+* **structure of the event** and plans for generating and stimulating discussion; how will the interaction be organized in case of a hybrid event
+* desired minimum and maximum **number of event participants**, expected number of participants, and (in case of previously held events) number of registered attendees and web site for previous editions of the event
+* a description of the intended **audience** and the expected learning **outcomes**
+* desired **prerequisite** knowledge of the audience
+* proposed **duration of the event** (i.e., half or full day), different sessions if applicable (final time slot will be assigned in accordance with the SEMANTiCS program)
+* any **equipment**, room capacity, or other logistic constraints
+* full **contact information** of all organizers of the event and main contact person; a brief description of each **organizer's background**, including relevant past experience in organizing events
 
 Proposals for workshop and tutorial proposals must be submitted via Easychair:  https://easychair.org/my/conference?conf=sem23
 
