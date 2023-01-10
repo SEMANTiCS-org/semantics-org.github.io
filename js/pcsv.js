@@ -296,7 +296,7 @@ function populate_news_container(fcsv, page, container, baseurl) {
             var html_img = '<img typeof="foaf:Image" src="'+image+'" class="news-img" alt="">';
             all_html_elems += `<div class="col-lg-3 mx-auto text-center news-box">`
                     + html_img 
-                    + title
+                    + `<h5>`+title + `</h5>`
                     + text
                     + `<div class="news-link"><a href="`+baseurl+"html_pages/news.html?page="+page_name+`">READ MORE</a></div>`
                     + `</div>`;
