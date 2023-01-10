@@ -344,6 +344,10 @@ function populate_news_list_container(fcsv, page, container, baseurl) {
                               <a href="`+baseurl+"html_pages/news.html?page="+page_name+`"> >> `+title+`</a>
                             </div>`;
         });
+                        
+        all_html_elems += `</div></div>`
+                            +`<div class="card-header" id="heading_news_2022"><a href="https://2022-eu.semantics.cc/interviews-and-news">Check past news (from SEMANTiCS 2022)</a></div>`;
+                            
         body_html = all_html_elems + `</div></div>`;
         body_html = `<div id="allnews"><div class="card">`+body_html+`</div></div>`;
         $("#"+container).append(body_html);
