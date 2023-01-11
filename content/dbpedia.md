@@ -27,4 +27,4 @@ By following the 62 million links published alongside the 6.5 million identifier
 * DBpedia Community session
 
 ## Tickets
-DBpedia members get free admission. Please contact your nearest DBpedia chapter for a promotion code, or contact the Head of Organisational Development of the DBpedia Association [Julia Holze](holze@infai.org).
+DBpedia members get free admission. Please contact your nearest DBpedia chapter for a promotion code, or contact the Head of Organisational Development of the DBpedia Association [Julia Holze](mailto:holze@infai.org).
