@@ -298,7 +298,7 @@ function populate_news_container(fcsv, page, container, baseurl) {
                     + html_img 
                     + `<h5>`+title + `</h5>`
                     + text
-                    + `<div class="news-link"><a href="`+baseurl+"html_pages/news.html?page="+page_name+`">READ MORE</a></div>`
+                    + `<div class="news-link"><a href="`+baseurl+"page/news.html?page="+page_name+`">READ MORE</a></div>`
                     + `</div>`;
           }
           count_news += 1; 
@@ -341,7 +341,7 @@ function populate_news_list_container(fcsv, page, container, baseurl) {
           } 
           
           all_html_elems += `<div class="row">
-                              <a href="`+baseurl+"html_pages/news.html?page="+page_name+`"> >> `+title+`</a>
+                              <a href="`+baseurl+"page/news.html?page="+page_name+`"> >> `+title+`</a>
                             </div>`;
         });
                         
