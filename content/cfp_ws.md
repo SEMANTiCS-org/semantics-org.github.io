@@ -25,6 +25,7 @@ For the proceedings, we offer two options:
 
 ## Setup and Requirements 
 SEMANTiCS 2023 workshops and tutorials may be either half or full day long. Workshops and tutorials take place on the days before and/or after the main SEMANTiCS 2023 EU conference (18th, 19th, and/or 23rd of September 2023). Details will be communicated on time.  
+
 Organizers of workshops and tutorials will be granted three free tickets (only for the workshop & tutorial day) for organization purposes or keynotes. Participants of workshops and tutorials will be charged a marginal fee to cover the basic costs.   
 Workshop and tutorials proposals must include the following information:
 
@@ -68,10 +69,12 @@ Workshop and tutorial proposals will be reviewed by the SEMANTiCS 2023 Workshop 
 * Economics of Data, Data Services and Data Ecosystems
 * Applications of Semantic Web technologies in domains such as law, medicine, life sciences, digital humanities, mobility and smart cities, etc. 
 
-We especially invite contributions that illustrate the applicability of the topics mentioned above for industrial purposes and/or illustrate the business relevance of their contribution for specific industries. Workshop proposals on emerging themes for the topics listed above are encouraged.  
+We especially invite contributions that illustrate the applicability of the topics mentioned above for industrial purposes and/or illustrate the business relevance of their contribution for specific industries. Workshop proposals on *emerging themes* for the topics listed above are encouraged.  
 
 In case you have additional questions concerning the submission process, please do not hesitate to contact us via Easychair.
 
+<br />
+<a href="https://easychair.org/conferences/?conf=sem23" class="btn-submit">Submit now</a>
 <br />
 <br />
   
