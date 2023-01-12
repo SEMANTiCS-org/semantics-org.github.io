@@ -1,6 +1,5 @@
 url,img,name,img_ratio
-http://www.semantic-web.at/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/swc-logo-web.png?itok=dFh75utd,,65/16
-https://emfs.eu/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/emfs_logo.jpg?itok=BBHeRbBT,,31/16
-http://infai.org/en/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/infai.png?itok=uq3p8kkr, Institute for Applied Informatics,31/16
-http://english.fhstp.ac.at/index,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/FHSTP_medienundwirtschaft_RGB.png?itok=mK83RF0m,,52/16
-https://www.vu.nl/en/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/VU-University-Amsterdam-logo.png?itok=TthTxwW2,,59/16
+http://www.semantic-web.at/,swc_logo.png,,65/16
+http://infai.org/en/,infai_logo.png,Institute for Applied Informatics,31/16
+http://english.fhstp.ac.at/index,fhstp_logo.png,,52/16
+https://www.vu.nl/en/,uni_ams_logo.png,,59/16

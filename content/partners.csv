@@ -1,18 +1,18 @@
 url,img,name,img_ratio
-https://www.adaptcentre.ie/about,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/adaptkantanlabs.png?itok=8AWPv2Pf,,16/16
-https://www.turing.ac.uk/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/1200px-Alan_Turing_Institute_logo.svg_.png?itok=vkZR9NIT,,38/16
-http://wiki.dbpedia.org/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/1200px-DBpediaLogo.svg_.png?itok=8e-rBhpC,,26/16
-https://www.fiz-karlsruhe.de/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/FIZ_Logo_fbg_engl.png?itok=LXFtqWCW,,71/16
-http://www.gfwm.at/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/logo_gfwm_220x84_0.png?itok=8RGkp98O,,40/16
-https://www.kcl.ac.uk/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/Kings_College_London-logo-B1996FD9A6-seeklogo.com_.png?itok=fchBZtr9,,28/16
-http://www.kit.edu,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/1200px-Logo_KIT.svg_.png?itok=t3-6L8la, KIT-Karlsruhe Institute of Technology,32/16
-http://www.knvi.nl,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/KNVI-Logo_RGB.png?itok=goXN4Qed,,43/16
-https://www.tib.eu/en/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/TIB_Wort_Bildmarke_500px_0.png?itok=OynFGczc,,24/16
-https://www.vienna.convention.at/en/meeting-destination,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/MDV_Logo_RGB_white_red.jpg?itok=ySiwUCEI,,16/16
-https://www.ordina.com/en/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/Ordina-Logo-01.png?itok=ipIabQcp,,57/16
-http://www.pilod.nl/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/PiLOD.png?itok=IXQLXUO0,,11/16
-https://www.upm.es,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/internacional.png?itok=XJgXPBtE,,16/16
-https://www.uva.nl/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/uoa.png?itok=m2tERz7H,,57/16
-https://www.informatik.uni-bonn.de/de,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/2000px-Universita%CC%88t_Bonn.svg_.png?itok=ibfQNJeW,,16/16
-https://viennabusinessagency.at/,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/210301_WA_Kombi3_RGB-800x796.png?itok=6L2srQyH,,16/16
-http://www.wolterskluwer.de,https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/logo-wolters-kluwer.png?itok=0yvFjmPb,,64/10
+https://www.adaptcentre.ie/about,adapt_logo.png,,24/18
+https://www.turing.ac.uk/,alan_turing_institute_logo.png,,38/16
+http://wiki.dbpedia.org/,dbpedia_logo.png,,32/20
+https://www.fiz-karlsruhe.de/,fiz_logo.png,,71/16
+http://www.gfwm.at/,gfwm_logo.png,,40/16
+https://www.kcl.ac.uk/,kings_college_london_logo.png,,28/16
+http://www.kit.edu,kit_logo.png,KIT-Karlsruhe Institute of Technology,32/16
+http://www.knvi.nl,knvi_logo.png,,43/16
+https://www.tib.eu/en/,tib_logo.png,,24/16
+https://www.vienna.convention.at/en/meeting-destination,mdv_logo.jpg,,20/20
+https://www.ordina.com/en/,ordina_logo.png,,57/16
+http://www.pilod.nl/,pilod_logo.png,,15/20
+https://www.upm.es,internacional_logo.png,,20/20
+https://www.uva.nl/,uoa_logo.png,,57/16
+https://www.informatik.uni-bonn.de/de,uni_bonn_logo.png,,42/16
+https://viennabusinessagency.at/,wa_kombi_logo.png,,20/20
+http://www.wolterskluwer.de,logo-wolters-kluwer.png,,64/10

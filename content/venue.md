@@ -29,44 +29,49 @@ For the conference, 8 different rooms with state-of-the-art conference technolog
 ## Travel and Lodging
 ***Originally founded at the crossing of Via Regia and Via Imperii, Leipzig has been a major interchange of inter-European traffic and commerce since medieval times. After the Reunification of Germany, immense efforts to restore and expand the traffic network have been undertaken and left the city area with an excellent infrastructure.***
 
-<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/airplane-fill.svg" width="30" height="30"></span><span> Fly in by plane</span></div>
-The [Flughafen Leipzig / Halle](http://www.leipzig-halle-airport.de/de/index.html) is about 30 minutes away (by car) from the city centre of Leipzig. InterCity and regional trains run regularly between the airport and central station. Berlin Airport is about 1.5 hours away, Airport Frankfurt or Airport Hannover are about 3.5 hours away by train.
+<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/airplane-fill.svg" width="30" height="30"></span><span> Fly in by plane</span></div>  
 
-<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/train-front-fill.svg" width="30" height="30"></span><span> Go by train</span></div>
-The city of Leipzig is well accessible by train [Deutschen Bahn](https://www.deutschebahn.com/en) from almost all European cities. The central station is very close to the city center and to the event location.
+The [Leipzig / Halle Airport](https://www.mdf-ag.com/) is about 30 minutes away (by car) from the city center of Leipzig. InterCity and regional trains leave regularly from the airport to the central station. Find other means of transportation that connect the Leipzig / Halle Airport and the city center [here](https://www.mdf-ag.com/en/passengers-and-visitors/leipzig-halle-airport/arriving-and-departing/). Berlin Airport is about 1.5 hours away, Airport Frankfurt or Airport Hannover are about 3.5 hours away by train.
+
+<div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/train-front-fill.svg" width="30" height="30"></span><span> Go by train</span></div>  
+
+The city of Leipzig is easily accessible by train from almost all European cities. Visit [Deutsche Bahn](https://www.deutschebahn.com/en) for your travel plans via train. The Leipzig central station is located right in the city center and within walking distance of the event location.
+
 
 <div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/car-front-fill.svg" width="30" height="30"></span><span> Go by car</span></div>
-Motorway exit Leipzig via Autobahn A9 (Berlin-Nürnberg), A14 (Magdeburg-Dresden) or A38 (Goettingen-Leipzig) 
 
-**A9, Exit Leipzig West** 
+Thanks to its position next to the A9 (Berlin-Nürnberg), A14 (Magdeburg-Dresden) or A38 (Goettingen-Leipzig) motorways, Leipzig is ideally connected to the national motorway network. The city center can be reached via the following exits.
+
+
+### A9, Exit Leipzig West
 * follow Leipzig West / B181 and Merseburger Straße/181
 * continue on Merseburger Straße / B87 (signs direction Torgau / Zentrum)
-* turn left into the Lützner Straße / B87 (signs direction Torgau / Zentrum)
-* continue on Bowmanstraße / B87 (signs direction Torgau / Zentrum)
-* turn right into the Jahnallee / B87 (signs direction Torgau / Zentrum)
+* turn left onto the Lützner Straße / B87 (signs direction Torgau / Zentrum)
+* continue on Bowmanstraße / B87 (signs direction Zentrum)
+* turn right onto the Jahnallee / B87 (signs direction Zentrum)
 * follow the main road until Willy-Brandt-Platz / main station
 * take a left turn and stay on Brandenburger Straße 
-* at the next traffic light take a left turn into Sachsenseite 
-* You could use the underground car park called “Parkhaus Fernbus-Terminal Hbf.
+* at the next traffic light take a left turn onto Sachsenseite 
 
-**A14 Exit Leipzig Mitte**
-* B2 / Maximilianallee
-* keep right at Berliner Straße (watch out for Signs: Zentrum)
-* stay on Berliner Straße
-* take a left turn at Gerberstraße / B6
-* take a left turn at Willy-Brandt-Platz / B6 / B87
-* at Georgiring, take a right turn (watch out for signs: A38 / Grimma)
-* stay on main road until Augustusplatz
-* Follow the city's inner ring road until Augustusplatz / Goethestraße. You could use the underground car park at Augustusplatz.
+### A14 Exit Leipzig Mitte 
+* take exit 23-Leipzig-Mitte to merge onto Maximilianallee/ B2 toward Leipzig-Mitte
+* use the middle lane to turn slightly left onto Am Gothischen Bad/Rackwitzer Str./B2/B6 
+* use the right lane to turn right onto Brandenburger Str./B2/B87
+* stay on Brandenburger Straße
+* take a right turn onto Sachsenseite
 
-**A38 Exit Leipzig Süd** 
-* stay on B2 until Wundtstraße (watch out for signs: A9 / Weißenfels / Grünau / Zentrum)
+
+### A38 Exit Leipzig Süd
+* take B2 to Wundtstraße in Leipzig (watch out for signs: A9 / Weißenfels / Grünau / Zentrum)
+* keep left to continue on Wundtstraße
 * stay on main road until Floss Platz
 * stay on main road until Harkortstraße
-* take a right turn at Martin-Luther-Ring
+* turn right onto Martin-Luther-Ring
 * stay on main road until Augustusplatz
-* Follow the city's inner ring road until Augustusplatz. You could use the underground car park at Augustusplatz.
+* stay on main road until Georgiring
+* continue onto Willy-Brandt-Platz/B87
+* at the next traffic light take a left turn onto Sachsenseite
 
-**→Please check all [car parks](https://www.leipzig.de/umwelt-und-verkehr/unterwegs-in-leipzig/auto-motorrad-und-reisemobile/parkhaeuser-innenstadt/) in Leipzig (German only).** 
 
-
+## Parking spaces in Leipzig
+***The underground car park “Parkhaus Fernbus-Terminal Hbf” is the closest one to the event location.*** Check all [car parks](https://www.leipzig.de/umwelt-und-verkehr/unterwegs-in-leipzig/auto-motorrad-und-reisemobile/parkhaeuser-innenstadt/) in Leipzig (German only). 

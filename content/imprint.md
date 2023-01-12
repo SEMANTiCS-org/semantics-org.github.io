@@ -3,23 +3,23 @@ The SEMANTiCS conference series is run by [Semantic Web Company](http://www.sema
 
 <br/>
 
-> **VU University Amsterdam**  
+**VU University Amsterdam**  
 Faculty of Sciences  
 Department of Computer Science  
 De Boelelaan 1081  
 NL-1081 HV Amsterdam  
 The Netherlands  
 
-> **Institut für Angewandte Informatik (InfAI) e. V.**  
+**Institut für Angewandte Informatik (InfAI) e. V.**  
 An-Institut an der Universität Leipzig  
 Hainstraße 11 | im Hinterhaus links, 2.OG  
 D-04109 Leipzig  
 
-> **FH St. Pölten**  
+**FH St. Pölten**  
 Matthias Corvinus-Straße 15  
 A-3100 St. Pölten  
 
-> **Semantic Web Company GmbH**  
+**Semantic Web Company GmbH**  
 Mariahilfer Straße 70/8  
 A-1070 Vienna  
 

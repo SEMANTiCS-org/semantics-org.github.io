@@ -147,7 +147,7 @@ function populate_logo_list(fcsv, page, container) {
 
               var name = entry["name"].trim();
               var img_ratio = entry["img_ratio"].trim().split("/");
-              var img = entry["img"].trim();
+              var img = "img/partners_orgs/"+entry["img"].trim();
 
               let img_size = 3;
               var img_width = parseInt(img_ratio[0]) * img_size;
@@ -155,7 +155,7 @@ function populate_logo_list(fcsv, page, container) {
               var html_img = '<img typeof="foaf:Image" src="'+img+'" width="'+img_width.toString()+'" height="'+img_height.toString()+'" alt="">'
 
               var url = entry["url"].trim();
-              var html_url = "<a href='mailto:"+url+"' target='_blank'>"+html_img+"</a>";
+              var html_url = "<a href='"+url+"' target='_blank'>"+html_img+"</a>";
 
               var str_html = '<div class="org col-sm-3">'+html_url+"</div>";
               count = count + 1;

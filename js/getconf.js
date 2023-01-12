@@ -38,6 +38,6 @@ function apply_conf_onfunc(callbkfunc,  isindex = false) {
         index[parts[0]] = parts[1];
       }
     }
-    callbkfunc(index);
+    callbkfunc(index, isindex);
   });
 }
