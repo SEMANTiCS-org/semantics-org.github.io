@@ -1,6 +1,11 @@
 # Venue
 
- <img src="../img/venue.jpg" style="max-width:350px" width="60%" height="auto" alt="">  
+<div class="d-flex justify-content-between bd-highlight mb-3">
+ <img src="../img/venue.jpg" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">
+ <img src="../img/venue_tagung.jpg" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">  
+ <img src="../img/venue_lobby.jpg" style="max-width:32%; min-width:200px" width="60%" height="auto" alt="">  
+</div>
+</br>
 
 The SEMANTiCS conference will take place at the HYPERION Hotel Leipzig. Since February 2020, the HYPERION Hotel Leipzig invites you to a pleasant stay in the historical city. The hotel is located close to the city center directly at the main station and the Augustusplatz as well as the Mädler-Passage can be reached on foot in a good 10 to 15 minutes.  
 
