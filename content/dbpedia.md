@@ -1,4 +1,4 @@
-# DBpedia Day 2023
+# DBpedia Day
 SEMANTiCS 2023 will host the **DBpedia Day** in Leipzig, Germany.  
 
 ## Community Meeting

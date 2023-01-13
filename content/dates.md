@@ -6,9 +6,11 @@
 * **Notification of Acceptance**: June 20, 2023 (11:59 pm, Hawaii time)
 * **Camera-Ready Paper Deadline**: July 04, 2023 (11:59 pm, Hawaii time)
 
-Submission via Easychair on https://easychair.org/  
+**Submission via Easychair on https://easychair.org/conferences/?conf=sem23**  
 Proceedings of SEMANTiCS 2023 EU will be made available open access. The publisher will be IOS Press - Studies on Semantic Web Series.
 
+<br/>
+<img src="../img/partners_orgs/ios_logo.png" style="max-width:250px" width="60%" height="auto" alt="">
 
 ## Workshops and Tutorials:
 Important Dates for Workshops:
