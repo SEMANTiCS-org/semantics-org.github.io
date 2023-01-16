@@ -1,20 +1,20 @@
 Conference Committee Group,Conference Committee,Name,Email,Status,Contacted,Easychair,country,affiliation,image
 CONFERENCE CHAIRS,Conference Chairs,Sahar Vahdati,vahdati@infai.org,confirmed,,,"Dresden, Germany",Institute for Applied Informatics (InfAI),vahdati.jpg
-CONFERENCE CHAIRS,Conference Chairs,Annalisa Gentile,annalisa.gentile@ibm.com,confirmed,,gentile.annalisa@gmail.com,USA,IBM,gentile.jpg
-INDUSTRY CHAIRS,Industry Chairs,Christian Dirschl,Christian.Dirschl@wolterskluwer.com,confirmed,,,,Wolters Kluwer,drischi.jpg
-INDUSTRY CHAIRS,Industry Chairs,Florian Bauer,f.bauer@semantic-web.at,confirmed,,,,Semantic Web Company,bauer.jpg
-INDUSTRY CHAIRS,Industry Chairs,Marco Brattinga,marco.brattinga@ordina.nl,confirmed,,,,Ordina,brattinga.jpg
+CONFERENCE CHAIRS,Conference Chairs,Annalisa Gentile,annalisa.gentile@ibm.com,confirmed,,gentile.annalisa@gmail.com,"San Francisco, USA",IBM Research,gentile.jpg
+INDUSTRY CHAIRS,Industry Chairs,Christian Dirschl,Christian.Dirschl@wolterskluwer.com,confirmed,,,"Munich, Germany",Wolters Kluwer,drischi.jpg
+INDUSTRY CHAIRS,Industry Chairs,Florian Bauer,f.bauer@semantic-web.at,confirmed,,,"Vienna, Austria",Semantic Web Company,bauer.jpg
+INDUSTRY CHAIRS,Industry Chairs,Marco Brattinga,marco.brattinga@ordina.nl,confirmed,,,Netherlands,Ordina,brattinga.jpg
 RESEARCH AND INNOVATION CHAIRS,Research and Innovation Chairs,Silvio Peroni ,silvio.peroni@unibo.it,confirmed,,essepuntato,"Bologna, Italy",University of Bologna,peroni.jpg
 RESEARCH AND INNOVATION CHAIRS,Research and Innovation Chairs,Maribel Acosta,maribel.acosta@ini.rub.de,confirmed,,,"Bochum, Germany",Ruhr University Bochum,acosta.jpg
-POSTER AND DEMO CHAIRS,Poster and Demo Chairs,Sebastian Neumaier ,sebastian.neumaier@fhstp.ac.at,Confirmed,,,,St. Pölten University of Applied Sciences,neumaier.jpg
-POSTER AND DEMO CHAIRS,Poster and Demo Chairs,Neha Keshan,keshan@rpi.edu,Confirmed,,,,Rensselaer Polytechnic Institute,keshan.jpg
+POSTER AND DEMO CHAIRS,Poster and Demo Chairs,Sebastian Neumaier ,sebastian.neumaier@fhstp.ac.at,Confirmed,,,"Vienna, Austria",St. Pölten University of Applied Sciences,neumaier.jpg
+POSTER AND DEMO CHAIRS,Poster and Demo Chairs,Neha Keshan,keshan@rpi.edu,Confirmed,,,"New York, USA",Rensselaer Polytechnic Institute,keshan.jpg
 WORKSHOP AND TUTORIALS CHAIRS,Workshop and Tutorials Chairs,Anisa Rula,anisa.rula@unibs.it,confirmed,,,"Brescia, Italy",University of Brescia,rula.jpg
 WORKSHOP AND TUTORIALS CHAIRS,Workshop and Tutorials Chairs,Jennifer D'souza ,Jennifer.DSouza@tib.eu,confirmed,,,"Hannover, Germany",Technische Informationsbibliothek (TIB),dsouza.jpg
 LOCAL CHAIRS,Local Chairs,Julia Holze,holze@infai.org,confirmed,,,"Leipzig,Germany",Institute for Applied Informatics (InfAI),holze.jpg
 LOCAL CHAIRS,Local Chairs,Michael Martin ,martin@infai.org,confirmed,,,"Leipzig,Germany",Institute for Applied Informatics (InfAI),martin.jpg
-SPONSORING AND PROCEEDINGS CHAIRS,Sponsoring,Martin Kaltenböck,martin.kaltenboeck@semantic-web.com,confirmed,,,,Semantic Web Company,kaltenbock.jpg
-SPONSORING AND PROCEEDINGS CHAIRS,Proceedings Chair,Tassilo Pellegrini,tassilo.pellegrini@fhstp.ac.at,confirmed,,,,St. Pölten University of Applied Sciences,pellegrini.jpg
+SPONSORING AND PROCEEDINGS CHAIRS,Sponsoring,Martin Kaltenböck,martin.kaltenboeck@semantic-web.com,confirmed,,,"Vienna, Austria",Semantic Web Company,kaltenbock.jpg
+SPONSORING AND PROCEEDINGS CHAIRS,Proceedings Chair,Tassilo Pellegrini,tassilo.pellegrini@fhstp.ac.at,confirmed,,,"Pölten, Austria",St. Pölten University of Applied Sciences,pellegrini.jpg
 DIGITAL CONTENT CHAIRS,Web Content Chair,Ivan Heibi,ivan.heibi2@unibo.it,confirmed,,,"Bologna, Italy",University of Bologna,heibi.jpg
 DIGITAL CONTENT CHAIRS,Knowledge Graph Chair,Daniel Garijo,daniel.garijo@upm.es,confirmed,,,"Madrid, Spain",Universidad Politécnica de Madrid,garijo.jpg
 PUBLICITY CHAIRS,Publicity Chair,Angelo Salatino,angelo.salatino@open.ac.uk,confirmed,,,"Milton Keynes, UK",The Open University,salatino.jpg
-PUBLICITY CHAIRS,Publicity Assitance,Katharina Koeb,mk211070@fhstp.ac.at,confirmed,,,,St. Pölten University of Applied Sciences,kob.jpg
+PUBLICITY CHAIRS,Publicity Assitance,Katharina Koeb,mk211070@fhstp.ac.at,confirmed,,,"Pölten, Austria",St. Pölten University of Applied Sciences,kob.jpg
