@@ -325,7 +325,7 @@ function populate_news_list_container(fcsv, page, container, baseurl) {
           var title = entry["title"].trim();
           var page_name = entry["page_name"];
           //get date
-          const index_months = {  "01": "January",  "02": "February",  "03": "March",  "04": "April",  "05": "May",  "06": "June",  "07": "July",  "08": "August",  "09": "September",  "0100": "October",  "0101": "November",  "0102": "December"};
+          const index_months = {  "01": "January",  "02": "February",  "03": "March",  "04": "April",  "05": "May",  "06": "June",  "07": "July",  "08": "August",  "09": "September",  "10": "October",  "11": "November",  "12": "December"};
           var parts_date = page_name.split("-");
           const year = parts_date[0];
           const month = parts_date[1];
