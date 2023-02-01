@@ -7,7 +7,7 @@ The Research and Innovation track at SEMANTiCS 2023 EU welcomes papers on novel 
 * **Notification of Acceptance**: June 20, 2023 (11:59 pm, Hawaii time)
 * **Camera-Ready Paper Deadline**: July 04, 2023 (11:59 pm, Hawaii time)  
 
-**Submission via Easychair on https://easychair.org/ https://easychair.org/conferences/?conf=sem23**. Proceedings of SEMANTiCS 2023 EU will be made available open access. The publisher will be IOS Press - Studies on Semantic Web Series.
+**Submission via Easychair on https://easychair.org/conferences/?conf=sem23**. Proceedings of SEMANTiCS 2023 EU will be made available open access. The publisher will be IOS Press - Studies on Semantic Web Series.
 
 ## Topics of Interest
 SEMANTiCS 2023 especially invites contributions that target the following main topics, sub-topics in the context of  semantic-based research and systems as well as applicative domains.
@@ -73,7 +73,7 @@ Papers submitted to this track will be evaluated according to the following crit
 * Reproducibility of results and resources
 
 <br />
-<a href="https://easychair.org/conferences/?conf=sem23" class="btn-submit">Submit now</a>
+<a href="https://easychair.org/conferences/?conf=sem23" type="button" class="btn btn-primary">Submit now</a>
 <br />
 <br />
 

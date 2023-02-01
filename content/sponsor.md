@@ -1,15 +1,16 @@
 # Sponsorship Packages
-***The __SEMANTiCS__ offers sponsors a carefully selected and high level audience with which to interact. Leading-edge technologists mixing with brand names, research luminaries, market analysts and big business users from various application markets offer a unique networking experience. In addition, carefully placed speaking slots and dedicated session naming ensures brand exposure in a targeted environment. We propose 4 main sponsoring packs that will help you meet a range of visibility and lead-generation needs. Please do not hesitate to contact us to discuss these and customise our standard offering to your specific needs.***
+***The __SEMANTiCS & LANGUAGE INTELLIGENCE 2023__ conference offers sponsors a carefully selected and high level audience with which to interact. Leading-edge technologists mixing with brand names, research luminaries, market analysts and big business users from various application markets offer a unique networking experience. In addition, carefully placed speaking slots and dedicated session naming ensures brand exposure in a targeted environment. We propose 4 main sponsoring packs that will help you meet a range of visibility and lead-generation needs. Please do not hesitate to contact us to discuss these and customise our standard offering to your specific needs.***
 
 ## Visibility and networking opportunities
-Target attendance is a 250+ mix of technology providers, users & integrators, business leaders, leadingedge developers, researchers, investors and analysts who will either participate physically or remotely.
+Target attendance is a 400+ mix of technology providers, users & integrators, business leaders, leadingedge developers, researchers, investors and analysts who will either participate physically or remotely. Language Intelligence 2023 will comprise technology spotlights with insights into the most recent trends as well as application use cases from various domains. LI23 is the ideal meeting point to learn, exchange, network, forge new partnerships, find new clients and get tuned to the multilingual intelligent future.
+
 
 <img src="../img/sponsor_1.png" style="max-width:450px" width="65%" height="auto" alt="">  
 <br/>
 
 Get in touch with the Sponsoring Team regarding requests, questions and booking.  
 <br/>
-<a href="mailto:sponsoring@semantics.cc " style="font-size: 12pt" class="btn-submit">sponsoring@semantics.cc</a>
+<a href="mailto:sponsoring@semantics.cc" style="font-size: 12pt" type="button" class="btn btn-primary">sponsoring@semantics.cc</a>
 
 <br/>
 <br/>
@@ -185,6 +186,6 @@ MEDIA</td>
 <div style="text-align: center;">
 
 ### GET IN TOUCH WITH THE SPONSORING TEAM REGARDING REQUESTS, QUESTIONS AND BOOKING: 
-<a href="mailto:sponsoring@semantics.cc " class="btn-submit">sponsoring@semantics.cc</a>
+<a href="mailto:sponsoring@semantics.cc" style="font-size: 1.4em" type="button" class="btn btn-primary">sponsoring@semantics.cc</a>
 
 </div>

@@ -67,18 +67,3 @@ th{
   width: 250px;
   text-align: center;
 }
-
-.btn-submit{
-  color: #fff;
-  background-color: rgb(236,142,48);
-  border-color: rgb(236,142,48);
-  padding: 12px;
-	font-size: 1.2em;
-  text-decoration: none;
-	color: rgb(250,250,250,0.7);
-	transition: 0.5s;
-}
-
-.btn-submit:hover{
-	color: white;
-}

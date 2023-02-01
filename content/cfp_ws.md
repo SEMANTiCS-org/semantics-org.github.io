@@ -74,7 +74,7 @@ We especially invite contributions that illustrate the applicability of the topi
 In case you have additional questions concerning the submission process, please do not hesitate to contact us via Easychair.
 
 <br />
-<a href="https://easychair.org/conferences/?conf=sem23" class="btn-submit">Submit now</a>
+<a href="https://easychair.org/conferences/?conf=sem23" type="button" class="btn btn-primary">Submit now</a>
 <br />
 <br />
   
