@@ -30,6 +30,10 @@ table, tr, td, th {
 th{
   background: lightgray;
 }
+td, th{
+  word-wrap: break-word;
+  max-width: 300px;
+}
 
 .sponsor-tab{
   font-size: 10pt;
