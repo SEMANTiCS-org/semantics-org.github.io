@@ -118,7 +118,7 @@ SLIDES</td>
       <tr class="row11">
         <td class="td-blue">SOCIAL<br />
 MEDIA</td>
-        <td class="td-blue">Tweets (about you as a sponsor) advertising your webpage by SEMANTiCS 2022 between March 2022 and the conference days</td>
+        <td class="td-blue">Tweets (about you as a sponsor) advertising your webpage by SEMANTiCS 2023 between March 2023 and the conference days</td>
         <td class="td-orange">2</td>
         <td class="td-orange">2</td>
         <td class="td-orange">2</td>
@@ -185,7 +185,7 @@ MEDIA</td>
 
 <div style="text-align: center;">
 
-### GET IN TOUCH WITH THE SPONSORING TEAM REGARDING REQUESTS, QUESTIONS AND BOOKING: 
+### GET IN TOUCH WITH THE SPONSORING TEAM REGARDING REQUESTS, QUESTIONS AND BOOKING:
 <a href="mailto:sponsoring@semantics.cc" style="font-size: 1.4em" type="button" class="btn btn-primary">sponsoring@semantics.cc</a>
 
 </div>
