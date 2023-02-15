@@ -48,7 +48,7 @@ Application of Semantically Enriched and AI-Based Approaches:
 ## Author Guidelines and Submission
 * The Research and Innovation Track welcomes long and short papers. Long papers should have 12-15 pages of content (excluding references) and short papers of a maximum length of 6 pages of content (excluding references). Since references are excluded from page counting, it is fine to have one or more additional pages for references if they are relevant to the study submitted.  
 * Submissions should follow the guidelines of IOS Press. Details are available at https://www.iospress.com/book-article-instructions.
-* Abstract submission for all papers is a strict requirement. To facilitate bidding, we strongly suggest the authors submit structured abstracts.
+* Abstract submission for all papers is a strict requirement. To facilitate bidding, we strongly suggest the authors submit structured abstracts (instructions on how to prepare a structured abstract are [available in the conference website](cfp_abstract)).
 * All papers and abstracts have to be submitted electronically via EasyChair (https://easychair.org/conferences/?conf=sem23).
 * Submissions must be in English.
 * Submissions must be anonymous; the reviewing process is double-blind, but reviewers will be able to disclose their identities if they wish, by signing their reviews.
@@ -71,6 +71,8 @@ Papers submitted to this track will be evaluated according to the following crit
 * Proper comparison to related work
 * Clarity and quality of writing
 * Reproducibility of results and resources
+
+Additional information about the reviewing process and guidelines to follow for fostering the reproducibility of results and resources are [available in the conference website](https://2023-eu.semantics.cc/page/cfp_guidelines).
 
 <br />
 <a href="https://easychair.org/conferences/?conf=sem23" type="button" class="btn btn-primary">Submit now</a>
