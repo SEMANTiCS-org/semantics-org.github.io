@@ -1,9 +1,9 @@
 # DBpedia Day
-SEMANTiCS 2023 will host the **DBpedia Day** in Leipzig, Germany.  
+SEMANTiCS 2023 will host the **DBpedia Day** on September 20, 2023 in Leipzig, Germany.  
 
 ## Community Meeting
 [DBpedia](https://www.dbpedia.org/) is an international crowd-sourced community effort to extract structured information from Wikipedia, Wikidata and Wikimedia Commons and to make this information available on the Web as Linked Open Data.  
- 
+
 DBpedia provides tools that allow you to create, maintain, improve, integrate and use KGs to build applications, e.g. BBC has created the World Cup 2010 website by interconnecting textual content and facts from their knowledge base. Data provided by DBpedia was greatly involved in creating this knowledge graph.  
 
 DBpedia has become a high-impact, high-visibility project because of our foundation in excellent Knowledge Engineering as the pivot point between scientific methods, innovation and industrial-grade output. The drivers behind DBpedia are 4 out of the [TOP 10 Most Influential Scholars](https://www.aminer.org/ai2000/ke) in Knowledge Engineering and the C-level executives of our members.
@@ -21,7 +21,7 @@ By following the 62 million links published alongside the 6.5 million identifier
 2. We will introduce the Linkmaster 3000 (the new Open Online Link Curation Platform), the Global LD API, the Databus and the Global LD Browser to gather feedback.
 
 ## Highlights include
-* Keynote presentations 
+* Keynote presentations
 * DBpedia Databus presentation
 * DBpedia member presentation
 * DBpedia Community session
