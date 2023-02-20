@@ -74,6 +74,8 @@ For the conference, 8 different rooms with state-of-the-art conference technolog
     <!--<td></td>-->
   </tr>
 </table>
+<br>
+We have secured contingents in a few hotels in Leipzig. After you have purchased your Semantics ticket, you will automatically receive an email from the registration system ConfTool containing this list.
 
 ### Low-price accommodation
 
@@ -94,7 +96,7 @@ For the conference, 8 different rooms with state-of-the-art conference technolog
     <td><a href="https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=8000&merchantid=seo-maps-DE-8000&sourceid=aw-cen&utm_medium=seo+maps&utm_source=google+Maps&utm_campaign=seo+maps&y_source=1_MTUzNjMwMDQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D">Ibis Budget</a></td>
     <td>Reichsstraße 19<br>04109 Leipzig<br><br>phone: +49 (0) 341 14939420<br><a href="mailto:H8000@accor.com">H8000@accor.com</a></td>
   </tr>
-</table>
+</table>  
 
 ## Travel and Lodging
 ***Originally founded at the crossing of Via Regia and Via Imperii, Leipzig has been a major interchange of inter-European traffic and commerce since medieval times. After the Reunification of Germany, immense efforts to restore and expand the traffic network have been undertaken and left the city area with an excellent infrastructure.***
