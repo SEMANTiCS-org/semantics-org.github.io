@@ -17,61 +17,61 @@ For the conference, 8 different rooms with state-of-the-art conference technolog
   <tr>
     <th>Hotel</th>
     <th>Address</th>
-    <th>Get a reduced rate until</th>
+    <!--<th>Get a reduced rate until</th>-->
   </tr>
 
   <tr>
     <td><a href="https://www.h-hotels.com/en/hyperion/hotels/hyperion-hotel-leipzig">HYPERION Hotel Leipzig</a></td>
     <td>Sachsenseite 7<br>04103 Leipzig<br><br>phone: +49 (0)341 550020<br><a href="mailto:hyperion.leipzig@h-hotels.com">hyperion.leipzig@h-hotels.com</a></td>
-    <td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org">semantics@infai.org</a></td>
+    <!--<td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org">semantics@infai.org</a></td>-->
   </tr>
 
   <tr>
     <td><a href="https://www.h-hotels.com/en/h2/hotels/h2-hotel-leipzig/location">H2 Hotel Leipzig</a></td>
     <td>Sachsenseite 5<br>04103 Leipzig<br><br>+49 (0)341 442400<br><a href="mailto:H2.Leipzig@h-hotels.com">H2.Leipzig@h-hotels.com</td>
-    <td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org ">semantics@infai.org</a></td>
+    <!--<td>10.09.2023<br>Please write an email to <a href="mailto:semantics@infai.org ">semantics@infai.org</a></td>-->
   </tr>
 
   <tr>
     <td><a href="https://www.motel-one.com/de/hotels/leipzig/hotel-leipzig-augustusplatz/">Motel One Leipzig-Augustusplatz</a></td>
     <td>Ritterstrasse 4<br>04109 Leipzig<br><br>phone: +49 (0)341 2527980<br><a href="mailto:leipzig-augustusplatz@motel-one.com">leipzig-augustusplatz@motel-one.com</a></td>
-    <td>Reservations can be made only by phone, mentioning the booking number 543.226.953.<br>79,00 € per night</td>
+    <!--<td>Reservations can be made only by phone, mentioning the booking number 543.226.953.<br>79,00 € per night</td>-->
   </tr>
 
   <tr>
     <td><a href="https://www.motel-one.com/de/hotels/leipzig/hotel-leipzig-post/">Motel One Leipzig-Post</a></td>
     <td>Grimmaischer Steinweg 1<br>04103 Leipzig<br><br>phone: +49 (0)341 9621050<br><a href="mailto:leipzig-post@motel-one.com">leipzig-post@motel-one.com</a></td>
-    <td>Reservations can be made only by phone, mentioning the booking number 554.122.645.<br>79,00 € per night</td>
+    <!--<td>Reservations can be made only by phone, mentioning the booking number 554.122.645.<br>79,00 € per night</td>-->
   </tr>
 
   <tr>
     <td><a href="https://www.hotel-travel24.com/">Travel24 Hotel</a></td>
     <td>Tröndlinring 9<br>04105 Leipzig<br><br>phone: +49 (0) 341 3317 3850<br><a href="mailto:reservierung@hotel-travel24.com">reservierung@hotel-travel24.com</a></td>
-    <td>06.09.2023<br><a href="../content/booking-form_Semantics_Travel24.pdf">booking form</a></td>
+    <!--<td>06.09.2023<br><a href="../content/booking-form_Semantics_Travel24.pdf">booking form</a></td>-->
   </tr>
 
   <tr>
     <td><a href="http://www.royal-leipzig.de/">Royal International</a></td>
     <td>Richard-Wagner-Straße 10<br>04109 Leipzig<br><br>phone: +49 (0) 3412310060<br><a href="mailto:kontakt@royal-leipzig.de">kontakt@royal-leipzig.de</a></td>
-    <td>28.07.2023 until 6 pm<br>booking number: 202211904<br>139,00 € per night</td>
+    <!--<td>28.07.2023 until 6 pm<br>booking number: 202211904<br>139,00 € per night</td>-->
   </tr>
 
   <tr>
     <td><a href="https://www.leipziger-hof.de/">Galerie Hotel Leipziger Hof</a></td>
     <td>Hedwigstraße 1-3<br>04315 Leipzig<br><br>phone: +49 (0) 341/6974-0<br><a href="mailto:info@leipziger-hof.de">info@leipziger-hof.de</a></td>
-    <td>09.08.2023<br>“Semantics2023”<br>67,00 € - 90,00 € per night</td>
+    <!--<td>09.08.2023<br>“Semantics2023”<br>67,00 € - 90,00 € per night</td>-->
   </tr>
 
   <tr>
     <td><a href="https://www.premierinn.com/gb/en/home.html">Leipzig City Hahnekamm Hotel</a></td>
     <td>Brandenburger Strasse 2B<br>04103 Leipzig<br><br>phone: +49 (0) 341 33979939</td>
-    <td></td>
+    <!--<td></td>-->
   </tr>
 
   <tr>
     <td><a href="https://www.hotel-bb.com/de/hotel/leipzig-city">B&B Hotel Leipzig-City</a></td>
     <td>Nikolaistraße 34<br>04109 Leipzig<br><br>phone:+49 (0) 341 215800<br><a href="mailto:leipzig-city@hotelbb.com">leipzig-city@hotelbb.com</a></td>
-    <td></td>
+    <!--<td></td>-->
   </tr>
 </table>
 
