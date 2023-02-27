@@ -219,7 +219,7 @@ function populate_keyspeakers(fcsv, page, container) {
 }
 
 function populate_quotes_container(fcsv, page, container, baseurl) {
-  
+
   $.ajax({
       url : fcsv,
       dataType: "text",
@@ -235,24 +235,24 @@ function populate_quotes_container(fcsv, page, container, baseurl) {
                   </div>
               </div>
         `;
-        
+
         all_html_elems = "";
         all_html_ol = "";
-        count_slide = 0; 
+        count_slide = 0;
         is_active = "active";
         json_data.forEach(function(entry) {
           var name = entry["person"].trim();
           var affiliation = entry["affiliation"];
           var quote = entry["quote"];
-          
+
           var image = "../img/person/"+entry["img"].trim();
           if (page == "index") {
             image = baseurl+"img/person/"+entry["img"].trim();
           }
-          
+
           var html_img = '<img typeof="foaf:Image" src="'+image+'" class="image-profile" alt="">';
           var person_body = html_img+'<div class="person-name">'+name+'</div>'+'<div class="person-info">'+affiliation+'</div>';
-          
+
           all_html_elems += `
               <div class="carousel-item `+is_active+`">
                 <div class="row">
@@ -264,7 +264,7 @@ function populate_quotes_container(fcsv, page, container, baseurl) {
           count_slide += 1;
           is_active = "";
         });
-        
+
         body_html = body_html.replace('__INDICATORS__', all_html_ol);
         body_html = body_html.replace('__SLIDES__', all_html_elems);
         $("#"+container).append(body_html);
@@ -273,7 +273,7 @@ function populate_quotes_container(fcsv, page, container, baseurl) {
 }
 
 
-function populate_news_container(fcsv, page, container, baseurl) {  
+function populate_news_container(fcsv, page, container, baseurl) {
   $.ajax({
       url : fcsv,
       dataType: "text",
@@ -292,27 +292,27 @@ function populate_news_container(fcsv, page, container, baseurl) {
             if (page == "index") {
               image = baseurl+"img/news/"+entry["img"].trim();
             }
-            
+
             var html_img = '<div class="container-img-news"><img typeof="foaf:Image" src="'+image+'" class="news-img" alt=""></div>';
             all_html_elems += `<div class="col-lg-3 mx-auto text-justify news-box">`
-                    + html_img 
+                    + html_img
                     + `<h5>`+title + `</h5>`
                     + `<div class="news-abs">`
                     + text
                     + `</div>`
-                    + `<div class="news-link text-right"><a href="`+baseurl+"page/news.html?page="+page_name+`">READ MORE</a></div>`
+                    + `<div class="news-link text-right"><a href="`+baseurl+"page/news?page="+page_name+`">READ MORE</a></div>`
                     + `</div>`;
           }
-          count_news += 1; 
+          count_news += 1;
         });
-        
+
         body_html = body_html.replace('__NEWS__', all_html_elems);
         $("#"+container).append(body_html);
       }
     });
 }
 
-function populate_news_list_container(fcsv, page, container, baseurl) {  
+function populate_news_list_container(fcsv, page, container, baseurl) {
   $.ajax({
       url : fcsv,
       dataType: "text",
@@ -336,20 +336,20 @@ function populate_news_list_container(fcsv, page, container, baseurl) {
               all_html_elems += `</div></div>`
                 +`<div class="card-header" id="heading_`+g_date_id+`"><button class="btn" data-toggle="collapse" data-target="#collapse_`+g_date_id+`" aria-expanded="true" aria-controls="collapse_`+g_date_id+`">`
                 + g_date
-                + `</button></div>` 
+                + `</button></div>`
                 + `<div id="collapse_`+g_date_id+`" class="collapse show" aria-labelledby="heading_`+g_date_id+`" data-parent="#allnews">`
                 + `<div class="card-body">`;
               prev_date_group = g_date
-          } 
-          
+          }
+
           all_html_elems += `<div class="row">
-                              <a href="`+baseurl+"page/news.html?page="+page_name+`"> >> `+title+`</a>
+                              <a href="`+baseurl+"page/news?page="+page_name+`"> >> `+title+`</a>
                             </div>`;
         });
-                        
+
         all_html_elems += `</div></div>`
                             +`<div class="card-header" id="heading_news_2022"><a href="https://2022-eu.semantics.cc/interviews-and-news">Check past news (from SEMANTiCS 2022)</a></div>`;
-                            
+
         body_html = all_html_elems + `</div></div>`;
         body_html = `<div id="allnews"><div class="card">`+body_html+`</div></div>`;
         $("#"+container).append(body_html);

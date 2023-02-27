@@ -98,7 +98,7 @@ We have secured contingents in a few hotels in Leipzig. After you have purchased
   </tr>
 </table>  
 
-## Travel and Lodging
+## Travel
 ***Originally founded at the crossing of Via Regia and Via Imperii, Leipzig has been a major interchange of inter-European traffic and commerce since medieval times. After the Reunification of Germany, immense efforts to restore and expand the traffic network have been undertaken and left the city area with an excellent infrastructure.***
 
 <div class="venue-sec-title"><img style="vertical-align:middle" src="../img/icons/airplane-fill.svg" width="30" height="30"></span><span> Fly in by plane</span></div>  
