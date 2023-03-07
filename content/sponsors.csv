@@ -1,0 +1,4 @@
+type,url,img,name,img_ratio
+gold,https://semantic-web.com/,swc.png,Semantic Web Company,64/16
+gold,https://pantopix.com,pantopix.png,Pantopix,64/16
+silver,https://the-qa-company.com/,qa.png,The QA Company,28/28

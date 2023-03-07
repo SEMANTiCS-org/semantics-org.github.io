@@ -176,6 +176,67 @@ function populate_logo_list(fcsv, page, container) {
     });
 }
 
+function populate_sponsors_list(fcsv, page, container) {
+    $.ajax({
+        url : fcsv,
+        dataType: "text",
+        success : function (fdata) {
+          var json_data = $.csv.toObjects(fdata);
+          var MAX_ELEMS = 3;
+          var col_size = 12/MAX_ELEMS;
+
+          var sponsor_type_list = ["gold","silver","bronze"]
+          for (var i = 0; i < sponsor_type_list.length; i++) {
+
+            var count = 0;
+            var count_by_type = 0;
+            var group_html = "";
+            sponsor_type = sponsor_type_list[i];
+
+            //add sponsor header
+            $("#"+container+" #s_"+sponsor_type).append('<div class="row section-content sponsor-header justify-content-center"><img width="80px" height="80px" typeof="foaf:Image" src="img/icons/'+sponsor_type+'.svg"></div>');
+
+            json_data.forEach(function(entry) {
+                if (entry["type"].trim() == sponsor_type) {
+
+                    var name = entry["name"].trim();
+                    var img_ratio = entry["img_ratio"].trim().split("/");
+                    var img = "img/sponsors/"+entry["img"].trim();
+
+                    let img_size = 3;
+                    var img_width = parseInt(img_ratio[0]) * img_size;
+                    var img_height = parseInt(img_ratio[1]) * img_size;
+                    var html_img = '<img typeof="foaf:Image" src="'+img+'" width="'+img_width.toString()+'" height="'+img_height.toString()+'" alt="">'
+
+                    var url = entry["url"].trim();
+                    var html_url = "<a href='"+url+"' target='_blank'>"+html_img+"</a>";
+
+                    var str_html = '<div class="sponsor col-sm-'+col_size.toString()+'">'+html_url+"</div>";
+                    count = count + 1;
+                    count_by_type = count_by_type + 1;
+                    group_html = group_html + str_html;
+
+                    if (count == MAX_ELEMS) {
+                      $("#"+container+" #s_"+sponsor_type).append('<div class="row section-content sponsors justify-content-center">'+group_html+'</div>');
+                      group_html = "";
+                      count = 0;
+                    }
+                }
+            });
+            if (group_html != "") {
+              $("#"+container+" #s_"+sponsor_type).append('<div class="row section-content sponsors d-flex justify-content-center">'+group_html+'</div>');
+            }
+            if (count_by_type == 0) {
+              $("#"+container+" #s_"+sponsor_type).remove();
+            }
+
+          }
+
+
+        }
+    });
+}
+
 function populate_keyspeakers(fcsv, page, container) {
     $.ajax({
         url : fcsv,
@@ -372,6 +433,10 @@ function build_organizers_list(conf){
 
 function build_partners_list(conf){
   populate_logo_list(conf["baseurl"]+"content/partners.csv", "index","partners_list");
+}
+
+function build_sponsors_list(conf){
+  populate_sponsors_list(conf["baseurl"]+"content/sponsors.csv", "index","sponsors_list");
 }
 
 function build_kp(conf){
