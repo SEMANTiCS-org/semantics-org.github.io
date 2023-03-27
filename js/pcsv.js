@@ -185,7 +185,7 @@ function populate_sponsors_list(fcsv, page, container) {
           var MAX_ELEMS = 3;
           var col_size = 12/MAX_ELEMS;
 
-          var sponsor_type_list = ["gold","silver","bronze"]
+          var sponsor_type_list = ["gold","silver","bronze","startup"]
           for (var i = 0; i < sponsor_type_list.length; i++) {
 
             var count = 0;
@@ -206,12 +206,14 @@ function populate_sponsors_list(fcsv, page, container) {
                     let img_size = 3;
                     var img_width = parseInt(img_ratio[0]) * img_size;
                     var img_height = parseInt(img_ratio[1]) * img_size;
-                    var html_img = '<img typeof="foaf:Image" src="'+img+'" width="'+img_width.toString()+'" height="'+img_height.toString()+'" alt="">'
+                    // for propotions use:
+                    var html_img = '<img class="sponsor-img" width="'+img_width.toString()+'" height="'+img_height.toString()+'" typeof="foaf:Image" src="'+img+'" alt="">'
+                    //var html_img = '<img class="sponsor-img" typeof="foaf:Image" src="'+img+'" alt="">'
 
                     var url = entry["url"].trim();
                     var html_url = "<a href='"+url+"' target='_blank'>"+html_img+"</a>";
 
-                    var str_html = '<div class="sponsor col-sm-'+col_size.toString()+'">'+html_url+"</div>";
+                    var str_html = '<div class="sponsor align-self-center col-'+col_size.toString()+'">'+html_url+"</div>";
                     count = count + 1;
                     count_by_type = count_by_type + 1;
                     group_html = group_html + str_html;
@@ -224,7 +226,11 @@ function populate_sponsors_list(fcsv, page, container) {
                 }
             });
             if (group_html != "") {
-              $("#"+container+" #s_"+sponsor_type).append('<div class="row section-content sponsors d-flex justify-content-center">'+group_html+'</div>');
+              while (MAX_ELEMS - count > 0) {
+                //group_html += '<div class="sponsor col-'+col_size.toString()+'"></div>';
+                count += 1;
+              }
+              $("#"+container+" #s_"+sponsor_type).append('<div class="row section-content sponsors justify-content-center">'+group_html+'</div>');
             }
             if (count_by_type == 0) {
               $("#"+container+" #s_"+sponsor_type).remove();

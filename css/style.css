@@ -145,13 +145,22 @@ header .logo img{
 	padding: 5px;
 }
 .sponsors .sponsor {
-    text-align: center;
+    /*text-align: center;
     margin: 0 auto;
-    padding: 5px;
+    padding: 5px;*/
 }
 .sponsor-header {
 	padding: 10px;
 	border-bottom: solid 2px var(--main-bg-color);
+}
+.sponsor-img{
+  /*max-width: 150px;
+  max-height:80px;
+  width: auto;
+  height: auto;*/
+}
+.col-4{
+	max-width: none!important;
 }
 .kss .ks{
 	text-align: center;
