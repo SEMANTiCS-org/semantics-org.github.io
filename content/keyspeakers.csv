@@ -1,4 +1,2 @@
-name,affiliation,image,presentation,link
-First Key-speaker,Affiliation of the first key-speaker,kp.png,Title of KP1 presentation,
-Second Key-speaker,Affiliation of the second key-speaker,kp.png,Title of KP2 presentation,
-Third Key-speaker,Affiliation of the third key-speaker,kp.png,Title of KP3 presentation,
+name,affiliation,image,presentation,page_name
+XIN LUNA DONG,Head Scientist at Meta Reality Lab,dong.jpg,Generations of Knowledge Graphs: The Crazy Ideas and The Business,dong-01

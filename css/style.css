@@ -176,6 +176,9 @@ header .logo img{
 	color: gray;
 	font-size: 0.9em;
 }
+.person-talk{
+	font-size: 0.9em;
+}
 .person-role{
 	color: var(--nav-bg-color-semantics-orange);
 	font-size: 0.8em;
@@ -221,8 +224,12 @@ header .logo img{
 
 .image-profile {
 	text-align: center!important;
-	height: 115px;
-	width: 115px;
+	height: auto;
+	width: auto;
+	max-height: 150px;
+	min-height: 50px;
+	max-width: 150px;
+	min-width: 50px;
 	border-radius: 50%;
 }
 #quotes .image-profile{

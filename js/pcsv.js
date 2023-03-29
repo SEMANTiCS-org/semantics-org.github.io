@@ -243,7 +243,7 @@ function populate_sponsors_list(fcsv, page, container) {
     });
 }
 
-function populate_keyspeakers(fcsv, page, container) {
+function populate_keyspeakers(fcsv, page, container, baseurl) {
     $.ajax({
         url : fcsv,
         dataType: "text",
@@ -259,13 +259,13 @@ function populate_keyspeakers(fcsv, page, container) {
               var name = entry["name"].trim();
               var affiliation = entry["affiliation"].trim();
               var presentation = entry["presentation"].trim();
-              var link = entry["link"].trim();
+              var page_name = entry["page_name"].trim();
               var img = entry["image"].trim();
               let img_size = "60"
 
-              var html_img = '<img typeof="foaf:Image" src="img/person/'+img+'" width="'+img_size+'px" height="'+img_size+'px" alt="">'
-              var html_presentation = "<a href='"+link+"' target='_blank'>"+presentation+"</a>";
-              var html_body = html_img+'<div>'+name+'</div>'+'<div>'+affiliation+'</div>'+html_presentation;
+              var html_img = '<img typeof="foaf:Image" src="img/person/'+img+'" class="image-profile" alt="">'
+              var html_presentation = "<a href='"+baseurl+"page/speakers?page="+page_name+"' class='person-talk'>"+presentation+"</a>";
+              var html_body = html_img+'<div class="person-name">'+name+'</div>'+'<div class="person-info">'+affiliation+'</div>'+html_presentation;
 
               var str_html = '<div class="ks col-sm-4">'+html_body+"</div>";
               group_html = group_html + str_html;
@@ -424,6 +424,34 @@ function populate_news_list_container(fcsv, page, container, baseurl) {
     });
 }
 
+function populate_ks_att(fcsv, page, container, baseurl) {
+  const current_page = urlParams.get('page');
+  $.ajax({
+      url : fcsv,
+      dataType: "text",
+      success : function (fdata) {
+        var json_data = $.csv.toObjects(fdata);
+        var body_html = ``;
+        var all_html_elems = `<div class='row'><div style="padding:5px;" class="col-lg-12 mx-auto text-center"><h2>ALL Available material for this talk</h2></div></div><div><div>`;
+        var prev_date_group = "";
+        json_data.forEach(function(entry) {
+          var page_name = entry["page_name"];
+          if (current_page == page_name) {
+            console.log(entry);
+          }
+
+          all_html_elems += `<div class="row"><a href="`+baseurl+"page/kp?page="+page_name+`"> >> `+title+`</a></div>`;
+        });
+
+        all_html_elems += `</div></div>`;
+
+        body_html = all_html_elems + `</div></div>`;
+        body_html = `<div id="allnews"><div class="card">`+body_html+`</div></div>`;
+        $("#"+container).append(body_html);
+      }
+    });
+}
+
 
 function build_pc(conf){
   get_pc_csv(conf["baseurl"]+"content/pc.csv", "pc");
@@ -445,8 +473,11 @@ function build_sponsors_list(conf){
   populate_sponsors_list(conf["baseurl"]+"content/sponsors.csv", "index","sponsors_list");
 }
 
-function build_kp(conf){
-  populate_keyspeakers(conf["baseurl"]+"content/keyspeakers.csv", "index", "keynote_list");
+function build_ks(conf){
+  populate_keyspeakers(conf["baseurl"]+"content/keyspeakers.csv", "index", "keynote_list", conf["baseurl"]);
+}
+function build_ks_att(conf){
+  populate_ks_att(conf["baseurl"]+"content/keyspeakers.csv", "keyspeakers","ks_att", conf["baseurl"]);
 }
 
 function build_quotes(conf){
