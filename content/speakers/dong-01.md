@@ -3,7 +3,7 @@
 
 Knowledge Graphs (KGs) have been used to support a wide range of applications, from web search to personal assistant. In this talk, we describe three generations of knowledge graphs: entity-based KGs, which have been supporting general search and Q&A (e.g., at Google and Bing); text-rich KGs, which have been supporting search and recommendations for products, bio-informatics, etc.; and the emerging media-rich time-based KGs, which would play a critical role for personal virtual assistants. We explain the characteristics of each generation of KGs, and the crazy ideas behind the scenes in constructing such KGs. In addition, we also use knowledge graphs as examples to demonstrate how we evolve research ideas from innovations to practice, and then to the next level of innovations, to advance both science and production.
 
-## Speakers
+## Speaker
 
 <div class="a-speaker">
 
