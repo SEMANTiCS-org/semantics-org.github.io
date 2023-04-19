@@ -14,11 +14,18 @@ Proceedings of SEMANTiCS 2023 EU will be made available open access. The publish
 
 ## Workshops and Tutorials:
 Important Dates for Workshops:
-* **Proposals  WS Deadline:**	March 07, 2023 (11:59 pm, Hawaii time)
-* **Notification of Acceptance:** March 14, 2023 (11:59 pm, Hawaii time)  
+* **Proposals WS ___extended___ Deadline:**	~~March 07~~ <span style="color:red">March 15</span>, 2023 (11:59 pm, Hawaii time)
+* **Notification of Acceptance:** ~~March 14~~ <span style="color:red">March 22</span>, 2023 (11:59 pm, Hawaii time)  
 
 Important Dates for Tutorials (and other meetings, e.g. seminars, show-cases, etc., without call for papers):  
 * **Proposals  Tutorial Deadline:** June 06, 2023 (11:59 pm, Hawaii time)
 * **Notification of Acceptance:** June 20, 2023 (11:59 pm, Hawaii time)  
 
-**Submission via Easychair on https://easychair.org/conferences/?conf=sem23** 
+**Submission via Easychair on https://easychair.org/conferences/?conf=sem23**  
+
+## Industry & Use Case Presentations
+* **Submission Deadline**: May 30, 2023 (11:59 pm, Hawaii time)
+* **Notification of Acceptance**: June 20, 2023 (11:59 pm, Hawaii time)
+* **Presentation Ready**: August 15, 2023 (11:59 pm, Hawaii time)
+
+**Submission via Easychair on https://easychair.org/conferences/?conf=sem23** Please notice that a paper abstract is not necessary, as your submission will only include a presentation at SEMANTiCS and not a paper. Please do supply a description of the case you want to present, in particular: initial situation, approach, business value and benefits of the semantic solution, prospects and recommendation.

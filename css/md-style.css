@@ -35,27 +35,6 @@ td, th{
   max-width: 300px;
 }
 
-.sponsor-tab{
-  font-size: 10pt;
-}
-.sponsor-tab .th-gold{
-  background: rgb(255,241,204);
-  font-size: 11pt;
-  font-weight: 700;
-}
-
-.sponsor-tab .td-blue{
-  background: rgb(208,225,243);
-}
-
-.sponsor-tab .td-orange{
-  background: rgb(250,203,156);
-  font-weight: 800;
-}
-.sponsor-tab .td-gray{
-  background: rgb(216,216,216);
-}
-
 .align-middle{
   margin: 0 auto;
 }

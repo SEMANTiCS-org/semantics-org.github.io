@@ -1,0 +1,36 @@
+table, tr, td{
+  border: 2px solid #fff;
+  border-collapse: collapse ;
+  padding: 15px;
+  font-size: 10pt;
+}
+
+table, tr, td, th {
+  text-align: center;
+}
+
+th{
+  background: lightgray;
+}
+td, th{
+  word-wrap: break-word;
+  max-width: 300px;
+}
+
+.th-gold{
+  background: rgb(255,241,204);
+  font-size: 11pt;
+  font-weight: 700;
+}
+
+.td-blue{
+  background: rgb(208,225,243);
+}
+
+.td-orange{
+  background: rgb(250,203,156);
+  font-weight: 800;
+}
+.td-gray{
+  background: rgb(216,216,216,0.2);
+}
