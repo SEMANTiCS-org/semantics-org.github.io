@@ -1,6 +1,7 @@
 type,url,img,name,img_ratio
 gold,https://semantic-web.com/,pp.svg,Semantic Web Company,64/16
 gold,https://pantopix.com,pantopix.png,Pantopix,64/16
+gold,https://www.topquadrant.com/,topquadrant.png,TopQuadrant,68/28
 silver,https://the-qa-company.com/,qa.png,The QA Company,28/28
 silver,https://www.ontotext.com/,ontotext.png,Ontotext,70/16
 bronze,https://www.rws.com/,rws.png,RWS,48/12
