@@ -1,7 +1,7 @@
 # Registration
 Join us from September 20 - 22, 2023 in Leipzig for the leading European conference on Linked Data, Semantic AI and Data Science. We have an inspiring program for industry professionals, decision-makers, researchers and academics. Share experiences, ideas and learn from each other. Cross the boundaries of your domain or dive deeper into your field of expertise.  
 
-Do not miss our earlybird registration deadline: August 5, 2023.  
+**Do not miss our earlybird registration deadline: August 5, 2023.**  
 
 
 <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sponsor-tab">
@@ -35,17 +35,17 @@ Do not miss our earlybird registration deadline: August 5, 2023.
       </tr>
       <tr class="row3 tr-alt">
         <td class="">Early Bird ticket (until August 5)</td>
-        <td class="">€ 163</td>
-        <td class="td-mid-ontop">€ 496</td>
-        <td class="">€ 54</td>
-        <td class="">€ 179</td>
+        <td class="">€ 150</td>
+        <td class="td-mid-ontop">€ 495</td>
+        <td class="">€ 50</td>
+        <td class="">€ 175</td>
       </tr>
       <tr class="row4">
         <td class="">Regular price (from August 6)</td>
-        <td class="td-important-val">€ 195</td>
+        <td class="td-important-val">€ 180</td>
         <td class="td-mid-ontop td-important-val">€ 595</td>
-        <td class="td-important-val">€ 65</td>
-        <td class="td-important-val">€ 215</td>
+        <td class="td-important-val">€ 60</td>
+        <td class="td-important-val">€ 210</td>
       </tr>
       <tr class="row5 tr-alt">
         <td class="">Exhibition</td>
@@ -91,10 +91,10 @@ Do not miss our earlybird registration deadline: August 5, 2023.
       </tr>
       <tr class="row11 tr-summary">
         <td class="">&nbsp;</td>
-        <td class=""><a href="" type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class="td-last-ontop"><a href="" type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class=""><a href="" type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class=""><a href="" type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class=""><a href="https://www.conftool.org/semantics2023/index.php?page=login" type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class="td-last-ontop"><a href="https://www.conftool.org/semantics2023/index.php?page=login" type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class=""><a href="https://www.conftool.org/semantics2023/index.php?page=login" type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class=""><a href="https://www.conftool.org/semantics2023/index.php?page=login" type="button" class="btn btn-primary">BOOK NOW</a></td>
       </tr>
     </tbody>
 </table>
