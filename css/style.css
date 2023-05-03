@@ -368,6 +368,9 @@ header {
 		text-align: center!important;
 		max-width: 80% !important;
 	}
+	#logo_semantics{
+		max-width: 100% ;
+	}
 	.title {
 		text-align: center!important;
 	}
