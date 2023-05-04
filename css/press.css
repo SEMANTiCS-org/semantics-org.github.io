@@ -1,0 +1,7 @@
+table img {
+  max-width: 100%!important;
+  height: auto;
+}
+table, tbody, tr, td{
+  border: none !important;
+}
