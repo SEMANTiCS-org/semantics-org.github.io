@@ -5,3 +5,8 @@ table img {
 table, tbody, tr, td{
   border: none !important;
 }
+
+#featured_in img{
+  max-width: 70%!important;
+  height: auto;
+}

@@ -4,7 +4,7 @@
 If you are interested to cover the conference or conduct interviews with the speakers, please reach out to our PR team.
 Approach us for media accreditation!
 
-## Press pictures
+### Press pictures
 
 <table>
 <col class="col0">
@@ -28,10 +28,28 @@ Approach us for media accreditation!
     </tr>
 </tbody>
 </table>
+<br>
 
 
+### SEMANTiCS is featured in
 
+<table id="featured_in">
+<col class="col0">
+<col class="col1">
+<col class="col2">
+<col class="col3">
+<tbody>
+    <tr>
+      <td><img src="../img/press/logo_zdnet.png"></td>
+      <td><img src="../img/press/logo_tedx.png"></td>
+      <td><img src="../img/press/logo_bigdata_insider.png"></td>
+      <td><img src="../img/press/logo_die_presse.png"></td>
+      <td><img src="../img/press/logo_futurezone.jpeg"></td>
+    </tr>
+</tbody>
+</table>
 
+<br>
 <div class="row">
 
   <div class="col-5">
