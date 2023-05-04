@@ -49,9 +49,9 @@ Join us from September 20 - 22, 2023 in Leipzig for the leading European confere
       </tr>
       <tr class="row5 tr-alt">
         <td class="">Exhibition</td>
-        <td class=""><div class="i-circle i-check"></div></td>
+        <td class=""><div class="i-circle i-close"></div></td>
         <td class="td-mid-ontop"><div class="i-circle i-check"></div></td>
-        <td class=""><div class="i-circle i-check"></div></td>
+        <td class=""><div class="i-circle i-close"></div></td>
         <td class=""><div class="i-circle i-check"></div></td>
       </tr>
       <tr class="row6">
