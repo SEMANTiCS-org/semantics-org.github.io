@@ -1,8 +1,8 @@
 # Important Dates
 
 ## Call for Research & Innovation Papers  
-* **Abstract Submission Deadline**: May 09, 2023 (11:59 pm, Hawaii time)
-* **Paper Submission Deadline**: May 16, 2023 (11:59 pm, Hawaii time)
+* **Abstract Submission ___extended___ Deadline**: ~~May 09~~ <span style="color:red">May 23</span>, 2023 (11:59 pm, Hawaii time)
+* **Paper Submission ___extended___ Deadline**: ~~May 16~~ <span style="color:red">May 30</span>, 2023 (11:59 pm, Hawaii time)
 * **Notification of Acceptance**: June 20, 2023 (11:59 pm, Hawaii time)
 * **Camera-Ready Paper Deadline**: July 04, 2023 (11:59 pm, Hawaii time)
 

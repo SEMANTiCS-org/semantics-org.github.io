@@ -2,8 +2,8 @@
 The Research and Innovation track at SEMANTiCS 2023 EU welcomes papers on novel scientific research and/or innovations relevant to the topics of the conference. Submissions must be original and must not have been submitted for publication elsewhere. Papers must follow the guidelines given in the author instructions, including references and optional appendices. Each submission will be reviewed by several PC members who will assess it based on its innovativeness, technical merits, and effectiveness at solving real problems.
 
 ## Important dates
-* **Abstract Submission Deadline**: May 09, 2023 (11:59 pm, Hawaii time)
-* **Paper Submission Deadline**: May 16, 2023 (11:59 pm, Hawaii time)
+* **Abstract Submission ___extended___ Deadline**: ~~May 09~~ <span style="color:red">May 23</span>, 2023 (11:59 pm, Hawaii time)
+* **Paper Submission ___extended___ Deadline**: ~~May 16~~ <span style="color:red">May 30</span>, 2023 (11:59 pm, Hawaii time)
 * **Notification of Acceptance**: June 20, 2023 (11:59 pm, Hawaii time)
 * **Camera-Ready Paper Deadline**: July 04, 2023 (11:59 pm, Hawaii time)  
 
