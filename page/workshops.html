@@ -50,7 +50,7 @@
 				<div class="col-lg-12 mx-auto">
 					<div class="row">
 						<div id="workshops_browser" class="col-lg-9 mx-auto">
-							<zero-md src="">
+							<zero-md src="../content/workshops/index.md">
 								<template> <link href="../css/md-style.css" rel="stylesheet"/> <link href="../css/workshops.css" rel="stylesheet"/></template>
 							</zero-md>
 						</div>
@@ -82,8 +82,10 @@
 		//view workshops page
 		const queryString = window.location.search;
 		const urlParams = new URLSearchParams(queryString);
-		const page = urlParams.get('page');
-		$("#workshops_browser zero-md").attr("src","../content/workshops/"+page+".md");
+		if (urlParams.has('page')) {
+			const page = urlParams.get('page');
+			$("#workshops_browser zero-md").attr("src","../content/workshops/"+page+".md");
+		}
 
 	</script>
 

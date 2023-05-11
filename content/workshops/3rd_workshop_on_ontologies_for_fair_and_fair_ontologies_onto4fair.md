@@ -1,3 +1,6 @@
+##### [Workshops](/page/workshops) / 3rd Workshop on Ontologies for FAIR and FAIR Ontologies (Onto4FAIR)
+<br>
+
 # 3rd Workshop on Ontologies for FAIR and FAIR Ontologies (Onto4FAIR)
 
 #### Organized by:
