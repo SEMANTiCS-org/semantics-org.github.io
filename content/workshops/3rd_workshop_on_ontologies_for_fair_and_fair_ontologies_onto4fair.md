@@ -4,10 +4,19 @@
 # 3rd Workshop on Ontologies for FAIR and FAIR Ontologies (Onto4FAIR)
 
 #### Organized by:
+<div class="authors">
+
 * *Cassia Trojahn (Institut de Recherche en Informatique de Toulouse, France)*  
 * *Luiz Olavo Bonino da Silva Santos (University of Twente, Leiden University Medical Centre, the Netherlands)*
 * *Giancarlo Guizzardi (University of Twente, the Netherlands)*
 * *Clement Jonquet (French National Research Institute for Agriculture, Food and Environment, Mathematics, Informatics and Statistics for Environment and Agronomy research unit, Montpellier, France)*
+
+</div>
+
+## Important dates
+* **Workshop paper submission deadline:** July 03, 2023
+* **Author notification:** August 07, 2023
+* **Camera-ready version:** August 28, 2023
 
 ## Outline
 Making the resources produced by researchers fully reusable and understood requires specific efforts. The Findable, Accessible, Interoperable and Reusable (FAIR) principles were elaborated to address these issues, describing a set of requirements for resource reusability and interoperability. These principles have been gaining increasing attention in a range of different areas and applications. One the one hand, a key aspect is the ability of properly and semantically describing resources, in particular with the help of ontologies. On the other hand, ontologies themselves have to be compliant with the FAIR principles.  
