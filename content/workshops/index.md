@@ -26,7 +26,7 @@ More details at: [https://onto4fair.github.io/2023-semantics.html](https://onto4
 
 ---
 
-## Fifth International Workshop On A Semantic Data Space For Transport (Sem4Tra)
+## 5th International Workshop On A Semantic Data Space For Transport (Sem4Tra)
 
 #### Organized by:
 <div class="authors">
