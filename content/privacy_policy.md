@@ -14,3 +14,10 @@ Like many sites, we use "cookies" to collect information. You can instruct your 
 
 ## Changes To This Privacy Policy
 The SEMANTiCS consortium may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on the Site. You are advised to review this Privacy Policy periodically for any changes.
+
+## Clarification on Large Language Model Policy
+We follow the guidelines from the Program Chairs about the fair use of Large Language Models (LLMs), which can be found in the main call for papers. Papers that include text generated from a large-scale language model (LLM), such as ChatGPT, are prohibited unless the produced text is presented as a part of the paper's experimental analysis. In essence, the policy expects the following:
+
+* The Large Language Model (LLM) policy for SEMANTiCS 2023 prohibits text produced entirely by LLMs (i.e., "generated"). This does not prohibit authors from using LLMs for editing or polishing the author-written text.
+* The LLM policy is largely predicated on the principle of being conservative with respect to guarding against potential issues of using LLMs, including plagiarism.
+* The LLM policy applies to SEMANTiCS 2023. We expect this policy to evolve in future conferences as we better understand LLMs and their impacts on scientific publishing.

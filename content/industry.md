@@ -3,7 +3,7 @@ The Industry & Use Case track at SEMANTiCS welcomes submissions that present use
 
 ## Important dates
 * **Submission Deadline**: May 30, 2023 (11:59 pm, Hawaii time)
-* **Notification of Acceptance**: June 20, 2023 (11:59 pm, Hawaii time)
+* **Notification of Acceptance**: June 28, 2023 (11:59 pm, Hawaii time)
 * **Presentation Ready**: August 15, 2023 (11:59 pm, Hawaii time)  
 
 **Submission via Easychair on https://easychair.org/conferences/?conf=sem23**. Please notice that a paper abstract is not necessary, as your submission will only include a presentation at SEMANTiCS and not a paper. Please do supply a description of the case you want to present, in particular: initial situation, approach, business value and benefits of the semantic solution, prospects and recommendation.
