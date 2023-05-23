@@ -66,6 +66,13 @@ We especially invite contributions that illustrate the applicability of the topi
 
 In case you have additional questions concerning the submission process, please do not hesitate to contact us via Easychair.
 
+## Clarification on Large Language Model Policy  
+In this regard, we as organizers of SEMANTICS 2023, follow the guidelines of the community about the fair use of Large Language Models (LLMs) and borrow the policy from the International Conference on Information and Knowledge Management 2023. The policy is for all tracks of the conference and indicated Papers that include text generated from a large-scale language model (LLM), such as ChatGPT, are prohibited unless the produced text is presented as a part of the paper’s experimental analysis. In essence, the policy expects the following:
+
+* The Large Language Model (LLM) policy for SEMANTICS 2023 prohibits text produced entirely by LLMs (i.e., “generated”). This does not prohibit authors from using LLMs for editing or polishing the author-written text.  
+* The LLM policy is largely predicated on the principle of being conservative with respect to guarding against potential issues of using LLMs, including plagiarism.  
+* The LLM policy applies to SEMANTICS 2023. We expect this policy to evolve in future conferences as we better understand LLMs and their impacts on scientific publishing.
+
 <br />
 <a href="https://easychair.org/conferences/?conf=sem23" type="button" class="btn btn-primary">Submit now</a>
 <br />
