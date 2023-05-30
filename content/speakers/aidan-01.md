@@ -1,6 +1,7 @@
+# Knowledge Graphs in the age of Large Language Models
 ##### Keynote Speech
 
-To be announced ...
+The public release of ChatGPT in November 2022 has led to the widespread popularisation and discussion of Large Language Models. Their fame (or infamy) is in large part due to the fact that not only do they encode a vast volume of information, they can also mimic our human language in unprecedented ways. These models thus call into question a fundamental tenet of Data Management: that in order to address non-trivial information needs, the first step is to explicitly structure data in order to lift them from the ambiguous swamp of our human language. This talk will address a pressing question that arises in this context: do we still need Knowledge Graphs in the age of Large Language Models? We will look at the current capabilities and limitations of Large Language Models, and contrast them with those of Knowledge Graphs. We will cover aspects relating to usability, explainability, provenance, resoluteness, mutability, timeliness, comprehensiveness, utility, expressiveness, cost and truth. Ultimately we will propose that in many ways, Large Language Models and Knowledge Graphs can be considered complementary, with interleaving strengths and weaknesses. More specifically, we will argue that Large Language Models can help bring the power of Knowledge Graphs to the masses, and the power of the masses to Knowledge Graphs.
 
 ## Speaker
 
