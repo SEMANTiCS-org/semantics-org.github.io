@@ -31,7 +31,7 @@ Important Dates for Tutorials (and other meetings, e.g. seminars, show-cases, et
 **Submission via Easychair on https://easychair.org/conferences/?conf=sem23**  
 
 ## Industry & Use Case Presentations
-* **Submission Deadline**: May 30, 2023 (11:59 pm, Hawaii time)
+* **Submission ___extended___ Deadline**: ~~May 30~~ <span style="color:red">June 13</span>, 2023 (11:59 pm, Hawaii time)
 * **Notification of Acceptance**: June 28, 2023 (11:59 pm, Hawaii time)
 * **Presentation Ready**: August 15, 2023 (11:59 pm, Hawaii time)
 
