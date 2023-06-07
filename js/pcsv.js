@@ -182,7 +182,7 @@ function populate_sponsors_list(fcsv, page, container) {
         dataType: "text",
         success : function (fdata) {
           var json_data = $.csv.toObjects(fdata);
-          var MAX_ELEMS = 3;
+          var MAX_ELEMS = 2;
           var col_size = 12/MAX_ELEMS;
 
           var sponsor_type_list = ["gold","silver","bronze","startup"]
