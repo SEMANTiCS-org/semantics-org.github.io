@@ -213,7 +213,7 @@ function populate_sponsors_list(fcsv, page, container) {
                     var url = entry["url"].trim();
                     var html_url = "<a href='"+url+"' target='_blank'>"+html_img+"</a>";
 
-                    var str_html = '<div class="sponsor align-self-center col-'+col_size.toString()+'">'+html_url+"</div>";
+                    var str_html = '<div class="sponsor d-flex align-items-center justify-content-center col-'+col_size.toString()+'">'+html_url+"</div>";
                     count = count + 1;
                     count_by_type = count_by_type + 1;
                     group_html = group_html + str_html;
