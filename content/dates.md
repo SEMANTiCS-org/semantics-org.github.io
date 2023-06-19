@@ -13,7 +13,7 @@ Proceedings of SEMANTiCS 2023 EU will be made available open access. The publish
 <img src="../img/partners_orgs/ios_logo.png" style="max-width:250px" width="60%" height="auto" alt="">
 
 ## Posters and Demos
-* **Paper Submission Deadline**: June 20, 2023 (11:59 pm, Hawaii time)
+* **Paper Submission ___extended___ Deadline**: ~~June 20~~<span style="color:red">July 4</span>, 2023 (11:59 pm, Hawaii time)
 * **Notification of Acceptance**: July 20, 2023 (11:59 pm, Hawaii time)
 * **Camera-Ready Paper Deadline**: August 15, 2023 (11:59 pm, Hawaii time)
 

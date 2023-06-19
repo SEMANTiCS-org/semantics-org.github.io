@@ -3,7 +3,7 @@ The Posters & Demos Track provides a platform for researchers to showcase their 
 The Posters & Demos Track offers an informal setting that promotes engagement and dialogue between presenters and attendees. These discussions can provide valuable feedback for presenters' future work, while also allowing participants to gain insight into emerging research trends and network with other researchers.
 
 ## Important dates
-* **Paper Submission Deadline**: June 20, 2023 (11:59 pm, Hawaii time)
+* **Paper Submission ___extended___ Deadline**: ~~June 20~~<span style="color:red">July 4</span>, 2023 (11:59 pm, Hawaii time)
 * **Notification of Acceptance**: July 20, 2023 (11:59 pm, Hawaii time)
 * **Camera-Ready Paper Deadline**: August 15, 2023 (11:59 pm, Hawaii time)
 
