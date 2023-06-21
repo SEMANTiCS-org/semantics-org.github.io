@@ -3,7 +3,7 @@
 ## Call for Research & Innovation Papers  
 * **Abstract Submission ___extended___ Deadline**: ~~May 09~~ <span style="color:red">May 23</span>, 2023 (11:59 pm, Hawaii time)
 * **Paper Submission ___extended___ Deadline**: ~~May 16~~ <span style="color:red">May 30</span>, 2023 (11:59 pm, Hawaii time)
-* **Notification of Acceptance**: June 20, 2023 (11:59 pm, Hawaii time)
+* **Notification of Acceptance**: ~~June 20~~ <span style="color:red">June 28</span>, 2023 (11:59 pm, Hawaii time)
 * **Camera-Ready Paper Deadline**: July 04, 2023 (11:59 pm, Hawaii time)
 
 **Submission via Easychair on https://easychair.org/conferences/?conf=sem23**  
@@ -26,7 +26,7 @@ Important Dates for Workshops:
 
 Important Dates for Tutorials (and other meetings, e.g. seminars, show-cases, etc., without call for papers):  
 * **Proposals  Tutorial Deadline:** June 06, 2023 (11:59 pm, Hawaii time)
-* **Notification of Acceptance:** June 20, 2023 (11:59 pm, Hawaii time)  
+* **Notification of Acceptance:** June 20, 2023 (11:59 pm, Hawaii time)
 
 **Submission via Easychair on https://easychair.org/conferences/?conf=sem23**  
 
