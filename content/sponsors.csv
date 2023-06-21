@@ -2,7 +2,7 @@ type,url,img,name,img_ratio
 gold,https://semantic-web.com/,pp.svg,Semantic Web Company,64/16
 gold,https://pantopix.com,pantopix.png,Pantopix,64/16
 gold,https://www.topquadrant.com/,topquadrant.png,TopQuadrant,68/28
-gold,https://metaphacts.com/,metaphacts.png,metaphacts,28/28
+gold,https://metaphacts.com/,metaphacts.png,metaphacts,36/28
 silver,https://the-qa-company.com/,qa.png,The QA Company,28/28
 silver,https://www.ontotext.com/,ontotext.png,Ontotext,54/16
 silver,https://www.gnoss.com/,gnoss.svg,gnoss,40/10
