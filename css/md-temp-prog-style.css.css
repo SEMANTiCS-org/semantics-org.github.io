@@ -1,0 +1,31 @@
+h1 {
+   margin: 0px;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: lighter;
+}
+h3 {
+  font-weight: lighter;
+}
+
+blockquote{
+  font-family: 'Lato';
+  font-size: 0.97em;
+}
+
+table {
+	width: 100%;
+}
+table tr{
+	width: 100%;
+}
+table td{
+	border: solid 1px white!important;
+	padding: 10px !important;
+}
+
+table td p{
+	margin-top: 5px !important;
+}

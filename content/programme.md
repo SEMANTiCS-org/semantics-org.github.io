@@ -1,5 +1,5 @@
-<h1 style="font-family: Gill Sans, sans-serif;">To be announced ...</h1>
+# Programme
 
-<!--
-<img src="/other/demo-semantics-conf/img/tobeannounced.jpg" alt='<a href="https://www.freepik.com/free-vector/coming-soon-teaser-promo-display-background_18505053.htm#page=2&query=website%20under%20construct&position=40&from_view=keyword">Image by starline</a> on Freepik' width="600"/>
--->
+Please note that the program timetable displayed here is a **temporary version** and subject to change.  
+**The full Programme & List of Speakers of Language Intelligence/Semantics 2023 will become available soon.**  
+We appreciate your patience and understanding. Stay tuned for the final version!
