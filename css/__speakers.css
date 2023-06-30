@@ -1,0 +1,32 @@
+
+h5 {
+  color: gray;
+}
+
+table *{
+	font-weight: normal !important;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed; /* Ensures consistent table layout */
+}
+
+th:first-child,
+td:first-child {
+  width: 30%; /* Adjust the width value as per your requirement */
+  text-align: center;
+
+}
+
+
+img{
+	text-align: center!important;
+	height: 100%;
+	width: 100%;
+	max-height: 150px;
+	min-height: 50px;
+	max-width: 150px;
+	min-width: 50px;
+	border-radius: 50%;
+}
