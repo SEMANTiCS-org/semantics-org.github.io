@@ -91,8 +91,8 @@ nav .dropdown-menu{
 	background: var(--nav-bg-color-semantics);
 }
 nav a{
-	font-size: 0.9em;
-	margin-right: 20px;
+	font-size: 0.88em;
+	margin-right: 15px;
 	color: white !important;
 	transition: 0.7s;
 }
