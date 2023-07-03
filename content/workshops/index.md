@@ -67,9 +67,9 @@ More details at: [https://sem4tra2023.linkeddata.es/](https://sem4tra2023.linked
 </div>
 
 ### Important dates
-* **Workshop paper submission deadline:** July 3, 2023
-* **Author notification:** August 7, 2023
-* **Camera-ready version:** August 28, 2023
+* **Workshop paper submission ___extended___ deadline:** ~~July 3~~ <span style="color:red">July 31</span>, 2023
+* **Author notification:** August 25, 2023
+* **Camera-ready version:** September 10, 2023
 
 
 ### Outline
