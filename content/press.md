@@ -71,7 +71,9 @@ Approach us for media accreditation!
 
   <div class="col-7">
     <h3>Press Releases</h3>
-    <div><ul><li>September 5, 2019: 5 Tipps für eine bessere Wertschöpfung aus Daten (<a href="/sites/2019.semantics.cc/files/PM_Semantics_Karlsruhe.docx" target="_blank">DOCX</a>, <a href="/sites/2019.semantics.cc/files/PM_Semantics_Karlsruhe.pdf" target="_blank">PDF</a>)</li>
+    <div><ul>
+      <li>July 5, 2023: SEMANTiCS / Language Intelligence 2023: The Who's Who of Technology Experts in Leipzig. (<a href="https://drive.google.com/file/d/1k7KSNFcuu8xKm2PG87UgImSCjU0bSZuM/view?usp=sharing">PDF</a>)</li>
+      <li>September 5, 2019: 5 Tipps für eine bessere Wertschöpfung aus Daten (<a href="/sites/2019.semantics.cc/files/PM_Semantics_Karlsruhe.docx" target="_blank">DOCX</a>, <a href="/sites/2019.semantics.cc/files/PM_Semantics_Karlsruhe.pdf" target="_blank">PDF</a>)</li>
       <li>September 5, 2019: „Auf unsere Stärken besinnen“ - Experte Sören Auer zum KI-Standort Deutschland (<a href="/sites/2019.semantics.cc/files/PM_So%CC%88ren%20Auer.docx" target="_blank">DOCX</a>, <a href="/sites/2019.semantics.cc/files/PM_So%CC%88ren%20Auer.pdf" target="_blank">PDF</a>)</li>
       <li>July 9, 2019: Vier erfolgversprechende Beispiele für die Anwendung semantischer KI (<a href="/sites/2019.semantics.cc/files/PM_Anwendungsbeispiele_DE.pdf" target="_blank">Link</a>)</li>
       <li>July 9, 2019: 4 powerful examples for the Application of Semantic AI (<a href="/sites/2019.semantics.cc/files/PM_Anwendungsbeispiele_EN.pdf" target="_blank">Link</a>)</li>
