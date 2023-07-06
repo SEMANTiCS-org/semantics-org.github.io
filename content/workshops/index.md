@@ -59,7 +59,7 @@ More details at: [https://sem4tra2023.linkeddata.es/](https://sem4tra2023.linked
 
 * *Edlira Vakaj (Birmingham City University, Bermingham, UK)*
 * *Sanju Tiwari (Universidad Autónoma de Tamaulipas, Tamaulipas, Mexico)*
-* *Rizou Stamatia (Singular Logic, Athens, Greece)*
+* *Stamatia Rizou (Singular Logic, Athens, Greece)*
 * *Nandana Mihindukulasooriya (IBM Research, Dublin, Ireland)*
 * *Fernando Ortiz-Rodríguez (Universidad Autónoma de Tamaulipas, Tamaulipas, Mexico)*
 * *Ryan Mcgranaghan (NASA Jet Propulsion Laboratory, California, United States)*
