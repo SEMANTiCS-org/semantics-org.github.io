@@ -127,7 +127,7 @@ td .rooms-slot, th .rooms-slot{
 	 display: none;
 }
 td.industry .type-slot, td.dbpedia .type-slot {
-	display: none;
+	/*display: none;*/
 }
 
 td.regular-slot p.type-slot{

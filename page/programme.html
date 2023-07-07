@@ -151,11 +151,12 @@
 
 										 // Check if the current cell is part of a merged region
 						        var mergedCellInfo = getMergedCellInfo(i, j, mergedCells);
-
+										var offset = 0;
 						        if (mergedCellInfo) {
 						          // Skip rendering content for merged cells
 						          if (mergedCellInfo.startRow === i) {
 						            cell.setAttribute('colspan', mergedCellInfo.colspan);
+												offset = mergedCellInfo.colspan;
 						          }
 
 						          if (mergedCellInfo.startCol === j) {
@@ -164,7 +165,8 @@
 						        }
 
 										if (cell.hasAttribute('colspan')) {
-											cell.setAttribute('data-rooms', rooms.slice(j-1, j + mergedCellInfo.colspan).join(", "));
+											cell.setAttribute('data-rooms', rooms.slice(j-1, (j - 1) + mergedCellInfo.colspan).join(", "));
+
 										}else{
 											cell.setAttribute('data-rooms', rooms[j-1]);
 										}
@@ -178,7 +180,7 @@
 										 if (j == 0){
 											 cell.classList.add("timeslot");
 										 }
-										 console.log(cellContent, i, j);
+										 //console.log(cellContent, i, j);
 										 var cellContent_rows = cellContent.split("\n");
 										 cellContent_rows = cellContent_rows.filter(str => str.trim() !== "");
 										 if (cellContent_rows.length > 0) {
@@ -219,7 +221,11 @@
 														normal_row = normal_row.substring(6).trim();
 														class_row = "link-slot";
 														cell.classList.add("clickable");
-														cell.setAttribute('data-page', "../page/"+normal_row);
+														if (normal_row.toLowerCase().startsWith("http")) {
+																cell.setAttribute('data-page', normal_row);
+														}else {
+																cell.setAttribute('data-page', "../page/"+normal_row);
+														}
 														continue;
 												}else if (normal_row.toLowerCase().startsWith("speaker:")) {
 														normal_row = normal_row.substring(8).trim();
@@ -227,6 +233,12 @@
 												}else if (normal_row.toLowerCase().startsWith("author:")) {
 														normal_row = normal_row.substring(7).trim();
 														class_row = "author-slot";
+												}else if (normal_row.toLowerCase().startsWith("talk speaker:")) {
+														normal_row = normal_row.substring(13).trim();
+														class_row = "talk-speaker-slot";
+												}else if (normal_row.toLowerCase().startsWith("talk title:")) {
+														normal_row = normal_row.substring(7).trim();
+														class_row = "talk-title-slot";
 												}
 												transformed_content += "<p class='"+class_row+"'>"+normal_row+"</p>";
 
@@ -235,6 +247,10 @@
 										 cell.innerHTML = transformed_content;
 
 										 row.appendChild(cell);
+
+										 if (offset > 0){
+											 j = j + (offset - 1);
+										 }
 									 }
 									 table.appendChild(row);
 								 }
@@ -295,7 +311,6 @@
 
 				function handleTdClick(event) {
 					var param = event.target.getAttribute("data-page");
-					console.log(param);
 				}
 
 				// Attach the click event listener to each button
