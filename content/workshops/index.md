@@ -13,7 +13,7 @@
 </div>
 
 ### Important dates
-* **Workshop paper submission deadline:** July 03, 2023
+* **Workshop paper submission ___extended___ deadline:** ~~July 03~~ <span style="color:red">July 21</span>, 2023
 * **Author notification:** August 07, 2023
 * **Camera-ready version:** August 28, 2023
 
