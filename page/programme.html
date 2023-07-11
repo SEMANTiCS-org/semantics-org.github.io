@@ -145,6 +145,7 @@
 								 for (var i = 0; i < filteredData.length; i++) {
 									 var row = document.createElement('tr');
 
+									 var dest_page_link = "";
 									 for (var j = 0; j < filteredData[i].length; j++) {
 										 var cell = document.createElement(i === 0 ? 'th' : 'td');
 										 var cellAddress = XLSX.utils.encode_cell({ r: i, c: j });
@@ -207,9 +208,17 @@
 												var class_row = "";
 										 		if (normal_row.toLowerCase().startsWith("group:")) {
 														normal_row = normal_row.substring(7).trim().toLowerCase();
+														if (normal_row.toLowerCase().includes("keynote")) {
+															dest_page_link = "speakers?page=";
+														}else if (normal_row.toLowerCase().includes("session")) {
+															dest_page_link = "session?page=";
+														}
 														class_row = "legend-slot";
 										 		}else if (normal_row.toLowerCase().startsWith("slot title:")) {
 														normal_row = normal_row.substring(11).trim().toUpperCase();
+														if (normal_row.toLowerCase().includes("keynote")) {
+															dest_page_link = "speakers?page=";
+														}
 														class_row = "type-slot";
 												}else if (normal_row.toLowerCase().startsWith("title:")) {
 														normal_row = normal_row.substring(6).trim();
@@ -224,7 +233,7 @@
 														if (normal_row.toLowerCase().startsWith("http")) {
 																cell.setAttribute('data-page', normal_row);
 														}else {
-																cell.setAttribute('data-page', "../page/"+normal_row);
+																cell.setAttribute('data-page', "../page/"+dest_page_link+normal_row);
 														}
 														continue;
 												}else if (normal_row.toLowerCase().startsWith("speaker:")) {
