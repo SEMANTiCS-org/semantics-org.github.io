@@ -21,7 +21,7 @@ By following the 62 million links published alongside the 6.5 million identifier
 2. We will introduce the Linkmaster 3000 (the new Open Online Link Curation Platform), the Global LD API, the Databus and the Global LD Browser to gather feedback.
 
 ## Highlights include
-* Keynote presentations
+* [Keynote presentations by Edward Curry (Director of the Insight SFI Research Centre for Data Analytics at the University of Galway)](https://2023-eu.semantics.cc/page/speakers?page=curry-01)
 * DBpedia Databus presentation
 * DBpedia member presentation
 * DBpedia Community session
