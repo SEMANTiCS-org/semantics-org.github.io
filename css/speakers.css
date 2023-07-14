@@ -43,15 +43,21 @@ section table h5 {
 
 
 section table {
-  width: 100%;
+  width: 75%;
   table-layout: fixed; /* Ensures consistent table layout */
+}
+
+section th,
+section td {
+	vertical-align: top;
+	padding-top: 30px;
 }
 
 section th:first-child,
 section td:first-child {
   width: 30%; /* Adjust the width value as per your requirement */
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 
@@ -64,4 +70,17 @@ section img{
 	max-width: 150px;
 	min-width: 50px;
 	border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+	section table {
+	  text-align: center;
+	  width: 100%;
+	  border-collapse: separate;
+	  border-spacing: 10px; /
+	}
+	section table th, td{
+		display: table-row;
+		margin: 20px!important;
+	}
 }
