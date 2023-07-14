@@ -222,7 +222,11 @@
 														normal_row = normal_row.substring(6).trim();
 														class_row = "link-slot";
 														cell.classList.add("clickable");
-														cell.setAttribute('data-page', dest_page_link+normal_row);
+														if (normal_row.startsWith("http")) {
+															cell.setAttribute('data-page', normal_row);
+														}else {
+															cell.setAttribute('data-page', dest_page_link+normal_row);
+														}
 														continue;
 
 												}else if (normal_row.toLowerCase().startsWith("talk speaker:")) {
