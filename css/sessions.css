@@ -1,0 +1,84 @@
+section h1 {
+  font-weight: normal;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+section h2 {
+  font-size: 1.7em;
+  padding-top: 50px;
+}
+
+section h3 {
+  padding-top: 20px !important;
+  font-weight: lighter !important;
+
+}
+
+section h4 {
+  color: gray;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-weight: lighter !important;
+  font-size: 1.17em !important;
+}
+
+section blockquote{
+  font-family: 'Lato';
+  font-size: 0.97em;
+}
+
+section table h5 {
+  color: gray;
+  font-size: 0.83em !important;
+  font-weight: bold !important;
+  margin-bottom: 0px !important;
+}
+
+section table p {
+	font-size: 0.83em !important;
+}
+
+section table h4 {
+  color: black;
+}
+
+section table *{
+	font-weight: normal !important;
+}
+
+section table {
+  table-layout: fixed; /* Ensures consistent table layout */
+}
+
+section table tr{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section table th{
+	padding: 25px!important;
+	vertical-align: top;
+	padding-right: 30px !important;
+	flex: 0 0 25%;
+}
+
+/*padding top if second TD has description and not an image*/
+section td:not(:first-child):not(:has(img)){
+	 padding-top: 35px!important;
+}
+section th:not(:first-child):not(:has(img)){
+	 padding-top: 35px!important;
+}
+
+
+section img{
+	text-align: center!important;
+	height: auto!important;
+	width: 150px;
+	max-width: 200p;
+	border-radius: 50%;
+}

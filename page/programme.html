@@ -108,8 +108,6 @@
 	<script src="../js/xlsx.full.min.js"></script>
 	<script>
 
-				var EVENT_TYPE = ["session","dbpedia","tutorial","workshop","keynote","industry","lti","break","extra"];
-
 				var container = document.getElementById('programme_table');
 				// Function to read XLSX file from path
 				function readXlsxFileFromPath(filePath, day) {
@@ -181,79 +179,69 @@
 										 if (j == 0){
 											 cell.classList.add("timeslot");
 										 }
-										 //console.log(cellContent, i, j);
+										 console.log(cellContent, i, j);
 										 var cellContent_rows = cellContent.split("\n");
 										 cellContent_rows = cellContent_rows.filter(str => str.trim() !== "");
-										 if (cellContent_rows.length > 0) {
-											 	var type_row = cellContent_rows[0].toLowerCase().trim();
-												if (type_row != "") {
-														for (var t = 0; t < EVENT_TYPE.length; t++) {
-															if (type_row.includes(EVENT_TYPE[t])){
-																cell.classList.add(EVENT_TYPE[t]);
-																if (EVENT_TYPE[t] != "break") {
-																		cell.classList.add("regular-slot");
-																		/*cell.classList.add("clickable");*/
-																}
-																break;
-															}
-														}
-												}
-										 }
-
 
 										 var transformed_content = "";
+										 var group_list = [];
 										 for (var idx_row = 0; idx_row < cellContent_rows.length; idx_row++) {
 
 												var normal_row = cellContent_rows[idx_row].trim();
 												var class_row = "";
 										 		if (normal_row.toLowerCase().startsWith("group:")) {
 														normal_row = normal_row.substring(7).trim().toLowerCase();
-														if (normal_row.toLowerCase().includes("keynote")) {
-															dest_page_link = "speakers?page=";
-														}else if (normal_row.toLowerCase().includes("session")) {
-															dest_page_link = "session?page=";
+														group_list = normal_row.split("|").map(item => item.trim());
+														if (group_list.includes("keynote")) {
+															dest_page_link = "../page/speakers?page=";
+														}else if (group_list.includes("session")) {
+															dest_page_link = "../page/sessions?page=";
+														}else if (group_list.includes("workshop")) {
+															dest_page_link = "../page/";
 														}
 														class_row = "legend-slot";
-										 		}else if (normal_row.toLowerCase().startsWith("slot title:")) {
-														normal_row = normal_row.substring(11).trim().toUpperCase();
-														if (normal_row.toLowerCase().includes("keynote")) {
-															dest_page_link = "speakers?page=";
+														cell.classList.add("regular-slot");
+														var group_classes = group_list.map(item => "g-"+item);
+														for (var g_idx = 0; g_idx < group_classes.length; g_idx++) {
+															cell.classList.add(group_classes[g_idx]);
 														}
+
+												}else if (normal_row.toLowerCase().startsWith("slot title:")) {
+														normal_row = normal_row.substring(11).trim().toUpperCase();
 														class_row = "type-slot";
+
 												}else if (normal_row.toLowerCase().startsWith("title:")) {
 														normal_row = normal_row.substring(6).trim();
 														class_row = "title-slot";
+
 												}else if (normal_row.toLowerCase().startsWith("chair:")) {
 														class_row = "chair-slot";
 														normal_row = "<span class='-t'>"+ normal_row.slice(0, 6) + "</span>" + normal_row.slice(6,);
+
 												}else if (normal_row.toLowerCase().startsWith("link:")) {
 														normal_row = normal_row.substring(6).trim();
 														class_row = "link-slot";
 														cell.classList.add("clickable");
-														if (normal_row.toLowerCase().startsWith("http")) {
-																cell.setAttribute('data-page', normal_row);
-														}else {
-																cell.setAttribute('data-page', "../page/"+dest_page_link+normal_row);
-														}
+														cell.setAttribute('data-page', dest_page_link+normal_row);
 														continue;
-												}else if (normal_row.toLowerCase().startsWith("speaker:")) {
-														normal_row = normal_row.substring(8).trim();
-														class_row = "speaker-slot";
-												}else if (normal_row.toLowerCase().startsWith("author:")) {
-														normal_row = normal_row.substring(7).trim();
-														class_row = "author-slot";
+
 												}else if (normal_row.toLowerCase().startsWith("talk speaker:")) {
 														normal_row = normal_row.substring(13).trim();
-														class_row = "talk-speaker-slot";
+														class_row = "talk-speaker";
+
 												}else if (normal_row.toLowerCase().startsWith("talk title:")) {
-														normal_row = normal_row.substring(7).trim();
-														class_row = "talk-title-slot";
+														normal_row = normal_row.substring(11).trim();
+														class_row = "talk-title";
 												}
 												transformed_content += "<p class='"+class_row+"'>"+normal_row+"</p>";
 
 										 }
 										 transformed_content = "<p class='rooms-slot'>"+cell.getAttribute("data-rooms")+"</p>"+ transformed_content;
 										 cell.innerHTML = transformed_content;
+
+										 if (group_list.length == 0) {
+										 		cell.classList.add("g-break");
+										 }
 
 										 row.appendChild(cell);
 

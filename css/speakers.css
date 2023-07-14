@@ -37,6 +37,11 @@ section table *{
 	font-weight: normal !important;
 }
 
+section table h5 {
+	margin: 0px;
+}
+
+
 section table {
   width: 100%;
   table-layout: fixed; /* Ensures consistent table layout */
@@ -46,7 +51,7 @@ section th:first-child,
 section td:first-child {
   width: 30%; /* Adjust the width value as per your requirement */
   text-align: center;
-
+  padding: 20px;
 }
 
 

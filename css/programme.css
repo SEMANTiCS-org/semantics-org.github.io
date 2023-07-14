@@ -42,27 +42,27 @@ th{
 	z-index: 10;
 	min-width: 100px;
 }
-table tr td,th:first-child {
+section table tr th:first-child, section table tr td:first-child {
   border-left: none;
   background: none;
   color: black;
   position: initial;
-	top: none;
+  top: none;
 }
-table tr td:first-child {
+section table tr td:first-child {
 	min-width: 100px;
 	font-size: 0.9em;
 }
-tr{
+section table tr{
 	border-bottom:solid 1px lightgray;
 }
-th p,td p{
+section table th p,section table td p{
 	margin-bottom: 0px;
 }
-td[colspan]{
+section table td[colspan]{
 	text-align: center;
 }
-td{
+section table td{
 	text-align: center;
 	border-right:dotted 1px lightgray;
 	border-left:dotted 1px lightgray;
@@ -70,73 +70,85 @@ td{
 	padding: 5px;
 	/*vertical-align: top;*/
 }
-td.clickable{
+
+section table td.isempty{
+	background: rgba(240,240,240,0.3)!important;
+}
+
+section table td.clickable{
   cursor: pointer;
   transition: filter 0.6s;
 
 }
-td.clickable:hover {
+section table td.clickable:hover {
   filter: brightness(120%);
 }
 
-td.clickable:focus {
+section table td.clickable:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
 }
-td.break {
+section table td.g-break {
   background: rgb(240,240,240);
   text-transform: uppercase;
   font-size: 0.9em;
 }
-td.tutorial {
-  color: white;
-  background: rgb(201,93,98);
-}
-td.dbpedia {
-  color: white;
-  background: rgb(113,126,195);
-}
-td.extra {
-  color: white;
-  background: rgb(26,116,177);
-}
-td.session {
-  color: white;
-  background: rgb(26,116,177);
-}
-td.workshop {
-  color: white;
-  background: rgb(121,179,115);
-}
-td.keynote {
+
+section table td.g-keynote {
   color: white;
   background: rgb(195,91,97);
 }
-td.industry {
+section table td.g-session {
   color: white;
-  background: rgb(250,148,1);
+  background: rgb(26,116,177);
 }
-td.lti {
+
+section table td.g-tutorial {
+  color: white;
+  background: rgb(201,93,98);
+}
+section table td.g-dbpedia {
+  color: white;
+  background: rgb(113,126,195);
+}
+section table td.g-extra.g-conference{
+  color: white;
+  background: rgb(26,116,177);
+}
+section table td.g-extra {
+  color: white;
+  background: rgb(180,167,213);
+}
+section table td.g-workshop {
   color: white;
   background: rgb(121,179,115);
 }
-td .legend-slot{
+
+section table td.g-industry {
+  color: white;
+  background: rgb(250,148,1);
+}
+section table td.g-lti {
+  color: white;
+  background: rgb(121,179,115);
+}
+section table td .legend-slot{
 	 display: none;
 }
-td .rooms-slot, th .rooms-slot{
+section table td .rooms-slot, section table th .rooms-slot{
 	 display: none;
 }
 td.industry .type-slot, td.dbpedia .type-slot {
 	/*display: none;*/
 }
 
-td.regular-slot p.type-slot{
+section table td.regular-slot p.type-slot{
 	font-size: 0.85em;
 	position: relative;
 	padding-bottom: 20px;
 }
 
-td.regular-slot p.title-slot{
+section table td.regular-slot p.title-slot{
 	font-size: 0.95em;
 	padding-bottom: 10px;
 	word-break: normal;
@@ -144,54 +156,68 @@ td.regular-slot p.title-slot{
 	font-style: italic;
 }
 
-td.regular-slot p.speaker-slot{
+section table td.regular-slot p.speaker-slot{
 	font-size: 0.95em;
 	padding-top: 15px;
 	font-weight:bolder !important;
 }
 
-td.keynote p.title-slot{
+section table td.g-keynote p.title-slot{
   font-weight:normal !important;
 }
 
-td.regular-slot p.chair-slot{
-	margin-bottom: 15px;
+section table td.regular-slot p.chair-slot{
+	margin-bottom: 22px;
 }
-td.regular-slot p.author-slot{
+section table td.regular-slot p.talk-speaker{
 	font-size: 0.85em;
 	font-weight:bolder !important;
 }
-p.chair-slot .-t{
+
+.g-session p.talk-title + p.talk-speaker{
+	margin-bottom: 15px;
+}
+
+section table td.regular-slot.g-keynote p.talk-speaker{
+	font-size: 0.95em;
+	font-weight:bolder !important;
+}
+section table td.regular-slot.g-keynote p.talk-title{
+	font-size: 0.95em;
+}
+
+section table p.chair-slot .-t{
 	font-weight:bolder !important;
 }
 
 @media (max-width: 992px) {
-	table tr{
+	section table tr{
 		table-layout: none !important;
 		width: 100% !important;
 		display: block;
 		border: none;
 	}
-	table th{
+	section table th{
 		display: none;
 	}
-	table td.isempty{
+	section table td.isempty{
 		display: none;
 	}
-	table td.timeslot{
-		padding-top: 20px;
+	section table td.timeslot{
+		padding-top: 30px;
+		font-size: 1.2em!important;
 		border-bottom: dotted 1px lightgray;
 	}
-	td.regular-slot .rooms-slot {
+	section table td.regular-slot .rooms-slot {
 	    display: block;
 		white-space: nowrap;
 		padding-bottom: 5px;
 		font-size: 0.8em;
 	}
-	td.regular-slot .rooms-slot::before {
+	section table td.regular-slot .rooms-slot::before {
 	  content: "Room: ";
 	}
-	table td{
+	section table td{
 		display: block;
 		margin-top: 5px;
 		width: 100% !important;
