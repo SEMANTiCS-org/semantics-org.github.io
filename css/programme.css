@@ -13,8 +13,9 @@ button.active{
 	color: white !important;
 }
 
-table *{
+section table *{
 	font-weight: normal !important;
+	font-size: 0.97em;
 }
 
 table {
@@ -150,7 +151,7 @@ section table td.regular-slot p.type-slot{
 
 section table td.regular-slot p.title-slot{
 	font-size: 0.95em;
-	padding-bottom: 10px;
+	margin-bottom: 20px;
 	word-break: normal;
 	/*font-weight:bolder !important;*/
 	font-style: italic;
@@ -170,12 +171,15 @@ section table td.regular-slot p.chair-slot{
 	margin-bottom: 22px;
 }
 section table td.regular-slot p.talk-speaker{
-	font-size: 0.85em;
+	font-size: 0.92em;
 	font-weight:bolder !important;
 }
 
-.g-session p.talk-title + p.talk-speaker{
+.g-session p.talk-speaker + p.talk-title{
 	margin-bottom: 15px;
+	border-bottom: dotted 1px;
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
 
 section table td.regular-slot.g-keynote p.talk-speaker{
