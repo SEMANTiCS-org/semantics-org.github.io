@@ -256,6 +256,7 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
               //header: Conference Committee,Name,Email,Status,Contacted,Easychair,country,affiliation
               // <div class="org col-sm-3"><a href="http://www.semantic-web.at/" target="_blank"><img typeof="foaf:Image" src="https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/swc-logo-web.png?itok=dFh75utd" width="150" height="37" alt=""></a></div>
 
+              var e_type = entry["type"].trim().split("-").map(item => "s-" + item).join(" ");
               var name = entry["name"].trim();
               var affiliation = entry["affiliation"].trim();
               var presentation = entry["presentation"].trim();
@@ -263,11 +264,11 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
               var img = entry["image"].trim();
               let img_size = "60"
 
-              var html_img = '<img typeof="foaf:Image" src="img/person/'+img+'" class="image-profile" alt="">'
-              var html_presentation = "<a href='"+baseurl+"page/speakers?page="+page_name+"' class='person-talk'>"+presentation+"</a>";
+              var html_img = '<img src="img/LTILogoByLine.png" class="image-profile-type"><img typeof="foaf:Image" src="img/person/'+img+'" class="image-profile" alt="">'
+              var html_presentation = "<a href='"+baseurl+"page/"+page_name+"' class='person-talk'>"+presentation+"</a>";
               var html_body = html_img+'<div class="person-name">'+name+'</div>'+'<div class="person-info">'+affiliation+'</div>'+html_presentation;
 
-              var str_html = '<div class="ks col-sm-4">'+html_body+"</div>";
+              var str_html = '<div class="ks col-sm-4 '+e_type+'">'+html_body+"</div>";
               group_html = group_html + str_html;
               count = count + 1;
               if (count == 3) {

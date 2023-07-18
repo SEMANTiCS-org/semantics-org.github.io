@@ -274,6 +274,16 @@ header .logo img{
 .ks img{
 	max-width: 100%;
 }
+.ks img.image-profile-type{
+	display: none;
+	max-width: 22%;
+	position:absolute;
+	right: 25px;
+	top: 10px;
+}
+.ks.s-lti img.image-profile-type{
+	display: initial!important;
+}
 .org img:hover{
 	filter: grayscale(0);
 }
@@ -384,6 +394,10 @@ header {
 		padding-top: 25px!important;
 	}
 
+	#section_intro{
+		min-height: 800px;
+	}
+
 	#venue_section .row.section-content .mx-auto{
 		text-align: center!important;
 	}
@@ -419,4 +433,12 @@ header {
 	#logo_lti{
 		width: 38%;
 	}
+	.ks {
+		padding-top: 20px !important;
+	}
+	.ks img.image-profile-type{
+		top: 30px;
+		right: 40px;
+	}
+
 }

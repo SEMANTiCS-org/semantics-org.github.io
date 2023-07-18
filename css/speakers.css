@@ -43,7 +43,7 @@ section table h5 {
 
 
 section table {
-  width: 75%;
+  width: 90%;
   table-layout: fixed; /* Ensures consistent table layout */
 }
 
