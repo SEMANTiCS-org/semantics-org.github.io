@@ -195,6 +195,9 @@ section table p.chair-slot .-t{
 }
 
 @media (max-width: 992px) {
+	section table{
+		display: block !important;
+	}
 	section table tr{
 		table-layout: none !important;
 		width: 100% !important;
@@ -218,6 +221,9 @@ section table p.chair-slot .-t{
 		padding-bottom: 5px;
 		font-size: 0.8em;
 	}
+	section table td.regular-slot.g-extra.g-break .rooms-slot {
+		display: none !important;
+	}
 	section table td.regular-slot .rooms-slot::before {
 	  content: "Room: ";
 	}
@@ -232,8 +238,12 @@ section table p.chair-slot .-t{
 		margin: 50px;
 		margin-left: 0px !important;
 		margin-right: 0px !important;
-		display: flex;
+		display: block !important;
 	    justify-content: center;
 	    align-items: center;
+	}
+	.btn-group .btn{
+		width: 100% !important;
+		display: block!important;
 	}
 }
