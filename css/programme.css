@@ -68,7 +68,7 @@ section table td{
 	border-right:dotted 1px lightgray;
 	border-left:dotted 1px lightgray;
 	text-decoration: none;
-	padding: 5px;
+	padding: 10px;
 	/*vertical-align: top;*/
 }
 
@@ -177,9 +177,12 @@ section table td.regular-slot p.talk-speaker{
 
 .g-session p.talk-speaker + p.talk-title{
 	margin-bottom: 15px;
-	border-bottom: dotted 1px;
+	border-bottom: dashed 0.5px;
 	padding-top: 5px;
 	padding-bottom: 10px;
+}
+.g-session p:last-child{
+	border-bottom: none !important;
 }
 
 section table td.regular-slot.g-keynote p.talk-speaker{
