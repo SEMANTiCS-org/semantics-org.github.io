@@ -1,0 +1,14 @@
+.row .card ul{
+    font-size: 0.9em;
+    list-style: none;
+    padding-left: 0; /* Optional, to remove default padding */
+}
+
+ul li ul li {
+    list-style: disc;
+    margin-left: 20px; /* Adjust the value as per your desired indentation */
+}
+
+.row .card .resource-type{
+    margin-top: 5px;
+}
