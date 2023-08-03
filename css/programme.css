@@ -51,7 +51,7 @@ section table tr th:first-child, section table tr td:first-child {
   top: none;
 }
 section table tr td:first-child {
-	min-width: 100px;
+	min-width: 120px;
 	font-size: 0.9em;
 }
 section table tr{
