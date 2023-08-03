@@ -10,12 +10,19 @@ section h1 {
 section h2 {
   padding-top: 20px;
   font-weight: lighter;
+  font-size: 1.5em;
 }
 
 section h3 {
-  padding-top: 0px !important;
-  font-weight: lighter !important;
-  font-size: 1.17em !important;
+   padding-top: 20px;
+   font-size: 1.5em;
+   font-weight: lighter !important;
+}
+
+section table h3 {
+   padding-top: 0px;
+	font-size: 1.2em;
+   font-weight: lighter !important;
 }
 
 section blockquote{
@@ -60,14 +67,23 @@ section td:first-child {
   padding: 15px;
 }
 
-
 section img{
+	max-width: 80vw
+}
+
+section table img{
 	text-align: center!important;
 	border-radius: 50%;
   object-fit: cover;
   width: 12vw;
   aspect-ratio: 1/1;
   max-width: 150px;
+}
+
+section ol li[id*="footnote"]{
+	margin-top: 40px;
+	font-size: 0.75em;
+	padding: 0px;
 }
 
 @media (max-width: 992px) {
@@ -80,5 +96,8 @@ section img{
 	section table th, td{
 		display: table-row;
 		margin: 20px!important;
+	}
+	section table img{
+		width: 60vw;
 	}
 }
