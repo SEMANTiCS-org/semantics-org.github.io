@@ -77,8 +77,9 @@ section th:not(:first-child):not(:has(img)){
 
 section img{
 	text-align: center!important;
-	height: auto!important;
-	width: 150px;
-	max-width: 200p;
 	border-radius: 50%;
+  object-fit: cover;
+  width: 10vw;
+  aspect-ratio: 1/1;
+  max-width: 150px;
 }

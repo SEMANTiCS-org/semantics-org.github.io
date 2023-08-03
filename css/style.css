@@ -224,17 +224,17 @@ header .logo img{
 
 .image-profile {
 	text-align: center!important;
-	height: auto;
-	width: auto;
-	max-height: 150px;
-	min-height: 50px;
-	max-width: 150px;
+	max-width: 150px !important;
 	min-width: 50px;
 	border-radius: 50%;
+  object-fit: cover;
+  width: 30vw;
+  aspect-ratio: 1/1;
 }
 #quotes .image-profile{
 	width: 95px;
 	height: 95px;
+	object-fit: cover;
 }
 
 .side-container {
