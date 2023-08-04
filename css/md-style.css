@@ -50,3 +50,8 @@ td, th{
   width: 250px;
   text-align: center;
 }
+
+#footnotes li{
+	font-size: 0.8em;
+	padding: 0px;
+}
