@@ -1,0 +1,228 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix schema: <https://schema.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix extra: <https://w3id.org/okn/semantics/voc#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+<#semantics_paper>
+rml:logicalSource [
+  rml:source "./data/submission.csv" ;
+  rml:referenceFormulation ql:CSV
+];
+rr:subjectMap [
+  rr:template "https://w3id.org/okn/semantics/2023/i/Paper_{ID}";
+  rr:class schema:ScholarlyArticle
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:keywords;
+  rr:objectMap [
+    rml:reference "keywords"
+  ]
+];
+
+rr:predicateObjectMap [
+        rr:predicate schema:author;
+        rr:objectMap [
+            rr:parentTriplesMap <#semantics_author>;
+            rr:joinCondition [
+                rr:child "ID";
+                rr:parent "submission";
+            ];
+        ];
+    ];
+
+rr:predicateObjectMap [
+      rr:predicate schema:hasPart;
+      rr:objectMap [
+          rr:parentTriplesMap <#semantics_resource>;
+          rr:joinCondition [
+              rr:child "ID";
+              rr:parent "submission";
+          ];
+      ];
+  ];
+
+rr:predicateObjectMap [
+    rr:predicate schema:isPartOf;
+    rr:objectMap [
+        rr:parentTriplesMap <#semantics_track>;
+        rr:joinCondition [
+            rr:child "track_id";
+            rr:parent "track";
+        ];
+    ];
+];
+
+rr:predicateObjectMap [
+  rr:predicate extra:authorString;
+  rr:objectMap [
+    rml:reference "authors"
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:abstract;
+  rr:objectMap [
+    rml:reference "abstract"
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:name;
+  rr:objectMap [
+    rml:reference "title"
+  ]
+].
+
+<#semantics_author>
+rml:logicalSource [
+  rml:source "./data/author.csv" ;
+  rml:referenceFormulation ql:CSV
+];
+
+rr:subjectMap [
+  rr:template "https://w3id.org/okn/semantics/i/Author_{person}";
+  rr:class schema:Person
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:givenName;
+  rr:objectMap [
+    rml:reference "first_name"
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:familyName;
+  rr:objectMap [
+    rml:reference "last_name"
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:affiliation;
+  rr:objectMap [
+    rml:reference "affiliation"
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:url;
+  rr:objectMap [
+    rml:reference "Web_page";
+    rr:datatype xsd:anyURI
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:nationality;
+  rr:objectMap [
+    rml:reference "country"
+  ]
+].
+
+
+
+<#semantics_resource>
+rml:logicalSource [
+  rml:source "./data/submission_field_value_curated.csv" ;
+  rml:referenceFormulation ql:CSV
+];
+
+rr:subjectMap [
+  rr:template "https://w3id.org/okn/semantics/i/{type}_{submission}_{field}";
+];
+
+rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+    rr:template "https://schema.org/{type}";
+    rr:termType rr:IRI;
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:name;
+  rr:objectMap [
+    rml:reference "name"
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:description;
+  rr:objectMap [
+    rml:reference "description"
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:license;
+  rr:objectMap [
+    rr:template "https://w3id.org/okn/semantics/i/License/{license}";
+    rr:termType rr:IRI;
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:url;
+  rr:objectMap [
+    rml:reference "value"
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:identifier;
+  rr:objectMap [
+    rml:reference "doi"
+  ]
+]
+.
+
+<#semantics_track>
+rml:logicalSource [
+  rml:source "./data/track.csv" ;
+  rml:referenceFormulation ql:CSV
+];
+
+rr:subjectMap [
+  rr:template "https://w3id.org/okn/semantics/i/Track_{track}";
+  rr:class schema:Event
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:name;
+  rr:objectMap [
+    rml:reference "long name"
+  ]
+]
+.
+
+
+<#semantics_resource_license>
+rml:logicalSource [
+  rml:source "./data/submission_field_value_curated.csv" ;
+  rml:referenceFormulation ql:CSV
+];
+
+rr:subjectMap [
+  rr:template "https://w3id.org/okn/semantics/i/License/{license}";;
+  rr:class schema:CreativeWork
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:name;
+  rr:objectMap [
+    rml:reference "license"
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:url;
+  rr:objectMap [
+    rml:reference "license_url"
+  ]
+]
+.
