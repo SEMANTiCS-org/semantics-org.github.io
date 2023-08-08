@@ -13,7 +13,7 @@ From the current folder: `python generate_stats.py`
 - Number of papers with resources: 26
 - Papers with datasets, with code or ontologies:
     - https://schema.org/Dataset 11
-    - https://schema.org/Ontology 5
+    - owl:Ontology 5
     - https://schema.org/SoftwareSourceCode 22
     - https://schema.org/Demo 7
 - Resources with license:  27 (some papers have more than 1 resource)

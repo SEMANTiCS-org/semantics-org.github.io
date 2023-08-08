@@ -542,7 +542,7 @@
 <https://w3id.org/okn/semantics/i/Author_210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Author_259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Author_40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
-<https://w3id.org/okn/semantics/i/Ontology_8036_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Ontology>.
+<https://w3id.org/okn/semantics/i/Ontology_8036_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology>.
 <https://w3id.org/okn/semantics/i/Author_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Author_130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Author_258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
@@ -551,7 +551,7 @@
 <https://w3id.org/okn/semantics/i/Author_126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Author_178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Author_274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
-<https://w3id.org/okn/semantics/i/Ontology_2647_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Ontology>.
+<https://w3id.org/okn/semantics/i/Ontology_2647_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology>.
 <https://w3id.org/okn/semantics/i/Dataset_760_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset>.
 <https://w3id.org/okn/semantics/i/Author_105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Dataset_650_5_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset>.
@@ -569,7 +569,7 @@
 <https://w3id.org/okn/semantics/i/Dataset_1369_5_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset>.
 <https://w3id.org/okn/semantics/i/License/MIT%20License> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork>.
 <https://w3id.org/okn/semantics/i/SoftwareSourceCode_8777_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SoftwareSourceCode>.
-<https://w3id.org/okn/semantics/i/Ontology_650_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Ontology>.
+<https://w3id.org/okn/semantics/i/Ontology_650_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology>.
 <https://w3id.org/okn/semantics/i/Author_32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Author_98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Author_172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
@@ -594,7 +594,7 @@
 <https://w3id.org/okn/semantics/i/License/W3C%20Software%20and%20Document%20License> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork>.
 <https://w3id.org/okn/semantics/i/Author_241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Author_132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
-<https://w3id.org/okn/semantics/i/Ontology_640_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Ontology>.
+<https://w3id.org/okn/semantics/i/Ontology_640_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology>.
 <https://w3id.org/okn/semantics/i/Dataset_1683_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset>.
 <https://w3id.org/okn/semantics/i/SoftwareSourceCode_460_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/SoftwareSourceCode>.
 <https://w3id.org/okn/semantics/i/Author_56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
@@ -885,7 +885,7 @@
 <https://w3id.org/okn/semantics/i/Author_167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Author_117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/Author_102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
-<https://w3id.org/okn/semantics/i/Ontology_905_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Ontology>.
+<https://w3id.org/okn/semantics/i/Ontology_905_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology>.
 <https://w3id.org/okn/semantics/i/Author_185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
 <https://w3id.org/okn/semantics/i/License/GNU%20General%20Public%20License%20v3.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork>.
 <https://w3id.org/okn/semantics/i/Author_60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person>.
