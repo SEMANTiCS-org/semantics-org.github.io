@@ -192,7 +192,7 @@
 										 if (j == 0){
 											 cell.classList.add("timeslot");
 										 }
-										 console.log(cellContent, i, j);
+										 /*console.log(cellContent, i, j);*/
 										 var cellContent_rows = cellContent.split("\n");
 										 cellContent_rows = cellContent_rows.filter(str => str.trim() !== "");
 
@@ -206,7 +206,8 @@
 										 		if (normal_row.toLowerCase().startsWith("group:")) {
 														normal_row = normal_row.substring(7).trim().toLowerCase();
 														group_list = normal_row.split("|").map(item => item.trim());
-														if (group_list.includes("keynote")) {
+														/*console.log(group_list);*/
+														if (group_list.includes("keynote") || group_list.includes("invited_talk")) {
 															dest_page_link = "../page/speakers?page=";
 														}else if (group_list.includes("session")) {
 															dest_page_link = "../page/sessions?page=";
