@@ -99,6 +99,10 @@ section table td.g-keynote {
   color: white;
   background: rgb(195,91,97);
 }
+section table td.g-invited_talk {
+  color: white;
+  background: rgb(250,148,1);
+}
 section table td.g-session {
   color: white;
   background: rgb(26,116,177);
@@ -144,17 +148,22 @@ td.industry .type-slot, td.dbpedia .type-slot {
 }
 
 section table td.regular-slot p.type-slot{
-	font-size: 0.85em;
+	font-size: 0.8em;
 	position: relative;
-	padding-bottom: 20px;
+	padding-bottom: 25px;
 }
 
 section table td.regular-slot p.title-slot{
-	font-size: 0.95em;
+	font-size: 0.97em;
 	margin-bottom: 20px;
 	word-break: normal;
-	/*font-weight:bolder !important;*/
+	font-weight:bolder !important;
+	/*font-style: italic;*/
+}
+
+section table td.regular-slot p.talk-title{
 	font-style: italic;
+	font-size: 0.92em;
 }
 
 section table td.regular-slot p.speaker-slot{
@@ -197,6 +206,51 @@ section table p.chair-slot .-t{
 	font-weight:bolder !important;
 }
 
+section #programme_legend {
+	margin-top: 30px;
+}
+
+section #programme_legend ul{
+	list-style: none;
+	padding: 5px;
+}
+
+section #programme_legend ul li{
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+section #programme_legend ul li span{
+  display: inline-block;
+}
+
+section #programme_legend ul li span:first-child{
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+section .leg-green{
+	background: rgb(121,179,115);
+}
+
+section .leg-orange{
+	background: rgb(250,148,1);
+}
+
+section .leg-violet{
+	background: rgb(113,126,195);
+}
+
+section .leg-red{
+	background: rgb(201,93,98);
+}
+
+section .leg-blue{
+	background: rgb(26,116,177);
+}
+
 @media (max-width: 992px) {
 	section table{
 		display: block !important;
@@ -228,7 +282,7 @@ section table p.chair-slot .-t{
 		display: none !important;
 	}
 	section table td.regular-slot .rooms-slot::before {
-	  content: "Room: ";
+	  /*content: "Room: ";*/
 	}
 	section table td{
 		display: block;
