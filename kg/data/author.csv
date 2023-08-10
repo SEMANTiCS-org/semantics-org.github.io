@@ -1,0 +1,379 @@
+submission,first_name,last_name,country,affiliation,Web_page,person,corresponding?
+104,Thom,van Gessel,Netherlands,TNO,,148,yes
+104,Giulia,Biagioni,Netherlands,TNO,,149,yes
+104,Jeroen,Breteler,Netherlands,TNO,,147,yes
+104,Ioannis,Tolios,Netherlands,TNO,,282,yes
+104,Erik,Boertjes,Netherlands,TNO,,283,yes
+247,Francesca,Grasso,Italy,University of Turin,,1,yes
+247,Vladimiro,Lovera Rulfi,Italy,University of Bologna,,2,no
+247,Luigi,Di Caro,Italy,University of Turin,,3,no
+264,Julia,Becker,Germany,Universität Bielefeld,,12,no
+264,Mario,Botsch,Germany,TU Dortmund University,,8,no
+264,Mohammad Fazleh,Elahi,Germany,Universität Bielefeld,,6,yes
+264,Melanie,Derksen,Germany,TU Dortmund University,,7,no
+264,Philipp,Cimiano,Germany,Universität Bielefeld,http://www.sc.cit-ec.uni-bielefeld.de/team/philipp-cimiano/,5,no
+264,Angelika,Maier,Germany,Universität Bielefeld,,4,yes
+264,Marius,Maile,Germany,Universität Bielefeld,,10,no
+264,Ingo Oliver,Pätzold,Germany,Universität Bielefeld,,11,no
+264,Jonas,Penningroth,Germany,Universität Bielefeld,,284,no
+264,Bettina,Reglin,Germany,Universität Bielefeld,,14,no
+264,Markus,Rothgänger,Germany,Universität Bielefeld,,13,no
+264,Silke,Schwandt,Germany,Universität Bielefeld,,9,no
+319,Wouter,Beek,Netherlands,Triply B.V.,https://triplydb.com/wouter,15,yes
+319,Flores,Bakker,Netherlands,Not affiliated,,16,no
+384,Ana,Iglesias-Molina,Spain,Universidad Politécnica de Madrid,,285,yes
+384,Daniel,Garijo,Spain,Universidad Politécnica de Madrid,https://w3id.org/people/dgarijo,286,yes
+460,Wouter,Beek,Netherlands,Triply B.V.,https://triplydb.com/wouter,15,yes
+460,Enno,Meijers,Netherlands,Dutch Digital Heritage Network,,17,yes
+460,Erwin,Folmer,Netherlands,"TU Twente, Kadaster",,18,yes
+460,Ivo,Zandhuis,Netherlands,Ivo Zandhuis Onderzoek en Advies,https://ivozandhuis.nl,19,yes
+460,Richard,Zijdeman,Netherlands,International Institute for Social History,,20,yes
+460,Pieter,van Everdingen,Netherlands,Platform Linked Data Netherlands,,21,yes
+460,Mark,Lindeman,Netherlands,Triply B.V.,https://triplydb.com/mark-lindeman,22,yes
+589,Carlos,Arias,United States,International Finance Corporation,,23,yes
+600,Thomas,Vout,United Kingdom,Oxford Semantic Technologies,,24,yes
+600,Peter,Crocker,United Kingdom,Oxford Semantic Technologies,,25,no
+600,Mikkel H.,Brynildsen,Denmark,Grundfos,https://www.linkedin.com/in/mikkel-haggren-brynildsen-77319926/,26,no
+640,Darya,Martyniuk,Germany,Data Analytics Center Fraunhofer FOKUS,,27,yes
+640,Naouel,Karam,Germany,Data Analytics Center Fraunhofer FOKUS,,28,yes
+640,Michael,Falkenthal,Germany,Anaqor AG,,29,yes
+640,Yufan,Dong,Germany,Data Analytics Center Fraunhofer FOKUS,,30,no
+640,Adrian,Paschke,Germany,"Data Analytics Center Fraunhofer FOKUS, Freie Universität Berlin",,31,yes
+650,Paula,Reyero Lobo,United Kingdom,The Open University,,32,yes
+650,Enrico,Daga,United Kingdom,The Open University,http://kmi.open.ac.uk/people/member/enrico-daga,33,yes
+650,Harith,Alani,United Kingdom,The Open University,http://people.kmi.open.ac.uk/harith/,34,yes
+650,Miriam,Fernandez,United Kingdom,Knowledge Media Institute,http://kmi.open.ac.uk/people/member/miriam-fernandez,35,yes
+671,Prasad,Yalamanchi,United States,"Lead Semantics, Inc.",https://www.leadsemantics.com,36,yes
+760,Leon,Martin,Germany,University of Bamberg,,37,yes
+847,Steven,Williams,United States,"NYU Langone (Linda Williams, Ovarian Cancer patient), U.S. S.Ct. (Williams v. U.S., et al., 19-5405 (U.S. S.Ct.))",https://theatre.academia.edu/StevenTalbertWilliams,38,yes
+905,Nick,Garabedian,Germany,KIT,https://nick-garabedian.com/,99,yes
+905,Ilia,Bagov,Germany,"Karlsruhe Institute of Technology, Institute for Applied Materials (IAM)",,100,yes
+905,Malte,Flachmann,Germany,KIT,,101,yes
+905,Nuoyao,Ye,Germany,KIT,,102,yes
+905,Miłosz,Meller,Germany,Hereon,,103,yes
+905,Floriane,Bresser,Germany,KIT,,104,yes
+905,Christian,Greiner,Germany,KIT IAM-ZBS,http://www.iam.kit.edu/zbs/,105,yes
+1007,Kurt,Junghanns,Germany,Institut für Angewandte Informatik e. V.,http://aksw.org/KurtJunghanns,39,yes
+1007,Michael,Martin,Germany,Institut für Angewandte Informatik e. V.,,40,yes
+1007,Lars-Peter,Meyer,Germany,"Institute for Applied Informatics at the University of Leipzig, Goerdelerring 9, 04109 Leipzig, Germany",,41,yes
+1125,Thomas,Vout,United Kingdom,Oxford Semantic Technologies,,24,yes
+1125,Peter,Crocker,United Kingdom,Oxford Semantic Technologies,,25,no
+1161,Achim,Reiz,Germany,Rostock University,,287,yes
+1161,Robert,Schlücker,Germany,Rostock University,,288,no
+1161,Kurt,Sandkuhl,Germany,Rostock University,,289,yes
+1254,Angelo Antonio,Salatino,United Kingdom,The Open University,https://salatino.org,42,yes
+1254,Danilo,Dessí,Germany,GESIS – Leibniz-Institute for the Social Sciences,,43,yes
+1263,Xinni,Wang,Germany,Karlsruher Institut für Technologie (KIT),,44,yes
+1263,Tobias,Käfer,Germany,Karlsruhe Institute of Technology,,45,yes
+1331,Manoé,Kieffer,France,Nantes Université,https://www.linkedin.com/in/manoé-kieffer-051564196/,46,yes
+1331,Ginwa,Fakih,France,Nantes Université,https://fr.linkedin.com/in/ghenwa-fkh,47,yes
+1331,Patricia,Serrano Alvarado,France,Nantes Université,https://pagespersowp.ls2n.fr/patriciaserrano/,48,yes
+1369,J. Nathanael,Philipp,Germany,"Serbski institut, University Leipzig",https://jnphilipp.org,49,yes
+1369,Max,Kölbl,Japan,Osaka University,,50,no
+1369,Erik,Daas,Germany,Leipzig University,,51,no
+1369,Yuki,Kyogoku,Germany,Leipzig University,,52,no
+1369,Michael,Richter,Germany,Universität Leipzig,,53,yes
+1683,Alexander,Becker,Germany,Paderborn University/ Computer Science/,,54,yes
+1683,Abdullah,Ahmed,Germany,Paderborn University/ Computer Science/ Data Science Research Group (DICE),,55,yes
+1683,Mohamed Ahmed,Sherif,Germany,"Paderborn University, Data Science Group",https://dice-research.org/MohamedAhmedSherif,56,yes
+1683,Axel-Cyrille,Ngonga Ngomo,Germany,Paderborn University,https://cs.upb.de/ds,57,yes
+1796,Enno,Meijers,Netherlands,National Library of the Netherlands / CTO Dutch Digital Heritage Network,,17,yes
+1798,Liubov,Kovriguina,Germany,metaphacts GmbH,,187,yes
+1798,Roman,Teucher,Germany,Fraunhofer IAIS,,188,yes
+1798,Daniil,Radyush,Russia,ITMO University,,189,yes
+1798,Dmitry,Mouromtsev,Germany,TIB Hannover,,190,yes
+1892,Christian,Dirschl,Germany,Wolters Kluwer Germany,,58,yes
+1892,Anke,Losch,Germany,Wolters Kluwer,,59,yes
+1944,Giray,Havur,Austria,St. Pölten University of Applied Sciences,,60,yes
+1944,Tassilo,Pellegrini,Austria,St. Pölten University of Applied Sciences,,61,yes
+1999,Madi,Solomon,United Kingdom,Graphifi,http://graphifi.com,137,yes
+1999,James,Phare,United Kingdom,Neural Alpha,http://neuralalpha.com,138,yes
+2081,Sumin,Seo,South Korea,Naver,,62,yes
+2081,Heeseon,Cheon,South Korea,Naver,,63,no
+2081,Hyunho,Kim,South Korea,Naver,,64,yes
+2081,Dongseok,Hyun,South Korea,Naver,,65,no
+2188,Thomas,Vout,United Kingdom,Oxford Semantic Technologies,,24,yes
+2188,Peter,Crocker,United Kingdom,Oxford Semantic Technologies,,25,no
+2188,Valerio,Cocchi,United Kingdom,Oxford Semantic Technologies,,66,no
+2198,Ed,Kool,Netherlands,Semanta college,https://www.semanta.nl,67,yes
+2360,Thorsten,Liebig,Germany,derivo GmbH,http://www.derivo.de/en/,243,yes
+2360,Michael,Opitz,Germany,derivo GmbH,,290,yes
+2360,Vincent,Vialard,Germany,derivo GmbH,,291,yes
+2360,Maximilian,Wenzel,Germany,derivo GmbH,,292,yes
+2366,Mary-Jane,Antia,South Africa,"University of Cape Town, Department of Computer Science",,68,yes
+2366,Maria,Keet,South Africa,"University of Cape Town, Department of Computer Science",http://www.meteck.org,69,yes
+2631,Edlira,Vakaj,United Kingdom,Birmingham City University,https://www.bcu.ac.uk/computing/about-us/our-staff/edlira-vakaj,70,yes
+2631,Sanju,Tiwari,Mexico,Universidad Autónoma de Tamaulipas Tamaulipas,,71,yes
+2647,Yashrajsinh,Chudasama,Germany,Leibniz University Hannover,,293,yes
+2647,Disha,Purohit,Germany,"TIB Leibniz Information Centre for Science and Technology, Hannover, Germany",,294,yes
+2647,Philipp D.,Rohde,Germany,"TIB Leibniz Information Centre for Science and Technology, Hannover, Germany",,295,yes
+2647,Maria-Esther,Vidal,Germany,"TIB Leibniz Information Centre for Science and Technology, Hannover, Germany",,296,yes
+2718,Tomas,Knap,Austria,Semantic Web Company,,72,yes
+2798,Svetla,Koeva,Bulgaria,IBL-BAS,,73,yes
+2807,Sarra,Ouelhadj,France,LIRIS & Métropole de Lyon,,74,yes
+2807,Pierre-Antoine,Champin,France,LIRIS & W3C & Inria,http://liris.cnrs.fr/~pchampin,75,yes
+2807,Stéphanie,Jean-Daubias,France,LIRIS,http://liris.cnrs.fr/~sjeandau/,76,no
+2807,Jérémy,Gaillard,France,Métropole de Lyon,,77,yes
+3004,Johannes,Reich,Germany,SAP,http://www.sophoscape.de,78,yes
+3057,Michael,DeBellis,United States,michaeldebellis.com,http://michaeldebellis.com,79,yes
+3511,Svonko,Galasso,Luxembourg,"Dep. of Research and Development, LUNEX International University, 4671 Differdange, Luxembourg",https://www.lunex-university.net/,80,yes
+3511,Renato,Baptista,Luxembourg,"Dep. of Research and Development, LUNEX International University, 4671 Differdange, Luxembourg",https://www.lunex-university.net/,81,no
+3511,Mario,Molinara,Italy,"Dep. of Electrical and Information Engineering, University of Cassino and Southern Lazio, 03043 Cassino, Italy",https://www.unicas.it/,82,no
+3511,Serena,Pizzocaro,Luxembourg,"Dep. of Research and Development, LUNEX International University, 4671 Differdange, Luxembourg",https://www.lunex-university.net/,83,no
+3511,Rocco Salvatore,Calabrò,Italy,"Istituto di Ricerca e Cura a Carattere Scientifico Centro Neurolesi “Bonino Pulejo”, 98123 Messina, Italy",,84,no
+3511,Alessandro Marco,De Nunzio,Luxembourg,"Dep. of Research and Development, LUNEX International University, 4671 Differdange, Luxembourg",https://www.lunex-university.net/,85,no
+3757,Daniil,Dobriy,Austria,Vienna University of Economics and Business,,86,yes
+3757,Axel,Polleres,Austria,Vienna University of Economics and Business,,87,yes
+3819,Rik,Opgenoort,Netherlands,CROW,https://rix.fyi,88,yes
+3819,Redmer,Kronemeijer,Netherlands,CROW,https://rdmr.eu/,89,yes
+3824,Heather,Hedden,United States,Semantic Web Company,https://semantic-web.com,90,yes
+3824,Andreas,Blumauer,Austria,Semantic Web Company,https://semantic-web.com,91,yes
+3824,Angela,DaSilva,Austria,Semantic Web Company,https://semantic-web.com,92,yes
+3833,Dennis,Diefenbach,France,University Jean Monet,,93,yes
+4079,Pieter,Colpaert,Belgium,Ghent University – imec,https://pietercolpaert.be/,94,yes
+4079,David,Chaves-Fraga,Spain,Universidad Politécnica de Madrid - DTAI KU Leuven,https://davidchavesfraga.com,95,yes
+4079,Julián,Rojas,Belgium,Ghent University,,96,yes
+4079,Shahrom,Sohi,Austria,"Institute of Data, Process and Knowledge management -  WU Vienna University of Business and Economics",,97,yes
+4079,Mersedeh,Sadeghi,Germany,University of Cologne,,98,yes
+4128,Nick,Garabedian,Germany,KIT,https://nick-garabedian.com/,99,yes
+4128,Ilia,Bagov,Germany,KIT,,100,no
+4128,Malte,Flachmann,Germany,KIT,,101,no
+4128,Nuoyao,Ye,Germany,KIT,,102,no
+4128,Miłosz,Meller,Germany,Hereon,,103,no
+4128,Floriane,Bresser,Germany,KIT,,104,no
+4128,Christian,Greiner,Germany,KIT,,105,no
+4186,Thomas,Vout,United Kingdom,Oxford Semantic Technologies,,24,yes
+4186,Peter,Crocker,United Kingdom,Oxford Semantic Technologies,,25,no
+4186,Valerio,Cocchi,United Kingdom,Oxford Semantic Technologies,,66,no
+4210,Jan,Voskuil,Netherlands,Taxonic,http://www.taxonic.com,106,yes
+4386,John,Beverley,United States,University at Buffalo,http://johnbeverley.com,107,yes
+4386,David,Limbaugh,United States,CUBRC,,108,yes
+4386,Mark,Jensen,United States,CUBRC,,109,yes
+4566,Adrian,Gschwend,Switzerland,Zazuko GmbH,http://www.zazuko.com,110,yes
+4566,Michael,Rauch,Switzerland,Zazuko GmbH,http://www.zazuko.com,111,yes
+4716,Robert,David,Austria,Semantic Web Company,,112,yes
+4716,Astrid,Krickl,Austria,Semantic Web Company,,113,no
+4716,Jesús,Barrasa,United Kingdom,Neo4j,,114,no
+4723,Nikolaos,Karalis,Germany,"DICE group, Department of Computer Science, Paderborn University",,115,yes
+4723,Alexander,Bigerl,Germany,University of Paderborn Data Science Group,,116,yes
+4723,Axel-Cyrille,Ngonga Ngomo,Germany,Paderborn University,http://cs.upb.de/ds,57,yes
+4801,Jean-Louis,Janin,France,Académie de l'Eau,,117,yes
+4801,Heni,Portine,France,Honorary Professor of the French Universities,,118,no
+4862,Alex,Randles,Ireland,"ADAPT Centre, Trinity College Dublin.",,119,yes
+4862,Declan,O'Sullivan,Ireland,"ADAPT Centre, Trinity College Dublin.",,120,no
+4865,Anne,Radunski,Germany,"Hasso Plattner Institute, University of Potsdam",https://hpi.de/research-schools/hpi-dse/mitglieder/research-pages/anne-radunski.html,121,yes
+4865,Katharina,Hölzle,Germany,University of Stuttgart,,122,no
+4875,Beatriz,Esteves,Spain,Universidad Politécnica de Madrid,,123,yes
+4875,Víctor,Rodríguez Doncel,Spain,Universidad Politécnica de Madrid,,124,no
+4875,Harshvardhan J.,Pandit,Ireland,"ADAPT Centre, School of Computing, Dublin City University",https://harshp.com/,125,no
+4875,David,Lewis,Ireland,Trinity College Dublin,http://www.cs.tcd.ie/Dave.Lewis,126,no
+4985,Dr. Martin,Ley,Germany,PANTOPIX,https://www.pantopix.com,127,yes
+4985,Johann,Wagner,Germany,PANTOPIX,https://www.pantopix.com,128,no
+5020,Raphaël,Conde Salazar,France,INRAE,,129,yes
+5020,Clement,Jonquet,France,INRAE,,130,no
+5020,Danai,Symeonidou,France,INRAE,,131,yes
+5177,Thomas,Vout,United Kingdom,Oxford Semantic Technologies,,24,yes
+5177,Peter,Crocker,United Kingdom,Oxford Semantic Technologies,,25,no
+5177,Valerio,Cocchi,United Kingdom,Oxford Semantic Technologies,,66,no
+5195,Hamada,Zahera,Germany,Paderborn University,,132,yes
+5195,Fedor,Vitiugin,Spain,Universitat Pompeu Fabra,,133,yes
+5195,Mohamed,Sherif,Germany,Paderborn University,,56,no
+5195,Carlos,Castillo,Spain,Universitat Pompeu Fabra,,134,no
+5195,Axel-Cyrille,Ngonga,Germany,Paderborn University,,57,no
+5522,Kike,Franssen,Netherlands,Ordina,,135,yes
+5522,Eveline,Schmidt,Netherlands,Ordina,,136,yes
+5806,Ian,Eccleston,United States,TopQuadrant,https://www.topquadrant.com/,140,yes
+5806,Irene,Polikoff,United States,TopQuadrant,,141,yes
+5822,Jans,Aasman,United States,Franz Inc.,https://franz.com/,142,yes
+5822,Sheng-Chuan,Wu,United States,Franz Inc.,https://franz.com,143,yes
+5847,Andrea,Splendiani,Switzerland,IQVIA,http://IQVIA.com,144,yes
+5856,Jiao,Long,Belgium,"IDLab, Departement of Electronics and Information Systems, Ghent University - imec, Belgium",,145,yes
+5856,Brecht,Van de Vyvere,Belgium,"IDLab, Departement of Electronics and Information Systems, Ghent University - imec, Belgium",,146,no
+5856,Julián Rojas,Meléndez,Belgium,"IDLab, Departement of Electronics and Information Systems, Ghent University - imec, Belgium",,96,no
+5856,Pieter,Colpaert,Belgium,"IDLab, Departement of Electronics and Information Systems, Ghent University - imec, Belgium",https://pietercolpaert.be/,94,yes
+5860,Jeroen,Breteler,Netherlands,TNO,,147,yes
+5860,Thom,Van Gessel,Netherlands,TNO,,148,yes
+5860,Giulia,Biagioni,Netherlands,TNO,,149,yes
+5860,Robert,Van Doesburg,Netherlands,TNO,,150,yes
+5933,Luiz Olavo,Bonino Da Silva Santos,Netherlands,University of Twente,https://people.utwente.nl/l.o.boninodasilvasantos,151,yes
+5933,Giancarlo,Guizzardi,Netherlands,"University of Twente, the Netherlands",,152,yes
+5933,Clement,Jonquet,France,MISTEA (INRAE) and LIRMM (U. Montpellier),http://www.lirmm.fr/~jonquet/,130,yes
+5933,Cassia,Trojahn,France,UT2J &amp; IRIT,,153,yes
+6015,Swathi,Anil,Germany,University of Freiburg,https://www.bcf.uni-freiburg.de/about/people/anil,154,yes
+6015,Jennifer,D'Souza,Germany,"TIB Leibniz Information Centre for Science and Technology, Hannover, Germany",,155,yes
+6038,Heather,Hedden,United States,Semantic Web Company,http://www.hedden-information.com,90,yes
+6051,Debayan,Banerjee,Georgia,Universität Hamburg,,297,yes
+6051,Seid,Yimam,Germany,Universität Hamburg,,298,yes
+6051,Martin,Semmann,Germany,Universität Hamburg,,299,yes
+6051,Ricardo,Usbeck,Germany,Universität Hamburg,,236,yes
+6051,Chris,Biemann,Germany,Universität Hamburg,,300,yes
+6083,Steffen,Neumann,Germany,"Leibniz-Institut für Pflanzenbiochemie, Halle",,156,yes
+6083,Felix,Bach,Germany,FIZ Karlsruhe - Leibniz Institute for Information Infrastructure,,157,no
+6083,Leyla J.,Castro,Germany,ZB Med Information Centre for Life Sciences,,158,no
+6083,Tillmann G.,Fischer,Germany,Leibniz Institute of Plant Biochemistry,,159,no
+6083,Stefan,Hofmann,Germany,FIZ Karlsruhe - Leibniz Institute for Information Infrastructure,,160,no
+6083,Pei-Chi,Huang,Germany,Karlsruhe Institute of Technology,,161,no
+6083,Nicole,Jung,Germany,Karlsruhe Institute of Technology,,162,no
+6083,Bhavin,Katabathuni,Germany,TIB - Leibniz Information Centre for Science and Technology,,163,no
+6083,Fabian,Mauz,Germany,Leibniz Institute of Plant Biochemistry,,164,no
+6083,René,Meier,Germany,Leibniz Institute of Plant Biochemistry,,165,no
+6083,Venkata C.,Nainala,Germany,Friedrich-Schiller-University,,166,no
+6083,Noura,Rayya,Germany,Friedrich-Schiller-University,,167,no
+6083,Christoph,Steinbeck,Germany,Friedrich-Schiller-University,,168,no
+6083,Oliver,Koepler,Germany,TIB - Leibniz Information Centre for Science and Technology,,169,yes
+6126,Miel,Vander Sande,Belgium,"meemoo, Flemish Institute for Archives",http://meemoo.be,170,yes
+6157,Pratik,Meshram,India,Pimpri Chinchwad College of Engineering,,171,yes
+6157,Swati,Jaiswal,India,Pimpri Chinchwad College of Engineering,,172,yes
+6157,Aniket,Kasle,India,Pimpri Chinchwad College of Engineering,,173,yes
+6157,Aditi,Thakur,India,Pimpri Chinchwad College of Engineering,,174,yes
+6175,Michael,Röder,Germany,Paderborn University,https://dice-research.org/MichaelRoeder,175,yes
+6175,Denis,Kuchelev,Germany,Paderborn University,,176,yes
+6175,Axel-Cyrille,Ngonga Ngomo,Germany,Paderborn University,http://cs.upb.de/ds,57,yes
+6333,Thomas,Kaleske,Germany,Kühne + Nagel,https://www.linkedin.com/in/thomas-kaleske-6119332b,177,yes
+6349,Anna-Lena,Lorenz,Germany,TIB Hannover,,178,yes
+6349,Jennifer,D'Souza,Germany,TIB Hannover,,155,no
+6349,Marina,Wurzbacher,Germany,TIB Hannover,,179,no
+6543,Lisa,Ehrlinger,Austria,Software Competence Center Hagenberg GmbH,http://www.scch.at,301,yes
+6543,Harald,Holzner,Austria,Newsadoo,http://www.newsadoo.com,302,yes
+6543,Nora,Hemelmayr,Austria,Newsadoo GmbH,http://www.newsadoo.com,303,yes
+6543,Wolfram,Wöß,Austria,"Institute for Application Oriented Knowledge Processing, Johannes Kepler University Linz, Austria",,304,no
+7009,Freya,Thießen,Germany,Technische Informationsbibliothek (TIB),,180,yes
+7009,Jennifer,D'Souza,Germany,Technische Informationsbibliothek (TIB),,155,no
+7009,Markus,Stocker,Germany,Technische Informationsbibliothek (TIB),,181,no
+7050,Franz,Krause,Germany,"Data and Web Science Group, University of Mannheim",,182,yes
+7050,Kabul,Kurniawan,Austria,Vienna University of Economics and Business,,183,yes
+7050,Elmar,Kiesling,Austria,Vienna University of Economics and Business,,184,yes
+7050,Heiko,Paulheim,Germany,"Data and Web Science Group, University of Mannheim",,185,no
+7050,Axel,Polleres,Austria,Vienna University of Economics and Business,,87,no
+7077,Steven,Williams,United States,"NYU Langone (Linda Williams, Ovarian Cancer patient), U.S. S.Ct. (Williams v. U.S., et al., 19-5405 (U.S. S.Ct.))",https://theatre.academia.edu/StevenTalbertWilliams,38,yes
+7087,Andreas,Helfenstein,Finland,Self-affiliated,,186,yes
+7133,Elia,Rizzetto,Italy,University of Bologna,,305,yes
+7133,Arcangelo,Massari,Italy,University of Bologna,,306,yes
+7133,Ivan,Heibi,Italy,University of Bologna,,307,yes
+7133,Silvio,Peroni,Italy,University of Bologna,,308,yes
+7402,Liubov,Kovriguina,Germany,Fraunhofer IAIS,,187,yes
+7402,Roman,Teucher,Germany,Fraunhofer IAIS,,188,no
+7402,Daniil,Radyush,Russia,ITMO University,,189,no
+7402,Dmitry,Mouromtsev,Germany,TIB Hannover,,190,no
+7499,Vincenzo,Offertucci,Italy,"Dipartimento di Informatica, Università degli Studi di Salerno",,191,no
+7499,Maria Angela,Pellegrino,Italy,Università degli Studi di Salerno,,192,yes
+7499,Vittorio,Scarano,Italy,University of Salerno,http://www.dia.unisa.it/professori/vitsca,193,no
+7519,Sarah Binta Alam,Shoilee,Netherlands,Vrije Universiteit Amsterdam,,194,yes
+7519,Victor,de Boer,Netherlands,Vrije Universiteit Amsterdam,http://www.victordeboer.com,195,yes
+7519,Jacco,van Ossenbruggen,Netherlands,VU University Amsterdam,,196,yes
+7541,Jan-Peter,Bergmann,Germany,Fraunhofer Center for International Management and Knowledge Economy IMW,,197,yes
+7541,Elena,Senger,Germany,Fraunhofer Center for International Management and Knowledge Economy IMW,,198,yes
+7541,Yuri,Campbell,Germany,Fraunhofer Center for International Management and Knowledge Economy IMW,,199,yes
+7541,Karl,Trela,Germany,Fraunhofer Center for International Management and Knowledge Economy IMW,,200,yes
+7622,Valadis,Mastoras,Greece,"Information Technologies Institute, Center for Research and Technology Hellas, Thessaloniki, Greece",,201,yes
+7622,Alexandros,Vassiliades,Greece,"Information Technologies Institute, Center for Research and Technology Hellas, Thessaloniki, Greece",,202,yes
+7622,Maria,Rousi,Greece,"Information Technologies Institute, Center for Research and Technology Hellas, Thessaloniki, Greece",,203,no
+7622,Sotiris,Diplaris,Greece,"Information Technologies Institute, Center for Research and Technology Hellas, Thessaloniki, Greece",,204,no
+7622,Thanassis,Mavropoulos,Greece,"Information Technologies Institute, Center for Research and Technology Hellas, Thessaloniki, Greece",,205,no
+7622,Ilias,Gialampoukidis,Greece,"Information Technologies Institute, Center for Research and Technology Hellas, Thessaloniki, Greece",,206,no
+7622,Stefanos,Vrochidis,Greece,"Information Technologies Institute, Center for Research and Technology Hellas, Thessaloniki, Greece",,207,no
+7622,Ioannis,Kompatsiaris,Greece,"Information Technologies Institute, Center for Research and Technology Hellas, Thessaloniki, Greece",,208,no
+7730,Houcine,Senoussi,France,CY Cergy Paris University,,209,yes
+7956,Sebastian,Gabler,Austria,Sematic Web Company,,210,yes
+7970,Happi Happi,Bill Gates,France,University of Montpellier / IRD / Diade,,211,yes
+7970,Danai,Symeonidou,France,INRAE,,131,yes
+7970,Géraud,Fokou Pelap,Cameroon,University of Dschang,,212,yes
+7970,Pierre,Larmande,France,University of Montpellier / IRD / DIADE,,213,yes
+8036,Philip,Strömert,Germany,TIB - Leibniz Information Centre for Science and Technology,,214,yes
+8036,Vatsal,Limbachia,Germany,TIB - Leibniz Information Centre for Science and Technology,,215,no
+8036,Pooya,Oladazimi,Germany,TIB - Leibniz Information Centre for Science and Technology,,216,no
+8036,Johannes,Hunold,Germany,TIB - Leibniz Information Centre for Science and Technology,,217,no
+8036,Oliver,Koepler,Germany,TIB - Leibniz Information Centre for Science and Technology,,169,yes
+8233,Nikolaos,Karalis,Germany,"DICE group, Department of Computer Science, Paderborn University",,115,yes
+8233,Alexander,Bigerl,Germany,University of Paderborn Data Science Group,,116,yes
+8233,Caglar,Demir,Germany,Paderborn University,https://dice-research.org/CaglarDemir,218,yes
+8233,Liss,Heidrich,Germany,"DICE group, Department of Computer Science, Paderborn University",,219,no
+8233,Axel-Cyrille,Ngonga Ngomo,Germany,Paderborn University,http://cs.upb.de/ds,57,yes
+8276,Martin,Voigt,Germany,elevait GmbH &amp; Co. KG,https://elevait.de,220,yes
+8276,Thaddäus,Strobel,Germany,elevait GmbH &amp; Co. KG,https://elevait.de,221,yes
+8292,Svonko,Galasso,Luxembourg,"Dep. of Research and Development, LUNEX International University, 4671 Differdange, Luxembourg",https://www.lunex-university.net/,80,yes
+8292,Renato,Baptista,Macedonia,"Dep. of Research and Development, LUNEX International University, 4671 Differdange, Luxembourg",https://www.lunex-university.net/,81,yes
+8292,Mario,Molinara,Italy,"Dep. of Electrical and Information Engineering, University of Cassino and Southern Lazio, 03043 Cassino, Italy",https://www.unicas.it/,82,yes
+8292,Serena,Pizzocaro,Macedonia,"Dep. of Research and Development, LUNEX International University, 4671 Differdange, Luxembourg",https://www.lunex-university.net/,83,yes
+8292,Rocco Salvatore,Calabrò,Italy,"Istituto di Ricerca e Cura a Carattere Scientifico Centro Neurolesi “Bonino Pulejo”, 98123 Messina, Italy",,84,yes
+8292,Alessandro Marco,De Nunzio,Luxembourg,"Dep. of Research and Development, LUNEX International University, 4671 Differdange, Luxembourg",https://www.lunex-university.net/,85,yes
+8318,Christopher Robin,Praas,Germany,HTW Dresden University of Applied Sciences,,222,yes
+8318,Timo,Burkhardt,Germany,"Hochschule Mittweida, University of Applied Sciences",,223,no
+8318,Jürgen,Anke,Germany,HTW Dresden University of Applied Sciences,,224,no
+8420,Lars-Peter,Meyer,Germany,Institut für Angewandte Informatik e. V.,http://aksw.org/LarsPeterMeyer,41,yes
+8420,Johannes,Frey,Germany,InfAI @ Leipzig University,https://aksw.org/JohannesFrey,309,yes
+8420,Kurt,Junghanns,Germany,Institut für Angewandte Informatik e. V.,http://aksw.org/KurtJunghanns,39,yes
+8420,Felix,Brei,Germany,Institut für Angewandte Informatik e. V.,,310,yes
+8420,Kirill,Bulert,Germany,Institut für Angewandte Informatik e. V.,,311,yes
+8420,Sabine,Gründer-Fahrer,Germany,Institut für Angewandte Informatik e. V.,,312,yes
+8420,Michael,Martin,Germany,Institut für Angewandte Informatik e. V.,,40,yes
+8641,Michiel,Fierens,Belgium,"KU Leuven Centre for IT & IP Law, Leuven, Belgium.",https://www.law.kuleuven.be/citip/en/staff-members/staff/00132752,225,yes
+8733,Maryam,Basereh,Ireland,Dublin City University,,226,yes
+8733,Marie,Ward,Ireland,St. James's Hospital,,227,no
+8733,Una,Geary,Ireland,St. James's Hospital,,228,no
+8733,Una,Healy,Ireland,St. James's Hospital,,229,no
+8733,Mary,Fogarty,Ireland,St. James's Hospital,,230,no
+8733,Annalina,Caputo,Ireland,Dublin City University,,231,no
+8733,Rob,Brennan,Ireland,University College Dublin,,232,yes
+8743,Karsten,Schrempp,Germany,Pantopix,http://www.pantopix-com,313,yes
+8743,Klaus,Müller,Germany,Carl Zeiss Microscopy,https://www.zeiss.com,314,no
+8743,Andreas,Pawlik,Germany,ZEISS Digital Partners,https://www.zeiss.com,315,no
+8777,Javier,Soruco,Bolivia,Universidad Privada Boliviana,,233,yes
+8777,Diego,Collarana,Germany,Fraunhofer IAIS,https://www.iais.fraunhofer.de/de/geschaeftsfelder/speech-technologies/knowledge-graphs.html,234,yes
+8777,Andreas,Both,Germany,Leipzig University of Applied Sciences,,235,yes
+8777,Ricardo,Usbeck,Germany,Universit ̈at Hamburg,,236,yes
+9024,Amin,Anjomshoaa,United States,Vienna University of Economics and Business,,237,yes
+9024,Hannah,Schuster,Austria,Complexity Science Hub Vienna,,238,yes
+9024,Johannes,Wachs,Austria,Complexity Science Hub Vienna,,239,no
+9024,Axel,Polleres,Austria,Vienna University of Economics and Business,,87,no
+9033,Eugeniu,Costetchi,Luxembourg,"Meaningfy SARL, 61 route de Fischbach, L-7447, Lintgen, Luxembourg",,240,yes
+9033,Alexandros,Vassiliades,Greece,"Meaningfy SARL, 61 route de Fischbach, L-7447, Lintgen, Luxembourg",,202,yes
+9033,Csongor I.,Nyulas,Romania,"Meaningfy SARL, 61 route de Fischbach, L-7447, Lintgen, Luxembourg",,241,yes
+9374,Timm,Amstein,Germany,Capgemini Deutschland GmbH,https://www.linkedin.com/in/timm-amstein-129654203,242,yes
+9381,Thorsten,Liebig,Germany,Derivo,https://www.derivo.de/en/home/,243,yes
+9381,Peter,Crocker,United Kingdom,Oxford Semantic Technologies,https://www.oxfordsemantic.tech/,25,no
+9381,Thomas,Vout,United Kingdom,Oxford Semantic Technologies,https://www.oxfordsemantic.tech/,24,yes
+9461,Paul,Brandt,Netherlands,Dutch National Police,https://www.politie.nl/en,244,yes
+9461,Hans,Stolk,Netherlands,Dutch National Police,https://www.politie.nl/en,245,no
+9471,Oleksandra,Bruns,Germany,FIZ Karlsruhe – Leibniz Institute for Information Infrastructure,,246,yes
+9471,Tabea,Tietz,Germany,FIZ Karlsruhe,,247,yes
+9471,Sandra,Göller,Germany,"FIZ Karlsruhe, Leibniz Institute for Information Infrastructure",,248,no
+9471,Harald,Sack,Germany,"FIZ Karlsruhe, Leibniz Institute for Information Infrastructure & KIT Karlsruhe",http://www.aifb.kit.edu/web/Harald_Sack/en,249,yes
+9497,Raia,Abu Ahmad,Germany,Deutsches Forschungszentrum für Künstliche Intelligenz GmbH (DFKI),,250,yes
+9497,Jennifer,D'Souza,Germany,TIB Leibniz Information Centre for Science and Technology,,155,yes
+9497,Matthäus,Zloch,Germany,GESIS - Leibniz-Institute for the Social Sciences,,251,yes
+9497,Wolfgang,Otto,Germany,GESIS - Leibniz-Institute for the Social Sciences,,252,yes
+9497,Georg,Rehm,Germany,Deutsches Forschungszentrum für Künstliche Intelligenz GmbH (DFKI),,253,yes
+9497,Allard,Oelen,Germany,TIB Leibniz Information Centre for Science and Technology,,254,yes
+9497,Sören,Auer,Germany,TIB Leibniz Information Centre for Science and Technology,,255,yes
+9497,Stefan,Dietze,Germany,GESIS - Leibniz-Institute for the Social Sciences,,256,yes
+9627,Alireza,Shahbazi,Iran,The Founder and CEO of Borhan Company,,257,yes
+9627,Seyyed Ahmad,Mirsanei,Iran,Ph.D Candidate in Philosophical Logic at Tarbiat Modares University,,258,no
+9627,Malikeh,Haj Khan Mirzaye Sarraf,Iran,Ph.D Student in Computer Engineering at Iran University of Science & Technology,,259,yes
+9627,Behrouz,Minaei Bidgoli,Iran,Associate Professor at Iran University of Science & Technology,,260,no
+9669,Sohail,El Sabrouty,Netherlands,Vrije Universiteit Amsterdam,,261,yes
+9669,Ali,Khalili,Netherlands,Deloitte,,316,yes
+9687,Wouter,Beek,Netherlands,Triply B.V.,https://triplydb.com/wouter,15,yes
+9687,Kathrin,Dentler,Netherlands,Triply B.V.,https://triplydb.com/kathrin,262,yes
+9744,Chen,Tao,China,Sun Yat-sen University,,263,yes
+9744,Yang,Xin,China,Sun Yat-sen University,,264,no
+9744,Zhang,Junjie,China,Sun Yat-sen University,,265,no
+9775,Veysel,Kocaman,Netherlands,John Snow Labs Inc.,https://nlp.johnsnowlabs.com/,266,yes
+9775,David,Talby,United States,John Snow Labs Inc.,https://nlp.johnsnowlabs.com/,267,yes
+9809,Jannik,Wiessler,Germany,Daimler Truck AG,http://www.daimlertruck.com,268,yes
+9816,Muhammad,Salman,Australia,The Australian National University,,317,yes
+9816,Armin,Haller,Australia,Australian National University,http://www.armin-haller.com,318,no
+9816,Sergio José,Rodríguez Méndez,Australia,School of Computing / College of Engineering & Computer Science. The Australian National University,https://comp.anu.edu.au/people/sergio-rodriguez-mendez/,319,no
+9968,Dimitar,Trajanov,Macedonia,"Faculty of Computer Science and Engineering, Ss. Cyril and Methodius University",,269,yes
+9968,Elena,Apostol,Romania,"Computer Science and Engineering Department, University POLITEHNICA of Bucharest",,270,no
+9968,Radovan,Garabík,Slovakia,"Ľ. Štúr Institute of Linguistics, Slovak Academy of Sciences",,271,no
+9968,Katerina,Gkirtzou,Greece,"Institute for Language and Speech Processing, Athena Research Institute",,272,no
+9968,Dagmar,Gromann,Austria,University of Vienna,,273,yes
+9968,Chaya,Liebeskind,Israel,"Department of Computer Science, Jerusalem College of Technology",,274,no
+9968,Cosimo,Palma,Italy,"University of Naples ""L'Orientale""",,275,no
+9968,Michael,Rosner,Malta,"Department of Artificial Intelligence, University of Malta",,276,no
+9968,Alexia,Sampri,United Kingdom,"University of Cambridge, Cambridge UK",,277,no
+9968,Gilles,Sérasset,France,"Laboratoire d’Informatique de Grenoble, Université Grenoble Alpes, France",,278,no
+9968,Blerina,Spahiu,Italy,"Dipartimento di Informatica Sistemistica e Comunicazione, Università degli Studi di Milano",,279,no
+9968,Ciprian-Octavian,Truică,Romania,"Computer Science and Engineering Department, University Politehnica of Bucharest",https://sites.google.com/view/ciprian-octavian-truica,280,no
+9968,Giedre,Valunaite Oleskeviciene,Lithuania,"Institute of Humanities, Mykolas Romeris University",,281,no
