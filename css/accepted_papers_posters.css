@@ -1,3 +1,7 @@
+section .container .row:first-child {
+  padding-bottom: 25px!important;
+}
+
 .row .card ul{
     font-size: 0.9em;
     list-style: none;
