@@ -60,9 +60,9 @@
 							</zero-md>
 
 							<div id="buttonGroup" class="btn-group" role="group" aria-label="Button Group">
-							  <button id="button1" type="button" data-param="0" class="btn btn-light active">20 SEPTEMBER</button>
-							  <button id="button2" type="button" data-param="1" class="btn btn-light">21 SEPTEMBER</button>
-							  <button id="button3" type="button" data-param="2" class="btn btn-light">22 SEPTEMBER</button>
+							  <button id="button1" type="button" data-param="0" class="btn btn-light active">20 SEPTEMBER<br> (DBpediaDay & Workshops)</button>
+							  <button id="button2" type="button" data-param="1" class="btn btn-light">21 SEPTEMBER<br> (Conference Day 1)</button>
+							  <button id="button3" type="button" data-param="2" class="btn btn-light">22 SEPTEMBER<br> (Conference Day 2)</button>
 							</div>
 
 						</div>
@@ -113,6 +113,11 @@
 
 	<script src="../js/xlsx.full.min.js"></script>
 	<script>
+				function convertMarkdownLinksToHtml(input) {
+					const markdownLinkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+					const html = input.replace(markdownLinkRegex, '<a href="$2">$1</a>');
+					return html;
+				}
 
 				var container = document.getElementById('programme_table');
 				// Function to read XLSX file from path
@@ -263,6 +268,8 @@
 												}else if (normal_row.toLowerCase().startsWith("talk title:")) {
 														normal_row = normal_row.substring(11).trim();
 														class_row = "talk-title";
+												}else {
+													normal_row = convertMarkdownLinksToHtml(normal_row);
 												}
 												transformed_content += "<p class='"+class_row+"'>"+normal_row+"</p>";
 

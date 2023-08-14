@@ -91,8 +91,7 @@ section table td.clickable:focus {
 }
 section table td.g-break {
   background: rgb(240,240,240);
-  text-transform: uppercase;
-  font-size: 0.9em;
+  /*font-size: 0.9em;*/
 }
 
 section table td.g-keynote {
@@ -145,6 +144,11 @@ section table td .rooms-slot, section table th .rooms-slot{
 }
 td.industry .type-slot, td.dbpedia .type-slot {
 	/*display: none;*/
+}
+
+section table td.g-break p.title-slot{
+  font-weight:bolder !important;
+	font-size: 1em;
 }
 
 section table td.regular-slot p.type-slot{
