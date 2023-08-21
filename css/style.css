@@ -427,8 +427,9 @@ header {
 	.dropdown-menu{
 		border: none;
 		border-radius: 0px;
-		border-right: solid 3px white !important;
-		text-align: right;
+		border-left: solid 3px white !important;
+		text-align: left;
+		padding-left: 1em;
 	}
 	#logo_lti{
 		width: 38%;

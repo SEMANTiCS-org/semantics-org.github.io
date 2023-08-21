@@ -76,6 +76,25 @@
 	<script src="../js/scrolling-nav.js"></script>
 
 	<script src="../vendor/jquery-csv/jquery.csv.min.js"></script>
+	<script>
+		function callback_doc() {
+				$('h1, h2, h3').each(function () {
+						var id = $(this).text().toLowerCase().replace(/ /g, '_');
+						$(this).attr('id', id);
+				});
+
+				// Scroll to the target element if it exists
+        if (window.location.hash) {
+					var hash = window.location.hash.substring(1);
+					var targetElement = document.getElementById(hash);
+					setTimeout(function() {
+							if (targetElement) {
+									targetElement.scrollIntoView({ behavior: 'smooth' });
+							}
+					}, 100);
+        }
+		}
+  </script>
 	<script src="../js/mammoth.browser.min.js"></script>
 	<script>
 
@@ -103,6 +122,7 @@
 			mammoth.convertToHtml(options).then(function(result) {
 				// Display the converted HTML content in the container
 				container.innerHTML = result.value;
+				callback_doc();
 			});
 		})
 		.catch(function(error) {
