@@ -74,6 +74,35 @@ section th:not(:first-child):not(:has(img)){
 	 padding-top: 35px!important;
 }
 
+section tr.full-bio th:first-child{
+  text-align: center;
+}
+
+section tr.full-bio th:last-child{
+  width: 90% !important;
+}
+
+section tr.full-bio{
+  display: unset;
+}
+
+section table.full-bio{
+  width: 90%;
+}
+
+section table.full-bio p{
+  font-size: 0.95em !important;
+}
+
+section table.full-bio img{
+	text-align: center!important;
+	border-radius: 50%;
+  object-fit: cover;
+  width: 12vw;
+  aspect-ratio: 1/1;
+  max-width: 150px;
+}
+
 
 section img{
 	text-align: center!important;

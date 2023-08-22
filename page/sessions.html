@@ -84,6 +84,14 @@
 						$(this).attr('id', id);
 				});
 
+				$('section table tr').each(function () {
+					var last_td = $(this).parent().find('th:last-child');
+					if (last_td.find('img').length == 0) {
+						$(this).addClass('full-bio');
+						$(this).parent().parent().addClass('full-bio');
+					}
+				});
+
 				// Scroll to the target element if it exists
         if (window.location.hash) {
 					var hash = window.location.hash.substring(1);
