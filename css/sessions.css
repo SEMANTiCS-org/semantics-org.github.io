@@ -75,11 +75,12 @@ section th:not(:first-child):not(:has(img)){
 }
 
 section tr.full-bio th:first-child{
-  text-align: center;
+  /*text-align: center;*/
 }
 
 section tr.full-bio th:last-child{
   width: 90% !important;
+  padding-right: 200px !important;
 }
 
 section tr.full-bio{
@@ -108,7 +109,28 @@ section table img{
 	text-align: center!important;
 	border-radius: 50%;
   object-fit: cover;
-  width: 10vw;
+  width: 14vw;
   aspect-ratio: 1/1;
   max-width: 150px;
+}
+
+@media (max-width: 992px) {
+	section table {
+	  text-align: center !important;
+	  width: 100% !important;
+	  border-collapse: separate;
+	  border-spacing: 10px;
+	  margin: 0px !important;
+	}
+	section table th, td{
+		display: table-row;
+		/*margin: 20px!important;*/
+	}
+	section table img{
+		width: 60vw !important;
+	}
+
+  section tr.full-bio th:last-child{
+    padding-right: 0px !important;
+  }
 }
