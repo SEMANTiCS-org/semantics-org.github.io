@@ -148,7 +148,6 @@
 								}
 
 								var mergedCells = worksheet['!merges'] || [];
-
 								/*var legend_container = document.createElement('div');
 								legend_container.classList.add("programme-legend");
 								var legend_title = document.createElement("p");
@@ -179,6 +178,11 @@
 						          if (mergedCellInfo.startCol === j) {
 						            cell.setAttribute('rowspan', mergedCellInfo.rowspan);
 						          }
+
+											if ((mergedCellInfo.rowspan > 1) && (mergedCellInfo.startRow < i)) {
+												//console.log(filteredData[i].length, i,j,mergedCellInfo, cell);
+												continue;
+											}
 						        }
 
 										if (cell.hasAttribute('colspan')) {
@@ -275,6 +279,19 @@
 
 										 }
 										 transformed_content = "<p class='rooms-slot'>"+cell.getAttribute("data-rooms")+"</p>"+ transformed_content;
+
+										 if (cell.hasAttribute('rowspan')){
+											 var endrow = mergedCellInfo.startRow + mergedCellInfo.rowspan - 1;
+											 if (endrow != mergedCellInfo.startRow) {
+												 var endtime = filteredData[endrow][0].trim();
+												if (filteredData[endrow][0].includes("-")) {
+													endtime = endtime.split("-")[1].trim();
+													console.log(cell,endrow, filteredData[endrow][0].split("-")[1].trim());
+												}
+												transformed_content = transformed_content + "<br><br><p class='mobile-only'><u>Note: The session termination time is "+endtime+"</u></p>";
+											 }
+										 }
+
 										 cell.innerHTML = transformed_content;
 
 										 if (group_list.length == 0) {

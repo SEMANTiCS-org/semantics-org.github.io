@@ -56,6 +56,10 @@ footer .footer-second a:hover{
 	color: white;
 }
 
+.mobile-only{
+	display: none;
+}
+
 
 #topHeader{
 	background: white;
@@ -374,6 +378,11 @@ header {
 }
 
 @media (max-width: 992px) {
+
+	.mobile-only{
+		display: initial;
+	}
+
 	.logo {
 		text-align: center!important;
 		max-width: 80% !important;
