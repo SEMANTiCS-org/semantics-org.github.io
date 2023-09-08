@@ -85,36 +85,60 @@
 		const urlParams = new URLSearchParams(queryString);
 		const page = urlParams.get('page');
 
-	  // Replace 'path/to/document.docx' with the actual path to your DOCX file
-	  var docxPath = '../content/programme/'+page+'.docx';
-	  var container = document.getElementById('ks_browser');
+		var docs = [page];
+		var header = "";
+		if (page == "invited") {
+			docs = ["osborne-01","gilbert-01"];
+			header = "";
+		}else if (page == "keynote") {
+			docs = ["curry-01","dong-01","Keynote_M_Varone","aidan-01"];
+			header = "";
+		}else if (page == null){
+			docs = ["curry-01","dong-01","Keynote_M_Varone","aidan-01","osborne-01","gilbert-01"];
+			header = "";
+		}
 
-	  // Load the DOCX file
-	  fetch(docxPath)
-	    .then(function(response) {
-	      return response.arrayBuffer();
-	    })
-	    .then(function(arrayBuffer) {
-	      var options = {
-					arrayBuffer: arrayBuffer,
-					styleMap: [
-	          "p[style-name='Tiltle'] => h1",
-						"p[style-name='Table'] => table > thead > tr > th:fresh"
-	        ]
-				};
+	 get_doc(docs, "", header);
 
-	      // Convert DOCX to HTML using Mammoth.js
-	      mammoth.convertToHtml(options).then(function(result) {
-	        // Display the converted HTML content in the container
-	        container.innerHTML = result.value;
-	      });
-	    })
-	    .catch(function(error) {
-	      console.error('Error loading DOCX file:', error);
-	    });
+	 function get_doc(all_docxPath, docs_html, header) {
 
-		//generate ks extra materials (if any)
-		//apply_conf_onfunc(build_ks_att, false);
+		 var docxPath = '../content/programme/'+all_docxPath.pop()+'.docx';
+		 fetch(docxPath)
+			 .then(function(response) {
+				 return response.arrayBuffer();
+			 })
+			 .then(function(arrayBuffer) {
+				 var options = {
+					 arrayBuffer: arrayBuffer,
+					 styleMap: [
+						 "p[style-name='Tiltle'] => h1",
+						 "p[style-name='Table'] => table > thead > tr > th:fresh"
+					 ]
+				 };
+
+				 // Convert DOCX to HTML using Mammoth.js
+				 mammoth.convertToHtml(options).then(function(result) {
+					 // Display the converted HTML content in the container
+					 //container.innerHTML = result.value;
+					 docs_html += result.value + "<br><br><br>";
+					 if (all_docxPath.length == 0) {
+						 populate_container(docs_html, header);
+					 }else {
+					 	 get_doc(all_docxPath, docs_html, header);
+					 }
+				 });
+			 })
+			 .catch(function(error) {
+				 console.error('Error loading DOCX file:', error);
+			 });
+	 }
+
+	 function populate_container(docs_html, header) {
+		 var container = document.getElementById('ks_browser');
+		 container.innerHTML = "<h1>"+header+"</h1>"+docs_html;
+	 }
+	//generate ks extra materials (if any)
+	//apply_conf_onfunc(build_ks_att, false);
 
 	</script>
 

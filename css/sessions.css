@@ -29,6 +29,16 @@ section h4 + p{
 	margin-top: 30px;
 }
 
+section h5 {
+  color: gray;
+  font-size: 0.83em !important;
+  font-weight: bold !important;
+  margin-block-start: 0em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 section blockquote{
   font-family: 'Lato';
   font-size: 0.97em;
