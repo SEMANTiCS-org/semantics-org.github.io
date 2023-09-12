@@ -94,7 +94,7 @@
 			docs = ["curry-01","dong-01","Keynote_M_Varone","aidan-01"];
 			header = "";
 		}else if (page == null){
-			docs = ["curry-01","dong-01","Keynote_M_Varone","aidan-01","osborne-01","gilbert-01"];
+			docs = ["curry-01","dong-01","Keynote_M_Varone","osborne-01","aidan-01","gilbert-01"];
 			header = "";
 		}
 
@@ -102,7 +102,7 @@
 
 	 function get_doc(all_docxPath, docs_html, header) {
 
-		 var docxPath = '../content/programme/'+all_docxPath.pop()+'.docx';
+		 var docxPath = '../content/programme/'+all_docxPath.shift()+'.docx';
 		 fetch(docxPath)
 			 .then(function(response) {
 				 return response.arrayBuffer();
