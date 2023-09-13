@@ -137,7 +137,11 @@ section table img{
 	}
 	section table th, td{
 		display: table-row;
+		text-align: center !important;
 		/*margin: 20px!important;*/
+	}
+	section table tr th{
+		margin: 0 auto;
 	}
 	section table img{
 		width: 60vw !important;

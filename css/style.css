@@ -433,12 +433,24 @@ header {
 	section .title-section{
 		width: 80%;
 	}
+	.navbar-nav{
+		padding-top: 10px;
+	}
 	.dropdown-menu{
 		border: none;
 		border-radius: 0px;
-		border-left: solid 3px white !important;
+		border-left: solid 2px white !important;
 		text-align: left;
 		padding-left: 1em;
+		font-size: 0.97em
+	}
+	.dropdown-item{
+		white-space: normal;
+	}
+
+	.dropdown-menu hr{
+		width: 100% !important;
+		border: dotted 0.5px
 	}
 	#logo_lti{
 		width: 38%;
@@ -450,5 +462,10 @@ header {
 		top: 30px;
 		right: 40px;
 	}
-
+	.sponsor{
+		padding: 5px !important;
+	}
+	.org{
+		padding: 15px!important;
+	}
 }
