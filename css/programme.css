@@ -255,6 +255,29 @@ section .leg-blue{
 	background: rgb(26,116,177);
 }
 
+#programme_table.online-view p.talk-speaker{
+	display: none !important;
+}
+#programme_table.online-view p.talk-title{
+	display: none !important;
+}
+
+#programme_table.online-view .g-keynote p.talk-speaker {
+	display: initial !important;
+}
+
+#programme_table.online-view .g-keynote p.talk-title {
+	display: block !important;
+}
+
+#programme_table.online-view .g-invited_talk p.talk-speaker {
+	display: initial !important;
+}
+
+#programme_table.online-view .g-invited_talk p.talk-title {
+	display: block !important;
+}
+
 @media (max-width: 992px) {
 	section table{
 		display: block !important;

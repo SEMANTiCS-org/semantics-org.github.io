@@ -119,6 +119,16 @@
 					return html;
 				}
 
+				//view ks page
+				const queryString = window.location.search;
+				const urlParams = new URLSearchParams(queryString);
+				const page = urlParams.get('page');
+
+				var extra_class = "regular-view";
+				if (page == "online") {
+					extra_class = "online-view";
+				}
+
 				var container = document.getElementById('programme_table');
 				// Function to read XLSX file from path
 				function readXlsxFileFromPath(filePath, day) {
@@ -307,6 +317,7 @@
 									 table.appendChild(row);
 								 }
 								 container.innerHTML = "";
+								 container.classList.add(extra_class);
 								 container.appendChild(table);
 								 /*container.appendChild(legend_container);*/
 
