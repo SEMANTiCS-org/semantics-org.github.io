@@ -283,6 +283,9 @@
 														normal_row = normal_row.substring(11).trim();
 														class_row = "talk-title";
 												}else {
+													if (normal_row.toLowerCase().startsWith("[online room]")){
+														class_row = "online-slot";
+													}
 													normal_row = convertMarkdownLinksToHtml(normal_row);
 												}
 												transformed_content += "<p class='"+class_row+"'>"+normal_row+"</p>";

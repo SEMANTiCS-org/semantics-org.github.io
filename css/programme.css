@@ -255,6 +255,26 @@ section .leg-blue{
 	background: rgb(26,116,177);
 }
 
+#programme_table .online-slot {
+	display: none !important;
+}
+
+#programme_table.online-view .online-slot {
+	display: block !important;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	z-index: 20;
+}
+
+#programme_table.online-view .online-slot a {
+	color: black;
+
+}
+#programme_table.online-view .online-slot a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
 #programme_table.online-view p.talk-speaker{
 	display: none !important;
 }
