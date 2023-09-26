@@ -98,6 +98,11 @@ section ol li[id*="footnote"]{
 	padding: 0px;
 }
 
+section h2 + ul {
+	list-style: none;
+	padding: 10px;
+}
+
 @media (max-width: 992px) {
 	section table {
 	  text-align: center;
