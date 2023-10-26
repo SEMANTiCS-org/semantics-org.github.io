@@ -1,0 +1,947 @@
+@prefix ns1: <https://schema.org/> .
+@prefix ns2: <https://w3id.org/okn/semantics/voc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_1796> a ns1:ScholarlyArticle ;
+    ns1:abstract """In order to improve the access to cultural heritage information the Dutch cultural heritage institutes decided in 2015 to intensify their cooperation and create the Dutch Digital Heritage Network (NDE). Supported by the ministry of Culture, NDE runs a long term program aimed at increasing the social value of the cultural heritage information available through libraries, archives, museums and other cultural institutions, by making their collections more visible, usable and sustainable.
+
+The core of the NDE-program is about improving interoperability by implementing Linked Data standards and technologies throughout the network. An increasing number of cultural heritage institutions are publishing their data as Linked Data and standardizing their data by adding links to shared terminology sources. The NDE program has worked closely with vendors to develop the supporting functionality to do so. A nationwide, federated Network-of-Terms service was built to support easy access to shared terminology. A self updating Dataset Registry is operational containing 500+ Linked Datasets. Knowledge Graph services are being developed to improve findability of relevant datasets.
+
+Currently the focus of the NDE program is on the design of platforms for end user services that demonstrate the added value of interlinked collections. Together with vendors of web platforms we are exploring the possibilities to create new, dynamic end user services such as linked data stories, browsers and timelines.  
+
+In our contribution we will present our long term approach on the implementation of Linked Data in the Dutch cultural heritage domain and show examples of results we have made so far.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_17> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/Demo_1796_7_1>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_1796_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Cultural Heritage
+Decentralization
+Data Space
+Federated querying
+Linking
+Knowledge Graphs
+Linked Data services""" ;
+    ns1:name "Building the Dutch Linked Data Space for Cultural Heritage" ;
+    ns2:authorString "Enno Meijers" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_1892> a ns1:ScholarlyArticle ;
+    ns1:abstract """We will present a nucleus of a European Legal Data Space, so a Data Space that aims to cover legal information both for business and research.
+Currently there does not exist a European Legal Data Space. This means that people working with legal data have no platform to execute proper NLP or AI. Existing models etc. do usually not work, since the legal language is very specific. Also the legal situation is different in the European countries and therefore also language specific.
+However legal startups, public administrations and governments are more and more depending on tools and models that are specifically tailored to legal data. We want to make a first contribution to this growing need with making a platform available, making initial content sets available and an integrated toolset.
+We will go through the general architecture, the initial use cases and specific requirements and limitations that come from the domain.
+We will show how this Data Space fits into the general objectives of the EU funded Databri-X project, which is focusing on Data Governance.
+We will make a short demo and talk about the next steps for enhancing the prototype.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_58>,
+        <https://w3id.org/okn/semantics/i/Author_59> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Legal Domain
+European Data Space
+DataBri-X
+Data Governance""" ;
+    ns1:name "A Nucleus of a European Legal Data Space" ;
+    ns2:authorString "Christian Dirschl and Anke Losch" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_1999> a ns1:ScholarlyArticle ;
+    ns1:abstract """In the sustainable finance sector, international financial regulators & standards bodies have created over 30 extensive green taxonomies that provide guidance on how to monitor climate change and emerging regulations.
+
+In order to optimise these large industrial classification schemes, Neural Alpha began by creating a knowledge graph powered by natural language processing (NLP). By using ontologies to connect concepts, they developed a contextually rich, high performance data product that aids in faster and easier sustainable financial decision making.
+
+In this fascinating session, James Phare of Neural Alpha and Madi Solomon of Graphifi share recent developments of how pairing Large Language Modules with their Responsible Capital ESG Knowledge Graph supercharged the disclosure analysis and integration of data by augmenting human intelligence with conversational AI.
+
+""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_137>,
+        <https://w3id.org/okn/semantics/i/Author_138> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """knowledge graphs
+LLM
+ontology
+taxonomy
+ESG""" ;
+    ns1:name "Sustaining ESG intelligence: Large Language Models and Knowledge Graphs" ;
+    ns2:authorString "Madi Solomon and James Phare" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_319> a ns1:ScholarlyArticle ;
+    ns1:abstract """The goal of linked data is to reach full coverage of the entire information landscape. Linked data should start at the data source, and run all the way up to human-readable documents. Current applications of linked data cover the first half of the information landscape: data description, data collection, data integration, and data publication. The second half of the information landscape remains mostly untouched: creating information products, using information products, and tracing information flows.
+
+What is missing is significant linked data support for the second half of the information landscape. This presentation shows the HTML Vocabulary, a new vocabulary that integrates the most widely used formatting technique for human-consumable content with the linked data paradigm. We show how we create budget tables with Linked Data Business Rules (not code) that are part of the vocabulary.
+
+In a budget table, a lot of meaning is encoded in how the table is structured and presented. The HTML Vocabulary allows us to capture structural meaning and presentational meaning in the paradigm of propositional meaning.
+
+The Dutch Ministry of Finance is applying the Linked Data Budgeting approach to generate the National Budget of The Netherlands. We show how generating human-consumable budget tables as linked data allows us to trace information flows from a cell in a budget table, all the way back to the data source, thereby covering the full information landscape in linked data.
+""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_15>,
+        <https://w3id.org/okn/semantics/i/Author_16> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_319_7> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Linked Data Budgeting
+HTML
+Vocabulary
+Information Landscape""" ;
+    ns1:name "Linked Data Budgeting with the HTML Vocabulary" ;
+    ns2:authorString "Wouter Beek and Flores Bakker" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_3819> a ns1:ScholarlyArticle ;
+    ns1:abstract """In this case study we present how we built our Knowledge Graph at CROW, an independent not-for-profit knowledge platform. We will show the architecture, name all the components, show which software is used for what, etc. We feel that this is a question that lingers with many visitors of SEMANTiCS: I want to build a knowledge graph, but how? We give an overview of the architecture and in this interactive session, zoom in on specific parts with questions from the audience.
+
+Our semantic approach involved setting up a complete platform, including ETL’s (with Comunica, RML, etc.), triple stores (GraphDB, Laces Hub, TriplyDB, etc.), ontology managers (Vocbench, Laces Library Manager, etc.) and creating a unified ontology that defined the concepts and relationships within the organization's data. The result enabled employees to discover and analyse data in a more intuitive and efficient manner, and in general created awareness for the data-centric approach. As a spin-off the ontology became the start of our ‘Enterprise content model’.
+
+CROW has accumulated a vast amount of knowledge over the years, but the data which hold this knowledge was siloed and semi-structured, making it difficult for clients and employees to access and utilize it effectively. As a result, there was a lack of consistency in decision-making, inefficient workflows, and missed opportunities for innovation.
+ 
+As the organization continues to add to the Knowledge Graph, the value of the solution will increase. Moreover, as CROW expands its business, the Knowledge Graph will enable the organization to better manage its data and foresee in the client needs that are yet to come.
+ 
+""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_88>,
+        <https://w3id.org/okn/semantics/i/Author_89> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """etl
+knowledge graph
+architecture
+ontology
+enterprise content model
+software""" ;
+    ns1:name "We created a Knowledge Graph and want to show you how we did it" ;
+    ns2:authorString "Rik Opgenoort and Redmer Kronemeijer" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_4210> a ns1:ScholarlyArticle ;
+    ns1:abstract """Dutch government organizations have been actively involved in creating and publishing RDF knowledge graphs since 2012. Some initiatives have proven quite successful through the years. Currently, many RDF datasets are available, including RDF datasets containing information registered in so-called base registrations, which by law are assigned to provide an authoritative description of certain aspects of the world. Well-known cases are datasets from the bureau of land registry (Kadaster), but there are many more.
+
+Most of these RDF knowledge graphs have been developed in a bottom-up fashion. Without much overall guidance, the datasets are predominantly expressed in terms of their own locally designed ontologies. Over the years, there have been initiatives to design shared ontologies as standards to be used in certain domains. When considering individual cases, results seem to be mixed. The overall trend, however, is that significant efforts are made to connect existing datasets, creating a large-scale federated knowledge graph for government information.
+
+This presentation will discuss this general trend, focusing on a specific case. Currently, there is a dataset containing geometries describing administrative areas. Another dataset identifies government organizations, their properties and their history. The two datasets are maintained by different organizations, ultimately residing under the Ministry of the Interior and Kingdom Relations. The case illustrates what the impact of such an undertaking is on the locally designed ontologies. We discuss some recurrent modelling mistakes and how to deal with them. It is shown how a formal ontological based on Guizzardi’s work on UFO  and OntoUML supports effective ontology alignment.
+
+Disclaimer: the author is involved in the work reported in this presentation. This work is commissioned by KOOP, the publications office of the Dutch government. All content is presented in the author's personal capacity. KOOP does not endorse any parts of the presentation.
+""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_106> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Knowledge graph
+Data federation
+Knowledge representation
+RDF
+Semantic Web
+Linked Data
+Geospatial data""" ;
+    ns1:name "Towards a large-scale federated knowledge graph for government information" ;
+    ns2:authorString "Jan Voskuil" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_4566> a ns1:ScholarlyArticle ;
+    ns1:abstract """## Initial Situation
+
+Large organizations often face a critical challenge: connecting their  enterprise architecture, data catalog, data lineage, and compliance systems. These  systems, crucial for smooth business operations, are often disjoint,  operating in isolation or 'silos'. This separation hampers not just data accessibility, but also broader aspects such as compliance tracking and architectural coherence. Our financial services client confronted this  precise issue, highlighting the urgent need for a solution that could  seamlessly integrate these key areas.
+
+## Approach and IT-Solution
+
+Our solution's distinctive edge lies in its capacity to unify enterprise architecture, data cataloging, and compliance systems using the RDF graph model. By transforming diverse data into RDF triples, and employing ontologies, rules, and reasoning, we transform disjointed data into an interconnected information landscape.
+
+In addition to data integration, we have developed a user-friendly frontend that offers faceted search and interactive exploration of the graph model. This interface enhances user engagement with the system, encouraging data discovery and insights generation.
+
+Our deployment process, underpinned by CI/CD principles, handles various data formats, enhancing data pipeline management. Our frontend will be released as open-source software, enabling other organizations to benefit from our approach.
+
+## Success Criteria for / Benefit of the Semantic Solution
+
+Our solution's success is best demonstrated by the substantial benefits experienced by our financial industry customer. By integrating metadata from diverse sources, the system allowed them to feed metadata daily from over 400 databases containing more than 42,000 tables into a comprehensive knowledge graph. Additionally, we were able to unify disparate but crucial organizational components like the agile service delivery organization (including arena, feature team, release train), employee data, domain architecture information, and business processes.
+
+This approach has enhanced visibility and accessibility of information for the 60+ recurring users of our system. With over 17+ million triples contained, users can now traverse data from all sources in milliseconds, illustrating the system's enhanced performance and scalability.
+
+## Prospects and Recommendations
+
+Semantic technologies offer great potential to unify enterprise architecture, data catalogs, and compliance systems. For businesses planning to use such technologies, we recommend starting with the most problematic data silos, gradually expanding the integration.
+
+We've seen that complex organizations can reduce complexity by adopting a data-centric approach with ontologies as a schema layer.  Our experience suggests that even complex enterprises might need only a few hundred concepts as their core model, leading to a complexity reduction of 10-100 times.
+
+As future steps, we aim to handle more data and connect more organization components, making semantic technologies benefits more widespread.
+
+## Demo
+
+In our presentation, we will provide a short demonstration of our system, showcasing the real-world application of semantic technologies and the transformative effect they have on an organization's enterprise knowledge and governance.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_110>,
+        <https://w3id.org/okn/semantics/i/Author_111> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Enterprise Knowledge
+Enterprise Governance
+Knowledge Graphs
+Data Integration
+Enterprise Architecture
+Data Cataloging
+Compliance Systems""" ;
+    ns1:name "Leveraging Semantic Technologies for Enhanced Enterprise Knowledge & Governance: A Real-World Use Case" ;
+    ns2:authorString "Adrian Gschwend and Michael Rauch" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_460> a ns1:ScholarlyArticle ;
+    ns1:abstract """Contemporary approaches for creating linked data require (1) domain knowledge of the source data, (2) knowledge of linked data techniques, and (3) significant programming skills to implement the transformations. This makes creators of new linked data a rare breed: they must have 3 individually rare traits.
+
+LD Wizard is a new GUI-based ETL application that lowers the threshold for becoming a successful linked data creator. LD Wizard supports domain exports that have only a little bit of knowledge about linked data techniques, and that do not need to have significant programming skills.
+
+LD Wizard supports the transformation of tabular source data into linked data, by allowing the user to select terms (classes and properties) from their domain. Linked data that is created with LD Wizard can be downloaded as an RDF file, or can be uploaded to a triple store.
+
+Since LD Wizard focusses on domain experts, it can be configured for specific domains. There are currently configurations for the following domains: cultural heritage, biology, social sciences, humanities, and geospatial.
+
+In this presentation, we will show how you can use LD Wizard, and how you can configure one for your own domain.
+
+The LD Wizard was created by the Dutch Digital Heritage Network (NDE), and is currently maintained as open source software by Platform Linked Data Netherlands (PLDN). LD Wizard is actively being developed by the linked data community, and there are open bounties for new contributors to pick up.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_15>,
+        <https://w3id.org/okn/semantics/i/Author_17>,
+        <https://w3id.org/okn/semantics/i/Author_18>,
+        <https://w3id.org/okn/semantics/i/Author_19>,
+        <https://w3id.org/okn/semantics/i/Author_20>,
+        <https://w3id.org/okn/semantics/i/Author_21>,
+        <https://w3id.org/okn/semantics/i/Author_22> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_460_7> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """ETL
+domain experts
+GUI
+open source""" ;
+    ns1:name "LD Wizard: Create Linked Data in One Spell" ;
+    ns2:authorString "Wouter Beek, Enno Meijers, Erwin Folmer, Ivo Zandhuis, Richard Zijdeman, Pieter van Everdingen and Mark Lindeman" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_4716> a ns1:ScholarlyArticle ;
+    ns1:abstract """Knowledge Graphs have become increasingly important for knowledge representation and data consolidation in enterprises. They provide the basis to solve complex data problems, provide insights into data and thereby support intelligent decision making at the digital workplace. 
+
+Knowledge Graphs technologically developed  into two distinct directions. The Semantic Web stack provides standardised technologies for semantic descriptions, interoperability and reasoning, whereas the property graph domain is focused on high-performance problem solving based on graph structures.
+
+In this industry talk, we present an approach to bring together these two domains to build a knowledge-based enterprise recommender that is powered by a semantic knowledge graph and that processes the recommendations using Neo4j and a property graph representation.
+
+We present the use case of analysing ESG-related documents and supporting the writing of ESG reports by providing intelligent insights into ESG standard documents.
+
+-Initial Situation
+SWC is developing innovative enterprise recommender solutions based on Semantic AI. We want to leverage the modelling capabilities and scaling power of the Neo4j property graph database to support this scenario by integrating it with PoolParty Semantic Suite.
+
+- Approach and IT-Solution
+We develop an integrated architecture that can bridge the Semantic Web and property graph domain and leverage the best of both worlds. We use neosemantics to connect these technologies, which fits RDF data into the property graph before rebuilding the data to benefit from the properties of the relations. We utilize annotations of ESG-relevant documents generated by the PoolParty Extractor as data. Using these techniques, we can exploit semantically enriched data in the scalable Neo4j context.
+
+-Success Criteria for / Benefit of the Semantic Solution
+We demonstrate the solution based on an ESG use case and data set and show how the recommender provides valuable insights into ESG topics. To successfully build different paths for recommendations we need to restructure the RDF data in Neo4j knowingly. Properties that are relevant for the recommendation results have to be stored appropriately to use the advantages of property graphs fully.
+
+- Prospects and Recommendations
+As a next step, the developed prototype will be brought into a corporate setting to gain experience with different use cases and further develop the quality of enterprise recommendations.
+
+- Demo (if applicable)
+We will show a life demo of the prototype based on an ESG use case.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_112>,
+        <https://w3id.org/okn/semantics/i/Author_113>,
+        <https://w3id.org/okn/semantics/i/Author_114> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Neo4j
+Graph database
+Property graph
+Analytics
+Recommender""" ;
+    ns1:name "Fusing Semantics and Property Graphs to power Enterprise Recommender Systems" ;
+    ns2:authorString "Robert David, Astrid Krickl and Jesús Barrasa" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_4985> a ns1:ScholarlyArticle ;
+    ns1:abstract """In many highly regulated industries, in particular the pharmaceutical industry, controlled vocabularies are state of the art. In addition, companies typically provide their own terminology. Internal as well as standard vocabularies may refer to different concepts and are subject to changes over time. 
+
+This situation very often makes it a herculean task to compare labels and/or concepts, update vocabularies, trace changes, and, after all, make use of controlled vocabularies for downstream processes such as information retrieval and information delivery. For instance, a content management system may contain tags from previous versions of the vocabulary, and users need to de-reference those labels or trace their life cycle.
+
+In this talk, we illustrate how we solved these challenges for an industry partner in the pharmaceutical industry with its high standards for data quality and system/process validation. We show how we combined public and custom-made ontologies, integrated vocabularies from various sources and integrated mechanisms for versioning based on PROV-O in our knowledge model. In addition, we demonstrate how a querying module is integrated into the customer’s workflows, providing the basis for future applications such as autoclassification, information retrieval and intelligent information delivery. 
+""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_127>,
+        <https://w3id.org/okn/semantics/i/Author_128> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Pharmaceutical Industry
+Thesaurus
+Controlled Vocabulary
+CDISC SEND
+Versioning with PROV-O
+Thesaurus & Ontology Management
+Knowledge Graph
+Information Retrieval
+Information Delivery""" ;
+    ns1:name "Knowledge Models as Silver Bullet for Quality Intelligence" ;
+    ns2:authorString "Dr. Martin Ley and Johann Wagner" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_5522> a ns1:ScholarlyArticle ;
+    ns1:abstract """Abstract:
+To mitigate the risk of subjectivity and time-loss in the process of extracting new taxonomy concepts from regulations and law articles, we present a solution used by the Dutch National Police. The application uses entity recognition to mark existing concepts and generates a subset of new possible concepts. To generate this, Large Language Models are enriched with police-specific knowledge from taxonomies defined and curated by our modellers. These suggested concepts are then verified by these same modellers. This human touch, in combination with the Natural Language Processing tooling, increases the accuracy, efficiency and objectivity of the extraction process. 
+
+
+Description:
+The Dutch National Police faces the challenge of defining a vast array of concepts for their taxonomies and ontologies, aiming to create a unified semantic model that can be effectively utilized across the entire police organization. These concepts need to be manually extracted from regulations and law articles. Given the extensive nature of these documents and the subjective nature of the process, the manual selection of the concepts can introduce subjectivity and takes a substantial amount of time.
+
+To counteract these problems, we present a solution using entity extraction and supervised Machine Learning to further populate the taxonomies by learning from the existing concepts. The solution enhances accuracy, efficiency, and objectivity, minimizing the potential for human error while keeping the human touch. 
+
+With this solution, the Dutch National Police, in partnership with Ordina, uses Natural Language Processing to thoroughly analyse the textual documents. It marks the concepts already present in our police taxonomies and suggests new possible concepts. These concepts are selected by building on existing Large Language Models (LLM) and enriching them with police-specific taxonomies. The suggestions are generated by considering a variety of factors, including the semantic context surrounding police-specific concepts. This is achieved through the implementation of pre-processing techniques such as tokenization and lemmatization, as well as leveraging the power of transfer learning. As a result, the model can be trained effectively to produce meaningful results, even with a smaller dataset. The reason for this being that the LLM provides the base, while the taxonomies add another, more subject-specific layer. 
+
+The outcome of using this tooling is two-fold:
+- An annotated document that marks the existing concepts within the taxonomy and an overview of those concepts.
+- An overview showing all the concepts detected within the document, including newly identified concepts to expand the taxonomy. These are generated in triples, using the SKOS vocabulary.
+Both will enable the Dutch National Police to decrease the amount of time required to find and extract new concepts.
+
+At this date of submission, the tooling has already been used by our modellers during the analysation of new regulation documents, further accelerating the selection of new concepts. In further development, the solution will be enriched so that not only regulations and law articles can be analysed, but also other types of documents. The long-term aspiration is to enhance this solution by not only extracting new entities but also automating the construction of new taxonomies.
+
+""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_135>,
+        <https://w3id.org/okn/semantics/i/Author_136> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Natural Language Processing
+Generation of Taxonomy Concepts
+Large Language Models
+Ontology Generation
+Named Entity Recognition
+Entity Extraction
+Machine Learning Techniques
+Semantic Context in Data Science""" ;
+    ns1:name "A New Approach to Taxonomy Creation: Combining Human Expertise with NLP to Extract New Concepts from Regulations and Law Articles" ;
+    ns2:authorString "Kike Franssen and Eveline Schmidt" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_5806> a ns1:ScholarlyArticle ;
+    ns1:abstract """In this talk we will describe our experience working with a major financial institution to improve their compliance risk management. As part of this effort, we have:
+
+1. modeled policies and regulations
+2. captured risk indicators for regulatory compliance
+3. cataloged data and technology assets
+4. automated mapping of risk indicators to data elements and
+5. were able to infer role of data elements in compliance risk assessment.
+
+Managing regulations and policies in knowledge graphs enabled the firm more effectively and accurately identify data elements containing data needed to be assessed for compliance. This repeatable and scalable approach resulted in mitigating regulatory compliance risks.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_140>,
+        <https://w3id.org/okn/semantics/i/Author_141> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """knowledge graphs
+case study
+regulatory compliance""" ;
+    ns1:name "How to manage regulatory policies with knowledge graphs to mitigate compliance risks" ;
+    ns2:authorString "Ian Eccleston and Irene Polikoff" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_5822> a ns1:ScholarlyArticle ;
+    ns1:abstract """Gartner has noted that it is not enough for businesses today to be “ready to change,” but instead, companies need to be “ready to act” in real-time and understand the context of the action. Simply being prepared to respond to change is not sufficient in today’s fast-paced and constantly evolving business environment. Organizations need to be able to anticipate and proactively respond to changes in order to stay competitive.
+
+But how can a business create a data architecture that supports ‘ready to act’ applications and systems? Gartner suggests embracing an Event–Native Mindset and with an Event-Driven Architecture that delivers continuous intelligence and keeps the business always ready.
+
+Applying an Event–Native Mindset to Data Modeling 
+
+Consider for a moment that everything that happens within a business environment is an event, and every event impacts an entity or is carried out by an entity. An entity in this context is a core business concept like a customer, patient or product. Everything a patient does – getting diagnosed, visiting a specialist, being discharged or receiving a prescription – is an event. Anything that happens to a business’ customer, from making purchases, returns or  calling for support, is an event. When products are created, tested, and updated, these activities are also events.
+
+By adopting an Event–Native Mindset in data modeling, organizations can develop more agile and responsive data architectures that are better suited to handle complex and rapidly changing data environments. This approach can help organizations to more quickly identify and respond to changes in data patterns, and to more effectively leverage the insights and value that can be derived from event-driven data models.
+
+During this presentation we will discuss best practices for building Event-Driven Knowledge Graphs based on several industry projects in Pharmaceuticals, Manufacturing and Consumer Service Centers.
+""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_142>,
+        <https://w3id.org/okn/semantics/i/Author_143> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Event-Native
+Knowledge Graph
+Event-driven Architecture
+Entity-event
+Graphs
+Data modeling
+Customer 360""" ;
+    ns1:name "Why an Event-Native Mindset is Essential for Knowledge Graphs" ;
+    ns2:authorString "Jans Aasman and Sheng-Chuan Wu" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_5847> a ns1:ScholarlyArticle ;
+    ns1:abstract """In IQVIA we process and integrate healthcare data at scale (100B+ medical records per year). In our operations, we make a varied use of ontologies: to develop metadata schema to annotate data quality; to standardise terminologies and code lists to enable scalable analytics (e.g.: as per OMOP standard for Real World Evidence); or to standardise data for regulatory submissions (e.g.: as in CDISC for FDA clinical trials submissions). 
+In this talk, we would like to showcase some of the peculiarities and learnings of working with ontologies at such scale (note that in the healthcare space, “ontologies” encompass a broad range of artefacts from code lists to DL-based representations).
+First, we stratify our ontologies in three different layers:
+•	“standard ontologies”: public or not, these are the standards in use, that form the basis for interoperability.
+•	“actual ontologies”: as a result of the broad observation of the healthcare system that we perform, we collect a variety of terms in use that don’t directly map to standard ontologies (>44M). These can correspond to different names, language or regional variations, new concepts not yet standardised (e.g.: a newly released covid self-test) or simply concepts not captured by standards (e.g.: laboratory consumables).
+•	“curated ontologies”: for many of our analytics need, we need extended reference data that is typically not found in the public space (e.g.: comprehensive normalisation of products across markets, or identification of healthcare organizations).
+Standard ontologies pose different order of challenges, like different variations and multiple coexisting versions. Often standard ontologies “in use” are also affected by some amount of noise (e.g.: accidental mix of ontologies to diagnose an indication). We intend to showcase some of the internal tooling that we have developed to address such problems.
+Actual ontologies present a view of what of an ontology is practically in use: (e.g.: not all terms of branches of ontologies are used, some probably representing theoretical concepts not existing in clinical practice). A question to foster a discussion with the audience is to what extent the gap between “standard ontologies” (a-priori) or “actual ontologies” (a-posteriori) is at the basis of interoperability issues.
+Finally, we note that our “curated ontologies” (missing ontologies we developed to support analytics), rather present information typical of MDM system. We would then conclude with a framework we are using to merge the MDM and the ontology mindsets.
+
+---
+
+I am currently a full time employee (Principal) in IQVIA (An SP500 healthcare data company), focusing on internal optimization and product development in the area of ontology and metadata. I also organise http://swat4ls.org (conference on semantic technologies in life sciences) as a pro-bono activity.
+ 
+In terms of expertise and background:
+My PhD thesis was on the use of ontologies, and I have published a few papers on ontologies, semantics and FAIR: https://orcid.org/0000-0002-3201-9617
+Before joining IQVIA I was (in reverse order):
+Director of data strategy in Novartis (corporate): proposing KGs to link data across the enterprise
+Associate director information systems at Novartis: supervising an ontology provision system and working on data curation semi-automation
+Independent consultant: semantic POCs for clinical trials, nutrition, meteorology (WHO) and more
+Staff scientist: data integration based on ontologies
+Postdoc in medical terminologies
+I know mostly focus on ontology business cases, technology development, change management and communication.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_144> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """ontology
+healthcare
+ontology mapping
+MDM""" ;
+    ns1:name "Use of healthcare ontologies at scale in IQVIA" ;
+    ns2:authorString "Andrea Splendiani" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_589> a ns1:ScholarlyArticle ;
+    ns1:abstract """The International Finance Corporation (or IFC) is a member of the World Bank Group that works with the private sector to create markets and jobs for people in developing countries. We strive to unlock new, innovative opportunities for the communities in which we work, but we are also accountable to the people that are affected by the projects we finance. We are accountable to our partners, clients, and communities as we aim to achieve our development objectives in an environmentally and socially responsible manner.
+
+MALENA (Machine Learning ESG Analyst) is an Artificial Intelligence model developed by the International Finance Corporation (a member of the World Bank Group). MALENA uses Natural Language Processing techniques to identify environmental, social and governance (or ESG) risks and analyze its significance. 
+
+MALENA leverages long standing corpora of IFC ESG data and institutional knowledge to identify and assess ESG risks. By applying an in-house adapted Sentiment Analysis methodology, MALENA provides easy-to-access project and portfolio insights. MALENA complements investment project ESG due diligence by our Specialists and supports better-informed decision making. 
+
+IFC’s Malena project has the potential to revolutionize ESG investment in emerging markets by using a data-driven approach to attract investors to invest in emerging market capital markets. By accessing the MALENA AI emerging market investors can screen target companies using IFC’s ESG Standards as the risk management framework powered by AI. This is expected to increase the amount of investment in emerging market capital markets and, in doing so, advance ESG integration globally to achieve environmental, social and climate friendly outcomes.
+
+The MALENA AI model was developed using supervised machine learning, an effective but time and data intensive approach that demands a lot of interaction between the “supervisors” (data analysts and data scientists) and the algorithm. Supervised machine learning requires the creation of large sets of labeled data to train the model to classify data and replicate outcomes on new datasets. These labeled datasets prepared by a team of ESG analysts support data scientists who train and finetune the NLP model. MALENA sentiment analysis required the development of a methodology that must be consistently applied to training data to then train the NLP model. We will discuss the methodology, rules and metrics used for creating a training dataset of 150,000+ ESG analyst-annotated data points for tense-based sentiment analysis and severity assessment which is derived from historical sustainability corpus data and expertise acquired by IFC experience of 20+ years conducting ESG due diligence for its investing projects.
+""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_23> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Artificial Intelligence
+ESG due diligence
+NLP
+Sentiment Analysis
+Emerging Markets
+Development Institutions""" ;
+    ns1:name "MALENA – New IFC’s virtual analyst supporting ESG due diligence" ;
+    ns2:authorString "Carlos Arias" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_600> a ns1:ScholarlyArticle ;
+    ns1:abstract """Today, the Internet of Things (IoT) touches every corner of the globe. This demo illustrates how knowledge graphs and semantic reasoning are revolutionizing practices such as predictive maintenance and component management for companies worldwide—from the world’s largest buildings, logistics networks, offshore platforms and industrial plants, to one of nature’s smallest—the bonsai tree. 
+
+Bonsai trees are tough to look after with relatively complex and specific needs, so maintaining a garden of 20 (including different species, each with their own preferences no less) is no small feat. Critical to their survival is the question: ‘When should I water?’—asked by their owners daily. Too much water suffocates the tree and rots the roots, too little and it’s not long before years of effort are lost. Even harder is the question of what to do when you’re away from home. 
+
+The solution lies in soil sensors that monitor moisture levels for a selection of the trees; reporting their readings every minute. Along with weather data, these readings are processed on a central hub—a Raspberry Pi running the knowledge graph and semantic reasoning engine RDFox. Based on this data, the hub can issue alerts to the owner and control a series of pumps, each of which irrigates a different group of trees. The network of sensors, devices, and pumps, along with the trees themselves, are represented as a graph in RDFox, capturing functional properties and their relationships. By incorporating real-time sensor data and applying semantic reasoning, the system intelligently determines when individual trees need watering, activating the appropriate pump and giving the thirsty plants the drink they need. 
+
+Although clearly simplified in this scenario, the same principles can be scaled up to the vast and complex situations found in industry and nature. By using semantic reasoning in local hubs, IoT capabilities, industrial control and maintenance, and predictive analytics can be pushed out to the edge, bringing several benefits to real-world situations such as a complex of buildings, ships, or processing plants. By optimizing the device network, upfront capital can be reduced alongside ongoing operational costs. The same can be said for the system being monitored by improving the efficiency of the system itself and increasing the lifespan of its assets through reduced wear. 
+
+With this demo, we’ll show how this can all be achieved with a knowledge graph. """ ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_24>,
+        <https://w3id.org/okn/semantics/i/Author_25>,
+        <https://w3id.org/okn/semantics/i/Author_26> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """IoT
+Internet of Things
+Knowledge Graph
+Semantic Reasoning
+Rules-Based AI
+Edge Device
+Raspberry Pi
+Mobile Device
+Automation
+Sensor Network
+Predictive Maintenance
+Component Management
+Network Management
+Logistics Management
+Enterprise Optimization
+Industrial Efficiency
+Gardening
+Horticulture""" ;
+    ns1:name "Cultivating IoT Success—How Growing Bonsais Revealed the Future of Industrial IoT" ;
+    ns2:authorString "Thomas Vout, Peter Crocker and Mikkel H. Brynildsen" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_6126> a ns1:ScholarlyArticle ;
+    ns1:abstract """Meemoo manages a large quantity of mainly audiovisual material from more than 170 partners in cultural heritage and media. More than 6 million objects are currently stored, ranging from digitised newspapers, photos, videos, and audio. In addition, a number of access platforms make the digitised content available to specific target groups, including teachers, students, professional re-users, or the public.
+
+Metadata is a key element in all of meemoo’s processes. An important part of our activities is to collect, integrate, manage, and search a large variety of heterogeneous metadata across the archived content. The scale of this has increased enormously, so a good and integrated approach is needed to deal with the amount of metadata, its need for flexibility, and how easy it is to find. One of the specific challenges is modelling and storing data from machine learning algorithms (speech recognition, face detection and entity recognition) for reuse.
+
+In this talk, we will discuss the key points and lessons learned from implementing the new metadata roadmap at meemoo (https://meemoo.be/en/publications/metadata-roadmap-the-route-to-an-improved-metadata-infrastructure), which is focused on a semantic Knowledge Graph-based infrastructure. The goal of the roadmap is to establish a better data practice within the organization and offer application-independent, uniform access to (meta)data that is spread across various systems and formats. The implementation consists of extensive data modeling, using RDF, SKOS, SHACL to construct a uniform view over all relevant data, and using SPARQL in combination with GraphQL for estabishing efficient access by platforms.
+""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_170> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """knowledge graph
+media
+audiovisual
+archive
+data integration""" ;
+    ns1:name "Managing the metadata of a diverse digital media archive as a Knowledge Graph" ;
+    ns2:authorString "Miel Vander Sande" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_671> a ns1:ScholarlyArticle ;
+    ns1:abstract "Presentation covers the technology used to automate knowledge extraction from Text.  This novel technology blends large language models, semantic technology, rule systems, linguistic theory to achieve reliable performance. Specifically, the dicussion will focus on the integration with Dow Jones/Factiva news service, involving the extraction of facts buried in news articles, news letters and reports about the subject area of ESG (Environmental, Social and Governance) through the application of ESG taxonomy and ontology.  Extracted facts are output as RDF triples and ingested into a Semantic Knowledge Graph.  Knowledge Graph powers a verifiable and reliable search that is more a multi question answering interface.  Users get to directly interrogate the text corpus (news corpus) to get answers that are assembled from snippets of text from multiple underlying articles. " ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_36> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Neural NLP
+NLU
+Semantic Technology
+LLM
+Ontology
+Taxonomy
+Reasoning
+SPARQL
+RDF
+Knowledge Graph""" ;
+    ns1:name "Extracting ESG (Environment, Social, Governance) Knowledge from Global News using TextDistil" ;
+    ns2:authorString "Prasad Yalamanchi" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_7541> a ns1:ScholarlyArticle ;
+    ns1:abstract """Initial Situation: 
+
+Our organization, the Fraunhofer Society, faced a challenge in handling the influx of research requests coming in from various external partners and customers. The task of sorting these requests to match with the relevant researchers within our organization (~22.000) was not streamlined and would either cause an information overload for our researchers or be a time consuming and manual task for their managers. 
+
+Approach: 
+
+To rectify this, we devised a strategy that leverages our existing internal skill catalogue, which is a hierarchical presentation of about 1000 skills and sub-skills that were self-reported in the Fraunhofer Society. The methodology entailed mapping each incoming research request to the corresponding skills within our organization. To achieve this, we used a pre-trained language model which had been fine-tuned for paraphrasing paragraphs. After extracting features from both the incoming texts and the skills in the catalogue, we determined their similarity. We engineered a pipeline that accommodates parameters such as text segments, similarity thresholds, target levels of catalogue hierarchy, and crafted prompts. We tested this pipeline by labeling an already labeled dataset of research requests. 
+
+Business Value and Benefits of the Semantic Solution: 
+
+Our method has proven successful in identifying an optimal set of parameters for labeling incoming research requests. The significant benefit of our approach is its ability to alert relevant employees about incoming research requests that match their skills. This strategy effectively minimizes information overload and ensures employees receive alerts only about relevant details and new research opportunities. 
+
+Prospects and Recommendation: 
+
+We are currently integrating this methodology into an internal application, developed by another organizational unit. The application serves as a platform for our external partners and customers to file their research requests digitally. Harnessing the power of language models and organizational resources like a skills catalogue can significantly improve request management and employee productivity.  """ ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_197>,
+        <https://w3id.org/okn/semantics/i/Author_198>,
+        <https://w3id.org/okn/semantics/i/Author_199>,
+        <https://w3id.org/okn/semantics/i/Author_200> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Knowledge Management
+Language Models
+Machine Learning
+BERT""" ;
+    ns1:name "From Skills to Service: How Fraunhofer Society's Skill Catalogue Optimizes Research Request Management" ;
+    ns2:authorString "Jan-Peter Bergmann, Elena Senger, Yuri Campbell and Karl Trela" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_7956> a ns1:ScholarlyArticle ;
+    ns1:abstract """This conference submission presents a cutting-edge platform designed to address the challenges associated with managing and analyzing process and process-analytical data in industrial settings. Such data exists in diverse formats, including instrument data and text data, which makes it crucial to have a unified approach for data access and analysis. Our proposed platform serves as a centralized hub, providing a single point of access for searching, contextualizing, visualizing, and analyzing all types of process data.
+The platform incorporates a robust semantic layer and semantic search capabilities, which enable users to effectively navigate and explore the data landscape. By leveraging semantic technologies, the platform goes beyond basic keyword-based search, allowing for more intuitive and context-driven data discovery. This ensures that users can easily locate and access the information they need, regardless of its format or source.
+Furthermore, our platform offers both self-service and predefined data objects, catering to the diverse needs of stakeholders across different departments. This flexibility empowers users to generate customized analyses and reports, promoting data-driven decision-making within their respective domains.
+To ensure seamless integration and utilization, our platform is carefully instrumented and consumed by stakeholders. We provide a comprehensive overview of the implementation process, highlighting the steps involved in setting up and configuring the platform to align with specific organizational requirements. Additionally, we showcase real-world use cases and success stories from multiple departments, illustrating how the platform has revolutionized their data-driven practices.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_210> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """data integration
+semantic search
+industry 4.0""" ;
+    ns1:name "Streamlining Data Intelligence: A Unified Platform for Managing and Analyzing Process Data in Industrial Settings" ;
+    ns2:authorString "Sebastian Gabler" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_8743> a ns1:ScholarlyArticle ;
+    ns1:abstract "We are presenting the Intelligent Service Agent realized at ZEISS. It's a knowledge graph-based recommendation service to guide service technicians at the point of need. The agent is fed by various data sources from technical documentation, over spare part lists to maintenance reports. The talk will illustrate the project from data gathering, data enrichment, and machine learning to predictive maintenance. " ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_313>,
+        <https://w3id.org/okn/semantics/i/Author_314>,
+        <https://w3id.org/okn/semantics/i/Author_315> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Machine Learning
+Knowledge Graph
+Intelligent Content
+Predictive Maintenance
+Recommendation""" ;
+    ns1:name "Intelligent Service Agent at ZEISS" ;
+    ns2:authorString "Karsten Schrempp, Klaus Müller and Andreas Pawlik" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_9381> a ns1:ScholarlyArticle ;
+    ns1:abstract """Across various industries and business models, companies face the need to assess compatibility, whether it’s industrial configuration management, terms in contracts, points of a supply chain, buyers and suppliers, and so on.
+
+Whether this process is in relation to assemblies, production, or data analysis, it often requires managing and determining millions of combinations to assess whether components fit together and meet certain requirements. Traditional approaches often struggle with the complexity and scale of real-world scenarios, resulting in lengthy calculation times and restricted insights. Knowledge graphs, on the other hand, perfectly fit these needs and overcome the challenges facing current solutions. In addition to performance, such a semantic solution provides data in the context of domain knowledge, using simple yet expressive axioms and rules instead of disparate hard-coded procedures.
+
+In this presentation, we will showcase a graph solution developed by Derivo for one of the world's largest automation companies, which is currently leveraging this technology in their production processes as well as in an interactive customer-facing configuration solution. The demonstration will highlight the cutting-edge capabilities of RDFox, a knowledge graph and reasoning engine, and how it can be used to streamline compatibility assessment in industrial configuration management. With its in-memory architecture and incremental reasoning, RDFox ensures real-time adaptability and scalability, while also providing increased functionality and analytical power over the industry standards. 
+
+As the complexity of commercial configuration management expands, so too does the need for innovative solutions. Derivo’s partnership with RDFox does just that, propelling us into the future where historical limitations dissolve, giving way to knowledge-based analytics and enhanced decision-making.
+""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_24>,
+        <https://w3id.org/okn/semantics/i/Author_243>,
+        <https://w3id.org/okn/semantics/i/Author_25> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Configuration management
+Compatibility management
+Knowledge graph
+Semantic reasoning
+Semantic web
+AI
+rules-based AI
+Industry
+Graph analytics
+Domain expertise
+Datalog
+OWL
+Database
+Deployment
+Demonstration""" ;
+    ns1:name "From Complexity to Clarity: Configuring Success in Industrial Compatibility Management with Semantic Reasoning and Knowledge Graphs" ;
+    ns2:authorString "Thorsten Liebig, Peter Crocker and Thomas Vout" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_9461> a ns1:ScholarlyArticle ;
+    ns1:abstract "The compliant handling and processing of data by the Dutch National Police is a fundamental requirement for their successful operation. Not only is this required by law, but incorrect processing of data will severely hinder investigation of criminal behaviour, such as the misinterpretation and/or misuse of the available data. The Dutch Police maintains a set of ontologies that can be utilized across the entire police organization. Although this mitigates some of the risks, it is not enough. The true meaning of data is not only dictated by its reference to the ontology, but also its context: at what time, by whom, for what purpose, during what activity. We present \"het verwerkingsmodel\" (\"Data Processing Pattern\" in English) that enables us to keep track of data provenance and context in a standardized way. We will demonstrate its practical application at the Dutch Police and discuss how it could be used as a general pattern for any linked data application in which data provenance is important." ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_244>,
+        <https://w3id.org/okn/semantics/i/Author_245> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """compliance
+data provenance
+ontology
+context of use
+design pattern
+linked data""" ;
+    ns1:name "How the Dutch Police deals with context - enforcing compliance while processing ontological data" ;
+    ns2:authorString "Paul Brandt and Hans Stolk" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_9669> a ns1:ScholarlyArticle ;
+    ns1:abstract """As companies start to focus more on sustainable and responsible business practices in the light of Sustainability Development Goals set by the United Nations, proper documentation of reports, sustainability narratives and policies is therefore of importance. The ESG framework is a framework that enables companies to get insights into their environment, society and governance structures and assess their performance across these three components taking the aforementioned documentation as input.
+ESG framework data is often stored in structured formats like spreadsheets and databases, or unstructured formats like text documents or visualizations. However, these formats have limitations. They lack a high-level summary of the ESG framework and fail to depict underlying links between its components, potentially hindering the discovery of meaningful relationships.
+To overcome these challenges, we propose an immersive 3D metaphoric representation powered by a graph-based data model in Virtual Reality (VR). This solution incorporates the ESG framework taxonomy into the data model, allowing easy access to specific data points, efficient information retrieval, and extraction of ESG-related data elements. It facilitates data exploration, validation, and comprehensive analysis of ESG data.
+Additionally, the immersive 3D metaphoric representation provides a comprehensive and accurate portrayal of data lineage at varying abstract levels within the ESG framework. Users can navigate and explore data lineage in an engaging and intuitive VR environment, enhancing their understanding of the ESG framework and its relationships.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_261>,
+        <https://w3id.org/okn/semantics/i/Author_316> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """knowledge graphs
+data lineage
+business data
+virtual reality
+immersive 3d visualization
+metaphoric representations
+esg""" ;
+    ns1:name "Knowledge Graph based immersive ESG data visualization using metaphoric representations" ;
+    ns2:authorString "Sohail El Sabrouty and Ali Khalili" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_9809> a ns1:ScholarlyArticle ;
+    ns1:abstract """The transformation towards a data-driven organization has resulted in the rapid growth of analytics self-service tools at Daimler Truck. Discovering and utilizing analytics self-service tools within the app store poses challenges due to the lack of effective search functionality. This presentation introduces a solution that leverages an ontology and knowledge graphs to implement a powerful API-based search in an app store for analytics self-service tools.
+
+We'll begin by explaining the importance of using ontologies in structuring knowledge and explore the use of knowledge graphs as a means to represent and store ontology data. The domain-specific ontology is designed and developed by Daimler Truck captures essential concepts, relationships, and attributes in the analytics self-service tool domain. The knowledge graph integrates app store tools and metadata based on the defined ontology. The implemented search functionality utilizes APIs, allowing users to query the app store based on specific requirements. Semantic reasoning enhances the search results, providing accurate and context-aware tool recommendations.
+
+
+Finally, we'll discuss the benefits of using ontologies and knowledge graphs for search functionality, including enriched metadata and adaptability for adding new tools and features. Infrastructure and setup will be presented as well.
+
+In conclusion, this presentation showcases the utilization of ontologies and knowledge graphs to implement API-based search in an analytics self-service tools app store. The proposed approach enhances tool discovery, facilitates informed decision-making, and ensures adaptability to the evolving analytics landscape.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_268> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_4> ;
+    ns1:keywords """Semantic Search
+Self Service Tools
+Informed Decision Making""" ;
+    ns1:name "Ontology and Knowledge Graphs for API-Based Search in an Analytics Self-Service App Store" ;
+    ns2:authorString "Jannik Wiessler" .
+
+<https://w3id.org/okn/semantics/i/Author_106> a ns1:Person ;
+    ns1:affiliation "Taxonic" ;
+    ns1:familyName "Voskuil" ;
+    ns1:givenName "Jan" ;
+    ns1:nationality "Netherlands" ;
+    ns1:url "http://www.taxonic.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_110> a ns1:Person ;
+    ns1:affiliation "Zazuko GmbH" ;
+    ns1:familyName "Gschwend" ;
+    ns1:givenName "Adrian" ;
+    ns1:nationality "Switzerland" ;
+    ns1:url "http://www.zazuko.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_111> a ns1:Person ;
+    ns1:affiliation "Zazuko GmbH" ;
+    ns1:familyName "Rauch" ;
+    ns1:givenName "Michael" ;
+    ns1:nationality "Switzerland" ;
+    ns1:url "http://www.zazuko.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_112> a ns1:Person ;
+    ns1:affiliation "Semantic Web Company" ;
+    ns1:familyName "David" ;
+    ns1:givenName "Robert" ;
+    ns1:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_113> a ns1:Person ;
+    ns1:affiliation "Semantic Web Company" ;
+    ns1:familyName "Krickl" ;
+    ns1:givenName "Astrid" ;
+    ns1:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_114> a ns1:Person ;
+    ns1:affiliation "Neo4j" ;
+    ns1:familyName "Barrasa" ;
+    ns1:givenName "Jesús" ;
+    ns1:nationality "United Kingdom" .
+
+<https://w3id.org/okn/semantics/i/Author_127> a ns1:Person ;
+    ns1:affiliation "PANTOPIX" ;
+    ns1:familyName "Ley" ;
+    ns1:givenName "Dr. Martin" ;
+    ns1:nationality "Germany" ;
+    ns1:url "https://www.pantopix.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_128> a ns1:Person ;
+    ns1:affiliation "PANTOPIX" ;
+    ns1:familyName "Wagner" ;
+    ns1:givenName "Johann" ;
+    ns1:nationality "Germany" ;
+    ns1:url "https://www.pantopix.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_135> a ns1:Person ;
+    ns1:affiliation "Ordina" ;
+    ns1:familyName "Franssen" ;
+    ns1:givenName "Kike" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_136> a ns1:Person ;
+    ns1:affiliation "Ordina" ;
+    ns1:familyName "Schmidt" ;
+    ns1:givenName "Eveline" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_137> a ns1:Person ;
+    ns1:affiliation "Graphifi" ;
+    ns1:familyName "Solomon" ;
+    ns1:givenName "Madi" ;
+    ns1:nationality "United Kingdom" ;
+    ns1:url "http://graphifi.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_138> a ns1:Person ;
+    ns1:affiliation "Neural Alpha" ;
+    ns1:familyName "Phare" ;
+    ns1:givenName "James" ;
+    ns1:nationality "United Kingdom" ;
+    ns1:url "http://neuralalpha.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_140> a ns1:Person ;
+    ns1:affiliation "TopQuadrant" ;
+    ns1:familyName "Eccleston" ;
+    ns1:givenName "Ian" ;
+    ns1:nationality "United States" ;
+    ns1:url "https://www.topquadrant.com/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_141> a ns1:Person ;
+    ns1:affiliation "TopQuadrant" ;
+    ns1:familyName "Polikoff" ;
+    ns1:givenName "Irene" ;
+    ns1:nationality "United States" .
+
+<https://w3id.org/okn/semantics/i/Author_142> a ns1:Person ;
+    ns1:affiliation "Franz Inc." ;
+    ns1:familyName "Aasman" ;
+    ns1:givenName "Jans" ;
+    ns1:nationality "United States" ;
+    ns1:url "https://franz.com/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_143> a ns1:Person ;
+    ns1:affiliation "Franz Inc." ;
+    ns1:familyName "Wu" ;
+    ns1:givenName "Sheng-Chuan" ;
+    ns1:nationality "United States" ;
+    ns1:url "https://franz.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_144> a ns1:Person ;
+    ns1:affiliation "IQVIA" ;
+    ns1:familyName "Splendiani" ;
+    ns1:givenName "Andrea" ;
+    ns1:nationality "Switzerland" ;
+    ns1:url "http://IQVIA.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_16> a ns1:Person ;
+    ns1:affiliation "Not affiliated" ;
+    ns1:familyName "Bakker" ;
+    ns1:givenName "Flores" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_170> a ns1:Person ;
+    ns1:affiliation "meemoo, Flemish Institute for Archives" ;
+    ns1:familyName "Vander Sande" ;
+    ns1:givenName "Miel" ;
+    ns1:nationality "Belgium" ;
+    ns1:url "http://meemoo.be"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_18> a ns1:Person ;
+    ns1:affiliation "TU Twente, Kadaster" ;
+    ns1:familyName "Folmer" ;
+    ns1:givenName "Erwin" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_19> a ns1:Person ;
+    ns1:affiliation "Ivo Zandhuis Onderzoek en Advies" ;
+    ns1:familyName "Zandhuis" ;
+    ns1:givenName "Ivo" ;
+    ns1:nationality "Netherlands" ;
+    ns1:url "https://ivozandhuis.nl"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_197> a ns1:Person ;
+    ns1:affiliation "Fraunhofer Center for International Management and Knowledge Economy IMW" ;
+    ns1:familyName "Bergmann" ;
+    ns1:givenName "Jan-Peter" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_198> a ns1:Person ;
+    ns1:affiliation "Fraunhofer Center for International Management and Knowledge Economy IMW" ;
+    ns1:familyName "Senger" ;
+    ns1:givenName "Elena" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_199> a ns1:Person ;
+    ns1:affiliation "Fraunhofer Center for International Management and Knowledge Economy IMW" ;
+    ns1:familyName "Campbell" ;
+    ns1:givenName "Yuri" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_20> a ns1:Person ;
+    ns1:affiliation "International Institute for Social History" ;
+    ns1:familyName "Zijdeman" ;
+    ns1:givenName "Richard" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_200> a ns1:Person ;
+    ns1:affiliation "Fraunhofer Center for International Management and Knowledge Economy IMW" ;
+    ns1:familyName "Trela" ;
+    ns1:givenName "Karl" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_21> a ns1:Person ;
+    ns1:affiliation "Platform Linked Data Netherlands" ;
+    ns1:familyName "van Everdingen" ;
+    ns1:givenName "Pieter" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_210> a ns1:Person ;
+    ns1:affiliation "Sematic Web Company" ;
+    ns1:familyName "Gabler" ;
+    ns1:givenName "Sebastian" ;
+    ns1:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_22> a ns1:Person ;
+    ns1:affiliation "Triply B.V." ;
+    ns1:familyName "Lindeman" ;
+    ns1:givenName "Mark" ;
+    ns1:nationality "Netherlands" ;
+    ns1:url "https://triplydb.com/mark-lindeman"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_23> a ns1:Person ;
+    ns1:affiliation "International Finance Corporation" ;
+    ns1:familyName "Arias" ;
+    ns1:givenName "Carlos" ;
+    ns1:nationality "United States" .
+
+<https://w3id.org/okn/semantics/i/Author_243> a ns1:Person ;
+    ns1:affiliation "Derivo",
+        "derivo GmbH" ;
+    ns1:familyName "Liebig" ;
+    ns1:givenName "Thorsten" ;
+    ns1:nationality "Germany" ;
+    ns1:url "http://www.derivo.de/en/"^^xsd:anyURI,
+        "https://www.derivo.de/en/home/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_244> a ns1:Person ;
+    ns1:affiliation "Dutch National Police" ;
+    ns1:familyName "Brandt" ;
+    ns1:givenName "Paul" ;
+    ns1:nationality "Netherlands" ;
+    ns1:url "https://www.politie.nl/en"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_245> a ns1:Person ;
+    ns1:affiliation "Dutch National Police" ;
+    ns1:familyName "Stolk" ;
+    ns1:givenName "Hans" ;
+    ns1:nationality "Netherlands" ;
+    ns1:url "https://www.politie.nl/en"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_26> a ns1:Person ;
+    ns1:affiliation "Grundfos" ;
+    ns1:familyName "Brynildsen" ;
+    ns1:givenName "Mikkel H." ;
+    ns1:nationality "Denmark" ;
+    ns1:url "https://www.linkedin.com/in/mikkel-haggren-brynildsen-77319926/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_261> a ns1:Person ;
+    ns1:affiliation "Vrije Universiteit Amsterdam" ;
+    ns1:familyName "El Sabrouty" ;
+    ns1:givenName "Sohail" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_268> a ns1:Person ;
+    ns1:affiliation "Daimler Truck AG" ;
+    ns1:familyName "Wiessler" ;
+    ns1:givenName "Jannik" ;
+    ns1:nationality "Germany" ;
+    ns1:url "http://www.daimlertruck.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_313> a ns1:Person ;
+    ns1:affiliation "Pantopix" ;
+    ns1:familyName "Schrempp" ;
+    ns1:givenName "Karsten" ;
+    ns1:nationality "Germany" ;
+    ns1:url "http://www.pantopix-com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_314> a ns1:Person ;
+    ns1:affiliation "Carl Zeiss Microscopy" ;
+    ns1:familyName "Müller" ;
+    ns1:givenName "Klaus" ;
+    ns1:nationality "Germany" ;
+    ns1:url "https://www.zeiss.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_315> a ns1:Person ;
+    ns1:affiliation "ZEISS Digital Partners" ;
+    ns1:familyName "Pawlik" ;
+    ns1:givenName "Andreas" ;
+    ns1:nationality "Germany" ;
+    ns1:url "https://www.zeiss.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_316> a ns1:Person ;
+    ns1:affiliation "Deloitte" ;
+    ns1:familyName "Khalili" ;
+    ns1:givenName "Ali" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_36> a ns1:Person ;
+    ns1:affiliation "Lead Semantics, Inc." ;
+    ns1:familyName "Yalamanchi" ;
+    ns1:givenName "Prasad" ;
+    ns1:nationality "United States" ;
+    ns1:url "https://www.leadsemantics.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_58> a ns1:Person ;
+    ns1:affiliation "Wolters Kluwer Germany" ;
+    ns1:familyName "Dirschl" ;
+    ns1:givenName "Christian" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_59> a ns1:Person ;
+    ns1:affiliation "Wolters Kluwer" ;
+    ns1:familyName "Losch" ;
+    ns1:givenName "Anke" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_88> a ns1:Person ;
+    ns1:affiliation "CROW" ;
+    ns1:familyName "Opgenoort" ;
+    ns1:givenName "Rik" ;
+    ns1:nationality "Netherlands" ;
+    ns1:url "https://rix.fyi"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_89> a ns1:Person ;
+    ns1:affiliation "CROW" ;
+    ns1:familyName "Kronemeijer" ;
+    ns1:givenName "Redmer" ;
+    ns1:nationality "Netherlands" ;
+    ns1:url "https://rdmr.eu/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Demo_1796_7_1> a ns1:Demo ;
+    ns1:name "Termennetwerk" ;
+    ns1:url "https://termennetwerk.netwerkdigitaalerfgoed.nl/" .
+
+<https://w3id.org/okn/semantics/i/License/European%20Union%20Public%20License%201.2> a ns1:CreativeWork ;
+    ns1:name "European Union Public License 1.2" ;
+    ns1:url "http://choosealicense.com/licenses/eupl-1.2/" .
+
+<https://w3id.org/okn/semantics/i/License/W3C%20Software%20and%20Document%20License> a ns1:CreativeWork ;
+    ns1:name "W3C Software and Document License" ;
+    ns1:url "http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_1796_4> a ns1:SoftwareSourceCode ;
+    ns1:name "Netwerk digitaal Erfgoed organization" ;
+    ns1:url "https://github.com/netwerk-digitaal-erfgoed" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_319_7> a ns1:SoftwareSourceCode ;
+    ns1:description "The mission of this community group is to establish a draft standard for a RDF-based representation of the HTML-vocabulary" ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/W3C%20Software%20and%20Document%20License> ;
+    ns1:name "htmlvoc" ;
+    ns1:url "https://github.com/floresbakker/htmlvoc" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_460_7> a ns1:SoftwareSourceCode ;
+    ns1:description "LD Wizard is a framework for creating end-user focused Graphical User Interfaces (GUIs) that simplify the creation and publication of linked data." ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/European%20Union%20Public%20License%201.2> ;
+    ns1:name "LDWizard" ;
+    ns1:url "https://github.com/pldn/LDWizard" .
+
+<https://w3id.org/okn/semantics/i/Author_15> a ns1:Person ;
+    ns1:affiliation "Triply B.V." ;
+    ns1:familyName "Beek" ;
+    ns1:givenName "Wouter" ;
+    ns1:nationality "Netherlands" ;
+    ns1:url "https://triplydb.com/wouter"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_17> a ns1:Person ;
+    ns1:affiliation "Dutch Digital Heritage Network",
+        "National Library of the Netherlands / CTO Dutch Digital Heritage Network" ;
+    ns1:familyName "Meijers" ;
+    ns1:givenName "Enno" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_24> a ns1:Person ;
+    ns1:affiliation "Oxford Semantic Technologies" ;
+    ns1:familyName "Vout" ;
+    ns1:givenName "Thomas" ;
+    ns1:nationality "United Kingdom" ;
+    ns1:url "https://www.oxfordsemantic.tech/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_25> a ns1:Person ;
+    ns1:affiliation "Oxford Semantic Technologies" ;
+    ns1:familyName "Crocker" ;
+    ns1:givenName "Peter" ;
+    ns1:nationality "United Kingdom" ;
+    ns1:url "https://www.oxfordsemantic.tech/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Track_4> a ns1:Event ;
+    ns1:name "Semantics2023 IndustryTrack" .
+

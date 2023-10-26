@@ -1,0 +1,958 @@
+@prefix ns1: <https://schema.org/> .
+@prefix ns2: <https://w3id.org/okn/semantics/voc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_1331> a ns1:ScholarlyArticle ;
+    ns1:abstract """Purpose: This paper presents the construction of a Knowledge Graph (KG) of Educational Resources (ER), where RDF reification is essential. The ERs are described based on the subjects they cover considering their relevance. RDF reification is used to incorporate this subject's relevance. Multiple reification models with distinct syntax and performance implications for storage and query processing exist. This study aims to experimentally compare four statement-based reification models on four triplestores to determine the most pertinent choice for our KG.
+
+Methodology: The authors built four versions of the KG. Each version has a distinct reification model, namely standard reification, singleton properties, named graphs, and RDF-star, which were obtained using RML mappings. The KG consists of 45,000 ERs, 13,000 authors, 135,000 subjects, and 8,250,000 statements linking the ERs to their subjects. Each of the four triplestores (Virtuoso, Jena, Oxigraph, and GraphDB) was set up four times (except for Virtuoso, which does not support RDF-star), and seven different SPARQL queries were experimentally evaluated.
+
+Findings: In general, this study shows that standard reification and named graphs lead to good performance. It also shows that Virtuoso outperforms Jena, GraphDB, and Oxigraph in most queries, in the particular context of the used KG.
+
+Value: The recent specification of RDF-star and SPARQL-star sheds light on statement-level annotations. The empirical study reported in this paper contributes to the efforts toward the efficient usage of RDF reification. In addition, this paper shares the pipeline of the KG construction using standard semantic web technologies.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_46>,
+        <https://w3id.org/okn/semantics/i/Author_47>,
+        <https://w3id.org/okn/semantics/i/Author_48> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_1331_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """Knowledge graph
+RDF reification
+Query evaluation
+Experimental comparison
+Educational resources""" ;
+    ns1:name "Methodology for Creating a Knowledge Graph with RDF Reification" ;
+    ns2:authorString "Manoé Kieffer, Ginwa Fakih and Patricia Serrano Alvarado" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_1369> a ns1:ScholarlyArticle ;
+    ns1:abstract """Purpose: In an information theoretic framework, this study aims to identify idiomatic expressions (IE) in English by measuring perplexity between texts with IE, without IE (literals) and large reference texts.
+
+Methodology: Four texts are analysed: one text with at least one IE per sentence, one text without any IE, and two large, sentence-wise unrelated reference texts . Perplexity is measured based on bi- till heptagrams of PoS tags and tokens, and , in addition, of thematic roles within the boundaries of a sentence extracted by the LOME parser. We assume that the divergence of perplexity from the reference would be higher for IEs compared to literals.
+
+Findings: We observed that there is no significant difference in perplexity between IE, literal expressions and reference texts.
+
+Value: Model-based identification of IE can be useful in automatic speech processing applications, which sometimes have problems with IE. We suggest utilising larger extra-sentential contexts to determine perplexity. Additionally, reducing the number of thematic roles can avoid an uniform distribution of n-grams.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_49>,
+        <https://w3id.org/okn/semantics/i/Author_50>,
+        <https://w3id.org/okn/semantics/i/Author_51>,
+        <https://w3id.org/okn/semantics/i/Author_52>,
+        <https://w3id.org/okn/semantics/i/Author_53> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_1369_5>,
+        <https://w3id.org/okn/semantics/i/Dataset_1369_5_1>,
+        <https://w3id.org/okn/semantics/i/Dataset_1369_5_2> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """perplexity
+idiomatic expressions
+literal expressions
+information theory""" ;
+    ns1:name "Perplexed by idioms?" ;
+    ns2:authorString "J. Nathanael Philipp, Max Kölbl, Erik Daas, Yuki Kyogoku and Michael Richter" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_1683> a ns1:ScholarlyArticle ;
+    ns1:abstract """Purpose: Data integration and applications across knowledge graphs (KGs) rely heavily on the discovery of links between resources within these KGs. Geospatial link discovery algorithms have to deal with millions of point sets containing billions of points.
+Methodology: To speed up the discovery of geospatial links, we propose Cobalt. Cobalt combines the content measures with R-Tree indexing. The content measures work based on the area, diagonal and distance of polygons which speeds up the process but is not perfectly accurate. We thus propose a polygon splitting approach for improving the accuracy of Cobalt.
+Findings: Our experiments on real-world datasets show that Cobalt is able to speed up the topological relation discovery over geospatial KGs by up to 1.47*10^4 times over other linking algorithms while maintaining an F-Measure between 70% and 90% depending on the relation. Furthermore, we were able to achieve an F-Measure of up to 99% by splitting the polygons before applying the content measures.
+Value: The process of discovering links between geospatial resources can be significantly faster by sacrificing the optimality of the results. This is especially important for real-time data-driven applications such as emergency response, location-based services and real-time traffic management. In the future additional measures, like the location of polygons or the name of the entity a polygon represents, could be integrated to further improve the accuracy of the results.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_54>,
+        <https://w3id.org/okn/semantics/i/Author_55>,
+        <https://w3id.org/okn/semantics/i/Author_56>,
+        <https://w3id.org/okn/semantics/i/Author_57> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_1683_5>,
+        <https://w3id.org/okn/semantics/i/Dataset_1683_5_1>,
+        <https://w3id.org/okn/semantics/i/Demo_1683_7>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_1683_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """Linked Data
+Knowledge graphs
+Geospatial Knowledge graphs
+Matching
+KG Integration
+Topological Relations""" ;
+    ns1:name "Cobalt: A Content-Based Similarity Approach for Link Discovery over Geospatial Knowledge Graphs" ;
+    ns2:authorString "Alexander Becker, Abdullah Ahmed, Mohamed Ahmed Sherif and Axel-Cyrille Ngonga Ngomo" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_264> a ns1:ScholarlyArticle ;
+    ns1:abstract "Purpose: Knowledge Graphs have so far been intensively used in the cultural heritage domain. Current interaction paradigms and interfaces however are often limited to textual representations or 2D visualizations, not taking into account the 4D nature of data. In digital history in particular, where events as well as geographical and temporal relationships play an important role, exploration paradigms that take into account the 4D nature of event-related data are important, as they have the potential to support historians in generating new knowledge and discovering new relationships. In this paper we explore the potential of Virtual Reality (VR) as a paradigm allowing digital humanities researchers, historians in particular, to explore from an egocentric perspective a semantic 4D space defined by knowledge graphs. Methodology: We present eTaRDiS: a VR-based tool supporting immersive exploration of knowledge graphs. We evaluate the tool in the context of a task in which historians and laypersons with a history background explore DBpedia and Wikidata. We report results of a study involving 14 subjects that interacted with the data in eTaRDiS in the context of a specific task, in order to gain insights regarding the interaction patterns of users with our system. For this, the interaction of the users within the application was recorded and transcribed. The usability of the tool was evaluated using a questionnaire. Findings: The usability evaluation showed that our tool achieved an overall System Usability Scale (SUS) score of 71.92, corresponding to a ‘satisfactory’ rating. While the mean score reached with laypersons with a history background was quite high with 76.0, corresponding to a rating of ‘excellent’, the score for historians was lower with 69.4, corresponding to a ‘sufficient to satisfactory’ rating. In the analysis of the recordings, we found that respondents quickly identified the relevant information in the tasks using a variety of strategies and taking advantage of the features provided in eTaRDiS. Value: eTaRDiS is to our knowledge the first VR-based exploration tool supporting the exploration of knowledge graphs. The findings of the usability evaluation and the qualitative analysis of exploration patterns show that the system could potentially be a valuable tool for allowing digital humanities researchers to explore knowledge graphs as a way to discover new relationships between historical events and persons of interest." ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_10>,
+        <https://w3id.org/okn/semantics/i/Author_11>,
+        <https://w3id.org/okn/semantics/i/Author_12>,
+        <https://w3id.org/okn/semantics/i/Author_13>,
+        <https://w3id.org/okn/semantics/i/Author_14>,
+        <https://w3id.org/okn/semantics/i/Author_284>,
+        <https://w3id.org/okn/semantics/i/Author_4>,
+        <https://w3id.org/okn/semantics/i/Author_5>,
+        <https://w3id.org/okn/semantics/i/Author_6>,
+        <https://w3id.org/okn/semantics/i/Author_7>,
+        <https://w3id.org/okn/semantics/i/Author_8>,
+        <https://w3id.org/okn/semantics/i/Author_9> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """knowledge graphs
+virtual reality
+digital humanities
+digital history
+linked data
+semantic web""" ;
+    ns1:name "Virtual Reality based Access to Knowledge graphs for History Research" ;
+    ns2:authorString "Julia Becker, Mario Botsch, Mohammad Fazleh Elahi, Melanie Derksen, Philipp Cimiano, Angelika Maier, Marius Maile, Ingo Oliver Pätzold, Jonas Penningroth, Bettina Reglin, Markus Rothgänger and Silke Schwandt" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_4723> a ns1:ScholarlyArticle ;
+    ns1:abstract """Purpose: The query language GraphQL has gained significant traction in recent years.
+In particular, it has recently gained the attention of the semantic web and graph database communities and is now often used as a means to query knowledge graphs.
+Most of the storage solutions that support GraphQL rely on a translation layer to map the said language to another query language that they support natively, for example SPARQL.
+Methodology: Our main innovation is a multi-way left-join algorithm inspired by worst-case optimal multi-way join algorithms. This novel algorithms enables the native execution of GraphQL queries over RDF knowledge graphs.
+We evaluate our approach in two settings using the LinGBM benchmark generator.
+Findings: The experimental results suggest that our solution outperforms the state-of-the-art graph storage solution for GraphQL with respect to both query runtimes and scalability.
+Value: Our solution is implemented in  an open-sourced triple store, and is intended to advance the development of representation-agnostic storage solutions for knowledge graphs.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_115>,
+        <https://w3id.org/okn/semantics/i/Author_116>,
+        <https://w3id.org/okn/semantics/i/Author_57> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_4723_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """graphql
+knowledge graphs
+multi-way joins""" ;
+    ns1:name "Native Execution of GraphQL Queries over RDF Graphs Using Multi-way Joins" ;
+    ns2:authorString "Nikolaos Karalis, Alexander Bigerl and Axel-Cyrille Ngonga Ngomo" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_4875> a ns1:ScholarlyArticle ;
+    ns1:abstract """Purpose: Following the impact of the GDPR on the regulation of the use of personal data of European citizens, the European Commission is now focused on implementing a common data strategy to promote the (re)use and sharing of data between citizens, companies and governments while maintaining it under the control of the entities that generated it. In this context, the Data Governance Act (DGA) emphasizes the altruistic reuse of data and the emergence of data intermediaries as trusted entities that do not have an interest in analysing the data itself and act only as enablers of the sharing of data between data holders and data users.
+Methodology: In order to address DGA's new requirements, this work investigates how to apply existing Semantic Web vocabularies to (1) generate machine-readable policies for the reuse of public data, (2) specify data altruism consent terms and (3) create uniform registers of data altruism organisations and intermediation services' providers.
+Findings: In addition to promoting machine-readability and interoperability, the use of the identified semantic vocabularies eases the modeling of data-sharing policies and consent forms across different use cases and provides a common semantic model to keep a public register of data intermediaries and altruism organisations, as well as records of their activities. Since these vocabularies are openly accessible and easily extendable, the modeling of new terms that cater to DGA-specific requirements is also facilitated.
+Value: The main results are an ad-hoc vocabulary with the new terms and examples of usage, which are available at https://anonymous.4open.science/r/dgaterms-F0C8/. In future research, this work can be used to automate the generation of documentation for the new DGA data-sharing entities and be extended to deal with requirements from future data-related regulations.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_123>,
+        <https://w3id.org/okn/semantics/i/Author_124>,
+        <https://w3id.org/okn/semantics/i/Author_125>,
+        <https://w3id.org/okn/semantics/i/Author_126> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_4875_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """Data Governance Act
+Semantic Web
+Machine-readable policies
+Data intermediaries
+Data altruism
+Registers of Activities""" ;
+    ns1:name "Semantics for Implementing Data Reuse and Altruism under EU's Data Governance Act" ;
+    ns2:authorString "Beatriz Esteves, Víctor Rodríguez Doncel, Harshvardhan J. Pandit and David Lewis" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_5020> a ns1:ScholarlyArticle ;
+    ns1:abstract "As the number of RDF datasets published on the semantic web continues to grow, it becomes increasingly important to efficiently link similar entities between these datasets. However, the performance of existing data linking tools, often developed for general purposes, seems to have reached a plateau, suggesting the need for more  modular and efficient solutions. In this paper, we propose --and formalize in OWL-- a classification of the different Linking Problem Types (LPTs) to help the linked data  community identify upstream the problems and develop more efficient solutions. Our classification is based on the description of heterogeneity reported in the  literature --especially five articles-- and identifies five main types of linking problems: predicate value problems, predicate problems, class problems, subgraph problems, and graph problems. By classifying LPTs, we provide a framework for understanding and addressing the challenges associated with semantic data linking. It can be used to develop new solutions based on existing modularized tools addressing specific LPTs, thus improving the overall efficiency of data linking." ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_129>,
+        <https://w3id.org/okn/semantics/i/Author_130>,
+        <https://w3id.org/okn/semantics/i/Author_131> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """Data linking
+Semantic web
+Linking Problem Types
+Classification""" ;
+    ns1:name "Classification of Linking Problem Types for linking semantic data" ;
+    ns2:authorString "Raphaël Conde Salazar, Clement Jonquet and Danai Symeonidou" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_5195> a ns1:ScholarlyArticle ;
+    ns1:abstract """Purpose:
+This study addresses the limitations of current short abstracts of DBpedia entities, which often lack a comprehensive overview due to their creating method (i.e., selecting the first two-three sentences from the full DBpedia abstracts).
+We propose an abstractive summarization approach using pre-trained language models, which can generate concise and informative summaries.
+
+Methodology:
+We leverage pre-trained language models to generate abstractive summaries of DBpedia abstracts in six languages (English, French, German, Italian, Spanish, and Dutch).
+We performed several experiments to assess the quality of generated summaries by language models. In particular, we evaluated the generated summaries using human judgments and automated metrics (Self-ROUGE and BERTScore).
+Additionally, we studied the correlation between human judgments and automated metrics in evaluating the generated summaries under different aspects: informativeness, coherence, conciseness, and fluency.
+
+Findings:
+Pre-trained language models generate summaries more concise and informative than existing short abstracts. Specifically, BART-based models effectively overcome the limitations of DBpedia short abstracts, especially for longer ones. Moreover, we show that BERTScore and ROUGE-1 are reliable metrics for assessing the informativeness and coherence of the generated summaries with respect to the full DBpedia abstracts. We also find a negative correlation between conciseness and human ratings. Furthermore, fluency evaluation remains challenging without human judgment.
+
+Value: This study has significant implications for various applications in machine learning and natural language processing that rely on DBpedia resources.
+By providing succinct and comprehensive summaries, our approach enhances the quality of DBpedia abstracts and contributes to the semantic web community.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_132>,
+        <https://w3id.org/okn/semantics/i/Author_133>,
+        <https://w3id.org/okn/semantics/i/Author_134>,
+        <https://w3id.org/okn/semantics/i/Author_56>,
+        <https://w3id.org/okn/semantics/i/Author_57> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_5195_5>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_5195_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """DBpedia Abstracts
+Abstractive Summarization
+Large Language Model
+Knowledge Graph""" ;
+    ns1:name "Using Pre-trained Language Models for Abstractive DBpedia Summarization: A Comparative Study" ;
+    ns2:authorString "Hamada Zahera, Fedor Vitiugin, Mohamed Sherif, Carlos Castillo and Axel-Cyrille Ngonga" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_5860> a ns1:ScholarlyArticle ;
+    ns1:abstract """Recording and documenting human and AI-driven normative decision-making processes has so far been highly challenging.
+We focus on the challenge of normative coordination: The process by which stakeholders in a community understand and agree what norms they abide by.
+Our aim is to develop and formalize the FLINT language, which allows a high-level description of normative systems.
+FLINT enables legal experts to agree on norms, while also serving as a basis for technical implementation.
+
+Our contribution consists of the development of an ontology for FLINT and its RDF/OWL implementation which we have made openly accessible. We designed the ontology on the basis of competency questions. Additionally, we validated the ontology by modeling example cases and using the ontology's data model in software tooling.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_147>,
+        <https://w3id.org/okn/semantics/i/Author_148>,
+        <https://w3id.org/okn/semantics/i/Author_149>,
+        <https://w3id.org/okn/semantics/i/Author_150> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_5860_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """legaltech
+norms
+normative systems""" ;
+    ns1:name "The FLINT ontology: an actor-based model of legal relations" ;
+    ns2:authorString "Jeroen Breteler, Thom Van Gessel, Giulia Biagioni and Robert Van Doesburg" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_640> a ns1:ScholarlyArticle ;
+    ns1:abstract """Purpose: The goal of this paper is to report about an application of a knowledge semantification approach for the “platform and ecosystem for quantum applications” (PlanQK). Specifically, we describe how the quantum computing knowledge, which is submitted on the platform by scientific community and industry actors, is incorporated into the platform knowledge graph (KG) and semantically annotated. Furthermore, we delve into the KG-based semantic search we developed for the platform.
+Methodology: To achieve the data transformation from a relational database (RDB) into a machine-readable Resource Description Framework (RDF) format, we define a mapping between the database and ontology schemes, handle the data semantics and store the instance data in a unified KG. Moreover, we discuss a mechanism for a continuous synchronization of the knowledge in the graph. The semantic search we present further in this paper incorporates both native and faceted search techniques, leveraging the indexed parts of the KG.
+Findings: The paper shows an on-the-fly solution that seamlessly integrates ontology and a web platform data stored in a relation database into a KG. It outlines the semantic search over the graph, which is not restricted to a single graph but can be also executed across an ecosystem of the connected graphs.
+Value: RDB to RDF mapping and semantic search are complex tasks that require an architecture, which supports an effortless data integration and evolution over time. The presented solution is not limited to the PlanQK platform and quantum computing domain but can be applied in other applications as well. In further work, the PlanQK KG could be made available as Linked Data and connected with related graphs to build a quantum computing knowledge system.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_27>,
+        <https://w3id.org/okn/semantics/i/Author_28>,
+        <https://w3id.org/okn/semantics/i/Author_29>,
+        <https://w3id.org/okn/semantics/i/Author_30>,
+        <https://w3id.org/okn/semantics/i/Author_31> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/Demo_640_7>,
+        <https://w3id.org/okn/semantics/i/Ontology_640_5> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """Knowledge Graph
+Ontology
+Semantic Web
+Semantic Search
+Faceted Search
+Ontology Based Search
+Quantum Computing""" ;
+    ns1:name "Semantifying the PlanQK Platform and Ecosystem for Quantum Applications" ;
+    ns2:authorString "Darya Martyniuk, Naouel Karam, Michael Falkenthal, Yufan Dong and Adrian Paschke" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_650> a ns1:ScholarlyArticle ;
+    ns1:abstract "Hate speech comes in different forms depending on the communities targeted, often based on factors like gender, sexuality, race, or religion. Detecting it online is challenging because existing systems are not accounting for the diversity of hate based on the identity of the target and may be biased towards certain groups, leading to inaccurate results. Current language models perform well in identifying target communities, but only provide a probability that a hate speech text contains references to a particular group. This lack of transparency is problematic because these models learn biases from data annotated by individuals who may not be familiar with the target group. To improve hate speech detection, particularly target group identification, we propose a new approach that incorporates explicit knowledge about the language used by specific identity groups. We leverage a Knowledge Graph (KG) and adapt it, considering an appropriate level of abstraction, to recognise hate speech-language related to gender and sexual orientation. A thorough quantitative and qualitative evaluation demonstrates that our approach is as effective as state-of-the-art language models while adjusting better to domain and data changes. By grounding the task in explicit knowledge, we can better contextualise the results generated by our proposed approach with the language of the groups most frequently impacted by these technologies. This helps us examine model outcomes and the training data used for hate speech detection systems, and handle ambiguous cases in human annotations more effectively. Overall, integrating semantic knowledge in hate speech detection is crucial for enhancing understanding of model behaviors and addressing biases derived from training data." ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_32>,
+        <https://w3id.org/okn/semantics/i/Author_33>,
+        <https://w3id.org/okn/semantics/i/Author_34>,
+        <https://w3id.org/okn/semantics/i/Author_35> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_650_5>,
+        <https://w3id.org/okn/semantics/i/Dataset_650_5_1>,
+        <https://w3id.org/okn/semantics/i/Dataset_650_5_2>,
+        <https://w3id.org/okn/semantics/i/Dataset_650_5_3>,
+        <https://w3id.org/okn/semantics/i/Dataset_650_5_4>,
+        <https://w3id.org/okn/semantics/i/Dataset_650_5_5>,
+        <https://w3id.org/okn/semantics/i/Dataset_650_5_6>,
+        <https://w3id.org/okn/semantics/i/Ontology_650_6>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_650_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """Hate Speech
+Semantic Enrichment
+Knowledge Graph
+Language Models""" ;
+    ns1:name "Knowledge-Grounded Target Group Language Recognition in Hate Speech" ;
+    ns2:authorString "Paula Reyero Lobo, Enrico Daga, Harith Alani and Miriam Fernandez" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_7519> a ns1:ScholarlyArticle ;
+    ns1:abstract """Purpose: Information about biographies of museum object objects (object provenance) is often unavailable in a machine-readable format. This limits the findability and reusability of object provenance information for domain research. We address the challenges of defining a data model to represent ethnographic cultural heritage objects' provenance, which includes multiple interpretations (polyvocality) of, and theories for, the object biography, chains of custody and context of acquiring.
+
+Methodology: To develop a data model for representing the provenance of ethnographic objects, we conducted (semi-)structured interviews with five provenance experts to elicit a set of requirements. Based on these requirements and a careful examination of six diverse examples of ethnographic object provenance reports, we established a set of modelling choices that utilise existing ontologies such as CIDOC-CRM (a domain standard) and PROV-DM, as well as RDF-named graphs..
+
+Evaluation: Finally, we validate the model on provenance reports containing six seen and five unseen ethnographic cultural heritage object from three separate sources. The 11 reports are converted into RDF triples following the proposed data model. We also constructed SPARQL queries corresponding to nine competency questions elicited from domain experts in order to report on satisfiability.
+
+Findings: The results show that the adapted combined model allows us to express the heterogeneity and polyvocality of the object provenance information, trace data provenance and link with other data sources for further enrichment.
+
+Value: The proposed model from this paper allows publishing such knowledge in a machine-readable format, which will foster information contextualisation, findability and reusability.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_194>,
+        <https://w3id.org/okn/semantics/i/Author_195>,
+        <https://w3id.org/okn/semantics/i/Author_196> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_7519_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """Provenance information
+Polyvocality
+Domain modelling
+Knowledge Representation""" ;
+    ns1:name "Polyvocal Knowledge Modelling for Ethnographic Heritage Object Provenance" ;
+    ns2:authorString "Sarah Binta Alam Shoilee, Victor de Boer and Jacco van Ossenbruggen" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_760> a ns1:ScholarlyArticle ;
+    ns1:abstract """Purpose: A previous paper proposed a bidirectional A* search algorithm for quickly finding meaningful paths in Wikidata that leverages semantic distances between entities as part of the search heuristics. However, the work lacks an optimization of the algorithm’s hyperparameters and an evaluation on a large dataset among others. The purpose of the present paper is to address these open points.
+
+Methodology: Approaches aimed at enhancing the accuracy of the semantic distances are discussed. Furthermore, different options for constructing a dataset of dual-entity queries for pathfinding in Wikidata are explored. 20% of the compiled dataset are utilized to fine-tune the algorithm’s hyperparameters using the Simple optimizer. The optimized configuration is subsequently evaluated against alternative configurations, including a baseline, using the remaining 80% of the dataset.
+
+Findings: The additional consideration of entity descriptions increases the accuracy of the semantic distances. A dual-entity query dataset with 1,196 entity pairs is derived from the TREC 2007 Million Query Track dataset. The optimization yields the values 0.699/0.109/0.823 for the hyperparameters. This configuration achieves a higher coverage of the test set (79.2%) with few entity visits (24.7 on average) and moderate path lengths (4.4 on average). For reproducibility, the implementation called BiPaSs, the query dataset, and the benchmark results are provided.
+
+Value: Web search engines reliably generate knowledge panels with summarizing information only in response to queries mentioning a single entity. This paper shows that quickly finding paths between unseen entities in Wikidata is feasible. Based on these paths, knowledge panels for dual-entity queries can be generated that provide an explanation of the mentioned entities’ relationship, potentially satisfying the users’ information need.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_37> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_760_5>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_760_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """knowledge graphs
+pathfinding
+hyperparameter optimization
+Wikidata""" ;
+    ns1:name "BiPaSs: Further Investigation of Fast Pathfinding in Wikidata" ;
+    ns2:authorString "Leon Martin" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_8036> a ns1:ScholarlyArticle ;
+    ns1:abstract """Purpose: We present a versatile Terminology Service (TS) designed for discovery and provision of ontologies, but also their design, curation and utilization. Our work is embedded in the roadmap of the National Research Data Infrastructure (NFDI) to support all major steps in research data life cycles by generating FAIR semantic artifacts. To fully unlock the potential of data, it must be made machine-actionable and semantically enriched. We present the TS, its user-driven development in conjunction with a use case of an ontology design process.
+Methodology: Utilizing a user-centric methodology, we devised a TS that accommodates diverse use cases from multiple scientific communities. A major focus was on a balanced implementation of service-to-service features and usability of human interfaces providing rich functionalities for all stakeholders. By engaging domain experts, knowledge workers, and ontology engineers, we facilitated a collaborative ontology design process. This involved the application and evaluation of the TS, along with supplementary tools, workflows, and collaboration models.
+Findings: We demonstrate the feasibility, prerequisites, and ongoing challenges associated with developing TS that encompass numerous aspects of ontology utilization to produce FAIR, machine-actionable data. A robust API facilitates ontology integration into research data infrastructures, promoting semantic enrichment and data harmonization across various workflows. GUIs must cater to diverse needs, from domain experts to ontology engineers, for ontology design and curation. We observed the demand for tools offering comprehensive views across disciplines and their ontologies, highlighting the importance of harmonization and alignment with common upper-level ontologies.
+Value: Ontologies are the cornerstone to generate semantically rich, FAIR research data. TS which support different tasks of ontology design, curation, discovery, provision and utilization across scientific disciplines gain importance. Such services provide unified access to a large number of ontologies fostering their reuse, improvement, and maturation of ontologies. This paper demonstrates the various stakeholders to be considered, their requirements and utilization of a TS with use-cases from ontology curation and design from scientific community perspective.""" ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_169>,
+        <https://w3id.org/okn/semantics/i/Author_214>,
+        <https://w3id.org/okn/semantics/i/Author_215>,
+        <https://w3id.org/okn/semantics/i/Author_216>,
+        <https://w3id.org/okn/semantics/i/Author_217> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/Demo_8036_7>,
+        <https://w3id.org/okn/semantics/i/Demo_8036_7_1>,
+        <https://w3id.org/okn/semantics/i/Ontology_8036_6>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_8036_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """FAIR Data
+Ontology
+Terminology Service
+Research Data
+Chemistry""" ;
+    ns1:name "Towards a Versatile Terminology Service for Empowering FAIR Research Data: Enabling Ontology Discovery, Design, Curation, and Utilization Across Scientific Communities" ;
+    ns2:authorString "Philip Strömert, Vatsal Limbachia, Pooya Oladazimi, Johannes Hunold and Oliver Koepler" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_8777> a ns1:ScholarlyArticle ;
+    ns1:abstract "Knowledge Graph Question Answering (KGQA) systems enable access to semantic information for any user who can compose a question in natural language. KGQA systems are now a core component of many industrial applications, including chatbots and conversational search applications. Although distinct worldwide cultures speak different languages, the number of languages covered by KGQA systems and its resources is mainly limited to English. To implement KGQA systems worldwide, we need to expand the current KGQA resources to languages other than English. Taking into account the recent popularity that Large-Scale Language Models are receiving, we believe that providing quality resources is key to the development of future pipelines. One of these resources is the datasets used to train and test KGQA systems. Among the few multilingual KGQA datasets available, only one covers Spanish, i.e., QALD-9. We reviewed the Spanish translations in the QALD-9 dataset and confirmed several issues that may affect the KGQA system's quality. Taking this into account, we created new Spanish translations for this dataset and reviewed them manually with the help of native speakers.  This dataset provides newly created, high-quality translations for QALD-9; we call this extension QALD-9-ES. We merged these translations into the QALD-9-plus dataset, which provides trustworthy native translations for QALD-9 in nine languages, intending to create one complete source of high-quality translations. We compared the new translations with the QALD-9 original ones using language-agnostic quantitative text analysis measures and found improvements in the results of the new translations. Finally, we compared both translations using the GERBIL QA benchmark framework using a KGQA system that supports Spanish. Although the question-answering scores only improved slightly, we believe that improving the quality of the existing translations will result in better KGQA systems and therefore increase the applicability of KGQA w.r.t. the Spanish language domain." ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_233>,
+        <https://w3id.org/okn/semantics/i/Author_234>,
+        <https://w3id.org/okn/semantics/i/Author_235>,
+        <https://w3id.org/okn/semantics/i/Author_236> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_8777_4> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """Knowledge Graphs
+Question Answering
+Dataset""" ;
+    ns1:name "QALD-9-ES: A Spanish Dataset for Question Answering Systems" ;
+    ns2:authorString "Javier Soruco, Diego Collarana, Andreas Both and Ricardo Usbeck" .
+
+<https://w3id.org/okn/semantics/2023/i/Paper_9471> a ns1:ScholarlyArticle ;
+    ns1:abstract "Preserving historical city architectures and making them publicly available has emerged as an important field of the cultural heritage and digital humanities research domain. In this context, the TRANSRAZ project is creating an interactive 3D environment of the historical city of Nuremberg which spans over different periods of time. Next to the exploration of the city's historical architecture, TRANSRAZ is also integrating information about its inhabitants, organizations, and important events, which are extracted from historical documents semi-automatically. Knowledge Graphs have proven useful and valuable to integrate and enrich these heterogeneous data. However, this task also comes with versatile data modeling challenges. This paper contributes the TRANSRAZ data model, which integrates agents, architectural objects, events, and historical documents into the 3D research environment by means of ontologies. Goal is to explore Nuremberg's multifaceted past in different time layers in the context of its architectural, social, economical, and cultural developments." ;
+    ns1:author <https://w3id.org/okn/semantics/i/Author_246>,
+        <https://w3id.org/okn/semantics/i/Author_247>,
+        <https://w3id.org/okn/semantics/i/Author_248>,
+        <https://w3id.org/okn/semantics/i/Author_249> ;
+    ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_9471_5>,
+        <https://w3id.org/okn/semantics/i/Dataset_9471_5_1> ;
+    ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
+    ns1:keywords """Cultural Heritage
+Digital Humanities
+City Exploration
+Knowledge Graphs
+Archival Documents
+Architecture""" ;
+    ns1:name "TRANSRAZ Data Model: Towards a Geosocial Representation of Historical Cities" ;
+    ns2:authorString "Oleksandra Bruns, Tabea Tietz, Sandra Göller and Harald Sack" .
+
+<https://w3id.org/okn/semantics/i/Author_10> a ns1:Person ;
+    ns1:affiliation "Universität Bielefeld" ;
+    ns1:familyName "Maile" ;
+    ns1:givenName "Marius" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_11> a ns1:Person ;
+    ns1:affiliation "Universität Bielefeld" ;
+    ns1:familyName "Pätzold" ;
+    ns1:givenName "Ingo Oliver" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_115> a ns1:Person ;
+    ns1:affiliation "DICE group, Department of Computer Science, Paderborn University" ;
+    ns1:familyName "Karalis" ;
+    ns1:givenName "Nikolaos" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_116> a ns1:Person ;
+    ns1:affiliation "University of Paderborn Data Science Group" ;
+    ns1:familyName "Bigerl" ;
+    ns1:givenName "Alexander" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_12> a ns1:Person ;
+    ns1:affiliation "Universität Bielefeld" ;
+    ns1:familyName "Becker" ;
+    ns1:givenName "Julia" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_123> a ns1:Person ;
+    ns1:affiliation "Universidad Politécnica de Madrid" ;
+    ns1:familyName "Esteves" ;
+    ns1:givenName "Beatriz" ;
+    ns1:nationality "Spain" .
+
+<https://w3id.org/okn/semantics/i/Author_124> a ns1:Person ;
+    ns1:affiliation "Universidad Politécnica de Madrid" ;
+    ns1:familyName "Rodríguez Doncel" ;
+    ns1:givenName "Víctor" ;
+    ns1:nationality "Spain" .
+
+<https://w3id.org/okn/semantics/i/Author_125> a ns1:Person ;
+    ns1:affiliation "ADAPT Centre, School of Computing, Dublin City University" ;
+    ns1:familyName "Pandit" ;
+    ns1:givenName "Harshvardhan J." ;
+    ns1:nationality "Ireland" ;
+    ns1:url "https://harshp.com/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_126> a ns1:Person ;
+    ns1:affiliation "Trinity College Dublin" ;
+    ns1:familyName "Lewis" ;
+    ns1:givenName "David" ;
+    ns1:nationality "Ireland" ;
+    ns1:url "http://www.cs.tcd.ie/Dave.Lewis"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_129> a ns1:Person ;
+    ns1:affiliation "INRAE" ;
+    ns1:familyName "Conde Salazar" ;
+    ns1:givenName "Raphaël" ;
+    ns1:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_13> a ns1:Person ;
+    ns1:affiliation "Universität Bielefeld" ;
+    ns1:familyName "Rothgänger" ;
+    ns1:givenName "Markus" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_130> a ns1:Person ;
+    ns1:affiliation "INRAE",
+        "MISTEA (INRAE) and LIRMM (U. Montpellier)" ;
+    ns1:familyName "Jonquet" ;
+    ns1:givenName "Clement" ;
+    ns1:nationality "France" ;
+    ns1:url "http://www.lirmm.fr/~jonquet/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_131> a ns1:Person ;
+    ns1:affiliation "INRAE" ;
+    ns1:familyName "Symeonidou" ;
+    ns1:givenName "Danai" ;
+    ns1:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_132> a ns1:Person ;
+    ns1:affiliation "Paderborn University" ;
+    ns1:familyName "Zahera" ;
+    ns1:givenName "Hamada" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_133> a ns1:Person ;
+    ns1:affiliation "Universitat Pompeu Fabra" ;
+    ns1:familyName "Vitiugin" ;
+    ns1:givenName "Fedor" ;
+    ns1:nationality "Spain" .
+
+<https://w3id.org/okn/semantics/i/Author_134> a ns1:Person ;
+    ns1:affiliation "Universitat Pompeu Fabra" ;
+    ns1:familyName "Castillo" ;
+    ns1:givenName "Carlos" ;
+    ns1:nationality "Spain" .
+
+<https://w3id.org/okn/semantics/i/Author_14> a ns1:Person ;
+    ns1:affiliation "Universität Bielefeld" ;
+    ns1:familyName "Reglin" ;
+    ns1:givenName "Bettina" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_147> a ns1:Person ;
+    ns1:affiliation "TNO" ;
+    ns1:familyName "Breteler" ;
+    ns1:givenName "Jeroen" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_148> a ns1:Person ;
+    ns1:affiliation "TNO" ;
+    ns1:familyName "Van Gessel",
+        "van Gessel" ;
+    ns1:givenName "Thom" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_149> a ns1:Person ;
+    ns1:affiliation "TNO" ;
+    ns1:familyName "Biagioni" ;
+    ns1:givenName "Giulia" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_150> a ns1:Person ;
+    ns1:affiliation "TNO" ;
+    ns1:familyName "Van Doesburg" ;
+    ns1:givenName "Robert" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_169> a ns1:Person ;
+    ns1:affiliation "TIB - Leibniz Information Centre for Science and Technology" ;
+    ns1:familyName "Koepler" ;
+    ns1:givenName "Oliver" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_194> a ns1:Person ;
+    ns1:affiliation "Vrije Universiteit Amsterdam" ;
+    ns1:familyName "Shoilee" ;
+    ns1:givenName "Sarah Binta Alam" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_195> a ns1:Person ;
+    ns1:affiliation "Vrije Universiteit Amsterdam" ;
+    ns1:familyName "de Boer" ;
+    ns1:givenName "Victor" ;
+    ns1:nationality "Netherlands" ;
+    ns1:url "http://www.victordeboer.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_196> a ns1:Person ;
+    ns1:affiliation "VU University Amsterdam" ;
+    ns1:familyName "van Ossenbruggen" ;
+    ns1:givenName "Jacco" ;
+    ns1:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_214> a ns1:Person ;
+    ns1:affiliation "TIB - Leibniz Information Centre for Science and Technology" ;
+    ns1:familyName "Strömert" ;
+    ns1:givenName "Philip" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_215> a ns1:Person ;
+    ns1:affiliation "TIB - Leibniz Information Centre for Science and Technology" ;
+    ns1:familyName "Limbachia" ;
+    ns1:givenName "Vatsal" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_216> a ns1:Person ;
+    ns1:affiliation "TIB - Leibniz Information Centre for Science and Technology" ;
+    ns1:familyName "Oladazimi" ;
+    ns1:givenName "Pooya" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_217> a ns1:Person ;
+    ns1:affiliation "TIB - Leibniz Information Centre for Science and Technology" ;
+    ns1:familyName "Hunold" ;
+    ns1:givenName "Johannes" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_233> a ns1:Person ;
+    ns1:affiliation "Universidad Privada Boliviana" ;
+    ns1:familyName "Soruco" ;
+    ns1:givenName "Javier" ;
+    ns1:nationality "Bolivia" .
+
+<https://w3id.org/okn/semantics/i/Author_234> a ns1:Person ;
+    ns1:affiliation "Fraunhofer IAIS" ;
+    ns1:familyName "Collarana" ;
+    ns1:givenName "Diego" ;
+    ns1:nationality "Germany" ;
+    ns1:url "https://www.iais.fraunhofer.de/de/geschaeftsfelder/speech-technologies/knowledge-graphs.html"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_235> a ns1:Person ;
+    ns1:affiliation "Leipzig University of Applied Sciences" ;
+    ns1:familyName "Both" ;
+    ns1:givenName "Andreas" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_236> a ns1:Person ;
+    ns1:affiliation "Universit ̈at Hamburg",
+        "Universität Hamburg" ;
+    ns1:familyName "Usbeck" ;
+    ns1:givenName "Ricardo" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_246> a ns1:Person ;
+    ns1:affiliation "FIZ Karlsruhe – Leibniz Institute for Information Infrastructure" ;
+    ns1:familyName "Bruns" ;
+    ns1:givenName "Oleksandra" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_247> a ns1:Person ;
+    ns1:affiliation "FIZ Karlsruhe" ;
+    ns1:familyName "Tietz" ;
+    ns1:givenName "Tabea" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_248> a ns1:Person ;
+    ns1:affiliation "FIZ Karlsruhe, Leibniz Institute for Information Infrastructure" ;
+    ns1:familyName "Göller" ;
+    ns1:givenName "Sandra" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_249> a ns1:Person ;
+    ns1:affiliation "FIZ Karlsruhe, Leibniz Institute for Information Infrastructure & KIT Karlsruhe" ;
+    ns1:familyName "Sack" ;
+    ns1:givenName "Harald" ;
+    ns1:nationality "Germany" ;
+    ns1:url "http://www.aifb.kit.edu/web/Harald_Sack/en"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_27> a ns1:Person ;
+    ns1:affiliation "Data Analytics Center Fraunhofer FOKUS" ;
+    ns1:familyName "Martyniuk" ;
+    ns1:givenName "Darya" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_28> a ns1:Person ;
+    ns1:affiliation "Data Analytics Center Fraunhofer FOKUS" ;
+    ns1:familyName "Karam" ;
+    ns1:givenName "Naouel" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_284> a ns1:Person ;
+    ns1:affiliation "Universität Bielefeld" ;
+    ns1:familyName "Penningroth" ;
+    ns1:givenName "Jonas" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_29> a ns1:Person ;
+    ns1:affiliation "Anaqor AG" ;
+    ns1:familyName "Falkenthal" ;
+    ns1:givenName "Michael" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_30> a ns1:Person ;
+    ns1:affiliation "Data Analytics Center Fraunhofer FOKUS" ;
+    ns1:familyName "Dong" ;
+    ns1:givenName "Yufan" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_31> a ns1:Person ;
+    ns1:affiliation "Data Analytics Center Fraunhofer FOKUS, Freie Universität Berlin" ;
+    ns1:familyName "Paschke" ;
+    ns1:givenName "Adrian" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_32> a ns1:Person ;
+    ns1:affiliation "The Open University" ;
+    ns1:familyName "Reyero Lobo" ;
+    ns1:givenName "Paula" ;
+    ns1:nationality "United Kingdom" .
+
+<https://w3id.org/okn/semantics/i/Author_33> a ns1:Person ;
+    ns1:affiliation "The Open University" ;
+    ns1:familyName "Daga" ;
+    ns1:givenName "Enrico" ;
+    ns1:nationality "United Kingdom" ;
+    ns1:url "http://kmi.open.ac.uk/people/member/enrico-daga"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_34> a ns1:Person ;
+    ns1:affiliation "The Open University" ;
+    ns1:familyName "Alani" ;
+    ns1:givenName "Harith" ;
+    ns1:nationality "United Kingdom" ;
+    ns1:url "http://people.kmi.open.ac.uk/harith/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_35> a ns1:Person ;
+    ns1:affiliation "Knowledge Media Institute" ;
+    ns1:familyName "Fernandez" ;
+    ns1:givenName "Miriam" ;
+    ns1:nationality "United Kingdom" ;
+    ns1:url "http://kmi.open.ac.uk/people/member/miriam-fernandez"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_37> a ns1:Person ;
+    ns1:affiliation "University of Bamberg" ;
+    ns1:familyName "Martin" ;
+    ns1:givenName "Leon" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_4> a ns1:Person ;
+    ns1:affiliation "Universität Bielefeld" ;
+    ns1:familyName "Maier" ;
+    ns1:givenName "Angelika" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_46> a ns1:Person ;
+    ns1:affiliation "Nantes Université" ;
+    ns1:familyName "Kieffer" ;
+    ns1:givenName "Manoé" ;
+    ns1:nationality "France" ;
+    ns1:url "https://www.linkedin.com/in/manoé-kieffer-051564196/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_47> a ns1:Person ;
+    ns1:affiliation "Nantes Université" ;
+    ns1:familyName "Fakih" ;
+    ns1:givenName "Ginwa" ;
+    ns1:nationality "France" ;
+    ns1:url "https://fr.linkedin.com/in/ghenwa-fkh"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_48> a ns1:Person ;
+    ns1:affiliation "Nantes Université" ;
+    ns1:familyName "Serrano Alvarado" ;
+    ns1:givenName "Patricia" ;
+    ns1:nationality "France" ;
+    ns1:url "https://pagespersowp.ls2n.fr/patriciaserrano/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_49> a ns1:Person ;
+    ns1:affiliation "Serbski institut, University Leipzig" ;
+    ns1:familyName "Philipp" ;
+    ns1:givenName "J. Nathanael" ;
+    ns1:nationality "Germany" ;
+    ns1:url "https://jnphilipp.org"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_5> a ns1:Person ;
+    ns1:affiliation "Universität Bielefeld" ;
+    ns1:familyName "Cimiano" ;
+    ns1:givenName "Philipp" ;
+    ns1:nationality "Germany" ;
+    ns1:url "http://www.sc.cit-ec.uni-bielefeld.de/team/philipp-cimiano/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_50> a ns1:Person ;
+    ns1:affiliation "Osaka University" ;
+    ns1:familyName "Kölbl" ;
+    ns1:givenName "Max" ;
+    ns1:nationality "Japan" .
+
+<https://w3id.org/okn/semantics/i/Author_51> a ns1:Person ;
+    ns1:affiliation "Leipzig University" ;
+    ns1:familyName "Daas" ;
+    ns1:givenName "Erik" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_52> a ns1:Person ;
+    ns1:affiliation "Leipzig University" ;
+    ns1:familyName "Kyogoku" ;
+    ns1:givenName "Yuki" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_53> a ns1:Person ;
+    ns1:affiliation "Universität Leipzig" ;
+    ns1:familyName "Richter" ;
+    ns1:givenName "Michael" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_54> a ns1:Person ;
+    ns1:affiliation "Paderborn University/ Computer Science/" ;
+    ns1:familyName "Becker" ;
+    ns1:givenName "Alexander" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_55> a ns1:Person ;
+    ns1:affiliation "Paderborn University/ Computer Science/ Data Science Research Group (DICE)" ;
+    ns1:familyName "Ahmed" ;
+    ns1:givenName "Abdullah" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_6> a ns1:Person ;
+    ns1:affiliation "Universität Bielefeld" ;
+    ns1:familyName "Elahi" ;
+    ns1:givenName "Mohammad Fazleh" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_7> a ns1:Person ;
+    ns1:affiliation "TU Dortmund University" ;
+    ns1:familyName "Derksen" ;
+    ns1:givenName "Melanie" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_8> a ns1:Person ;
+    ns1:affiliation "TU Dortmund University" ;
+    ns1:familyName "Botsch" ;
+    ns1:givenName "Mario" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_9> a ns1:Person ;
+    ns1:affiliation "Universität Bielefeld" ;
+    ns1:familyName "Schwandt" ;
+    ns1:givenName "Silke" ;
+    ns1:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Dataset_1369_5> a ns1:Dataset ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%20NC%204.0> ;
+    ns1:name "eng_news_2020_1M " ;
+    ns1:url "https://wortschatz.uni-leipzig.de/en/download/English        " .
+
+<https://w3id.org/okn/semantics/i/Dataset_1369_5_1> a ns1:Dataset ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%20NC%204.0> ;
+    ns1:name "eng_wikipedia_2016_1M  " ;
+    ns1:url "https://corpora.uni-leipzig.de" .
+
+<https://w3id.org/okn/semantics/i/Dataset_1369_5_2> a ns1:Dataset ;
+    ns1:name "BNC_idioms " ;
+    ns1:url "https://github.com/bondfeld/BNC_idioms" .
+
+<https://w3id.org/okn/semantics/i/Dataset_1683_5> a ns1:Dataset ;
+    ns1:name "NUTS" ;
+    ns1:url "https://ec.europa.eu/eurostat/de/web/gisco/geodata/reference-data/administrative-units-statistical-units/NUTS " .
+
+<https://w3id.org/okn/semantics/i/Dataset_1683_5_1> a ns1:Dataset ;
+    ns1:name "CLC" ;
+    ns1:url "https://land.copernicus.eu/pan-european/corine-land-cover" .
+
+<https://w3id.org/okn/semantics/i/Dataset_5195_5> a ns1:Dataset ;
+    ns1:description "This dataset contains the abstractive summaries all DBpedia entities (dump September 2022, https://downloads.dbpedia.org/repo/dbpedia/text/long-abstracts/2022.09.01/) in English." ;
+    ns1:identifier "https://doi.org/10.5281/zenodo.7441119" ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    ns1:name "DBpedia Abstractive Summaries" ;
+    ns1:url "https://zenodo.org/record/7600894" .
+
+<https://w3id.org/okn/semantics/i/Dataset_650_5> a ns1:Dataset ;
+    ns1:name "Jigsaw Toxicity Corpus" ;
+    ns1:url """https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data?select=all_data.csv
+""" .
+
+<https://w3id.org/okn/semantics/i/Dataset_650_5_1> a ns1:Dataset ;
+    ns1:name "Measuring Hate Speech" ;
+    ns1:url "https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech" .
+
+<https://w3id.org/okn/semantics/i/Dataset_650_5_2> a ns1:Dataset ;
+    ns1:name " Gab Hate Corpus" ;
+    ns1:url "https://osf.io/edua3/" .
+
+<https://w3id.org/okn/semantics/i/Dataset_650_5_3> a ns1:Dataset ;
+    ns1:name "HateXplain" ;
+    ns1:url "https://github.com/hate-alert/HateXplain/tree/master/Data" .
+
+<https://w3id.org/okn/semantics/i/Dataset_650_5_4> a ns1:Dataset ;
+    ns1:name "Xtremespeech" ;
+    ns1:url "https://github.com/antmarakis/xtremespeech" .
+
+<https://w3id.org/okn/semantics/i/Dataset_650_5_5> a ns1:Dataset ;
+    ns1:name "Roberta_base model" ;
+    ns1:url "https://github.com/dlab-projects/hate_target" .
+
+<https://w3id.org/okn/semantics/i/Dataset_650_5_6> a ns1:Dataset ;
+    ns1:name "Toxic Debias" ;
+    ns1:url "https://github.com/XuhuiZhou/Toxic_Debias/tree/main/data " .
+
+<https://w3id.org/okn/semantics/i/Dataset_760_5> a ns1:Dataset ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/GNU%20General%20Public%20License%20v3.0> ;
+    ns1:name "Wikidata queries" ;
+    ns1:url "https://github.com/uniba-mi/bipass-wikidata-pathfinder/blob/main/data/wikidata_queries_10000_topics_genre.csv" .
+
+<https://w3id.org/okn/semantics/i/Dataset_9471_5> a ns1:Dataset ;
+    ns1:description "TRANSRAZ is an ongoing research project aiming at connecting heterogeneous historical data collections to an architectural 3D virtual research environment (VRE) using KGs. " ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    ns1:name "TRANSRAZ data model" ;
+    ns1:url "https://github.com/ISE-FIZKarlsruhe/Transraz" .
+
+<https://w3id.org/okn/semantics/i/Dataset_9471_5_1> a ns1:Dataset ;
+    ns1:name "SPARQL Endpoint" ;
+    ns1:url "https://www.toporaz.de/sparql" .
+
+<https://w3id.org/okn/semantics/i/Demo_1683_7> a ns1:Demo ;
+    ns1:name "Datasetregister" ;
+    ns1:url "https://datasetregister.netwerkdigitaalerfgoed.nl/?lang=en" .
+
+<https://w3id.org/okn/semantics/i/Demo_640_7> a ns1:Demo ;
+    ns1:name "PlanQK platform" ;
+    ns1:url "https://platform.planqk.de/" .
+
+<https://w3id.org/okn/semantics/i/Demo_8036_7> a ns1:Demo ;
+    ns1:name "Demo server" ;
+    ns1:url "https://service.tib.eu/terminology" .
+
+<https://w3id.org/okn/semantics/i/Demo_8036_7_1> a ns1:Demo ;
+    ns1:name "Terminology service" ;
+    ns1:url "https://terminology.nfdi4chem.de" .
+
+<https://w3id.org/okn/semantics/i/License/Apache%202.0> a ns1:CreativeWork ;
+    ns1:name "Apache 2.0" ;
+    ns1:url "https://www.apache.org/licenses/LICENSE-2.0" .
+
+<https://w3id.org/okn/semantics/i/License/Apache%20License%202.0> a ns1:CreativeWork ;
+    ns1:name "Apache License 2.0" ;
+    ns1:url "https://www.apache.org/licenses/LICENSE-2.0" .
+
+<https://w3id.org/okn/semantics/i/License/CC%20BY-SA%204.0> a ns1:CreativeWork ;
+    ns1:name "CC BY-SA 4.0" ;
+    ns1:url "https://creativecommons.org/licenses/by-sa/4.0/" .
+
+<https://w3id.org/okn/semantics/i/License/GNU%20Affero%20General%20Public%20License%20v3.0> a ns1:CreativeWork ;
+    ns1:name "GNU Affero General Public License v3.0" ;
+    ns1:url "http://choosealicense.com/licenses/agpl-3.0/" .
+
+<https://w3id.org/okn/semantics/i/Ontology_640_5> a <http://www.w3.org/2002/07/owl#Ontology> ;
+    ns1:description "Ontology and semantic services for the PlanQK platform. " ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY-SA%204.0> ;
+    ns1:name "PlanQK ontology" ;
+    ns1:url "https://github.com/PlanQK/semantic-services." .
+
+<https://w3id.org/okn/semantics/i/Ontology_650_6> a <http://www.w3.org/2002/07/owl#Ontology> ;
+    ns1:description "GSSO is the Gender, Sex, and Sex Orientation ontology, including terms related to gender identity and expression, sexual and romantic identity and orientation, and sexual and reproductive behavior. " ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/Apache%20License%202.0> ;
+    ns1:name "Gender, Sex, and Sexual Orientation Ontology" ;
+    ns1:url "https://github.com/Superraptor/GSSO" .
+
+<https://w3id.org/okn/semantics/i/Ontology_8036_6> a <http://www.w3.org/2002/07/owl#Ontology> ;
+    ns1:description "The Vibration Spectroscopy Ontology defines technical terms with which research data produced in vibrational spectroscopy experiments can be semantically enriched, made machine readable and FAIR. " ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    ns1:name "Vibrational Spectroscopy Ontology" ;
+    ns1:url "https://github.com/NFDI4Chem/VibrationalSpectroscopyOntology" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_1331_4> a ns1:SoftwareSourceCode ;
+    ns1:description "This repository contains all input dataset, the RML mappings, the SHACL shapes, and the output datasets related to the generation and validation of the CLARA Knowledge Graph." ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    ns1:name "Pipeline" ;
+    ns1:url "https://gitlab.univ-nantes.fr/clara/pipeline" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_1683_4> a ns1:SoftwareSourceCode ;
+    ns1:description "Link Discovery Framework for Metric Spaces" ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/GNU%20Affero%20General%20Public%20License%20v3.0> ;
+    ns1:name "LIMES" ;
+    ns1:url "https://github.com/dice-group/LIMES" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_4723_4> a ns1:SoftwareSourceCode ;
+    ns1:name "Supplementary material" ;
+    ns1:url "https://github.com/dice-group/graphql-benchmark" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_4875_4> a ns1:SoftwareSourceCode ;
+    ns1:description "DGAterms - A vocabulary to describe information flows in the Data Governance Act (DGA)" ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    ns1:name "DGATerms" ;
+    ns1:url "https://w3id.org/dgaterms" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_5195_4> a ns1:SoftwareSourceCode ;
+    ns1:description "This repository contains code for our paper \"Abstractive Summarization of DBpedia Abstracts Using Language Models.\" We propose an approach using pre-trained language models, specifically BART and T5, to generate short and comprehensive summaries for DBpedia abstracts in six languages (English, German, French, Italian, Spanish, and Dutch)" ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/GNU%20General%20Public%20License%20v3.0> ;
+    ns1:name "Dbpedia-Summarizer" ;
+    ns1:url "https://github.com/dice-group/DBpedia-Summarizer" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_5860_4> a ns1:SoftwareSourceCode ;
+    ns1:description "A Semantic Web-style knowledge model that defines the semantics of FLINT models." ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/Apache%202.0> ;
+    ns1:name "Flint ontology" ;
+    ns1:url "https://gitlab.com/normativesystems/knowledge-modeling/flint-ontology" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_650_4> a ns1:SoftwareSourceCode ;
+    ns1:description """This is the data and code in the paper Knowledge-Grounded Target Group Language Recognition in Hate Speech ([preprint](https://oro.open.ac.uk/90639/)). We use a Knowledge Graph to provide transparency to deep learning model predictions as to why hate speech texts may refer to particular target group identities ([Figure 1](./supplemental_material/Figure_1.pdf)). \\
+A thorough evaluation demonstrates our knowledge-grounded method, based on KG adaptation, can be as effective as pre-trained transformer language models (System A approaches), while also recognising the language instances that contribute most to prediction (in System B fashion). \\
+Grounding the task in explicit knowledge can better contextualise an automatic approach with the language of the groups most impacted by these technologies. The experiments in this repository show how we use these interpretations to better understand model outcomes, the training data, and the ambiguious cases in human annotations.""" ;
+    ns1:name "hate-speech-identities" ;
+    ns1:url "https://github.com/preyero/hate-speech-identities" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_7519_4> a ns1:SoftwareSourceCode ;
+    ns1:identifier "https://doi.org/10.5281/zenodo.7437713" ;
+    ns1:name "Ethnographic Object Provenance Data Modelling" ;
+    ns1:url "https://github.com/Shoilee/object_provenance_modeling/tree/main" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_760_4> a ns1:SoftwareSourceCode ;
+    ns1:description "BiPaSs: A pathfinding system with a bidirectional A* search algorithm for finding paths in Wikidata" ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/GNU%20General%20Public%20License%20v3.0> ;
+    ns1:name "bipass-wikidata-pathfinder" ;
+    ns1:url "https://github.com/uniba-mi/bipass-wikidata-pathfinder" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_8036_4> a ns1:SoftwareSourceCode ;
+    ns1:description "Frontend source code for NFDI4Chem, NFDI4Ing, TIB TS v2.0" ;
+    ns1:name "TIB Terminology Service Frontend" ;
+    ns1:url "https://github.com/TIBHannover/TIB-Terminology-Service-Frontend-2.0" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_8777_4> a ns1:SoftwareSourceCode ;
+    ns1:description "QALD-9-Plus Dataset for Knowledge Graph Question Answering" ;
+    ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    ns1:name "QALD_9_plus" ;
+    ns1:url "https://github.com/KGQA/QALD_9_plus" .
+
+<https://w3id.org/okn/semantics/i/Author_56> a ns1:Person ;
+    ns1:affiliation "Paderborn University",
+        "Paderborn University, Data Science Group" ;
+    ns1:familyName "Sherif" ;
+    ns1:givenName "Mohamed",
+        "Mohamed Ahmed" ;
+    ns1:nationality "Germany" ;
+    ns1:url "https://dice-research.org/MohamedAhmedSherif"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/License/CC%20BY%20NC%204.0> a ns1:CreativeWork ;
+    ns1:name "CC BY NC 4.0" ;
+    ns1:url "http://creativecommons.org/licenses/by-nc/4.0/" .
+
+<https://w3id.org/okn/semantics/i/Author_57> a ns1:Person ;
+    ns1:affiliation "Paderborn University" ;
+    ns1:familyName "Ngonga",
+        "Ngonga Ngomo" ;
+    ns1:givenName "Axel-Cyrille" ;
+    ns1:nationality "Germany" ;
+    ns1:url "http://cs.upb.de/ds"^^xsd:anyURI,
+        "https://cs.upb.de/ds"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/License/GNU%20General%20Public%20License%20v3.0> a ns1:CreativeWork ;
+    ns1:name "GNU General Public License v3.0" ;
+    ns1:url "http://choosealicense.com/licenses/gpl-3.0/" .
+
+<https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> a ns1:CreativeWork ;
+    ns1:name "CC BY 4.0 International" ;
+    ns1:url "https://creativecommons.org/licenses/by/4.0/legalcode" .
+
+<https://w3id.org/okn/semantics/i/Track_1> a ns1:Event ;
+    ns1:name "Semantics2023 Research Track" .
