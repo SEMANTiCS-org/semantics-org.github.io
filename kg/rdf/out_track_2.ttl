@@ -15,11 +15,13 @@ The FLINT ontology represents norms as normative acts with pre- and postconditio
         <https://w3id.org/okn/semantics/i/Demo_104_7_1>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_104_4>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_104_4_1> ;
+    ns1:identifier "https://ceur-ws.org/Vol-3526/paper-03.pdf"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
     ns1:keywords """Norms
 Normative systems
 Legal interpretation""" ;
     ns1:name "A Toolset for Normative Interpretations in FLINT" ;
+    ns1:url "https://ceur-ws.org/Vol-3526/paper-03.pdf"^^xsd:anyURI ;
     ns2:authorString "Thom van Gessel, Giulia Biagioni, Jeroen Breteler, Ioannis Tolios and Erik Boertjes" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_1161> a ns1:ScholarlyArticle ;
@@ -31,6 +33,7 @@ To ease the collaboration between academia and practice, we present "OntoAnon", 
         <https://w3id.org/okn/semantics/i/Author_289> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_1161_5>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_1161_4> ;
+    ns1:identifier "https://ceur-ws.org/Vol-3526/paper-06.pdf"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
     ns1:keywords """Ontology
 Anonymizer
@@ -39,6 +42,7 @@ NEOntometrics
 OWL
 RDF""" ;
     ns1:name "OntoAnon: An Anonymizer For Sharing Ontology Structure Without Data" ;
+    ns1:url "https://ceur-ws.org/Vol-3526/paper-06.pdf"^^xsd:anyURI ;
     ns2:authorString "Achim Reiz, Robert Schlücker and Kurt Sandkuhl" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_1798> a ns1:ScholarlyArticle ;
@@ -50,12 +54,14 @@ RDF""" ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_1798_5>,
         <https://w3id.org/okn/semantics/i/Dataset_1798_5_1>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_1798_4> ;
+    ns1:identifier "https://ceur-ws.org/Vol-3526/paper-08.pdf"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
     ns1:keywords """Knowledge Graphs Question Answering
 SPARQL query generation
 Augmented Large Language Models
 Prompt Template Design""" ;
     ns1:name "SPARQLGEN: One-Shot Prompt-based Approach for SPARQL Query Generation" ;
+    ns1:url "https://ceur-ws.org/Vol-3526/paper-08.pdf"^^xsd:anyURI ;
     ns2:authorString "Liubov Kovriguina, Roman Teucher, Daniil Radyush and Dmitry Mouromtsev" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_2360> a ns1:ScholarlyArticle ;
@@ -65,6 +71,7 @@ Prompt Template Design""" ;
         <https://w3id.org/okn/semantics/i/Author_291>,
         <https://w3id.org/okn/semantics/i/Author_292> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/Demo_2360_7> ;
+    ns1:identifier "https://ceur-ws.org/Vol-3526/paper-07.pdf"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
     ns1:keywords """Knowledge Graphs
 RDF
@@ -72,6 +79,7 @@ LPG
 Graph Visualization
 Graph Exploration""" ;
     ns1:name "Scalable and No-Code Knowledge Graph Exploration and Querying with SemSpect" ;
+    ns1:url "https://ceur-ws.org/Vol-3526/paper-07.pdf"^^xsd:anyURI ;
     ns2:authorString "Thorsten Liebig, Michael Opitz, Vincent Vialard and Maximilian Wenzel" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_2647> a ns1:ScholarlyArticle ;
@@ -84,11 +92,13 @@ Graph Exploration""" ;
         <https://w3id.org/okn/semantics/i/Ontology_2647_6>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_2647_4>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_2647_4_1> ;
+    ns1:identifier "https://ceur-ws.org/Vol-3526/paper-05.pdf"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
     ns1:keywords """Interpretability
 ML Models
 Knowledge Graphs""" ;
     ns1:name "Enhancing Interpretability of Machine Learning Models over Knowledge Graphs" ;
+    ns1:url "https://ceur-ws.org/Vol-3526/paper-05.pdf"^^xsd:anyURI ;
     ns2:authorString "Yashrajsinh Chudasama, Disha Purohit, Philipp D. Rohde and Maria-Esther Vidal" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_384> a ns1:ScholarlyArticle ;
@@ -97,6 +107,7 @@ Knowledge Graphs""" ;
         <https://w3id.org/okn/semantics/i/Author_286> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_384_5>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_384_4> ;
+    ns1:identifier "https://ceur-ws.org/Vol-3526/paper-09.pdf"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
     ns1:keywords """Research Software
 Metadata
@@ -104,6 +115,7 @@ FAIR software
 FAIR
 RDF-star""" ;
     ns1:name "Towards Assessing FAIR Research Software Best Practices in an Organization Using RDF-star" ;
+    ns1:url "https://ceur-ws.org/Vol-3526/paper-09.pdf"^^xsd:anyURI ;
     ns2:authorString "Ana Iglesias-Molina and Daniel Garijo" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_8420> a ns1:ScholarlyArticle ;
@@ -117,11 +129,13 @@ RDF-star""" ;
         <https://w3id.org/okn/semantics/i/Author_41> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_8420_5>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_8420_4> ;
+    ns1:identifier "https://ceur-ws.org/Vol-3526/paper-04.pdf"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
     ns1:keywords """Large Language Model
 Knowledge Graph Engineering
 Large Language Model Benchmark""" ;
     ns1:name "Developing a Scalable Benchmark for Assessing Large Language Models in Knowledge Graph Engineering" ;
+    ns1:url "https://ceur-ws.org/Vol-3526/paper-04.pdf"^^xsd:anyURI ;
     ns2:authorString "Lars-Peter Meyer, Johannes Frey, Kurt Junghanns, Felix Brei, Kirill Bulert, Sabine Gründer-Fahrer and Michael Martin" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_9033> a ns1:ScholarlyArticle ;
@@ -130,6 +144,7 @@ Large Language Model Benchmark""" ;
         <https://w3id.org/okn/semantics/i/Author_240>,
         <https://w3id.org/okn/semantics/i/Author_241> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_9033_4> ;
+    ns1:identifier "https://ceur-ws.org/Vol-3526/paper-02.pdf"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
     ns1:keywords """RDF Mapping Language (RML)
 Tenders Electronic Daily (TED)
@@ -137,6 +152,7 @@ eProcurement Ontology (ePO)
 Conceptual Mapping
 Technical Mapping""" ;
     ns1:name "A Mapping Lifecycle for Public Procurement Data" ;
+    ns1:url "https://ceur-ws.org/Vol-3526/paper-02.pdf"^^xsd:anyURI ;
     ns2:authorString "Eugeniu Costetchi, Alexandros Vassiliades and Csongor I. Nyulas" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_905> a ns1:ScholarlyArticle ;
@@ -157,12 +173,14 @@ Value: The solution presented in this work enables the simplified creation of FA
     ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_905_5>,
         <https://w3id.org/okn/semantics/i/Ontology_905_6>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_905_4> ;
+    ns1:identifier "https://ceur-ws.org/Vol-3526/paper-01.pdf"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
     ns1:keywords """FAIR Data
 R&D Data Management
 Materials Science
 Tribology""" ;
     ns1:name "Generate, Store, and Publish FAIR Data in Experimental Sciences" ;
+    ns1:url "https://ceur-ws.org/Vol-3526/paper-01.pdf"^^xsd:anyURI ;
     ns2:authorString "Nick Garabedian, Ilia Bagov, Malte Flachmann, Nuoyao Ye, Miłosz Meller, Floriane Bresser and Christian Greiner" .
 
 <https://w3id.org/okn/semantics/i/Author_100> a ns1:Person ;
@@ -431,7 +449,7 @@ Tribology""" ;
 
 <https://w3id.org/okn/semantics/i/Dataset_384_5> a ns1:Dataset ;
     ns1:description "Knowledge graph containing the catalog of software from the oeg-upm organization in GitHub" ;
-    ns1:identifier "https://doi.org/10.5281/zenodo.8114676" ;
+    ns1:identifier "https://doi.org/10.5281/zenodo.8114676"^^xsd:anyURI ;
     ns1:license <https://w3id.org/okn/semantics/i/License/Apache%20License%202.0> ;
     ns1:name "OEG software graph data" ;
     ns1:url "https://doi.org/10.5281/zenodo.8114677" .
@@ -442,7 +460,7 @@ Tribology""" ;
 
 <https://w3id.org/okn/semantics/i/Dataset_905_5> a ns1:Dataset ;
     ns1:description " This digital artefact documents the results of experiments in metals tribology. It is constructed strictly observing the FAIR data principles. " ;
-    ns1:identifier "https://doi.org/10.5281/zenodo.7923127" ;
+    ns1:identifier "https://doi.org/10.5281/zenodo.7923127"^^xsd:anyURI ;
     ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
     ns1:name "Copper Tribology FAIR Data Experiments - Sapphire Counterbody" ;
     ns1:url "https://zenodo.org/record/8024881" .
@@ -472,13 +490,13 @@ Tribology""" ;
     ns1:name "Mozilla Public License 2.0" ;
     ns1:url "http://choosealicense.com/licenses/mpl-2.0/" .
 
-<https://w3id.org/okn/semantics/i/Ontology_2647_6> a <http://www.w3.org/2002/07/owl#Ontology> ;
+<https://w3id.org/okn/semantics/i/Ontology_2647_6> a ns1:Ontology ;
     ns1:name "InterpretME ontology" ;
     ns1:url "http://ontology.tib.eu/InterpretME/visualization" .
 
-<https://w3id.org/okn/semantics/i/Ontology_905_6> a <http://www.w3.org/2002/07/owl#Ontology> ;
+<https://w3id.org/okn/semantics/i/Ontology_905_6> a ns1:Ontology ;
     ns1:description "The purpose of this controlled vocabulary of terms is to describe the metadata fields needed when collecting data in an experimental materials tribology lab at the Karlsruhe Institute of Technology (KIT)" ;
-    ns1:identifier "https://doi.org/10.5281/zenodo.7923148" ;
+    ns1:identifier "https://doi.org/10.5281/zenodo.7923148"^^xsd:anyURI ;
     ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
     ns1:name "Vocabulary of Materials Tribology Lab at KIT" ;
     ns1:url "https://zenodo.org/record/7923148" .
@@ -513,21 +531,20 @@ Tribology""" ;
 
 <https://w3id.org/okn/semantics/i/SoftwareSourceCode_2647_4_1> a ns1:SoftwareSourceCode ;
     ns1:description "An interpretable machine learning pipeline over knowledge graphs" ;
-    ns1:identifier "https://doi.org/10.5281/zenodo.8112628" ;
+    ns1:identifier "https://doi.org/10.5281/zenodo.8112628"^^xsd:anyURI ;
     ns1:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
     ns1:name "InterpretME" ;
     ns1:url "https://github.com/SDM-TIB/InterpretME" .
 
 <https://w3id.org/okn/semantics/i/SoftwareSourceCode_384_4> a ns1:SoftwareSourceCode ;
     ns1:description "Knowledge graph containing the catalog of software from the oeg-upm organization in GitHub" ;
-    ns1:identifier "https://doi.org/10.5281/zenodo.8114676" ;
+    ns1:identifier "https://doi.org/10.5281/zenodo.8114676"^^xsd:anyURI ;
     ns1:license <https://w3id.org/okn/semantics/i/License/Apache%20License%202.0> ;
     ns1:name "OEG software graph" ;
     ns1:url "https://github.com/oeg-upm/oeg-software-graph" .
 
 <https://w3id.org/okn/semantics/i/SoftwareSourceCode_8420_4> a ns1:SoftwareSourceCode ;
-    ns1:description """Framework and task collection for automated benchmarking of Large Language Modells (LLMs) on Knowledge Graph (KG) related tasks. \\
-The architecture is based on and compatible with [Big Bench](https://github.com/google/BIG-bench). We added some additional features like iterations and a test size parameter.""" ;
+    ns1:description "Framework and task collection for automated benchmarking of Large Language Modells (LLMs) on Knowledge Graph (KG) related tasks. \\nThe architecture is based on and compatible with [Big Bench](https://github.com/google/BIG-bench). We added some additional features like iterations and a test size parameter." ;
     ns1:license <https://w3id.org/okn/semantics/i/License/Mozilla%20Public%20License%202.0> ;
     ns1:name "LLM-KG-Bench" ;
     ns1:url "https://github.com/AKSW/LLM-KG-Bench" .
@@ -540,7 +557,7 @@ The architecture is based on and compatible with [Big Bench](https://github.com/
 
 <https://w3id.org/okn/semantics/i/SoftwareSourceCode_905_4> a ns1:SoftwareSourceCode ;
     ns1:description "VocPopuli is a Python-based software platform for collaborative development of controlled vocabularies (glossaries, taxonomies, or thesairi). VocPopuli's vocabularies are designed to support the collection of FAIR research data." ;
-    ns1:identifier "https://doi.org/10.5281/zenodo.8089376" ;
+    ns1:identifier "https://doi.org/10.5281/zenodo.8089376"^^xsd:anyURI ;
     ns1:license <https://w3id.org/okn/semantics/i/License/Apache%20License%202.0> ;
     ns1:name "VocPopuli" ;
     ns1:url "https://gitlab.com/metacook/vocpopuli" .

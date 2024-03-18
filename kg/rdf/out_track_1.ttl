@@ -3,9 +3,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_1331> a ns1:ScholarlyArticle ;
-    ns1:abstract """Purpose: This paper presents the construction of a Knowledge Graph (KG) of Educational Resources (ER), where RDF reification is essential. The ERs are described based on the subjects they cover considering their relevance. RDF reification is used to incorporate this subject's relevance. Multiple reification models with distinct syntax and performance implications for storage and query processing exist. This study aims to experimentally compare four statement-based reification models on four triplestores to determine the most pertinent choice for our KG.
+    ns1:abstract """Purpose: This paper presents the construction of a Knowledge Graph (KG) of Educational Resources (ER), where RDF reification is essential. The ERs are described based on the subjects they cover considering their relevance. RDF reification is used to incorporate this subject's relevance. Multiple reification models with distinct syntax and performance implications for storage and query processing exist. This study aims to experimentally compare four statement-based reification models on four triplestores to determine the most pertinent choice for our KG. 
 
-Methodology: The authors built four versions of the KG. Each version has a distinct reification model, namely standard reification, singleton properties, named graphs, and RDF-star, which were obtained using RML mappings. The KG consists of 45,000 ERs, 13,000 authors, 135,000 subjects, and 8,250,000 statements linking the ERs to their subjects. Each of the four triplestores (Virtuoso, Jena, Oxigraph, and GraphDB) was set up four times (except for Virtuoso, which does not support RDF-star), and seven different SPARQL queries were experimentally evaluated.
+Methodology: The authors built four versions of the KG. Each version has a distinct reification model, namely standard reification, singleton properties, named graphs, and RDF-star, which were obtained using RML mappings. The KG consists of 45,000 ERs, 13,000 authors, 135,000 subjects, and 8,250,000 statements linking the ERs to their subjects. Each of the four triplestores (Virtuoso, Jena, Oxigraph, and GraphDB) was set up four times (except for Virtuoso, which does not support RDF-star), and seven different SPARQL queries were experimentally evaluated. 
 
 Findings: In general, this study shows that standard reification and named graphs lead to good performance. It also shows that Virtuoso outperforms Jena, GraphDB, and Oxigraph in most queries, in the particular context of the used KG.
 
@@ -14,6 +14,8 @@ Value: The recent specification of RDF-star and SPARQL-star sheds light on state
         <https://w3id.org/okn/semantics/i/Author_47>,
         <https://w3id.org/okn/semantics/i/Author_48> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_1331_4> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230008"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/1331-Semantic23-Drawing-Text-05.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """Knowledge graph
 RDF reification
@@ -21,12 +23,13 @@ Query evaluation
 Experimental comparison
 Educational resources""" ;
     ns1:name "Methodology for Creating a Knowledge Graph with RDF Reification" ;
+    ns1:url "https://doi.org/10.3233/SSW230008"^^xsd:anyURI ;
     ns2:authorString "Manoé Kieffer, Ginwa Fakih and Patricia Serrano Alvarado" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_1369> a ns1:ScholarlyArticle ;
-    ns1:abstract """Purpose: In an information theoretic framework, this study aims to identify idiomatic expressions (IE) in English by measuring perplexity between texts with IE, without IE (literals) and large reference texts.
+    ns1:abstract """Purpose: In an information theoretic framework, this study aims to identify idiomatic expressions (IE) in English by measuring perplexity between texts with IE, without IE (literals) and large reference texts. 
 
-Methodology: Four texts are analysed: one text with at least one IE per sentence, one text without any IE, and two large, sentence-wise unrelated reference texts . Perplexity is measured based on bi- till heptagrams of PoS tags and tokens, and , in addition, of thematic roles within the boundaries of a sentence extracted by the LOME parser. We assume that the divergence of perplexity from the reference would be higher for IEs compared to literals.
+Methodology: Four texts are analysed: one text with at least one IE per sentence, one text without any IE, and two large, sentence-wise unrelated reference texts . Perplexity is measured based on bi- till heptagrams of PoS tags and tokens, and , in addition, of thematic roles within the boundaries of a sentence extracted by the LOME parser. We assume that the divergence of perplexity from the reference would be higher for IEs compared to literals. 
 
 Findings: We observed that there is no significant difference in perplexity between IE, literal expressions and reference texts.
 
@@ -39,12 +42,15 @@ Value: Model-based identification of IE can be useful in automatic speech proces
     ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_1369_5>,
         <https://w3id.org/okn/semantics/i/Dataset_1369_5_1>,
         <https://w3id.org/okn/semantics/i/Dataset_1369_5_2> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230006"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/1369-Semantic23-Drawing-Text-06.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """perplexity
 idiomatic expressions
 literal expressions
 information theory""" ;
     ns1:name "Perplexed by idioms?" ;
+    ns1:url "https://doi.org/10.3233/SSW230006"^^xsd:anyURI ;
     ns2:authorString "J. Nathanael Philipp, Max Kölbl, Erik Daas, Yuki Kyogoku and Michael Richter" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_1683> a ns1:ScholarlyArticle ;
@@ -60,6 +66,8 @@ Value: The process of discovering links between geospatial resources can be sign
         <https://w3id.org/okn/semantics/i/Dataset_1683_5_1>,
         <https://w3id.org/okn/semantics/i/Demo_1683_7>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_1683_4> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230013"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/1683-Semantic23-Drawing-Text-07.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """Linked Data
 Knowledge graphs
@@ -68,6 +76,7 @@ Matching
 KG Integration
 Topological Relations""" ;
     ns1:name "Cobalt: A Content-Based Similarity Approach for Link Discovery over Geospatial Knowledge Graphs" ;
+    ns1:url "https://doi.org/10.3233/SSW230013"^^xsd:anyURI ;
     ns2:authorString "Alexander Becker, Abdullah Ahmed, Mohamed Ahmed Sherif and Axel-Cyrille Ngonga Ngomo" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_264> a ns1:ScholarlyArticle ;
@@ -84,6 +93,8 @@ Topological Relations""" ;
         <https://w3id.org/okn/semantics/i/Author_7>,
         <https://w3id.org/okn/semantics/i/Author_8>,
         <https://w3id.org/okn/semantics/i/Author_9> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230011"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/264-Semantic23-Drawing-Text-01.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """knowledge graphs
 virtual reality
@@ -92,25 +103,29 @@ digital history
 linked data
 semantic web""" ;
     ns1:name "Virtual Reality based Access to Knowledge graphs for History Research" ;
+    ns1:url "https://doi.org/10.3233/SSW230011"^^xsd:anyURI ;
     ns2:authorString "Julia Becker, Mario Botsch, Mohammad Fazleh Elahi, Melanie Derksen, Philipp Cimiano, Angelika Maier, Marius Maile, Ingo Oliver Pätzold, Jonas Penningroth, Bettina Reglin, Markus Rothgänger and Silke Schwandt" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_4723> a ns1:ScholarlyArticle ;
     ns1:abstract """Purpose: The query language GraphQL has gained significant traction in recent years.
 In particular, it has recently gained the attention of the semantic web and graph database communities and is now often used as a means to query knowledge graphs.
 Most of the storage solutions that support GraphQL rely on a translation layer to map the said language to another query language that they support natively, for example SPARQL.
-Methodology: Our main innovation is a multi-way left-join algorithm inspired by worst-case optimal multi-way join algorithms. This novel algorithms enables the native execution of GraphQL queries over RDF knowledge graphs.
+Methodology: Our main innovation is a multi-way left-join algorithm inspired by worst-case optimal multi-way join algorithms. This novel algorithms enables the native execution of GraphQL queries over RDF knowledge graphs. 
 We evaluate our approach in two settings using the LinGBM benchmark generator.
-Findings: The experimental results suggest that our solution outperforms the state-of-the-art graph storage solution for GraphQL with respect to both query runtimes and scalability.
+Findings: The experimental results suggest that our solution outperforms the state-of-the-art graph storage solution for GraphQL with respect to both query runtimes and scalability. 
 Value: Our solution is implemented in  an open-sourced triple store, and is intended to advance the development of representation-agnostic storage solutions for knowledge graphs.""" ;
     ns1:author <https://w3id.org/okn/semantics/i/Author_115>,
         <https://w3id.org/okn/semantics/i/Author_116>,
         <https://w3id.org/okn/semantics/i/Author_57> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_4723_4> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230007"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/4723-Semantic23-Drawing-Text-08.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """graphql
 knowledge graphs
 multi-way joins""" ;
     ns1:name "Native Execution of GraphQL Queries over RDF Graphs Using Multi-way Joins" ;
+    ns1:url "https://doi.org/10.3233/SSW230007"^^xsd:anyURI ;
     ns2:authorString "Nikolaos Karalis, Alexander Bigerl and Axel-Cyrille Ngonga Ngomo" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_4875> a ns1:ScholarlyArticle ;
@@ -123,6 +138,8 @@ Value: The main results are an ad-hoc vocabulary with the new terms and examples
         <https://w3id.org/okn/semantics/i/Author_125>,
         <https://w3id.org/okn/semantics/i/Author_126> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_4875_4> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230015"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/4875-Semantic23-DrawingText-09.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """Data Governance Act
 Semantic Web
@@ -131,6 +148,7 @@ Data intermediaries
 Data altruism
 Registers of Activities""" ;
     ns1:name "Semantics for Implementing Data Reuse and Altruism under EU's Data Governance Act" ;
+    ns1:url "https://doi.org/10.3233/SSW230015"^^xsd:anyURI ;
     ns2:authorString "Beatriz Esteves, Víctor Rodríguez Doncel, Harshvardhan J. Pandit and David Lewis" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_5020> a ns1:ScholarlyArticle ;
@@ -138,28 +156,31 @@ Registers of Activities""" ;
     ns1:author <https://w3id.org/okn/semantics/i/Author_129>,
         <https://w3id.org/okn/semantics/i/Author_130>,
         <https://w3id.org/okn/semantics/i/Author_131> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230014"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/5020-Semantic23-DrawingText-10.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """Data linking
 Semantic web
 Linking Problem Types
 Classification""" ;
     ns1:name "Classification of Linking Problem Types for linking semantic data" ;
+    ns1:url "https://doi.org/10.3233/SSW230014"^^xsd:anyURI ;
     ns2:authorString "Raphaël Conde Salazar, Clement Jonquet and Danai Symeonidou" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_5195> a ns1:ScholarlyArticle ;
-    ns1:abstract """Purpose:
-This study addresses the limitations of current short abstracts of DBpedia entities, which often lack a comprehensive overview due to their creating method (i.e., selecting the first two-three sentences from the full DBpedia abstracts).
+    ns1:abstract """Purpose: 
+This study addresses the limitations of current short abstracts of DBpedia entities, which often lack a comprehensive overview due to their creating method (i.e., selecting the first two-three sentences from the full DBpedia abstracts). 
 We propose an abstractive summarization approach using pre-trained language models, which can generate concise and informative summaries.
 
-Methodology:
-We leverage pre-trained language models to generate abstractive summaries of DBpedia abstracts in six languages (English, French, German, Italian, Spanish, and Dutch).
-We performed several experiments to assess the quality of generated summaries by language models. In particular, we evaluated the generated summaries using human judgments and automated metrics (Self-ROUGE and BERTScore).
+Methodology: 
+We leverage pre-trained language models to generate abstractive summaries of DBpedia abstracts in six languages (English, French, German, Italian, Spanish, and Dutch). 
+We performed several experiments to assess the quality of generated summaries by language models. In particular, we evaluated the generated summaries using human judgments and automated metrics (Self-ROUGE and BERTScore). 
 Additionally, we studied the correlation between human judgments and automated metrics in evaluating the generated summaries under different aspects: informativeness, coherence, conciseness, and fluency.
 
-Findings:
+Findings: 
 Pre-trained language models generate summaries more concise and informative than existing short abstracts. Specifically, BART-based models effectively overcome the limitations of DBpedia short abstracts, especially for longer ones. Moreover, we show that BERTScore and ROUGE-1 are reliable metrics for assessing the informativeness and coherence of the generated summaries with respect to the full DBpedia abstracts. We also find a negative correlation between conciseness and human ratings. Furthermore, fluency evaluation remains challenging without human judgment.
 
-Value: This study has significant implications for various applications in machine learning and natural language processing that rely on DBpedia resources.
+Value: This study has significant implications for various applications in machine learning and natural language processing that rely on DBpedia resources. 
 By providing succinct and comprehensive summaries, our approach enhances the quality of DBpedia abstracts and contributes to the semantic web community.""" ;
     ns1:author <https://w3id.org/okn/semantics/i/Author_132>,
         <https://w3id.org/okn/semantics/i/Author_133>,
@@ -168,19 +189,22 @@ By providing succinct and comprehensive summaries, our approach enhances the qua
         <https://w3id.org/okn/semantics/i/Author_57> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_5195_5>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_5195_4> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230003"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/5195-Semantic23-DrawingText-11.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """DBpedia Abstracts
 Abstractive Summarization
 Large Language Model
 Knowledge Graph""" ;
     ns1:name "Using Pre-trained Language Models for Abstractive DBpedia Summarization: A Comparative Study" ;
+    ns1:url "https://doi.org/10.3233/SSW230003"^^xsd:anyURI ;
     ns2:authorString "Hamada Zahera, Fedor Vitiugin, Mohamed Sherif, Carlos Castillo and Axel-Cyrille Ngonga" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_5860> a ns1:ScholarlyArticle ;
     ns1:abstract """Recording and documenting human and AI-driven normative decision-making processes has so far been highly challenging.
 We focus on the challenge of normative coordination: The process by which stakeholders in a community understand and agree what norms they abide by.
 Our aim is to develop and formalize the FLINT language, which allows a high-level description of normative systems.
-FLINT enables legal experts to agree on norms, while also serving as a basis for technical implementation.
+FLINT enables legal experts to agree on norms, while also serving as a basis for technical implementation. 
 
 Our contribution consists of the development of an ontology for FLINT and its RDF/OWL implementation which we have made openly accessible. We designed the ontology on the basis of competency questions. Additionally, we validated the ontology by modeling example cases and using the ontology's data model in software tooling.""" ;
     ns1:author <https://w3id.org/okn/semantics/i/Author_147>,
@@ -188,11 +212,14 @@ Our contribution consists of the development of an ontology for FLINT and its RD
         <https://w3id.org/okn/semantics/i/Author_149>,
         <https://w3id.org/okn/semantics/i/Author_150> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_5860_4> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230016"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/5860-Semantic23-DrawingText-12.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """legaltech
 norms
 normative systems""" ;
     ns1:name "The FLINT ontology: an actor-based model of legal relations" ;
+    ns1:url "https://doi.org/10.3233/SSW230016"^^xsd:anyURI ;
     ns2:authorString "Jeroen Breteler, Thom Van Gessel, Giulia Biagioni and Robert Van Doesburg" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_640> a ns1:ScholarlyArticle ;
@@ -207,6 +234,8 @@ Value: RDB to RDF mapping and semantic search are complex tasks that require an 
         <https://w3id.org/okn/semantics/i/Author_31> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/Demo_640_7>,
         <https://w3id.org/okn/semantics/i/Ontology_640_5> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230017"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/640-Semantic23-Drawing-Text-02.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """Knowledge Graph
 Ontology
@@ -216,6 +245,7 @@ Faceted Search
 Ontology Based Search
 Quantum Computing""" ;
     ns1:name "Semantifying the PlanQK Platform and Ecosystem for Quantum Applications" ;
+    ns1:url "https://doi.org/10.3233/SSW230017"^^xsd:anyURI ;
     ns2:authorString "Darya Martyniuk, Naouel Karam, Michael Falkenthal, Yufan Dong and Adrian Paschke" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_650> a ns1:ScholarlyArticle ;
@@ -233,34 +263,40 @@ Quantum Computing""" ;
         <https://w3id.org/okn/semantics/i/Dataset_650_5_6>,
         <https://w3id.org/okn/semantics/i/Ontology_650_6>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_650_4> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230002"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/650-Semantic23-Drawing-Text-03.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """Hate Speech
 Semantic Enrichment
 Knowledge Graph
 Language Models""" ;
     ns1:name "Knowledge-Grounded Target Group Language Recognition in Hate Speech" ;
+    ns1:url "https://doi.org/10.3233/SSW230002"^^xsd:anyURI ;
     ns2:authorString "Paula Reyero Lobo, Enrico Daga, Harith Alani and Miriam Fernandez" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_7519> a ns1:ScholarlyArticle ;
     ns1:abstract """Purpose: Information about biographies of museum object objects (object provenance) is often unavailable in a machine-readable format. This limits the findability and reusability of object provenance information for domain research. We address the challenges of defining a data model to represent ethnographic cultural heritage objects' provenance, which includes multiple interpretations (polyvocality) of, and theories for, the object biography, chains of custody and context of acquiring.
 
-Methodology: To develop a data model for representing the provenance of ethnographic objects, we conducted (semi-)structured interviews with five provenance experts to elicit a set of requirements. Based on these requirements and a careful examination of six diverse examples of ethnographic object provenance reports, we established a set of modelling choices that utilise existing ontologies such as CIDOC-CRM (a domain standard) and PROV-DM, as well as RDF-named graphs..
+Methodology: To develop a data model for representing the provenance of ethnographic objects, we conducted (semi-)structured interviews with five provenance experts to elicit a set of requirements. Based on these requirements and a careful examination of six diverse examples of ethnographic object provenance reports, we established a set of modelling choices that utilise existing ontologies such as CIDOC-CRM (a domain standard) and PROV-DM, as well as RDF-named graphs.. 
 
 Evaluation: Finally, we validate the model on provenance reports containing six seen and five unseen ethnographic cultural heritage object from three separate sources. The 11 reports are converted into RDF triples following the proposed data model. We also constructed SPARQL queries corresponding to nine competency questions elicited from domain experts in order to report on satisfiability.
 
-Findings: The results show that the adapted combined model allows us to express the heterogeneity and polyvocality of the object provenance information, trace data provenance and link with other data sources for further enrichment.
+Findings: The results show that the adapted combined model allows us to express the heterogeneity and polyvocality of the object provenance information, trace data provenance and link with other data sources for further enrichment. 
 
 Value: The proposed model from this paper allows publishing such knowledge in a machine-readable format, which will foster information contextualisation, findability and reusability.""" ;
     ns1:author <https://w3id.org/okn/semantics/i/Author_194>,
         <https://w3id.org/okn/semantics/i/Author_195>,
         <https://w3id.org/okn/semantics/i/Author_196> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_7519_4> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230010"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/7519-Semantic23-DrawingText-13.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """Provenance information
 Polyvocality
 Domain modelling
 Knowledge Representation""" ;
     ns1:name "Polyvocal Knowledge Modelling for Ethnographic Heritage Object Provenance" ;
+    ns1:url "https://doi.org/10.3233/SSW230010"^^xsd:anyURI ;
     ns2:authorString "Sarah Binta Alam Shoilee, Victor de Boer and Jacco van Ossenbruggen" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_760> a ns1:ScholarlyArticle ;
@@ -274,12 +310,15 @@ Value: Web search engines reliably generate knowledge panels with summarizing in
     ns1:author <https://w3id.org/okn/semantics/i/Author_37> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_760_5>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_760_4> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230009"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/760-Semantic23-Drawing-Text-04.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """knowledge graphs
 pathfinding
 hyperparameter optimization
 Wikidata""" ;
     ns1:name "BiPaSs: Further Investigation of Fast Pathfinding in Wikidata" ;
+    ns1:url "https://doi.org/10.3233/SSW230009"^^xsd:anyURI ;
     ns2:authorString "Leon Martin" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_8036> a ns1:ScholarlyArticle ;
@@ -296,6 +335,8 @@ Value: Ontologies are the cornerstone to generate semantically rich, FAIR resear
         <https://w3id.org/okn/semantics/i/Demo_8036_7_1>,
         <https://w3id.org/okn/semantics/i/Ontology_8036_6>,
         <https://w3id.org/okn/semantics/i/SoftwareSourceCode_8036_4> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230005"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/8036-Semantic23-DrawingText-14.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """FAIR Data
 Ontology
@@ -303,6 +344,7 @@ Terminology Service
 Research Data
 Chemistry""" ;
     ns1:name "Towards a Versatile Terminology Service for Empowering FAIR Research Data: Enabling Ontology Discovery, Design, Curation, and Utilization Across Scientific Communities" ;
+    ns1:url "https://doi.org/10.3233/SSW230005"^^xsd:anyURI ;
     ns2:authorString "Philip Strömert, Vatsal Limbachia, Pooya Oladazimi, Johannes Hunold and Oliver Koepler" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_8777> a ns1:ScholarlyArticle ;
@@ -312,11 +354,14 @@ Chemistry""" ;
         <https://w3id.org/okn/semantics/i/Author_235>,
         <https://w3id.org/okn/semantics/i/Author_236> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_8777_4> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230004"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/8777-Semantic23-DrawingText-15.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """Knowledge Graphs
 Question Answering
 Dataset""" ;
     ns1:name "QALD-9-ES: A Spanish Dataset for Question Answering Systems" ;
+    ns1:url "https://doi.org/10.3233/SSW230004"^^xsd:anyURI ;
     ns2:authorString "Javier Soruco, Diego Collarana, Andreas Both and Ricardo Usbeck" .
 
 <https://w3id.org/okn/semantics/2023/i/Paper_9471> a ns1:ScholarlyArticle ;
@@ -327,6 +372,8 @@ Dataset""" ;
         <https://w3id.org/okn/semantics/i/Author_249> ;
     ns1:hasPart <https://w3id.org/okn/semantics/i/Dataset_9471_5>,
         <https://w3id.org/okn/semantics/i/Dataset_9471_5_1> ;
+    ns1:identifier "https://doi.org/10.3233/SSW230012"^^xsd:anyURI ;
+    ns1:image "https://2023-eu.semantics.cc/img/illustrations/9471-Semantic23-DrawingText-16.png"^^xsd:anyURI ;
     ns1:isPartOf <https://w3id.org/okn/semantics/i/Track_1> ;
     ns1:keywords """Cultural Heritage
 Digital Humanities
@@ -335,6 +382,7 @@ Knowledge Graphs
 Archival Documents
 Architecture""" ;
     ns1:name "TRANSRAZ Data Model: Towards a Geosocial Representation of Historical Cities" ;
+    ns1:url "https://doi.org/10.3233/SSW230012"^^xsd:anyURI ;
     ns2:authorString "Oleksandra Bruns, Tabea Tietz, Sandra Göller and Harald Sack" .
 
 <https://w3id.org/okn/semantics/i/Author_10> a ns1:Person ;
@@ -762,7 +810,7 @@ Architecture""" ;
 
 <https://w3id.org/okn/semantics/i/Dataset_5195_5> a ns1:Dataset ;
     ns1:description "This dataset contains the abstractive summaries all DBpedia entities (dump September 2022, https://downloads.dbpedia.org/repo/dbpedia/text/long-abstracts/2022.09.01/) in English." ;
-    ns1:identifier "https://doi.org/10.5281/zenodo.7441119" ;
+    ns1:identifier "https://doi.org/10.5281/zenodo.7441119"^^xsd:anyURI ;
     ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
     ns1:name "DBpedia Abstractive Summaries" ;
     ns1:url "https://zenodo.org/record/7600894" .
@@ -843,19 +891,19 @@ Architecture""" ;
     ns1:name "GNU Affero General Public License v3.0" ;
     ns1:url "http://choosealicense.com/licenses/agpl-3.0/" .
 
-<https://w3id.org/okn/semantics/i/Ontology_640_5> a <http://www.w3.org/2002/07/owl#Ontology> ;
+<https://w3id.org/okn/semantics/i/Ontology_640_5> a ns1:Ontology ;
     ns1:description "Ontology and semantic services for the PlanQK platform. " ;
     ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY-SA%204.0> ;
     ns1:name "PlanQK ontology" ;
     ns1:url "https://github.com/PlanQK/semantic-services." .
 
-<https://w3id.org/okn/semantics/i/Ontology_650_6> a <http://www.w3.org/2002/07/owl#Ontology> ;
+<https://w3id.org/okn/semantics/i/Ontology_650_6> a ns1:Ontology ;
     ns1:description "GSSO is the Gender, Sex, and Sex Orientation ontology, including terms related to gender identity and expression, sexual and romantic identity and orientation, and sexual and reproductive behavior. " ;
     ns1:license <https://w3id.org/okn/semantics/i/License/Apache%20License%202.0> ;
     ns1:name "Gender, Sex, and Sexual Orientation Ontology" ;
     ns1:url "https://github.com/Superraptor/GSSO" .
 
-<https://w3id.org/okn/semantics/i/Ontology_8036_6> a <http://www.w3.org/2002/07/owl#Ontology> ;
+<https://w3id.org/okn/semantics/i/Ontology_8036_6> a ns1:Ontology ;
     ns1:description "The Vibration Spectroscopy Ontology defines technical terms with which research data produced in vibrational spectroscopy experiments can be semantically enriched, made machine readable and FAIR. " ;
     ns1:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
     ns1:name "Vibrational Spectroscopy Ontology" ;
@@ -896,14 +944,12 @@ Architecture""" ;
     ns1:url "https://gitlab.com/normativesystems/knowledge-modeling/flint-ontology" .
 
 <https://w3id.org/okn/semantics/i/SoftwareSourceCode_650_4> a ns1:SoftwareSourceCode ;
-    ns1:description """This is the data and code in the paper Knowledge-Grounded Target Group Language Recognition in Hate Speech ([preprint](https://oro.open.ac.uk/90639/)). We use a Knowledge Graph to provide transparency to deep learning model predictions as to why hate speech texts may refer to particular target group identities ([Figure 1](./supplemental_material/Figure_1.pdf)). \\
-A thorough evaluation demonstrates our knowledge-grounded method, based on KG adaptation, can be as effective as pre-trained transformer language models (System A approaches), while also recognising the language instances that contribute most to prediction (in System B fashion). \\
-Grounding the task in explicit knowledge can better contextualise an automatic approach with the language of the groups most impacted by these technologies. The experiments in this repository show how we use these interpretations to better understand model outcomes, the training data, and the ambiguious cases in human annotations.""" ;
+    ns1:description "This is the data and code in the paper Knowledge-Grounded Target Group Language Recognition in Hate Speech ([preprint](https://oro.open.ac.uk/90639/)). We use a Knowledge Graph to provide transparency to deep learning model predictions as to why hate speech texts may refer to particular target group identities ([Figure 1](./supplemental_material/Figure_1.pdf)). \\nA thorough evaluation demonstrates our knowledge-grounded method, based on KG adaptation, can be as effective as pre-trained transformer language models (System A approaches), while also recognising the language instances that contribute most to prediction (in System B fashion). \\nGrounding the task in explicit knowledge can better contextualise an automatic approach with the language of the groups most impacted by these technologies. The experiments in this repository show how we use these interpretations to better understand model outcomes, the training data, and the ambiguious cases in human annotations." ;
     ns1:name "hate-speech-identities" ;
     ns1:url "https://github.com/preyero/hate-speech-identities" .
 
 <https://w3id.org/okn/semantics/i/SoftwareSourceCode_7519_4> a ns1:SoftwareSourceCode ;
-    ns1:identifier "https://doi.org/10.5281/zenodo.7437713" ;
+    ns1:identifier "https://doi.org/10.5281/zenodo.7437713"^^xsd:anyURI ;
     ns1:name "Ethnographic Object Provenance Data Modelling" ;
     ns1:url "https://github.com/Shoilee/object_provenance_modeling/tree/main" .
 
@@ -956,3 +1002,4 @@ Grounding the task in explicit knowledge can better contextualise an automatic a
 
 <https://w3id.org/okn/semantics/i/Track_1> a ns1:Event ;
     ns1:name "Semantics2023 Research Track" .
+

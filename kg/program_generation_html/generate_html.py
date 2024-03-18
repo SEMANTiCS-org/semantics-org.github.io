@@ -132,7 +132,7 @@ html_page_end = """
 template_card_start = """
 <div class="col-lg-4 mx-auto text-justify">
     <div class="card">
-        <a class="pop" href="#"><img class="card-img-top" src="../img/illustrations/placeholder.jpg" alt=""></a>
+        <a class="pop" href="[URL_LINK]"><img class="card-img-top" src="../img/illustrations/placeholder.jpg" alt=""></a>
         <div class="card-body">
             <p class="card-text"> <u>[TITLE]</u>. <br/>[AUTHORS].<br/><i><strong>(Paper URL and illustration coming soon)</strong></i><!--<span data-toggle="tooltip" data-placement="top" title="[TITLE]" data-original-title="Digital Object Identifier"><a href="https://doi.org"><img src="../img/icons/doi.png" width="20"></a></span>--></p>
             <ul class="text-left">
@@ -164,9 +164,15 @@ template_resource_license = """ (<span class="badge badge-primary" data-toggle="
 
 
 
-def get_template(paper_uri, title, authors):
+def get_template(paper_uri, title, authors, image, url):
     string_to_return = template_card_start.replace("[TITLE]",title)
     string_to_return = string_to_return.replace("[AUTHORS]",authors)
+    if(image):
+        string_to_return = string_to_return.replace("../img/illustrations/placeholder.jpg", image)
+    if(url):
+        url_string = "URL: <a href=\""+url+"\">"+url+"</a>" 
+        string_to_return = string_to_return.replace("(Paper URL and illustration coming soon)", url_string)
+        string_to_return = string_to_return.replace("[URL_LINK]", url)
 
     query = '''
     SELECT distinct ?url ?t ?name ?licenseName ?licenseURI ?description ?doi WHERE {
@@ -259,12 +265,15 @@ def write_html(location, cards):
 
 # Get the paper titles by research track ordered alphabetically (including those without resources)
 q1 = prepareQuery('''
-  SELECT distinct ?paperURI ?paperTitle ?authorString ?trackName WHERE {
+  SELECT distinct ?paperURI ?paperTitle ?authorString ?trackName ?img ?url WHERE {
     ?paperURI a schema:ScholarlyArticle;  
         <https://w3id.org/okn/semantics/voc#authorString> ?authorString; 
         schema:isPartOf/schema:name ?trackName;
         schema:name ?paperTitle.
-    optional {?paperURI schema:hasPart ?resource}
+    optional {?paperURI schema:hasPart ?resource}.
+    optional {?paperURI schema:image ?img}.
+    optional {?paperURI schema:url ?url}.
+    
   }order by ?paperTitle
   ''', initNs = { "schema":schema})
 
@@ -274,7 +283,7 @@ industry_cards = []
 
 for paper in g.query(q1):
     track = paper.trackName
-    card = get_template(paper.paperURI, paper.paperTitle, paper.authorString)
+    card = get_template(paper.paperURI, paper.paperTitle, paper.authorString, paper.img, paper.url)
     if "Posters and Demos" in track:
         demo_cards.append(card)
     elif "Research" in track:

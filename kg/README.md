@@ -62,6 +62,19 @@ The following properties are reused:
 - schema:lastName for representing people's last names.
 - schema:affiliation for representing the institution of a person.
 - schema:url to indicate the website of a resource, person or license.
+- schema:identifier to state the identifier used in a paper (e.g., doi).
 - schema:description to provide a brief description of a resource.
 
 An extra property called "authorString" property has been defined to retain the authors in order, in order to avoid representing their position in the paper.
+
+### Generate HTML from KG
+In order to generate the accepted pages in the SEMANTICS program, you need to generate the KG and then run the program in `program_generation_html`. This will generate three pages with all the images and links to papers. In order to run the python script, you will need to run the following commands:
+
+```
+cd program_generation_html 
+python3 generate_html.py
+```
+
+Finally, copy the resulting websites into the /page folder in the Semantics repository.
+
+The scripts was run with Python 3.10+, using `rdflib`.
