@@ -75,6 +75,30 @@ rr:predicateObjectMap [
   rr:objectMap [
     rml:reference "title"
   ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:identifier;
+  rr:objectMap [
+    rml:reference "url";
+    rr:datatype xsd:anyURI
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:image;
+  rr:objectMap [
+    rml:reference "img";
+    rr:datatype xsd:anyURI
+  ]
+];
+
+rr:predicateObjectMap [
+  rr:predicate schema:url;
+  rr:objectMap [
+    rml:reference "url";
+    rr:datatype xsd:anyURI
+  ]
 ].
 
 <#semantics_author>
@@ -176,7 +200,8 @@ rr:predicateObjectMap [
 rr:predicateObjectMap [
   rr:predicate schema:identifier;
   rr:objectMap [
-    rml:reference "doi"
+    rml:reference "doi";
+    rr:datatype xsd:anyURI
   ]
 ]
 .

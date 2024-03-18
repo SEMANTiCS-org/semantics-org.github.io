@@ -12,6 +12,8 @@ okn = Namespace("https://w3id.org/okn/semantics/i/")
 
 # Define the target property and object
 target_property = schema.isPartOf
+#target_object = okn.Track_1
+#target_object = okn.Track_2
 target_object = okn.Track_4
 
 # Query for subjects with the target property and object
@@ -45,4 +47,6 @@ for row in results:
     retrieve_properties_recursive(subject)
 
 # Serialize the result to a .ttl file
+#result_graph.serialize("out_track_1.ttl", format="turtle")
+#result_graph.serialize("out_track_2.ttl", format="turtle")
 result_graph.serialize("out_track_4.ttl", format="turtle")
