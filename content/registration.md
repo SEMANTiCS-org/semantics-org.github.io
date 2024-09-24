@@ -89,6 +89,7 @@ Join us from September 20 - 22, 2023 in Leipzig for the leading European confere
         <td class=""><div class="i-circle i-close"></div></td>
         <td class=""><div class="i-circle i-check"></div></td>
       </tr>
+      <!--
       <tr class="row11 tr-summary">
         <td class="">&nbsp;</td>
         <td class=""><a href="https://www.conftool.org/semantics2023/index.php?page=login" type="button" class="btn btn-primary">BOOK NOW</a></td>
@@ -96,5 +97,6 @@ Join us from September 20 - 22, 2023 in Leipzig for the leading European confere
         <td class=""><a href="https://www.conftool.org/semantics2023/index.php?page=login" type="button" class="btn btn-primary">BOOK NOW</a></td>
         <td class=""><a href="https://www.conftool.org/semantics2023/index.php?page=login" type="button" class="btn btn-primary">BOOK NOW</a></td>
       </tr>
+      -->
     </tbody>
 </table>
